@@ -1,6 +1,6 @@
 # Reporting Guidelines
 
-If you believe someone is violating the code of conduct we ask that you report it to AnitaB.org staff by emailing maybellinb@anitab.org.
+If you believe someone is violating the code of conduct we ask that you report it to the community admins by emailing opensource@anitab.org.
 
 **All reports will be kept confidential**. In some cases we may determine that a public statement will need to be made. If that's the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
 
@@ -50,5 +50,5 @@ Finally, the response team will make a report on the situation to the AnitaB.org
 
 ## Appealing the response
 
-Only permanent resolutions (such as bans) may be appealed. To appeal a decision of the working group, contact Maybellin Burgos at maybellinb@anitab.org with your appeal and we will review the case.
+Only permanent resolutions (such as bans) may be appealed. To appeal a decision of the working group, contact the community admins at opensource@anitab.org with your appeal and we will review the case.
 
