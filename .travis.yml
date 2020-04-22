@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - 8.15.0
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_API_KEY
+  keep_history: true
+  on:
+    branch: production
