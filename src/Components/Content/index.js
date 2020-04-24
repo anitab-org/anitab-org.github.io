@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 
-function Content({ selected }) {
+function Content({ selected, titles }) {
   return (
     <View
       style={{
@@ -11,7 +11,7 @@ function Content({ selected }) {
         paddingTop: 40,
       }}
     >
-      {renderContent(selected)}
+      {renderContent(titles[selected])}
       <Image
         style={{ height: 200, width: 200 }}
         source={require('./../../assets/contribute.png')}
@@ -21,16 +21,7 @@ function Content({ selected }) {
   );
 }
 
-function renderContent(selected) {
-  const titles = [
-    'HOME',
-    'About us',
-    'Programs',
-    'Projects',
-    'Events',
-    'Contribute',
-  ];
-  const title = titles[selected];
+function renderContent(title) {
   return <Text>{title}</Text>;
 }
 

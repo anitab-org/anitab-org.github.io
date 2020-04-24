@@ -5,10 +5,18 @@ import Content from './Components/Content';
 
 function App() {
   const [selected, setSelected] = useState(0);
+  const titles = [
+    'HOME',
+    'ABOUT US',
+    'PROGRAMS',
+    'PROJECTS',
+    'EVENTS',
+    'CONTRIBUTE',
+  ];
   return (
     <View style={{ flex: 1, alignItems: 'center' }}>
-      <Header selected={selected} setSelected={setSelected} />
-      <Content selected={selected} />
+      <Header selected={selected} setSelected={setSelected} titles={titles} />
+      <Content selected={selected} titles={titles} />
     </View>
   );
 }
