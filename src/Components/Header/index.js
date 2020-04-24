@@ -64,11 +64,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   buttonContainer: { marginTop: 25, marginLeft: 40 },
-  alternativeLayoutButtonContainer: {
-    margin: 20,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-  },
 });
 
 export default Header;
