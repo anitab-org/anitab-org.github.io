@@ -8,4 +8,4 @@ deploy:
   github_token: $GITHUB_API_KEY
   keep_history: true
   on:
-    branch: master
+    branch: travis-integration
