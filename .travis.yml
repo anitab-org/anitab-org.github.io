@@ -1,13 +1,8 @@
 language: node_js
 node_js:
   - 8.15.0
-script:
-  - echo 'Build starts!!'
-  - echo 'Installing Deps!'
-  - yarn
-  - echo 'Building!'
-  - yarn build
-  - echo 'Publishing!'
-  - gh-pages -b master -d build
-  on:
+
+deploy:
+  provider: script
+  script: make
     branch: travis-integration
