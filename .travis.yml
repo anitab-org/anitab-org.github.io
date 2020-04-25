@@ -5,4 +5,5 @@ node_js:
 deploy:
   provider: script
   script: make
+  on:
     branch: travis-integration
