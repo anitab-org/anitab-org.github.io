@@ -4,6 +4,6 @@ node_js:
 
 deploy:
   provider: script
-  script: yarn deploy
+  script: yarn && yarn deploy
   on:
     branch: travis-integration
