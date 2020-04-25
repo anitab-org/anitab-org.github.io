@@ -1,7 +1,7 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Image } from 'react-native';
 
-function Content() {
+function Content({ selected, titles }) {
   return (
     <View
       style={{
@@ -11,9 +11,18 @@ function Content() {
         paddingTop: 40,
       }}
     >
+      {renderContent(titles[selected])}
+      <Image
+        style={{ height: 200, width: 200 }}
+        source={require('./../../assets/contribute.png')}
+      />
       <Text>UNDER CONSTRUCTION</Text>
     </View>
   );
+}
+
+function renderContent(title) {
+  return <Text>{title}</Text>;
 }
 
 export default Content;

@@ -4,6 +4,6 @@ node_js:
 
 deploy:
   provider: script
-  script: yarn && yarn deploy
+  script: yarn build && gh-pages -b master -d build
   on:
     branch: travis-integration
