@@ -1,9 +1,13 @@
 language: node_js
 node_js:
   - 8.15.0
-
-deploy:
-  provider: script
-  script: yarn add react-scripts && yarn build && gh-pages -b master -d build
+script:
+  - echo 'Build starts!!'
+  - echo 'Installing Deps!'
+  - yarn
+  - echo 'Building!'
+  - yarn build
+  - echo 'Publishing!'
+  - gh-pages -b master -d build
   on:
     branch: travis-integration
