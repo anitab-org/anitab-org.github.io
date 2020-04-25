@@ -3,7 +3,7 @@ node_js:
   - 8.15.0
 
 before_deploy:
-  script: npm install gh-pages
+  - npm install gh-pages
 
 deploy:
   provider: script
