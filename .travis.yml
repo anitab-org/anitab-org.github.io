@@ -3,7 +3,7 @@ node_js:
   - 8.15.0
 
 before_deploy:
-  - npm install --dev
+  - npm install
 
 deploy:
   provider: script
