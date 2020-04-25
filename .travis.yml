@@ -3,10 +3,7 @@ node_js:
   - 8.15.0
 
 deploy:
-  provider: pages
-  target_branch: master
-  skip_cleanup: true
-  github_token: $GITHUB_API_KEY
-  keep_history: true
+  provider: script
+  script: yarn deploy
   on:
     branch: travis-integration
