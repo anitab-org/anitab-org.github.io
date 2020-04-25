@@ -7,5 +7,7 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_API_KEY
   keep_history: true
+  - echo -e "running deployment script" 
+  - yarn deploy
   on:
     branch: travis-integration
