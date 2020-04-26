@@ -52,7 +52,7 @@ function MenuItem(index, selected, setSelected, title) {
     >
       <Text
         style={{
-          borderBottomColor: selected === index ? 'powderblue' : 'transparent',
+          borderBottomColor: selected === index ? 'black' : 'transparent',
           borderBottomWidth: 2,
           alignSelf: 'center',
         }}
