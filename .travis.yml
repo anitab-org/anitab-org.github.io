@@ -7,10 +7,6 @@ before_deploy:
   - npm run build
 
 deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_API_KEY
-  keep_history: true
-  target_branch: master
+  - npm run deploy
   on:
     branch: travis-integration
