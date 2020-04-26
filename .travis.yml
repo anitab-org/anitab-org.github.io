@@ -8,6 +8,6 @@ before_deploy:
 
 deploy:
   provider: script
-  script: npm run deploy
+  script: npm install && npm run deploy
   on:
     branch: travis-integration
