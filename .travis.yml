@@ -8,6 +8,7 @@ before_deploy:
 
 deploy:
   provider: script
+  github_token: $GITHUB_API_KEY
   script: npm install --silent && npm run deploy
   on:
     branch: travis-integration
