@@ -2,7 +2,6 @@
 
 This is the main website for **AnitaB.org Open Source**. It contains information about our various open source projects, the programs we participate in, information about how to contribute, and how to contact us.This website acts as an interface to help introduce people to the organization's Open Source community, and make the transition from newcomers to contributors easier.
 
-
 ## Setup and run
 
 To setup the project locally follow the instructions:
@@ -65,9 +64,9 @@ Please read our [Contributing Guidelines](https://github.com/anitab-org/anitab-o
 
 ## Branches
 
-* **master** and **gh-pages**: These branches contain the deployment of the website.
-* **develop**: This contains the latest code. All the contributing PRs must be sent to this branch. 
-* **production**: Merge develop into production triggers deployment of the website.
+- **master**: These branches contain the deployment of the website.
+- **develop**: This contains the latest code. All the contributing PRs must be sent to this branch.
+- **production**: Merge develop into production triggers deployment of the website.
 
 ## Contact
 
