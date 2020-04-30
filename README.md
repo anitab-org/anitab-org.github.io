@@ -70,7 +70,7 @@ Please read our [Contributing Guidelines](https://github.com/anitab-org/anitab-o
 
 ## Contact
 
-If you have any questions or want to discuss something about this repo, feel free to reach out to our team on our Zulip channel [#Design-team](https://anitab-org.zulipchat.com/#narrow/stream/216323-design).
+If you have any questions or want to discuss something about this repo, feel free to reach out to our team on our Zulip channel [#Design-team](https://anitab-org.zulipchat.com/#narrow/stream/216323-design). If you are a new contributor, head over to this project's stream [#anitab-org.github.io](https://anitab-org.zulipchat.com/#narrow/stream/235478-anitab-org.2Egithub.2Eio) on Zulip to see ongoing discussions.
 
 ## License
 
