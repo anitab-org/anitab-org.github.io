@@ -60,7 +60,7 @@ To get the frontend running locally:
 
 **This project is under active development**
 
-Please read our [Contributing Guidelines] [CONTRIBUTING.md](CONTRIBUTING.md), [Code of Conduct](https://github.com/anitab-org/anitab-org.github.io/blob/develop/code_of_conduct.md) and [Reporting Guidelines](https://github.com/anitab-org/anitab-org.github.io/blob/develop/reporting_guidelines.md) thoroughly.
+Please read our [Contributing Guildelines](CONTRIBUTING.md) , [Code of Conduct](code_of_conduct.md) and [Reporting Guidelines](reporting_guidelines.md) thoroughly.
 
 ## Branches
 
@@ -74,4 +74,4 @@ If you have any questions or want to discuss something about this repo, feel fre
 
 ## License
 
-The project is licensed under the GNU General Public License v3.0. Learn more about it in the [LICENSE](https://github.com/anitab-org/anitab-org.github.io/blob/develop/LICENSE) file.
+The project is licensed under the GNU General Public License v3.0. Learn more about it in the [LICENSE](LICENSE) file.
