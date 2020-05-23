@@ -1,0 +1,88 @@
+Getting Started 
+
+		The AnitaB.org community is a fusion of rich values and diverse cultures consisting of members all across the seven oceans 
+with a fearless mission of inspiring ,motivating and helping women with their involvement in technical fields and has made a significant impact with 
+regards to contribution of women in tech.The other values of the organization include Accountable, Agile, Curious, Courageous, & Diversity, Equity,
+Inclusion (DEI), encourage everyone to follow the org’s contributing guidelines and obviously passion for open source.
+	                Zulip is our main communication platform and you should join us there and first give a short introduction about yourself in the 
+#newcomers stream.Zulip consists of various streams like Documentation,Coding,Design,etc and the one that fascinates you the most is the one you 
+should start contributing in.The #announcements stream will be displaying all the important announcements.Ttag our community members 
+if there's any confusion or ask for proper guidance from them regarding your contributions to the community.
+		Our code of conduct is simple- 'Be nice,Be respectful' which is the one of the many reasons the community coexists in harmony .
+The members should contribute actively keeping the policies of being repectful to everyone and refrainging from conflicts, unruly behaviour and speech.
+Anyone who wishes to join the community is expected to follow these guidelines.If you are subject to or witness unacceptable behavior, or have any other
+concerns, please notify a community organizer as soon as possible.
+
+Ways To Contribute
+
+		You can start contributing to our various open source projects by-
+1)Creating issues on Github regarding the project
+2)Debugging the issues 
+3)Creating pull requests,testing pull requests
+4)Create mockups for new applications or redesign the current features
+5)Research about UI/UX improvements and accessibilty features.
+6)Create app walkthroughs with documents or videos,UI testing once the PR is submitted for the UI issue.
+
+Each active repository has a stream to direct questions.Issues labeled as “First Timers Only” are meant for contributors who have not contributed to the
+project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues.Make sure to follow the Commit Message 
+Style Guide when submitting PRs which will require review by atleast one maintainer to be merged to the main code. 
+		
+
+
+Our Projects
+
+		First and foremost,choose a programming language of your choice.Once you are done with selecting a programming language search for a project .
+Here's a list of our open source projects -
+
+1)Mentorship System 
+Mentorship System is an application that matches women in tech to mentor each other, on career development, through 1:1 relations during a certain period of time.
+It is an open source project proposed for Google Summer of Code 2018 with AnitaB.org Open Source,an idea that consists of a mobile application that matches 
+women to help and support both parties. One is the mentor that will be a support/accountability buddy and/or give advice to a woman that wants mentorship, for a period
+of time established by both parties.This would not focus only on students, this would target women from any age, background, work in tech experience, and so on.
+This project uses Kotlin for frontend and Python for backend.Flutter and iOS versions are also available.
+
+2)The Volunteer Management System (VMS) 
+The Volunteer Management System (VMS) will be useful for volunteer coordinators, volunteer sign-up, tracking hours, and reporting.This project is currently under
+development same as the mentorship application project.The Volunteer Management System will be developed in phases. The initial implementation will track volunteers’
+contact information, enable administrators to track volunteer hours, and allow reporting of useful information.
+This project uses the Django web framework and Python.
+
+3)PowerUp Android 
+PowerUp is a female empowerment educational mobile game app that will allow young girls to learn about reproductive health and self-esteem by navigating the life
+of their avatar!. 
+This project uses Java.Android and iOS versions are available.
+
+4)AnitaB.org.github.io
+AnitaB.org Open Source web gathering all informations about current open source projects, running programs and events as well as all necessary contribution informations. 
+
+5)Bridge-in-tech
+Bridge-In-Tech is an application inspired by the existing AnitaB.org Mentorship System. It encourages organizations to collaborate with the mentors and mentees on mentoring
+programs. Through Bridge-In-Tech, an organization can offer a mentorship program to a mentor and a mentee that is customised to meet the needed skills set within its organisation 
+while providing a safety and supportive environment for these mentor/mentee to work in. This repository is the backend of the system.This project was proposed as an original project
+of Google Summer of Code 2020, by Maya Treacy.The frontend of this application will be a Web application using (tech stack tba). 
+
+And more interesting and informative projects in future!
+
+Open Source Programs 
+
+1)Google Summer of Code
+AnitaB.org has been actively participating in the Google Summer of Code in the years 2016,2017,2018 and is one of the most successful organizations since the very beginning.
+Here's what participants shared about their experience with AnitaB.org -
+             		Mohammad Murad , former AnitaB.org GSoC mentor in his Medium blog says-"AnitaB.org is very different , along with writing coding equal importance is given to interacting with the
+community .The community also helps in personal development and personal growth.”
+		Isabel Costa , GSoC 2018 participant in her Medium blog says- “ I got to meet incredible people from the AnitaB.org community .I grew personally and professionally by sharing and
+learning from other’s perspectives.Being recognized for my work as the Most Outstanding Student by Systers made me very proud of my achievements.This was truly an awesome experience.”
+		Rimjhim Bhadani , GSoC 2018 participant in her Medium blog says- “ AnitaB.org community is the best fit .It’s the most friendly open source community I have ever come across 
+and for every open source contributor there , I would suggest going into AnitaB.org once.”
+
+2)Google Code In
+AnitaB.org has been actively participating in the Google Summer of Code in the years 2014,2015 ,2016,2017,2019 and is one of the most successful organizations since the very beginning.
+Here's what participants shared about their experience with AnitaB.org -
+		Vatsal Kulshrestha , former GCI 2017 participant in his Medium blog says-“AnitaB.org has been a true personification of the famous quote by Einstein- ‘the only source of
+knowledge is EXPERIENCE’ ”
+		Rosemarie van de Ven , former GCI participant in her Medium blog says — “ Google Code In with AnitaB.org has been amazing experience and opportunity that I will look
+back with lots of pride towards myself.I gained so much more skills that will come in helpful in day to day life and I will cherish those for a long time.So thank you GCI and thank you AnitaB.org."
+
+
+
+
