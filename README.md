@@ -59,9 +59,13 @@ To get the frontend running locally:
  ## Prerequisites
  
 react-native
+
 javascript
+
 html
+
 css
+
 gh-pages
  
 
