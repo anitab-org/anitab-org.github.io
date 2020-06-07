@@ -54,6 +54,17 @@ To get the frontend running locally:
  * Clone this repository
  * `yarn` to install all required dependencies
  * `yarn start` to start the local server
+ 
+ 
+ ## Prerequisites
+ 
+react-native
+javascript
+html
+css
+gh-pages
+ 
+
 
 
 ## Contributing
