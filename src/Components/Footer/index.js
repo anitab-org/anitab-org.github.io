@@ -10,10 +10,10 @@ import {
 } from 'react-native';
 
 function Footer() {
-  const [formData, updateFormData] = useState({
-    email: '',
-    message: ''
-  });
+  const [email, updateEmail] = useState('');
+  const [message, updateMessage] = useState('');
+  const [emailBorder, updateEmailBorder] = useState(0);
+  const [messageBorder, updateMessageBorder] = useState(0);
 
   return (
     <View style={styles.container}>
@@ -22,19 +22,27 @@ function Footer() {
           Any queries or feedbacks?
         </Text>
         <TextInput
-          style={[styles.description, styles.formField, styles.formEmail]}
+          style={[
+            styles.description,
+            styles.formField,
+            styles.formEmail,
+            { borderWidth: emailBorder }
+          ]}
           placeholder='Your email address'
-          onChangeText={(text) => updateFormData({ ...formData, email: text })}
-          value={formData.email}
+          onChangeText={(text) => updateEmail(text)}
+          value={email}
         />
         <TextInput
-          style={[styles.description, styles.formField, styles.formMessage]}
+          style={[
+            styles.description,
+            styles.formField,
+            styles.formMessage,
+            { borderWidth: messageBorder }
+          ]}
           multiline={true}
           placeholder='Your queries or feedbacks'
-          onChangeText={(text) =>
-            updateFormData({ ...formData, message: text })
-          }
-          value={formData.message}
+          onChangeText={(text) => updateMessage(text)}
+          value={message}
         />
         <TouchableHighlight style={styles.formButton} onPress={submitForm}>
           <Text style={[styles.description, styles.text]}>Submit</Text>
@@ -85,7 +93,27 @@ function Footer() {
   );
 
   function submitForm() {
-    updateFormData({ email: '', message: '' });
+    const emailRegex = /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    let error = 0;
+
+    if (!email || !emailRegex.test(email)) {
+      updateEmailBorder(2);
+      error = 1;
+    } else {
+      updateEmailBorder(0);
+    }
+
+    if (!message) {
+      updateMessageBorder(2);
+      error = 1;
+    } else {
+      updateMessageBorder(0);
+    }
+
+    if (!error) {
+      updateEmail('');
+      updateMessage('');
+    }
   }
 }
 
@@ -119,11 +147,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
     width: '100%',
     borderRadius: 8,
-    padding: 4
+    padding: 4,
+    borderColor: 'red'
   },
-  formEmail: {
-    height: 38
-  },
+  formEmail: { height: 38 },
   formMessage: {
     height: 161,
     marginVertical: 8
