@@ -54,13 +54,20 @@ To get the frontend running locally:
  * Clone this repository
  * `yarn` to install all required dependencies
  * `yarn start` to start the local server
+ 
+ 
+ ## Prerequisites
+ 
+ **Javascript** - We are using technologies such as javascript , HTML , CSS for our website AnitaB.org Open Source.
+ 
+ **React-Native** - As our Whole content is written in react native so we can easly transform this into native apps in future.
 
 
 ## Contributing
 
 **This project is under active development**
 
-Please read our [Contributing Guidelines](https://github.com/anitab-org/anitab-org.github.io/blob/develop/CONTRIBUTING.md), [Code of Conduct](https://github.com/anitab-org/anitab-org.github.io/blob/develop/code_of_conduct.md) and [Reporting Guidelines](https://github.com/anitab-org/anitab-org.github.io/blob/develop/reporting_guidelines.md) thoroughly.
+Please read our [Contributing Guidelines](docs/CONTRIBUTING.md), [Code of Conduct](docs/code_of_conduct.md) and [Reporting Guidelines](docs/reporting_guidelines.md) thoroughly.
 
 ## Branches
 
@@ -70,8 +77,8 @@ Please read our [Contributing Guidelines](https://github.com/anitab-org/anitab-o
 
 ## Contact
 
-If you have any questions or want to discuss something about this repo, feel free to reach out to our team on our Zulip channel [#Design-team](https://anitab-org.zulipchat.com/#narrow/stream/216323-design).
+If you have any questions or want to discuss something about this repo, feel free to reach out to our team on our Zulip channel [#Design-team](https://anitab-org.zulipchat.com/#narrow/stream/216323-design). If you are a new contributor, head over to this project's stream [#anitab-org.github.io](https://anitab-org.zulipchat.com/#narrow/stream/235478-anitab-org.2Egithub.2Eio) on Zulip to see ongoing discussions.
 
 ## License
 
-The project is licensed under the GNU General Public License v3.0. Learn more about it in the [LICENSE](https://github.com/anitab-org/anitab-org.github.io/blob/develop/LICENSE) file.
+The project is licensed under the GNU General Public License v3.0. Learn more about it in the [LICENSE](LICENSE) file.
