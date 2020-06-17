@@ -1,0 +1,18 @@
+{
+    "sections": [
+        {
+            "title": "Contact Us",
+            "content": [
+                {
+                    "par": "Have a question or want to suggest improvements for our project? We can help."
+                },
+                {
+                    "par": "Head to AnitaB.org Open Source Zulip Chat @https://anitab-org.zulipchat.com and get your doubts cleared in #questions stream"
+                },
+                {
+                    "par": "Each active project has its own stream,  #vms,#mentorship-system,#portal and #power-up, for discussions"
+                }
+            ]
+        }
+    ]
+}
