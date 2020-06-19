@@ -4,13 +4,16 @@
             "title": "Contact Us",
             "content": [
                 {
-                    "par": "Have a question or want to suggest improvements for our project? We can help."
+                    "par": "Having a question in your mind or thinking about getting started with open-source? We are here to help!"
                 },
                 {
-                    "par": "Go to AnitaB.org Open Source Zulip Chat @https://anitab-org.zulipchat.com and get your doubts cleared in #questions stream"
+                    "par": "Feel free to post your doubts under #questions stream in our Zulip Chat @https://anitab-org.zulipchat.com and get them cleared by our open-source community."
                 },
                 {
-                    "par": "Each active project has its own stream, #vms, #mentorship-system, #portal and #power-up for discussions"
+                    "par": "Each active project has its own discussion stream such as #vms, #mentorship-system, #portal and #powerup."
+                },
+                {
+                    "par": "AnitaB.org Open Source is growing globally. Any feedback or improvement suggestions for our projects are most welcome."
                 }
             ]
         }
