@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
 import SponsorsContent from './../SponsorsContent';
 import SectionSubheader from './../../../SectionSubheader';
 
-function Section({ header, content, index }) {
+function Section({ header, content, index, expandable }) {
   const [sponsorsSizes] = useState([]);
   const [showMore, setShowMore] = useState(false);
 
@@ -22,19 +22,21 @@ function Section({ header, content, index }) {
           ...styles.sponsors,
           flexDirection: 'row',
           flexWrap: 'wrap',
-          height: showMore ? 'auto' : 96,
+          height: showMore || !expandable ? 'auto' : 96,
           overflow: 'hidden',
         }}
       >
         {sponsors}
       </View>
-      <TouchableOpacity
-        onPress={() => {
-          setShowMore(!showMore);
-        }}
-      >
-        {setShowMore && <Text style={styles.moreText}>{showMoreText}</Text>}
-      </TouchableOpacity>
+      {expandable && (
+        <TouchableOpacity
+          onPress={() => {
+            setShowMore(!showMore);
+          }}
+        >
+          {setShowMore && <Text style={styles.moreText}>{showMoreText}</Text>}
+        </TouchableOpacity>
+      )}
     </View>
   );
 }

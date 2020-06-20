@@ -1,9 +1,15 @@
-import React, { noop, useRef } from 'react';
-import { Image, View } from 'react-native';
+import React, { useRef } from 'react';
+import { Image } from 'react-native';
 
-function ScaledImage({ source, overSource, url, height, width }) {
+function ScaledImage({
+  source,
+  overSource,
+  url,
+  height,
+  width,
+  isOver = false,
+}) {
   const ref = useRef(true);
-  const [isOver, setIsOver] = React.useState(false);
   const [imageHeight, setImageHeight] = React.useState(height);
   const [imageWidth, setImageWidth] = React.useState(width);
 
@@ -28,18 +34,16 @@ function ScaledImage({ source, overSource, url, height, width }) {
     }
   });
 
+  const imageStyle = {
+    height: imageHeight,
+    width: imageWidth,
+  };
+
   return (
-    <a
-      href={url}
-      onMouseEnter={() => setIsOver(true)}
-      onMouseLeave={() => setIsOver(false)}
-    >
+    <a href={url}>
       <Image
         source={isOver && overSource ? overSource : source}
-        style={{
-          height: imageHeight,
-          width: imageWidth,
-        }}
+        style={imageStyle}
       />
     </a>
   );
