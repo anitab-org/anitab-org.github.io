@@ -13,7 +13,7 @@ function Header({ selected, setSelected, titles }) {
       style={{
         flex: 1,
         flexDirection: 'row',
-        width: 800,
+        width: "95%",
         backgroundColor: 'white',
         borderBottomColor: '#FF0000',
         borderBottomWidth: 1,
