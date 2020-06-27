@@ -6,9 +6,9 @@ function SponsorsContent(sectionContent, index) {
   const [isOver, setIsOver] = React.useState(false);
 
   const container = {
-    borderRadius: 5,
     padding: 16,
     margin: 16,
+    borderRadius: 4,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,

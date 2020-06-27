@@ -1,4 +1,4 @@
-import React, { useState, useRef, noop } from 'react';
+import React, { useState } from 'react';
 import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
 import SponsorsContent from './../SponsorsContent';
 import SectionSubheader from './../../../SectionSubheader';

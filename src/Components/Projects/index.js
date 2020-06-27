@@ -13,8 +13,8 @@ function Projects() {
         paddingRight: 16,
       }}
     >
-      <SectionHeader title="Partners" />
-      <Sponsors />
+      {/* <SectionHeader title="Partners" />
+      <Sponsors /> */}
     </View>
   );
 }
