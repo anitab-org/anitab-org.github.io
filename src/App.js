@@ -14,7 +14,7 @@ function App() {
     'CONTRIBUTE',
   ];
   return (
-    <View style={{ flex: 1, alignItems: 'center' }}>
+    <View style={{ position: 'absolute', width: '100%', alignItems: 'center' }}>
       <Header selected={selected} setSelected={setSelected} titles={titles} />
       <Content selected={selected} titles={titles} />
     </View>
