@@ -2,6 +2,8 @@ import React from 'react';
 import { View } from 'react-native';
 import SectionHeader from './../SectionHeader';
 import Sponsors from './Sponsors';
+import Cards from './MainSection/cards/index.js';
+import Upper from './MainSection/upper/index.js';
 
 function Projects() {
   return (
@@ -13,6 +15,9 @@ function Projects() {
         paddingRight: 16,
       }}
     >
+      <Upper/>
+      <Cards/>
+
       {/* <SectionHeader title="Partners" />
       <Sponsors /> */}
     </View>
