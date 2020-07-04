@@ -9,8 +9,6 @@ const styles = StyleSheet.create({
 
     },
 
-
-
     description: {
         fontSize: '1.5em',
         fontWeight: 300,
@@ -25,6 +23,14 @@ const styles = StyleSheet.create({
         paddingBottom: 16,
         paddingTop: 64,
         color: '#103B81',
+    },
+    list: {
+        flexWrap: 'wrap',
+        flexDirection: 'row'
+    },
+    imageThumbnail: {
+        height: '81px',
+        width: '81px'
     }
 
 });

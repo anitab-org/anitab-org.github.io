@@ -11,6 +11,7 @@ const MeetOsc = () => {
     return (
         <View style={styles.container}>
             <Description />
+            <Members />
 
         </View>
     );
