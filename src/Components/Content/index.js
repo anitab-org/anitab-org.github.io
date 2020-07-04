@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
+import Projects from './../Projects';
 import About from '../About';
 
 function Content({ selected, titles }) {
@@ -23,7 +24,7 @@ function Content({ selected, titles }) {
 }
 
 function renderContent(title) {
-  return title === 'ABOUT US' ? <About/> : title;
+  return <Text>{title}</Text>;
 }
 
 export default Content;

@@ -9,6 +9,8 @@ import {
   TouchableHighlight,
   View
 } from "react-native";
+import content from './AboutContent/index.json';
+import SectionHeader from '../SectionHeader';
 
 let dimensions = Dimensions.get('window');
 let imageHeight = Math.round((dimensions * 9)/16);
@@ -19,27 +21,14 @@ function About(){
     <View style={styles.container}>
       <View style={styles.item}>
 
-        <Text style={styles.header} >
-          OUR MISSION
-        </Text>
+        <SectionHeader title="OUR MISSION"/>
         <Text style={styles.content}>
-          At AnitaB.org, we envision a future where the people who imagine and build
-          technology mirror the people and societies for whom they build it. We connect,
-          inspire, and guide women in computing, and organizations that view technology
-          innovation as a strategic imperative. Our social enterprise supports women in
-          technical fields, as well as the organizations that employ them and the academic
-          institutions training the next generation. A full roster of programs help women grow,
-          learn, and develop their highest potential.
+          {content.aboutpage.mission}
         </Text>
 
-        <Text style={styles.header}>
-          OUR HISTORY
-        </Text>
+        <SectionHeader title="OUR HISTORY"/>
         <Text style={styles.content}>
-          In 1987, computer scientist Anita Borg founded a digital community for women in computing.
-          Today, AnitaB.org works with technologists in more than 80 countries, and partners with
-          academic institutions and Fortune 500 companies worldwide.
-
+          {content.aboutpage.mission}
         <TouchableHighlight
           style={styles.link}
           underlayColor='transparent'
@@ -50,13 +39,10 @@ function About(){
         </TouchableHighlight>
         </Text>
 
-        <Text style={styles.header}>
-          ABOUT ANITA BORG
-        </Text>
+        <SectionHeader title="ABOUT ANITA BORG"/>
         <Text style={styles.content}>
-          Anita Borg combined technical expertise with a fearless vision to inspire, motivate,
-          and move women in technology. Learn how her legacy continues to touch and change the
-          lives of countless women in the fields of computing and beyond.
+          {content.aboutpage.about}
+
         <TouchableHighlight
           style={styles.link}
           underlayColor='transparent'
@@ -67,9 +53,7 @@ function About(){
         </TouchableHighlight>
         </Text>
 
-        <Text style={styles.header}>
-          INSIGHTS 
-        </Text>
+        <SectionHeader title="INSIGHTS"/>
         <Text style={styles.content}>
           <Text style={styles.gridWrap}>
             10+ Projects 
@@ -114,14 +98,6 @@ const styles = StyleSheet.create({
   },
   item: {
     flex: 1,
-  },
-  header: {
-    color: '#103B81',
-    fontSize: '32pt',
-    fontWeight: 'bold',
-    fontFamily: 'Avenir',
-    marginBottom: '8pt',
-    textAlign: 'left',
   },
   content: {
     color: '#103B81',
