@@ -22,6 +22,8 @@ export default class Members extends Component {
         this.setState({ screenWidth: screenWidth })
     }
 
+    //These are the list of members on Anitab.org GitHub page. I have't added a function or all members because the members aren't fixed yet.
+
     componentDidMount() {
         var that = this;
         let items = [
