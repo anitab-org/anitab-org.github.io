@@ -1,6 +1,11 @@
 import React from 'react';
 import styles from './styles';
-import { View, Text } from 'react-native';
+import {
+    View,
+    Text,
+    Linking,
+    TouchableHighlight,
+} from 'react-native';
 
 
 function Description() {
@@ -10,7 +15,15 @@ function Description() {
             <View style={styles.lineStyle} />
             <Text style={[styles.heading]}>MEET OUR OPEN SOURCE COMMUNITY</Text>
             <Text style={[styles.description]}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc interdum</Text>
+                Women transform technology. Technology transforms the world. Join us at -
+            <TouchableHighlight
+                    underlayColor='transparent'
+                    accessible={true}
+                    onPress={() => Linking.openURL('http://anitab-org.zulipchat.com')}
+                >
+                    <Text > Zulip </Text>
+                </TouchableHighlight>
+            </Text>
         </View>
 
     );

@@ -41,6 +41,8 @@ const styles = StyleSheet.create({
     lineStyle: {
         borderWidth: '0.05em',
         borderColor: '#C0C0C0',
+    },
+    link: {
     }
 
 });
