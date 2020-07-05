@@ -29,8 +29,8 @@ function Cards()
       margin: '16px 0px 16px 16px',
      },
     root: {
-      maxWidth: 440,
-      maxHeight: 700,
+      maxWidth: "380px",
+      Height: "700px",
       backgroundColor:"#5dbcd2",
     },
     media: {
@@ -73,7 +73,7 @@ function Cards()
            </Box>
           </Link>
           <Typography className={classes.text}>
-          <Box fontSize={18} fontWeight="fontWeightMedium" fontFamily="avenir ">
+          <Box fontSize={16} fontWeight="fontWeightMedium" fontFamily="avenir ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
           </Box>
           </Typography>

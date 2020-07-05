@@ -21,12 +21,18 @@ import Container from '@material-ui/core/Container';
 function Upper()
 { 
   const useStyles = makeStyles({
+    maincontent: {
+      fontSize : 18,
+      fontWeight:400,
+       fontFamily:"avenir ",
+    },
     avatar: {
       display: 'flex',
      },
     root: {
-      height: 330,
-     
+      float:"left",  
+      width:"431.35px",
+      height:"400px", 
       margin:'32px 0px 32px 0px',
     },
     media: {
@@ -36,28 +42,32 @@ function Upper()
     },
     text: {
       color:"#103B81",
-    }
+    },
+    image:{
+      float:"right",
+      width:"800px",
+      height:"400px", 
+    },
   });
   const classes = useStyles();
     return (
-      <div maxWidth="lg"  className={classes.root}> 
-      <span >
+      <div maxWidth="lg"  > 
+     
       <Typography component="div">
       <Box fontWeight="fontWeightMedium" fontSize={80} m={1} className={classes.text}>
        Projects
       </Box>
       </Typography>
-      <Typography component="div" margin="32px 0 0 0">
-      <Box fontWeight="fontWeightMedium" fontSize={24} m={1}>
+      <Typography component="div" margin="32px 0 0 0" className={classes.root}>
+      <Box className={classes.maincontent}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
       </Box>
       </Typography>
-      </span>
-      <span>
-      <Image source={mainimage} 
-            style={{width:900}}/>
-      </span>
+      <div className={classes.image}>
+         <img src={mainimage} />
       </div>
+      </div>
+     
 );
 }
 
