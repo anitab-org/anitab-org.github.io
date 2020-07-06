@@ -54,6 +54,13 @@ To get the frontend running locally:
  * Clone this repository
  * `yarn` to install all required dependencies
  * `yarn start` to start the local server
+ 
+ 
+ ## Prerequisites
+ 
+ **Javascript** - We are using technologies such as javascript , HTML , CSS for our website AnitaB.org Open Source.
+ 
+ **React-Native** - As our Whole content is written in react native so we can easly transform this into native apps in future.
 
 
 ## Contributing
