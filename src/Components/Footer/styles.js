@@ -6,8 +6,10 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     backgroundColor: '#101820',
     width: '100%',
-    padding: 16,
-    paddingTop: 24
+    flexWrap: 'wrap',
+    paddingBottom: 16,
+    paddingTop: 24,
+    paddingHorizontal: '10%'
   },
   col: { alignItems: 'center' },
   left: { width: 579 },
