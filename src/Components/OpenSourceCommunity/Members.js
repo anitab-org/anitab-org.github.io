@@ -8,6 +8,7 @@ import {
 } from 'react-native';
 import styles from './styles';
 import { Dimensions } from "react-native";
+import content from './data.json'
 
 
 export default class Members extends Component {
@@ -26,128 +27,7 @@ export default class Members extends Component {
 
     componentDidMount() {
         var that = this;
-        let items = [
-            {
-                profile: "https://github.com/aayush-05",
-                image: "https://avatars1.githubusercontent.com/u/47032027?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/Abdelaty",
-                image: "https://avatars0.githubusercontent.com/u/23483020?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/adi-001",
-                image: "https://avatars3.githubusercontent.com/u/47720423?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/aditmehta9",
-                image: "https://avatars2.githubusercontent.com/u/35133994?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/aayush-05",
-                image: "https://avatars1.githubusercontent.com/u/47032027?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/Abdelaty",
-                image: "https://avatars0.githubusercontent.com/u/23483020?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/adi-001",
-                image: "https://avatars3.githubusercontent.com/u/47720423?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/aditmehta9",
-                image: "https://avatars2.githubusercontent.com/u/35133994?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/aayush-05",
-                image: "https://avatars1.githubusercontent.com/u/47032027?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/Abdelaty",
-                image: "https://avatars0.githubusercontent.com/u/23483020?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/adi-001",
-                image: "https://avatars3.githubusercontent.com/u/47720423?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/aditmehta9",
-                image: "https://avatars2.githubusercontent.com/u/35133994?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/aayush-05",
-                image: "https://avatars1.githubusercontent.com/u/47032027?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/Abdelaty",
-                image: "https://avatars0.githubusercontent.com/u/23483020?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/adi-001",
-                image: "https://avatars3.githubusercontent.com/u/47720423?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/aditmehta9",
-                image: "https://avatars2.githubusercontent.com/u/35133994?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/aayush-05",
-                image: "https://avatars1.githubusercontent.com/u/47032027?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/Abdelaty",
-                image: "https://avatars0.githubusercontent.com/u/23483020?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/adi-001",
-                image: "https://avatars3.githubusercontent.com/u/47720423?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/aditmehta9",
-                image: "https://avatars2.githubusercontent.com/u/35133994?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/aayush-05",
-                image: "https://avatars1.githubusercontent.com/u/47032027?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/Abdelaty",
-                image: "https://avatars0.githubusercontent.com/u/23483020?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/adi-001",
-                image: "https://avatars3.githubusercontent.com/u/47720423?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/aditmehta9",
-                image: "https://avatars2.githubusercontent.com/u/35133994?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/aayush-05",
-                image: "https://avatars1.githubusercontent.com/u/47032027?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/Abdelaty",
-                image: "https://avatars0.githubusercontent.com/u/23483020?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/adi-001",
-                image: "https://avatars3.githubusercontent.com/u/47720423?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/aditmehta9",
-                image: "https://avatars2.githubusercontent.com/u/35133994?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/aayush-05",
-                image: "https://avatars1.githubusercontent.com/u/47032027?s=96&v=4"
-            },
-            {
-                profile: "https://github.com/Abdelaty",
-                image: "https://avatars0.githubusercontent.com/u/23483020?s=96&v=4"
-            }
-        ];
+        let items = content.data;
 
         that.setState({
             dataSource: items,
@@ -161,7 +41,7 @@ export default class Members extends Component {
                 <FlatList
                     contentContainerStyle={styles.list}
                     data={this.state.dataSource}
-                    initialNumToRender={30}
+                    initialNumToRender={50}
                     renderItem={({ item }) => (
                         <View style={{ flex: 1, margin: '0.125em' }}>
                             <TouchableHighlight
