@@ -38,12 +38,12 @@ const styles = StyleSheet.create({
         borderRadius: '0.5em'
     },
 
+
     lineStyle: {
         borderWidth: '0.05em',
         borderColor: '#C0C0C0',
-    },
-    link: {
     }
+
 
 });
 
