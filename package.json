@@ -13,6 +13,7 @@
     "paths-js": "^0.4.10",
     "react": "^16.11.0",
     "react-dom": "^16.13.1",
+    "react-iframe": "^1.8.0",
     "react-native": "^0.62.2",
     "react-native-calendar-heatmap": "^0.2.4",
     "react-native-chart-kit": "^6.2.2",
@@ -21,7 +22,9 @@
     "react-native-svg-transformer": "^0.14.3",
     "react-native-svg-web": "^1.0.9",
     "react-native-web": "^0.12.2",
+    "react-native-webview": "^10.3.2",
     "react-scripts": "^3.4.1",
+    "request": "^2.88.2",
     "typescript": "^3.9.5"
   },
   "scripts": {

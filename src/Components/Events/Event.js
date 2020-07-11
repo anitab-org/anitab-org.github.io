@@ -4,47 +4,63 @@ import {
     View, Text, Image, TouchableHighlight,
 } from 'react-native';
 import content from '../../content/events.json';
-/// <Content selected={selected} titles={titles} />
+import { Dimensions } from "react-native";
 
 
 
-function Event() {
+export default class Event extends Component {
+    constructor() {
+        super();
+        this.state = { screenWidth: "" }
+    }
 
-    return (
-        <View style={[styles.container]}>
-            <View style={[styles.left]}>
-                <Text style={[styles.heading]}>{content['sections'][0].title}</Text>
-                <Text style={[styles.description]}>
-                    {content['sections'][0].content}</Text>
+    getScreenSize = () => {
+        const screenWidth = Math.round(Dimensions.get('window').width);
+        this.setState({ screenWidth: screenWidth })
+    }
+
+
+
+
+
+    render() {
+        return (
+            <View style={[styles.container]}>
+                <View style={[styles.left]}>
+                    <Text style={[styles.heading]}>{content['sections'][0].title}</Text>
+                    <Text style={[styles.description]}>
+                        {content['sections'][0].content}</Text>
+                </View>
+                <View style={[styles.middle]} />
+                <View
+                    style={{
+                        width: '40%', paddingTop: 64,
+                        justifyContent: 'center', flex: 1,
+
+                    }}
+                >
+                    <Image
+                        style={[styles.img]}
+                        source={require('./../../assets/events.png')}
+                    />
+                </View>
             </View>
-            <View style={[styles.middle]} />
-            <View
-                style={{
-                    width: '40%', paddingTop: 64,
-                    justifyContent: 'center'
 
-                }}
-            >
-                <Image
-                    style={[styles.img]}
-                    source={require('./../../assets/events.png')}
-                />
-            </View>
-        </View>
-
-    );
-
+        );
+    }
 }
 
-export default Event;
 
 const styles = StyleSheet.create({
     container: {
         backgroundColor: 'white',
         width: '100%',
 
+
         flexWrap: 'wrap',
-        flexDirection: 'row',
+        flexDirection: 'row'
+
+
         // justifyContent: 'space-between'
     },
 
@@ -68,13 +84,15 @@ const styles = StyleSheet.create({
     },
     middle: {
         width: '2.3em',
-        height: '13em'
+        //height: '13em'
     },
     img: {
-        height: '12em',
-        width: '43.4em',
+        height: '12rem',
+        width: '43.4rem',
     }
 
 
 });
+
+
 

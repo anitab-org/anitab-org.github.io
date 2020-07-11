@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View } from 'react-native';
 import Header from './Components/Header';
 import Content from './Components/Content';
-import Events from './Components/Events'
+
 
 
 function App() {
@@ -18,8 +18,7 @@ function App() {
   return (
     <View style={{ position: 'absolute', width: '100%', alignItems: 'center' }}>
       <Header selected={selected} setSelected={setSelected} titles={titles} />
-
-      <Events />
+      <Content selected={selected} titles={titles} />
     </View>
   );
 }
