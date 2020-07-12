@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
         flexWrap: 'wrap',
         flexDirection: 'row',
         paddingBottom: 32,
-        //justifyContent: 'center'
+        //justifyContent: 'center'  uncomment this section for center alignment
 
     },
 
