@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     },
 
     left: {
-        width: '50%'
+        width: (Platform.OS === 'web') ? '50%' : '100%',
     },
 
     middle: {
