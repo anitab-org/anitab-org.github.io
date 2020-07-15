@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import styles from './styles';
 import { Dimensions } from "react-native";
-import content from './data.json';
+import content from '../../../content/member_profile_data.json';
 
 
 export default class Members extends Component {
@@ -22,8 +22,6 @@ export default class Members extends Component {
         const screenWidth = Math.round(Dimensions.get('window').width);
         this.setState({ screenWidth: screenWidth })
     }
-
-    //These are the list of members on Anitab.org GitHub page. I have't added a function or all members because the members aren't fixed yet.
 
     componentDidMount() {
         var that = this;
