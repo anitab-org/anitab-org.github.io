@@ -35,8 +35,10 @@ function Cards()
     },
     media: {
       height: 256,
-      width:400,
+      width:256,
+      padding: '16px 20px 16px 20px',
       margin: '16px 20px 16px 20px',
+      
     },
     text: {
       color:"#103B81",
