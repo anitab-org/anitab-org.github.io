@@ -1,22 +1,17 @@
 import React from 'react';
-import { View,Image } from 'react-native';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
-
-import IconButton from '@material-ui/core/IconButton';
 import zulip from "./../../../../assets/zulip-icon.png";
 import github from "./../../../../assets/github-logo.png";
 import mainimage from "./../../../../assets/logo.png";
 import { Avatar } from '@material-ui/core';
-import { typography } from '@material-ui/system';
 import Box from '@material-ui/core/Box';
+import "../../../../index.css";
+
 
 function Cards()
 { 
@@ -29,22 +24,25 @@ function Cards()
       margin: '16px 0px 16px 16px',
      },
     root: {
-      maxWidth: "380px",
+      maxWidth: "440px",
       Height: "700px",
-      backgroundColor:"#5dbcd2",
+      backgroundColor:"#B0DFE5",
     },
     media: {
-      height: 256,
-      width:256,
-      padding: '16px 20px 16px 20px',
+      height: 256, 
       margin: '16px 20px 16px 20px',
       
     },
     text: {
       color:"#103B81",
       margin: '16px 0px 0px 0px',
+    },
+    textandimage:{
+      display: 'flex',
+      alignItems: 'center',
+    },
     }
-  });
+  );
   const classes = useStyles();
     return (
 
@@ -60,25 +58,35 @@ function Cards()
             Lorem Ipsum
           </Box>  
           </Typography>
-         
           <Link href="#">
-          <Box fontSize={16}>
-          <img src={github}/>
-           Github repo
+          <Box fontSize={16}  className={classes.textandimage}>
+          <img src={github} alt="github"/>
+           <p> Github repo</p>
            </Box>
           </Link>
-          <br/>
           <Link href="#">
-          <Box fontSize={16}>
-          <img src={zulip}/>
-           Zulip repo
+          <Box fontSize={16} className={classes.textandimage}>
+          <img src={zulip} alt="Zulip"/>
+            <p>Zulip repo</p>
            </Box>
           </Link>
           <Typography className={classes.text}>
-          <Box fontSize={16} fontWeight="fontWeightMedium" fontFamily="avenir ">
+          <Box fontSize={18} fontWeight="fontWeightMedium" fontFamily="avenir ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
           </Box>
           </Typography>
+           <div className="tag-container">
+             <div className="tag" id="javascript">
+               Javascript
+             </div>
+             <div className="tag" id="python">
+               Python
+             </div>
+             <div className="tag" id="java">
+               Java
+             </div>
+             
+           </div>
           <Typography  className={classes.text}>
             Top Contributor
           </Typography>

@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.tag-container{
+  padding-top: 19px;
+  display: flex;
+}
+.tag{
+  padding: 8px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 18px;
+ 
+}
+
+#javascript{
+  background-color: yellow;
+}
+#python{
+  background-color: turquoise;
+}
+#java{
+  background-color: magenta;
+}
+
+
