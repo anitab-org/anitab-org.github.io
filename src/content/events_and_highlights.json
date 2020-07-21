@@ -1,0 +1,128 @@
+{
+  "sections": [
+    {
+      "title": "Our Events and Highlights",
+      "content": [
+        {
+          "par": "AnitaB.org Open Source Events convenes members from all backgrounds, and levels of expertise throughout the year to bridge the diversity gap in Open Source development."
+        },
+        {
+          "par": "Our events aim to give members insights from industry experts and female-identifying leaders on a variety of topics promoting Open Source, and covering stages of Open Source development right from Introduction to Quality Assurance."
+        }
+      ]
+    },
+    {
+      "title": "Events",
+      "content": [
+        [
+          {
+            "Event Title": "Why I contribute to Open source?"
+          },
+          {
+            "Event Date": "July 4, 2020"
+          },
+          {
+            "Event Location": "Virtual"
+          },
+          {
+            "Event Timings": "1am (UTC)"
+          },
+          {
+            "Event description": [
+              {
+                "par": "Heard about Open Source, not sure what’s in it for you? Need a boost to begin?"
+              },
+              {
+                "par": "This event will give you an understanding of the motivation behind individuals who contribute to open source"
+              },
+              {
+                "par": "Open Source contributors with varying experiences will be there to share their journey and answer your questions!"
+              }
+            ]
+          },
+          {
+            "Event Highlights": "src\\assets\\events_and_highlights\\1.png"
+          },
+          {
+            "Know more": "Feel free to contact AnitaB.org Open Source on Zulip (https://anitab-org.zulipchat.com) if you need any further information about this event."
+          }
+        ],
+        [
+          {
+            "Event Title": "Engaging Open Source community in Quality Assurance"
+          },
+          {
+            "Event Date": "August 9, 2020"
+          },
+          {
+            "Event Location": "Virtual"
+          },
+          {
+            "Event Timings": "9am (EST)"
+          },
+          {
+            "Event Description": [
+              {
+                "par": "Wondered how Quality Assurance (QA) for software is performed in companies or what are the roles and responsibilities of an QA engineer?"
+              },
+              {
+                "par": "This talk will help members grasp concepts of traditional QA methods such as formalized testing, writing, and tracking bugs which are equally relevant for Open Source development."
+              },
+              {
+                "par": "We will explore the contrasting nature of software quality assurance under the Open Source model and traditional software development models. Consequently, their translation in practical advantages."
+              },
+              {
+                "par": "It will draw attention to pragmatic quality assurance practices in upstream Open Source projects like Fedora."
+              },
+              {
+                "par": "This will certainly give members a head-start by laying out some of the best practices and common challenges faced while quality testing Open Source products."
+              }
+            ]
+          },
+          {
+            "Event Highlights": "src\\assets\\events_and_highlights\\2.png"
+          },
+          {
+            "Know more": "Feel free to contact AnitaB.org Open Source on Zulip (https://anitab-org.zulipchat.com) if you need any further information about this event."
+          }
+        ],
+        [
+          {
+            "Event Title": "Grace Hopper Celebration"
+          },
+          {
+            "Event Date": "September 29 — October 3,2020"
+          },
+          {
+            "Event Location": "Virtual"
+          },
+          {
+            "Event Timings": "11am - 3pm (PT)"
+          },
+          {
+            "Event Description": [
+              {
+                "par": "AnitaB.org’s flagship event Grace Hopper Celebration brings the research and career interests of women in computing to the forefront."
+              },
+              {
+                "par": "Grace Hopper Celebration (GHC), world’s largest gathering of women technologists, commemorates, celebrates, fosters and encourages the magnificent women in technology who dared to shed their inhibitions, and recognized the genius in them."
+              },
+              {
+                "par": "Attend inspiring keynotes and sessions, network with peers, and gain important resources to help you succeed in and further your career."
+              },
+              {
+                "par": "The celebration consists of a combination of technical sessions, career sessions, poster sessions, career fairs, award ceremonies and more."
+              }
+            ]
+          },
+          {
+            "Event Highlights": "src\\assets\\events_and_highlights\\3.png"
+          },
+          {
+            "Know more": "Visit our official Grace Hopper Celebration website (https://ghc.anitab.org) for details about registration, eligibility, scholarships, conference sessions and FAQs."
+          }
+        ]
+      ]
+    }
+  ]
+}
