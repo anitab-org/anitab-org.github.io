@@ -14,7 +14,7 @@ function Projects() {
         paddingLeft: 16,
         paddingRight: 16,
       }}
-    >
+      >
       <Upper/>
       
       <Grid container spacing={2}>
@@ -40,6 +40,7 @@ function Projects() {
       </Grid>
       </Grid>
        
+
       {/* <SectionHeader title="Partners" />
       <Sponsors /> */}
     </View>
