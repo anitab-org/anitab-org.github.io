@@ -29,4 +29,8 @@ function renderContent(title) {
   return <Text>{title}</Text>;
 }
 
+function renderContent(title) {
+  return <Text>{title}</Text>;
+}
+
 export default Content;
