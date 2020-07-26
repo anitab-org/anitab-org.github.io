@@ -12,6 +12,6 @@ deploy:
   github_token: $GITHUB_API_KEY
   keep_history: true
   local_dir: './build/'
-  target_branch: 'main'
+  target_branch: 'master'
   on:
     branch: production
