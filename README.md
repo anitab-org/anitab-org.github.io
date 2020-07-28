@@ -25,6 +25,10 @@ _**Note**_: *For this you need to install git on your machine. You can download 
  * If you haven't forked the project, run the following command -
 
    `git clone https://github.com/anitab-org/anitab-org.github.io`
+   
+ * Now after you cloned the repository, get into the anitab-org.github.io directory by -
+
+   `cd anitab-org.github.io`
 
 #### Remote
 
