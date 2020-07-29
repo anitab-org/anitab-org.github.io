@@ -7,7 +7,7 @@
 </p>
 
 [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://anitab-org.zulipchat.com/#narrow/stream/216323-design)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http:https://anitab-org/anitab-org.github.io)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http:https://github.com/anitab-org/anitab-org.github.io)
 
 # anitab-org.github.io
 
