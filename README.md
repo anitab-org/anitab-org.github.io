@@ -1,13 +1,6 @@
-<p align="center">
-    <img src="https://img.shields.io/github/license/anitab-org/anitab-org.github.io?style=flat">
-    <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
-    <img alt="GitHub pull requests" src="https://github.com/anitab-org/anitab-org.github.io/pulls">
-    <img alt="GitHub issues" src="https://github.com/anitab-org/anitab-org.github.io/issues">
-    <img alt="Github All Contributors" src="https://img.shields.io/github/all-contributors/tesseractcoding/neoalgo">
-</p>
 
 [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://anitab-org.zulipchat.com/#narrow/stream/216323-design)
-
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
 # anitab-org.github.io
 
