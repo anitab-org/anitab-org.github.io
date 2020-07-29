@@ -1,3 +1,5 @@
+[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://anitab-org.zulipchat.com/#narrow/stream/212722-general)
+
 # anitab-org.github.io
 
 This is the main website for **AnitaB.org Open Source**. It contains information about our various open source projects, the programs we participate in, information about how to contribute, and how to contact us.This website acts as an interface to help introduce people to the organization's Open Source community, and make the transition from newcomers to contributors easier.
