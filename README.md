@@ -2,8 +2,7 @@
 [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://anitab-org.zulipchat.com/#narrow/stream/216323-design)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
-[![star this repo](https://github.com/anitab-org/anitab-org.github.io)](https://github.com/anitab-org/anitab-org.github.io)
-[![fork this repo](http://githubbadges.com/fork.svg)](https://github.com/anitab-org/anitab-org.github.io)
+[![star this repo](http://githubbadges.com/star.svg?user=boennemann&repo=badges&style=flat)](https://github.com/anitab-org/anitab-org.github.io)
 
 
 
