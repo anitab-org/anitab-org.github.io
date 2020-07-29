@@ -1,4 +1,4 @@
-[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://anitab-org.zulipchat.com/#narrow/stream/212722-general)
+[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://anitab-org.zulipchat.com/#narrow/stream/235478-anitab-org.2Egithub.2Eio)
 
 # anitab-org.github.io
 
