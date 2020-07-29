@@ -4,14 +4,16 @@
 			"title": "Getting Started" ,
 			"content" :  [
 			    { 
-					"par": "The AnitaB.org community is a fusion of rich values and diverse cultures consisting of members all across the seven oceans with a fearless mission of inspiring, motivating and helping women with their involvement in technical fields and has made a significant impact with regards to contribution of women in tech.\nThe other values of the organization include Accountable, Agile, Curious, Courageous, Diversity, Equity, Inclusion(DEI), encourage everyone to follow the org’s contributing guidelines and obviously passion for open source. "
-
+					"par": "The AnitaB.org community is a fusion of prosperous values and diverse cultures consisting  participants  of all throughout the seven oceans with a fearless mission to increase the impact of women on all aspects of technology, and increase the positive impact of technology on the world's women .\nFor the upliftment of the womens many Activities were also conducted to motivating and assist ladies in tech. \nThe different values of the community consist of Accountability, Agile, Curious, Courageous, Diversity, Equity, Inclusion(DEI), inspire all and sundry to comply with the org’s contributing pointers and for sure ardour for open source. "
 				},
 				{
-					"par": "Zulip is our main communication platform and you should join us there and first give a short introduction about yourself in the #newcomers stream. Zulip consists of various streams like Documentation, Coding, Design, etc and the one that fascinates you the most is the one you should start contributing in.\nThe #announcements stream will be displaying all the important announcements. Tag our community members if there's any confusion or ask for proper guidance from them regarding your contributions to the community."
+					"par": "Zulip is our main communication platform you can join us there.Zulip consists of various streams like #Documentation,#design,#coading, #opportunities, #questions etc.First give a short introduction about yourself in the #newcomers stream. and the one that fascinates you the most is the one you should start contributing in.\nThe #announcements stream will be displaying all the important announcements. Tag our community members if there's any confusion or ask for proper guidance from them regarding your contributions to the community."
+					
 				},
 				{  
-					"par": "Our code of conduct is simple- 'Be nice, Be respectful' which is the one of the many reasons the community coexists in harmony. The members should contribute actively keeping the policies of being repectful to everyone and refrainging from conflicts, unruly behaviour and speech. Anyone who wishes to join the community is expected to follow these guidelines.\nIf you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer or adminas soon as possible."
+					"par": "This organisation is Dedicated to provide a respectful, friendly, safe and welcoming environment to all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion. We do not tolerate harassement or bullying of any community member in any form.Anyone who wishes to join the community is expected to follow these guidelines.\nIf you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer or admins as soon as possible."
+
+					
 			
 				}
 			]
