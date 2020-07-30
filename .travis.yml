@@ -23,7 +23,7 @@ deploy:
   github_token: $GITHUB_API_KEY
   keep_history: true
   local_dir: './build/'
-  repo: 'test-anitab-org'
+  repo: 'anitab-org/test-anitab-org'
   target_branch: 'master'
   on:
     branch: deply_test
