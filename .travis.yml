@@ -23,7 +23,7 @@ deploy:
   github_token: $GITHUB_API_KEY
   keep_history: true
   local_dir: './build/'
-  target_branch: 'deply_test'
+  target_branch: 'test'
   on:
-    branch: test
+    branch: deply_test
 
