@@ -26,5 +26,5 @@ deploy:
   repo: 'anitab-org/test-anitab-org'
   target_branch: 'master'
   on:
-    branch: deply_test
+    branch: develop
 
