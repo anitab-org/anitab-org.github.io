@@ -7,7 +7,7 @@ before_deploy:
   - yarn build
 
 deploy:
-
+  
 # production
   provider: pages
   skip_cleanup: true
@@ -27,5 +27,5 @@ deploy:
   repo: 'anitab-org/test-anitab-org'
   target_branch: 'master'
   on:
-    branch: develop
+    branch: deply_test
 
