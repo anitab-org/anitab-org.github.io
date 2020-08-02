@@ -25,9 +25,6 @@ function Content({ selected, titles }) {
   }
 }
 
-function renderContent(title) {
-  return <Text>{title}</Text>;
-}
 
 function renderContent(title) {
   return <Text>{title}</Text>;
