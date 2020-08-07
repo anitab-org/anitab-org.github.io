@@ -1,11 +1,13 @@
 import React from 'react';
 import { Text, View, Image } from 'react-native';
 import styles from './styles';
+import SectoionHeader from '../SectionHeader';
+
 
 function Home() {
     return (
-        <View style={styles.home}>
-        <Text style={styles.heading}>INTERESTED IN COMPUTING</Text>
+        <View>
+        <SectoionHeader title= "INTERESTED IN COMPUTING" />
         <Text style={styles.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</Text>
         <View style={styles.container}>
         <View style={styles.card}>

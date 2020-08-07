@@ -17,12 +17,6 @@ const styles = StyleSheet.create({
     cardLast: {
       alignItems: 'flex-end'
     },
-    home: {
-      marginLeft: 32,
-      marginRight: 32,
-    },
-  
-    
     contributionImage: {
       width: 235,
       height: 235
@@ -36,16 +30,11 @@ const styles = StyleSheet.create({
       flex: 1,
       color: '#103B81'
     },
-    heading: {
-      fontSize : 24,
-      fontWeight: '500',
-      fontStyle: 'Avenir',
-      color: '#103B81',
-    },
     description: {
       fontSize : 14,
       fontWeight: '300',
       color: '#103B81',
+      marginLeft: 18,
       }
     
   
