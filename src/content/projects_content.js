@@ -45,7 +45,7 @@ const projects = {
             ]
           },
             
-             {
+        {
             title: "Mentorship Flutter",
             description:  "AnitaB.org aims to be as inclusive as possible for everyone. It should apply to user's mobile operating system, too. That's why we decided to use Flutter to deliver a high-quality app for everybody – Android, iOS, and web users.",
             labels: [
