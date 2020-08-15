@@ -47,7 +47,7 @@ const projects = {
             
         {
             title: "Mentorship Flutter",
-            description:  "AnitaB.org aims to be as inclusive as possible for everyone. It should apply to user's mobile operating system, too. That's why we decided to use Flutter to deliver a high-quality app for everybody – Android, iOS, and web users.",
+            description:  "Cross-platform client app for the Mentorship System - an application that matches women in tech to mentor each other, on career development, through 1:1 relations during a certain period of time. It's written in the Flutter framework.",
             labels: [
               "Dart",
               "Flutter"
