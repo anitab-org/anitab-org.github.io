@@ -49,7 +49,7 @@ function AboutUsSection(){
       </Box>
       <ImgBox>
        <Img
-        source={require('../../assets/Mask Group 1.png')} 
+        source={require('../../assets/about.png')} 
         resizeMode='cover'
         />
       </ImgBox>
