@@ -44,6 +44,27 @@ const projects = {
               }
             ]
           },
+            
+        {
+            title: "Mentorship Flutter",
+            description:  "Cross-platform client app for the Mentorship System - an application that matches women in tech to mentor each other, on career development, through 1:1 relations during a certain period of time. It's written in the Flutter framework.",
+            labels: [
+              "Dart",
+              "Flutter"
+            ],
+            badges: [
+              {
+                title: "zulip",
+                source: require('./../assets/zulip.png'),
+                url: 'https://anitab-org.zulipchat.com/#narrow/stream/222534-mentorship-system/topic/mentorship-flutter',
+              },
+              {
+                title: "github",
+                source: require('./../assets/github.png'),
+                url: 'https://github.com/anitab-org/mentorship-flutter',
+              }
+            ]
+          },
 
           {
             title: "Mentorship iOS",
