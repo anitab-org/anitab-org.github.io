@@ -15,15 +15,11 @@ import {
 function Home(){
     return(
         
-        <View style = {styles.container}>
-            <View style = {styles.verticle}>
+        
+            <View style = {styles.verticle, {flexWrap:"wrap"}}>
                 <Content />
             </View>
-            <Image
-                style={{ height: 150, width: 150 }}
-                source={require('./../../assets/home/1.png')}
-            />
-        </View>
+           
     );
 }
 

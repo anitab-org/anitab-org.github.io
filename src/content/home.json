@@ -2,6 +2,9 @@
 	"sections" : [
 		{ 
 			"title": "Getting Started" ,
+			"image": "started.png",
+			"width": 343,
+			"height": 273,
 			"content" :  [
 			    { 
 					"par": "The AnitaB.org community is a fusion of rich values and diverse cultures consisting of members all across the seven oceans with a fearless mission of inspiring, motivating and helping women with their involvement in technical fields and has made a significant impact with regards to contribution of women in tech.\nThe other values of the organization include Accountable, Agile, Curious, Courageous, Diversity, Equity, Inclusion(DEI), encourage everyone to follow the org’s contributing guidelines and obviously passion for open source. "
@@ -18,6 +21,9 @@
 		},
 	    {
 			"title": "Ways To Contribute",
+			"image": "contribute.png",
+			"width": 273,
+			"height": 220,
 			"content":[
 				{
 					"par": "You can start contributing to our various open source projects by- \n1) Creating issues on Github regarding the project \n2) Debugging the issues \n3) Creating pull requests, testing pull requests \n4) Create mockups for new applications or redesign the current features \n5) Research about UI/UX improvements and accessibilty features. \n6) Create app walkthroughs with documents or videos, UI testing once the PR is submitted for the UI issue"
@@ -30,6 +36,9 @@
 		},
 		{
 			"title": "Our Projects",
+			"image": "our-projects.png",
+			"width": 282,
+			"height": 261,
 			"content":[
 				{
 					"par": "First and foremost, choose a programming language of your choice. Once you are done with selecting a programming language search for a project. Here's a list of our open source projects - "
@@ -60,6 +69,9 @@
 		},
 		{
 			"title": "Open Source Programs ",
+			"image": "space1.png",
+			"width": 273,
+			"height": 208,
 			"content" : [
 				{
 					"par": "1) Google Summer of Code \nAnitaB.org has been actively participating in the Google Summer of Code in the years 2016, 2017, 2018 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org -\nMohammad Murad, former AnitaB.org GSoC mentor in his Medium blog says- AnitaB.org is very different, along with writing coding equal importance is given to interacting with the community. The community also helps in personal development and personal growth. \nIsabel Costa, GSoC 2018 participant in her Medium blog says- I got to meet incredible people from the AnitaB.org community. I grew personally and professionally by sharing and learning from other’s perspectives. Being recognized for my work as the Most Outstanding Student by Systers made me very proud of my achievements. This was truly an awesome experience. "

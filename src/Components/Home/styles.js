@@ -1,39 +1,70 @@
+// import React from 'react';
 import { StyleSheet } from 'react-native';
+
 
 const styles = StyleSheet.create({
   container: {
-      flex: 1,
-    // flexDirection: 'row',
+    flex: 1,
+    flexWrap: 'wrap',
     justifyContent: 'space-between',
-    width: '100%',
-    flexWrap:'wrap',
-    marginTop: 64,
-    paddingHorizontal: 32
+    marginTop: 32,
+    // height:"auto",
+    // flexGrow: 1,
+    flexDirection: 'row',
+    // alignItems:"center",
+    // justifyContent:"center",
+    width: '100%' ,
   },
-  verticl:{
+  verticle:{
+    // flexShrink: 1,
       flexDirection: 'column'
   },
   imageEven:
   {
-    width: '20%',
-    alignSelf: 'flex-start',
+    // flex: 0.1,  
+    alignItems: 'center', 
+    width: 350,  
+    paddingLeft:32,
+    marginRight: 32,
+    alignSelf: 'center'
+    
     },
   contentEven: 
   {
+    // flexShrink: 1,
+    //  flex:0.9,
     // overflow:,
-    alignSelf:'flex-end',
-    width: '80%'
+    width: 1000,
+    paddingRight: 32,
+    // alignSelf:'flex-end',
+    // position:"absolute",
+    // right: 0,
+     //width: '100%'
 },
 imageOdd:
   {
-    width: '20%',
-    alignSelf: 'flex-end',
+    alignItems: 'center' ,
+    paddingRight: 32,
+    marginLeft: 32,
+    // width: '20%',
+    width: 397,
+    flex: 20,
+    flexWrap: "wrap",
+    alignSelf: 'center',
+    position:"absolute",
+    right: 0,
     },
   contentOdd: 
   {
     // overflow:,
+    width: 1000,
+    paddingLeft: 32,
     alignSelf:'flex-start',
-    width: '80%'
+    //flexWrap: "wrap",
+    // position:"absolute",
+    // right: 0,
+     //width: '100%'
+    //flex: 80
 },
 //   col: { alignItems: 'center' },
 //   left: { width: 579 },
@@ -45,14 +76,20 @@ imageOdd:
   heading: {
     fontSize: 24,
     fontWeight: 500,
-    paddingBottom: 32,
-    fontFamily:'Avenir',
+    fontFamily:'./../../Avenir-Medium',
     color: '#103B81',
   },
   description: {
+    marginTop:8,
     fontSize: 18,
-    color: '#103BB1'
+    color: '#103BB1',
+    // width:1000,
+    fontFamily:'./../../Avenir-Light',
+    textAlign:"left",
+    // flexShrink:1,
+    // flex: 1,
     // fontWeight:
+    //width:"200"
   },
 });
 
