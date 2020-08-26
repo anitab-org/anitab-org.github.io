@@ -3,14 +3,11 @@ import { StyleSheet, Dimensions } from 'react-native';
  
 const {width, height} = Dimensions.get('window');
 
-
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexWrap: 'wrap',
     justifyContent: 'center',
-    // flexDirection:(width>height) ? 'row' : 'column',
     flexDirection: 'row',
   },
   verticle:{
@@ -19,7 +16,6 @@ const styles = StyleSheet.create({
   },
   imageEven:
   { 
-    // width: width * 0.2,
     alignItems: 'center', 
     paddingLeft:32,
     marginRight: 32,
