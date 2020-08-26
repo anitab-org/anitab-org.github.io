@@ -1,20 +1,33 @@
 import React from 'react';
 import styles from './styles';
-import { View, Text, Image } from 'react-native';
+import { View, Text, Image, Dimensions } from 'react-native';
 import contentJson from '../../content/home.json';
 
+
+const {width, height} = Dimensions.get('window');
+
 function Content(){
-    
     return(
-        <View style={{marginTop: 32}}>
+        <View style={{marginTop: 32, marginBottom: 32}}>
             {contentJson.sections.map((content, i)=>(
-                <View style={styles.container}>
+               
+                //Images for landscape view
+                    <View style={styles.container}>
+                    {(width>height) && (i%2==0) ? 
                     <View style={ (i%2==0) ? styles.imageEven : styles.imageOdd}>
                     <Image
                         style={{ height: content.height, width: content.width }}
                         source={require("./../../assets/home/" + content.image)}
                     />
-                    </View>
+                    </View> : null}
+
+                    {/* Images for potrait view */}
+                    {(width<height) ? <View  style ={styles.imageEven }>
+                    <Image
+                        style={{ height: content.height, width: content.width }}
+                        source={require("./../../assets/home/" + content.image)}
+                    />
+                    </View> : null}
                     <View key={i} style={(i%2==0) ? styles.contentEven : styles.contentOdd}>
                         <Text style={styles.heading}>{content.title}</Text>
                         {content.content.map((text, j)=>(
@@ -23,6 +36,14 @@ function Content(){
                             </Text>
                         ))}
                     </View>
+                    {(i%2!=0) && (width>height) ? 
+                    <View style={ (i%2==0) ? styles.imageEven : styles.imageOdd}>
+                    <Image
+                        style={{ height: content.height, width: content.width }}
+                        source={require("./../../assets/home/" + content.image)}
+                    />
+                    </View> : null}
+                    
                 </View>
             ))}
         </View>
