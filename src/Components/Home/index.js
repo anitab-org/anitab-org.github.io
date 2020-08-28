@@ -8,9 +8,7 @@ import {
 
 function Home(){
     
-    return(
-        
-        
+    return(        
             <View style = {styles.verticle, {flexWrap:"wrap"}}>
                 <Content />
             </View>

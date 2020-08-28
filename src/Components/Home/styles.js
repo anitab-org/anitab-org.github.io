@@ -1,6 +1,6 @@
 import { StyleSheet, Dimensions } from 'react-native';
  
-const {width, height} = Dimensions.get('window');
+const {width} = Dimensions.get('window');
 
 const styles = StyleSheet.create({
   container: {
@@ -58,10 +58,6 @@ imageOdd:
     textAlign:"left",
     flexWrap:"wrap"
   },
-  // @media screen and (width: 800px) {
-  //   .left, .main, .right {
-  //     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  //   }
 }
 
 );
