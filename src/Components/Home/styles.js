@@ -1,4 +1,3 @@
-// import React from 'react';
 import { StyleSheet, Dimensions } from 'react-native';
  
 const {width, height} = Dimensions.get('window');
@@ -16,17 +15,18 @@ const styles = StyleSheet.create({
   },
   imageEven:
   { 
+    width: (width>800) ? 300 : '100%',
     alignItems: 'center', 
     paddingLeft:32,
     marginRight: 32,
     marginTop: 32,
-    alignSelf: 'center'
+    alignSelf: 'center',
     
     },
   contentEven: 
   {
-    width: (width>height) ? width * 0.7 : width*0.85,
-    paddingRight: (width>height) ? 32 : 0,
+    width: (width>800) ? width * 0.7 : width*0.85,
+    paddingRight: (width>800) ? 32 : 0,
     marginTop: 32,
 },
 imageOdd:
@@ -39,9 +39,9 @@ imageOdd:
     },
   contentOdd: 
   {
-    width: (width>height) ? width * 0.7 : width*0.85,
+    width: (width>800) ? width * 0.7 : width*0.85,
     marginTop: 32,
-    paddingLeft: (width>height) ? 32 : 0,
+    paddingLeft: (width>800) ? 32 : 0,
 },
 
   heading: {
@@ -58,6 +58,12 @@ imageOdd:
     textAlign:"left",
     flexWrap:"wrap"
   },
-});
+  // @media screen and (width: 800px) {
+  //   .left, .main, .right {
+  //     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  //   }
+}
+
+);
 
 export default styles;
