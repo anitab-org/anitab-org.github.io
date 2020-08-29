@@ -1,5 +1,9 @@
 import React from 'react';
 import Content from './Content';
+import GettingStarted from './GettingStarted';
+import OurProjects from './OurProjects';
+import OpenSourcePrograms from './OpenSourcePrograms';
+import WaysToContribute from './WaysToContribute';
 import styles from './styles';
 import {
     View
@@ -10,7 +14,10 @@ function Home(){
     
     return(        
             <View style = {styles.verticle, {flexWrap:"wrap"}}>
-                <Content />
+                <GettingStarted />
+                <WaysToContribute />
+                <OurProjects />
+                <OpenSourcePrograms />
             </View>
            
     );
