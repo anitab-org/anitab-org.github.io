@@ -1,12 +1,12 @@
 import React from 'react';
-import {View, Image, StyleSheet, Dimensions} from 'react-native';
+import {View, Image } from 'react-native';
 
-const {width} = Dimensions.get('window');
 
 function SectionImage({source, width, height}){
     const viewStyle = {
         alignSelf: 'center',
-        width: 350
+        width: 350,
+        marginTop: 32+8,
     }
     const imageStyle = {
         width: width,

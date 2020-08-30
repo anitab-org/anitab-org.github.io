@@ -1,16 +1,15 @@
 import React from 'react';
 import styles from './styles';
-import { View, Text, Image, Dimensions } from 'react-native';
+import { View } from 'react-native';
 import contentJson from '../../content/home.json';
 import SectionHeader from '../SectionHeader';
 import SectionImage from '../SectionImage';
 import SectionBody from '../SectionBody';
 
 const {sections} = contentJson;
-// const {width} = Dimensions.get('window');
 var content ="";
 
-sections[0].content.map(text=>{
+sections[0].content.forEach(text=>{
     content += text.par+"\n";
 })
 function GettingStarted(){
@@ -22,13 +21,8 @@ function GettingStarted(){
                 width={343}
             />
             <View>
-                <SectionHeader title={sections[0].title}></SectionHeader>
+                <SectionHeader title={sections[0].title} ></SectionHeader>
                 <SectionBody content={content}></SectionBody>
-                {/* {sections[0].content.map((text, j)=>(
-                    <Text key={j} style={styles.description}>
-                        {text.par}
-                    </Text>
-                ))} */}
             </View>
         </View>
         

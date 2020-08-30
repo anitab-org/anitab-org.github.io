@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-function SectionHeader({ title, index }) {
+function SectionHeader({ title, index}) {
   return (
     <View style={styles.container} key={title + index}>
       <Text style={styles.header}>{title}</Text>
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     width: '100%',
-    paddingTop: 64,
+    paddingTop: 32,
     paddingLeft: 16,
     paddingRight: 16,
   },

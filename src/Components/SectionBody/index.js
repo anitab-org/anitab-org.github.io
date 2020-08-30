@@ -12,7 +12,6 @@ function SectionBody({content, width}){
 
 const styles = StyleSheet.create({
     body:  {
-        marginTop:8,
         fontSize: 18,
         color: '#103BB1',
         fontFamily:'./../../Avenir-Light',
@@ -22,7 +21,9 @@ const styles = StyleSheet.create({
     container: {
       flex: 1,
       width: (width - 0.7*width>=400) ? width*0.7 : width*0.9,
-      paddingTop: 64,
+      marginTop: 8,
+      paddingLeft: 16,
+      paddingRight: 16,
     },
   });
   
