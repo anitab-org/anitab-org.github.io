@@ -4,8 +4,12 @@ import { View, Text, Image, StyleSheet } from 'react-native';
 const ProjectCardBadge = (props) => {
   return (
     <View style={styles.container}>
-      <Image style={styles.image} source={props.source} />
-      <Text style={styles.title}>{props.title}</Text>
+      <a target="_blank" rel="noopener noreferrer" href={props.url}>
+        <Image style={styles.image} source={props.source} />
+      </a>
+      <a target="_blank" rel="noopener noreferrer" href={props.url}>
+        <Text style={styles.title}>{props.title}</Text>
+      </a>
     </View>
   );
 };

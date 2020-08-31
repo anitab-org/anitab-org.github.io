@@ -72,8 +72,8 @@ const projects = {
           description:
             "Cross-platform client app for the Mentorship System - an application that matches women in tech to mentor each other, on career development, through 1:1 relations during a certain period of time. It's written in the Flutter framework.",
           labels: [
-            { title: 'Dart', color: '#F5BED8' },
-            { title: 'Flutter', color: '#C1D72E' },
+            { title: 'dart', color: '#F5BED8' },
+            { title: 'flutter', color: '#C1D72E' },
           ],
           badges: [
             {
@@ -210,7 +210,10 @@ const projects = {
           title: 'Bridge-In-Tech Web',
           description:
             'Frontend of Bridge-In-Tech - an application that allows industries/companies, mentors and students to actively collaborate to one another.',
-          labels: [{ title: 'javascript', color: '#F9D507' }],
+          labels: [
+            { title: 'react js', color: '#BD6AAA' },
+            { title: 'javascript', color: '#F9D507' },
+          ],
           badges: [
             {
               title: 'zulip',
@@ -236,7 +239,7 @@ const projects = {
           description:
             'Backend of Bridge-In-Tech - an application that allows industries/companies, mentors and students to actively collaborate to one another.',
           labels: [
-            { title: 'react js', color: '#BD6AAA' },
+            { title: 'flask', color: '#F8972B' },
             { title: 'python', color: '#C1D72E' },
           ],
           badges: [

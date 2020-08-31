@@ -27,15 +27,19 @@ const Contributors = ({
   return (
     <View style={styles}>
       {response && response.length > 0
-        ? response
-            .slice(0, 9)
-            .map((contributor) => (
+        ? response.slice(0, 9).map((contributor) => (
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={contributor.html_url}
+            >
               <Image
                 style={imageStyle}
                 source={contributor.avatar_url}
                 key={contributor.id}
               ></Image>
-            ))
+            </a>
+          ))
         : null}
     </View>
   );
