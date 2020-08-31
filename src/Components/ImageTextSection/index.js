@@ -5,7 +5,7 @@ import ScaledImage from './../ScaledImage';
 const ImageTextSection = ({
   title,
   image,
-  text,
+  content,
   imageSide,
   imageHeight = 300,
 }) => {
@@ -19,7 +19,9 @@ const ImageTextSection = ({
       />
       <View style={styles.subContainer}>
         <Text style={styles.header}>{title}</Text>
-        <Text style={styles.text}>{text}</Text>
+        {content.map((text) => (
+          <Text style={styles.text}>{text.par}</Text>
+        ))}
       </View>
     </View>
   );

@@ -21,7 +21,7 @@ function Projects(props) {
         <View key={project.title + index}>
           <ImageTextSection
             title={project?.title}
-            text={project?.description}
+            content={project?.content}
             image={project?.image?.source}
             imageSide="right"
           />
