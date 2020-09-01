@@ -212,8 +212,7 @@ const projects = {
             source: require('./../assets/placeholder.png'),
           },
           title: 'Bridge-In-Tech Web',
-          description:
-            'Frontend of Bridge-In-Tech - an application that allows industries/companies, mentors and students to actively collaborate to one another.',
+          description: "Web Application for Bridge-In-Tech - an application that encourages active collaboration between organization, mentor and mentee, by allowing organization to offer a mentoring program where mentor and mentee can work on. The mentoring program can be customised to meet the needed skills set that the organization is looking for.",
           labels: [
             { title: 'react js', color: '#BD6AAA' },
             { title: 'javascript', color: '#F9D507' },
@@ -240,9 +239,8 @@ const projects = {
             source: require('./../assets/placeholder.png'),
           },
           title: 'Bridge-In-Tech Backend',
-          description:
-            'Backend of Bridge-In-Tech - an application that allows industries/companies, mentors and students to actively collaborate to one another.',
-          labels: [
+          description: "Backend REST API for Bridge-In-Tech - an application that encourages active collaboration between organization, mentor and mentee, by allowing organization to offer a mentoring program where mentor and mentee can work on. The mentoring program can be customised to meet the needed skills set that the organization is looking for.",
+            labels: [
             { title: 'flask', color: '#F8972B' },
             { title: 'python', color: '#C1D72E' },
           ],
