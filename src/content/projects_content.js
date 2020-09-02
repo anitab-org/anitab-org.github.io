@@ -152,7 +152,7 @@ const projects = {
 
           {
             title: "Bridge-In-Tech Web",
-            description: "Frontend of Bridge-In-Tech - an application that allows industries/companies, mentors and students to actively collaborate to one another.",
+            description: "Web Application for Bridge-In-Tech - an application that encourages active collaboration between organization, mentor and mentee, by allowing organization to offer a mentoring program where mentor and mentee can work on. The mentoring program can be customised to meet the needed skills set that the organization is looking for.",
             labels: [
               "javascript",
             ],
@@ -172,7 +172,7 @@ const projects = {
 
           {
             title: "Bridge-In-Tech Backend",
-            description: "Backend of Bridge-In-Tech - an application that allows industries/companies, mentors and students to actively collaborate to one another.",
+            description: "Backend REST API for Bridge-In-Tech - an application that encourages active collaboration between organization, mentor and mentee, by allowing organization to offer a mentoring program where mentor and mentee can work on. The mentoring program can be customised to meet the needed skills set that the organization is looking for.",
             labels: [
               "flask-restx",
               "python"
