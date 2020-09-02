@@ -44,6 +44,27 @@ const projects = {
               }
             ]
           },
+            
+        {
+            title: "Mentorship Flutter",
+            description:  "Cross-platform client app for the Mentorship System - an application that matches women in tech to mentor each other, on career development, through 1:1 relations during a certain period of time. It's written in the Flutter framework.",
+            labels: [
+              "Dart",
+              "Flutter"
+            ],
+            badges: [
+              {
+                title: "zulip",
+                source: require('./../assets/zulip.png'),
+                url: 'https://anitab-org.zulipchat.com/#narrow/stream/222534-mentorship-system/topic/mentorship-flutter',
+              },
+              {
+                title: "github",
+                source: require('./../assets/github.png'),
+                url: 'https://github.com/anitab-org/mentorship-flutter',
+              }
+            ]
+          },
 
           {
             title: "Mentorship iOS",
@@ -131,7 +152,7 @@ const projects = {
 
           {
             title: "Bridge-In-Tech Web",
-            description: "Frontend of Bridge-In-Tech - an application that allows industries/companies, mentors and students to actively collaborate to one another.",
+            description: "Web Application for Bridge-In-Tech - an application that encourages active collaboration between organization, mentor and mentee, by allowing organization to offer a mentoring program where mentor and mentee can work on. The mentoring program can be customised to meet the needed skills set that the organization is looking for.",
             labels: [
               "javascript",
             ],
@@ -151,7 +172,7 @@ const projects = {
 
           {
             title: "Bridge-In-Tech Backend",
-            description: "Backend of Bridge-In-Tech - an application that allows industries/companies, mentors and students to actively collaborate to one another.",
+            description: "Backend REST API for Bridge-In-Tech - an application that encourages active collaboration between organization, mentor and mentee, by allowing organization to offer a mentoring program where mentor and mentee can work on. The mentoring program can be customised to meet the needed skills set that the organization is looking for.",
             labels: [
               "flask-restx",
               "python"
