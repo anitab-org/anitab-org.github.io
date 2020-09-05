@@ -5,6 +5,7 @@ import contentJson from '../../content/home.json';
 import SectionHeader from '../SectionHeader';
 import SectionImage from '../SectionImage';
 import SectionBody from '../SectionBody';
+import ImageTextSection from '../ImageTextSection';
 
 const {width} = Dimensions.get('window');
 const {sections} = contentJson;
@@ -16,7 +17,14 @@ sections[1].content.forEach(text=>{
 function GettingStarted(){
     return(
         <View style={styles.container}>
-           {(width-0.7*width<400) ? 
+            <ImageTextSection
+                title = {sections[1].title}
+                image = {require("./../../assets/home/contribute.png")}
+                content = {sections[1].content}
+                imageSide = {'right'}
+                imageHeight = {220}
+            />
+           {/* {(width-0.7*width<400) ? 
             <SectionImage
                 source={require("./../../assets/home/contribute.png")} 
                 height={220} 
@@ -31,7 +39,7 @@ function GettingStarted(){
                 source={require("./../../assets/home/contribute.png")} 
                 height={220} 
                 width={273}
-            /> : null }
+            /> : null } */}
         </View>
         
     );

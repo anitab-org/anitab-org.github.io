@@ -16,7 +16,8 @@ const styles = StyleSheet.create({
         color: '#103BB1',
         fontFamily:'./../../Avenir-Light',
         textAlign:"left",
-        flexWrap:"wrap"
+        flexWrap:"wrap",
+        fontWeight: 200,
       },
     container: {
       flex: 1,
