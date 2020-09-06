@@ -13,22 +13,19 @@ function ScaledImage({
   const [imageHeight, setImageHeight] = React.useState(height);
   const [imageWidth, setImageWidth] = React.useState(width);
 
-  React.useEffect(() => {
+  React.useLayoutEffect(() => {
     if (ref.current) {
       ref.current = false;
       Image.getSize(source, (w, h) => {
         if (width && !height) {
           setImageWidth(width);
           setImageHeight(h * (width / w));
-          console.log({ width, height: h * (width / w) });
         } else if (!width && height) {
           setImageWidth(w * (height / h));
           setImageHeight(height);
-          console.log({ width: w * (height / h), height });
         } else {
           setImageWidth(w);
           setImageHeight(h);
-          console.log({ width: w, height: h });
         }
       });
     }

@@ -1,8 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import ScaledImage from './../ScaledImage';
-import contentJson from '../../content/home.json';
-
 const ImageTextSection = ({
   title,
   image,
@@ -20,8 +18,8 @@ const ImageTextSection = ({
       />
       <View style={styles.subContainer}>
         <Text style={styles.header}>{title}</Text>
-        {content.map((text) => (
-          <Text style={styles.text}>{text.par}</Text>
+        {content.map((text, i) => (
+          <Text key={i} style={styles.text}>{text.par}</Text>
         ))}
       </View>
     </View>
