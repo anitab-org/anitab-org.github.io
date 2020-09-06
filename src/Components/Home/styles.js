@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     flexDirection: 'row',
   },
-  parent: {
+  parent: { 
     flexDirection: 'column',
     flexWrap: 'wrap',
     marginTop: 32,
