@@ -8718,11 +8718,6 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-native-animated-number@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/react-native-animated-number/-/react-native-animated-number-1.1.1.tgz#09d0ac108d24620d6a8515eea2f7d6643ba3d62a"
-  integrity sha512-DctpQ+h9wStPGmUeMkCuph7RQ828KcYXDgQtXQ3JtoRTK9kkv2vVwaNsefGXP8JBHtwAHoKLCegQxAdi1LhdbQ==
-
 react-native-reflect@^0.1.6:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/react-native-reflect/-/react-native-reflect-0.1.6.tgz#2926db8690b76891b75a44d9d14b0e3118190a30"
