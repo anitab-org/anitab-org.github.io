@@ -1,19 +1,16 @@
-import { StyleSheet } from 'react-native';
+import { View } from 'react-native';
+import { styled } from "react-native-reflect";
  
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
+export const MainContainer = styled(View,{
+  flex: 1,
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     flexDirection: 'row',
-  },
-  parent: { 
-    flexDirection: 'column',
+})
+
+export const ParentContainer = styled(View,{
+  flexDirection: 'column',
     flexWrap: 'wrap',
     marginTop: 32,
     marginBottom: 32
-  },
-});
-
-export default styles;
+})

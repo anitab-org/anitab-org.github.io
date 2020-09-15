@@ -1,11 +1,10 @@
 import React from 'react';
-import styles from './styles';
-import { View } from 'react-native';
+import { MainContainer } from './styles';
 import ImageTextSection from '../ImageTextSection';
 
 function GettingStarted({content}){
     return(
-        <View style={styles.container}>
+        <MainContainer>
             <ImageTextSection
                 title = {content.title}
                 image = {content.image.source}
@@ -13,8 +12,7 @@ function GettingStarted({content}){
                 imageSide = {'right'}
                 imageHeight = {220}
             />
-        </View>
-        
+        </MainContainer>
     );
 }
 
