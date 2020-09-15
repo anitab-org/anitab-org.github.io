@@ -1,0 +1,23 @@
+.sliderContainer {
+  background-color: rgba(10, 67, 255, 0.288);
+}
+.slick-next {
+  background-color: rgba(10, 67, 255, 0.288) !important;
+  height: 100% !important;
+  right: -20px !important;
+}
+.slick-prev {
+  background-color: rgba(10, 67, 255, 0.288) !important;
+  height: 100% !important;
+  left: -20px !important;
+}
+.talkImage {
+  width: 100%;
+}
+.info ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.info ul i{
+    color: rgb(65, 65, 156);
+}
