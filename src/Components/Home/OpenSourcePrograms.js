@@ -1,10 +1,7 @@
 import React from 'react';
 import styles from './styles';
 import { View } from 'react-native';
-import contentJson from '../../content/home.json';
 import ImageTextSection from '../ImageTextSection';
-
-const {sections} = contentJson;
 
 function GettingStarted({content}){
     return(
@@ -12,7 +9,7 @@ function GettingStarted({content}){
             <ImageTextSection
                 title = {content.title}
                 imageSide = {'right'}
-                image = {require("./../../assets/home/space1.png")}
+                image = {content.image.source}
                 content = {content.content}
                 imageHeight = {208}
             />

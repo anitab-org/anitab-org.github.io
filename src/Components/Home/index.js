@@ -4,12 +4,14 @@ import OurProjects from './OurProjects';
 import OpenSourcePrograms from './OpenSourcePrograms';
 import WaysToContribute from './WaysToContribute';
 import styles from './styles';
-import contentJson from '../../content/home.json';
+// import contentJson from '../../content/home';
+import { getHome } from './../../content/home';
 import {
     View
 }from 'react-native';
 
-const {sections} = contentJson;
+const home = getHome();
+const {sections} = home;
 function Home(){
     
     return(        

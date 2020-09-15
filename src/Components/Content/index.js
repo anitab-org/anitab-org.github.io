@@ -1,8 +1,12 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 import Projects from './../Projects';
+import Home from './../Home';
 
 function Content({ selected, titles }) {
+  if(selected === 0){
+    return <Home />
+  }
   if (selected === 3) {
     return <Projects />;
   } else {

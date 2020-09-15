@@ -18,7 +18,6 @@ function App() {
   return (
     <View style={{ position: 'absolute', width: '100%', alignItems: 'center' }}>
       <Header selected={selected} setSelected={setSelected} titles={titles} />
-      <Home />
       <Content selected={selected} titles={titles} />
       <Footer />
     </View>
