@@ -6,14 +6,14 @@ import ImageTextSection from '../ImageTextSection';
 
 const {sections} = contentJson;
 
-function GettingStarted(){
+function GettingStarted({content}){
     return(
         <View style={styles.container}>
             <ImageTextSection
-                title = {sections[3].title}
+                title = {content.title}
                 imageSide = {'right'}
                 image = {require("./../../assets/home/space1.png")}
-                content = {sections[3].content}
+                content = {content.content}
                 imageHeight = {208}
             />
         </View>
