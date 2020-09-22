@@ -45,7 +45,6 @@ function TechTalk() {
     infinite: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
     className: "slides",
   };
   return (
@@ -62,7 +61,7 @@ function TechTalk() {
             <Container className="sliderContainer">
               <Row>
                 <Col className="talkImageCol my-auto" md={6}>
-                  <img className="talkImage" src={pht.photo} />
+                  <img className="talkImage" src={pht.photo} alt="" />
                 </Col>
                 <Col md={6}>
                   <h2>{pht.topic}</h2>
