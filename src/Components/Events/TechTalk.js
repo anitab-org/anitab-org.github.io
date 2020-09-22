@@ -10,7 +10,7 @@ function TechTalk() {
   const photos = [
     {
       photo:
-        "https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+        "",
       topic: "TOPIC1",
       date: "DATE1",
       location: "Location1",
@@ -20,7 +20,7 @@ function TechTalk() {
     },
     {
       photo:
-        "https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+        "",
       topic: "TOPIC2",
       date: "DATE2",
       location: "Location2",
@@ -30,7 +30,7 @@ function TechTalk() {
     },
     {
       photo:
-        "https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+        "",
       topic: "TOPIC3",
       date: "DATE3",
       location: "Location3",
