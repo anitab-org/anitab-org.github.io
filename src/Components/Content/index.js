@@ -1,8 +1,12 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 import Projects from './../Projects';
+import AboutUs from './../AboutUs';
 
 function Content({ selected, titles }) {
+  if (selected === 1) {
+    return <AboutUs />;
+  }
   if (selected === 3) {
     return <Projects />;
   } else {
@@ -24,7 +28,6 @@ function Content({ selected, titles }) {
     );
   }
 }
-
 
 function renderContent(title) {
   return <Text>{title}</Text>;
