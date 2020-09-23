@@ -25,7 +25,7 @@ paddingLeft: 16,
 
 export const Description = styled(Text, {
 flex: 1,
-marginTop: 24,
+marginTop: 26,
 paddingLeft: 16,
 fontSize: 18,
 flexGrow: 1,
