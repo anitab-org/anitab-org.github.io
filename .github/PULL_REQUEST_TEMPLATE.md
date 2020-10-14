@@ -21,6 +21,7 @@ Fixes # [ISSUE]
 
 
 ### How Has This Been Tested?
+If you are working on a design then add a gif to show the responsiveness how your design.
 Please follow [testing guidelines](https://github.com/anitab-org/anitab-org.github.io/wiki/Prepare-testing-GitHub-Pages-for-your-PR) and share the link of deployed site here.
 
 
