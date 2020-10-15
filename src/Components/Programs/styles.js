@@ -37,3 +37,18 @@ export const Date = styled(View,{
     textAlign: 'center',
     position:'absolute',
 });
+export const Marker = styled(View,{
+    backgroundColor:'#000',
+    width:'2px',
+    height: '90px',
+    position:'absolute',
+    top: '29px',
+});
+export const Fade = styled(View,{
+    backgroundColor:'#fff',
+    height:'90px',
+    position:'absolute',
+    opacity:'0.6',
+    // top: '10px',
+    left: '20%',
+})

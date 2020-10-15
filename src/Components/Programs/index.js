@@ -1,10 +1,10 @@
-import React from 'react';
-import {ScrollView,Text,View,FlatList} from 'react-native';
-import {Event,Line,Date,Stroke,Marker,Fade} from './styles';
+import React, {useEffect,useState} from 'react';
+import {ScrollView,Text,View} from 'react-native';
+import {Event,Line,Date,Marker,Fade} from './styles';
 const events=[
     {
         event:"GSOC'20",
-        date:[1,7,8,12,18,20,31,40,50,100],
+        date:[1,7,8,12,18,20,31,40,50],
         color:'#ffdd30'
     },
     {
@@ -13,17 +13,27 @@ const events=[
         color:'#039eff'
     },
 ]
-// const tmp=45;
 function Programs() {
+    // const [currentDate] =  useState(0);
+    useEffect(() => {
+    //    var currentDate = new Date().getDate();
+       console.log(new Date().getDate());
+    })
+    // const getCurrentDate=()=>{
+    //     var date = new Date().getDate();
+    //     console.log(date);
+    //     return date;
+    // }
   return (
     <ScrollView
         horizontal={true}
         style={{ marginBottom:'5vw',marginTop:'3vw',flexDirection:'column', width:'80%'}}
+        key={0}
         >
         <View style={{width:'80%'}}>
             {
                 events.map((item)=>(
-                    <View style={{flexDirection:'row'}}>
+                    <View style={{flexDirection:'row'}} key={item.event}>
                         <Event style={{
                             color:item.color,
                             borderColor: item.color,
@@ -34,8 +44,13 @@ function Programs() {
                                 <Date style={{left:(d-1)*5+20+'%',backgroundColor:item.color}}>{d}</Date>
                             ))
                         }
+                        <Fade style={{width:(15-1)*5+'%'}}></Fade>
+                        <Marker style={{left:(15-1)*5+20+'%'}}></Marker>
+
                     </View>
-                ))}
+                ))
+            }
+            <View style={{left:(15-1)*5+21+'%',marginBottom:'15px'}}>Today 15th October</View>
         </View>
     </ScrollView>
   );
