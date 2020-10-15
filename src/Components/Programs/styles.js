@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native';
 import { styled } from 'react-native-reflect';
 
-export const Event = styled(View,{
+export const Event = styled(Text,{
     color:"#ffdd30",
     fontWeight: 600,
     fontSize: 25,
@@ -14,11 +14,10 @@ export const Event = styled(View,{
     marginBottom: 5,
     borderRadius: '50px',
     textAlign: 'center',
-    zIndex:'1px'
-    // position: 'absolute'
+    zIndex:'1px',
 });
 export const Line = styled(View,{
-    width:'80%',
+    width:'200vw',
     borderBottomWidth:10,
     borderBottomColor:'#ffdd30',
     color:'#ffdd30',
@@ -36,7 +35,5 @@ export const Date = styled(View,{
     height:45,
     borderRadius: '50px',
     textAlign: 'center',
-    // justifyContent:'center',
     position:'absolute',
-    // top: 5,
 });
