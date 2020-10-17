@@ -1,6 +1,8 @@
 import React, {useEffect,useState} from 'react';
-import {ScrollView,Text,View} from 'react-native';
+import {ScrollView,Text,View,TouchableWithoutFeedback} from 'react-native';
 import {Event,Line,Date,Marker,Fade} from './styles';
+import $ from 'jquery';
+import {ArrowLeftOutlined ,ArrowRightOutlined} from '@ant-design/icons'
 const events=[
     {
         event:"GSOC'20",
@@ -14,45 +16,62 @@ const events=[
     },
 ]
 function Programs() {
-    // const [currentDate] =  useState(0);
+    var p=(48-1)*15+22;
     useEffect(() => {
-    //    var currentDate = new Date().getDate();
-       console.log(new Date().getDate());
+        var scroll = $('.css-view-1dbjc4n');
+        scroll.scrollLeft((48-1)*15+22);
     })
-    // const getCurrentDate=()=>{
-    //     var date = new Date().getDate();
-    //     console.log(date);
-    //     return date;
-    // }
+    const scrollLeft=(e)=>{
+        var scroll = $('.css-view-1dbjc4n');
+        scroll.scrollLeft(p-=35);
+        if(p<0)
+        p=0;
+    }
+    const scrollRight=()=>{
+        var scroll = $('.css-view-1dbjc4n');
+        scroll.scrollLeft(p+=35);
+    }
   return (
-    <ScrollView
-        horizontal={true}
-        style={{ marginBottom:'5vw',marginTop:'3vw',flexDirection:'column', width:'80%'}}
-        key={0}
-        >
-        <View style={{width:'80%'}}>
-            {
-                events.map((item)=>(
-                    <View style={{flexDirection:'row'}} key={item.event}>
-                        <Event style={{
-                            color:item.color,
-                            borderColor: item.color,
-                        }}> {item.event} </Event>
-                        <Line style={{flexDirection:'row', width:'1000%', borderBottomColor:item.color}}></Line>
-                        {
-                            item.date.map((d)=>(
-                                <Date style={{left:(d-1)*5+20+'%',backgroundColor:item.color}}>{d}</Date>
-                            ))
-                        }
-                        <Fade style={{width:(15-1)*5+'%'}}></Fade>
-                        <Marker style={{left:(15-1)*5+20+'%'}}></Marker>
-
-                    </View>
-                ))
-            }
-            <View style={{left:(15-1)*5+21+'%',marginBottom:'15px'}}>Today 15th October</View>
-        </View>
-    </ScrollView>
+      <>
+            <View style={{flexDirection:'row',marginTop:'10px',width:'80%',justifyContent:'space-between'}}>
+                <View style={{flexDirection:'row'}}>
+                    <TouchableWithoutFeedback onPress={scrollLeft}><ArrowLeftOutlined /></TouchableWithoutFeedback>
+                    <Text>PAST</Text>
+                </View>
+                <View style={{flexDirection:'row'}}>
+                    <Text>FUTURE</Text>
+                    <TouchableWithoutFeedback onPress={scrollRight}><ArrowRightOutlined /></TouchableWithoutFeedback>
+                </View>
+            </View>
+            <ScrollView
+                horizontal={true}
+                style={{ marginBottom:'5vw',marginTop:'3vw',flexDirection:'column', width:'90%'}}
+                showsHorizontalScrollIndicator={false}
+                >
+                <View style={{width:'80%'}}>
+                    {
+                        events.map((item)=>(
+                            <View style={{flexDirection:'row'}} key={item.event}>
+                                <Event style={{
+                                    color:item.color,
+                                    borderColor: item.color,
+                                    left:(item.date[0]-2)*4+5+'%'
+                                }}> {item.event} </Event>
+                                <Line style={{left:(item.date[0]-1)*5+20+'%',flexDirection:'row', width:item.date[item.date.length-1]*10+'vw', borderBottomColor:item.color}}></Line>
+                                {
+                                    item.date.map((d)=>(
+                                        <Date style={{left:(d-1)*5+20+'%',backgroundColor:item.color}} key={d}>{d}</Date>
+                                    ))
+                                }
+                                <Fade style={{width:(18-1)*5+'%'}}></Fade>
+                                <Marker style={{left:(18-1)*5+22+'%'}}></Marker>
+                            </View>
+                        ))
+                    }
+                    <View style={{left:(18-1)*5+23+'%',marginBottom:'15px'}}>Today 18th October</View>
+                </View>
+            </ScrollView>
+      </>
   );
 }
 export default Programs;

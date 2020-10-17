@@ -15,6 +15,7 @@ export const Event = styled(Text,{
     borderRadius: '50px',
     textAlign: 'center',
     zIndex:'1px',
+    position:'relative'
 });
 export const Line = styled(View,{
     width:'200vw',
@@ -43,6 +44,7 @@ export const Marker = styled(View,{
     height: '90px',
     position:'absolute',
     top: '29px',
+    zIndex:'-1px'
 });
 export const Fade = styled(View,{
     backgroundColor:'#fff',
