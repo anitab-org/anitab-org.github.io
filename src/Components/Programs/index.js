@@ -16,10 +16,10 @@ const events=[
     },
 ]
 function Programs() {
-    var p=(48-1)*15+22;
+    var p=(18-4)*5-20;
     useEffect(() => {
         var scroll = $('.css-view-1dbjc4n');
-        scroll.scrollLeft((48-1)*15+22);
+        scroll.scrollLeft(p);
     })
     const scrollLeft=(e)=>{
         var scroll = $('.css-view-1dbjc4n');
@@ -33,44 +33,52 @@ function Programs() {
     }
   return (
       <>
-            <View style={{flexDirection:'row',marginTop:'10px',width:'80%',justifyContent:'space-between'}}>
+            <View style={{flexDirection:'row',marginTop:'10px',marginBottom:'10px',width:'80%',justifyContent:'space-between'}}>
                 <View style={{flexDirection:'row'}}>
-                    <TouchableWithoutFeedback onPress={scrollLeft}><ArrowLeftOutlined /></TouchableWithoutFeedback>
-                    <Text>PAST</Text>
+                    <TouchableWithoutFeedback onPress={scrollLeft} style={{justifyContent:'center',}}>
+                        <ArrowLeftOutlined style={{color:'#42aaf5',paddingTop:'4px'}}/>
+                    </TouchableWithoutFeedback>
+                    <Text style={{fontSize:'16px',marginLeft:'5px'}}>PAST</Text>
                 </View>
                 <View style={{flexDirection:'row'}}>
-                    <Text>FUTURE</Text>
-                    <TouchableWithoutFeedback onPress={scrollRight}><ArrowRightOutlined /></TouchableWithoutFeedback>
+                    <Text style={{fontSize:'16px',marginRight:'5px'}}>FUTURE</Text>
+                    <TouchableWithoutFeedback onPress={scrollRight}>
+                        <ArrowRightOutlined style={{color:'#42aaf5',paddingTop:'4px'}}/>
+                    </TouchableWithoutFeedback>
                 </View>
             </View>
-            <ScrollView
-                horizontal={true}
-                style={{ marginBottom:'5vw',marginTop:'3vw',flexDirection:'column', width:'90%'}}
-                showsHorizontalScrollIndicator={false}
-                >
-                <View style={{width:'80%'}}>
+            <View style={{width:'80%',flexWrap:'wrap',flexDirection:'column',marginBottom:'10vw'}}>
+                <View style={{flex:1,width:'15%'}}>
                     {
                         events.map((item)=>(
-                            <View style={{flexDirection:'row'}} key={item.event}>
-                                <Event style={{
-                                    color:item.color,
-                                    borderColor: item.color,
-                                    left:(item.date[0]-2)*4+5+'%'
-                                }}> {item.event} </Event>
-                                <Line style={{left:(item.date[0]-1)*5+20+'%',flexDirection:'row', width:item.date[item.date.length-1]*10+'vw', borderBottomColor:item.color}}></Line>
-                                {
-                                    item.date.map((d)=>(
-                                        <Date style={{left:(d-1)*5+20+'%',backgroundColor:item.color}} key={d}>{d}</Date>
-                                    ))
-                                }
-                                <Fade style={{width:(18-1)*5+'%'}}></Fade>
-                                <Marker style={{left:(18-1)*5+22+'%'}}></Marker>
-                            </View>
+                            <Event style={{color:item.color,borderColor:item.color,flex:1}}>{item.event}</Event>
                         ))
                     }
-                    <View style={{left:(18-1)*5+23+'%',marginBottom:'15px'}}>Today 18th October</View>
                 </View>
-            </ScrollView>
+                <ScrollView
+                horizontal={true}
+                style={{ marginBottom:'5vw',marginTop:'3vw',flexDirection:'column',width:'80%',flex:4,position:'absolute',right:'0',top:'-45px'}}
+                showsHorizontalScrollIndicator={false}
+                >
+                    <View style={{width:'90%'}}>
+                        {
+                            events.map((item)=>(
+                                <View style={{flexDirection:'row'}} key={item.event}>
+                                    <Line style={{left:(item.date[0]-1)*5+'%',flexDirection:'row', width:item.date[item.date.length-1]*10+'vw', borderBottomColor:item.color}}></Line>
+                                    {
+                                        item.date.map((d)=>(
+                                            <Date style={{left:(d-1)*5+'%',backgroundColor:item.color}} key={d}>{d}</Date>
+                                        ))
+                                    }
+                                    <Fade style={{width:(18-1)*5+'%'}}></Fade>
+                                    <Marker style={{left:(18-1)*5+2+'%'}}></Marker>
+                                </View>
+                            ))
+                        }
+                        <View style={{left:(18-1)*5+3+'%',marginBottom:'15px'}}><Text>Today 18th October</Text></View>
+                    </View>
+                </ScrollView>
+            </View>
       </>
   );
 }
