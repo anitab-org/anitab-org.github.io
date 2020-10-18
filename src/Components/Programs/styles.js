@@ -15,7 +15,8 @@ export const Event = styled(Text,{
     borderRadius: '50px',
     textAlign: 'center',
     zIndex:'1px',
-    position:'relative'
+    position:'relative',
+    backgroundColor:'#fff'
 });
 export const Line = styled(View,{
     width:'200vw',
@@ -24,7 +25,7 @@ export const Line = styled(View,{
     marginBottom: 5,
     color:'#ffdd30',
     position:'relative',
-    top: '20px',
+    top: '4vh',
     left: '20%',
     zIndex: '-10px'
 });
@@ -52,6 +53,12 @@ export const Fade = styled(View,{
     height:'90px',
     position:'absolute',
     opacity:'0.6',
-    // top: '10px',
-    // left: '20%',
+})
+export const Stroke = styled(View,{
+    borderBottomColor:'#000',
+    borderBottomWidth:'2px',
+    width:'50vw',
+    top:'-7vh',
+    // zIndex:'10px'
+
 })

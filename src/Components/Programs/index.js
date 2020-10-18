@@ -1,6 +1,6 @@
-import React, {useEffect,useState} from 'react';
+import React, {useEffect} from 'react';
 import {ScrollView,Text,View,TouchableWithoutFeedback} from 'react-native';
-import {Event,Line,Date,Marker,Fade} from './styles';
+import {Event,Line,Date,Marker,Fade,Stroke} from './styles';
 import $ from 'jquery';
 import {ArrowLeftOutlined ,ArrowRightOutlined} from '@ant-design/icons'
 const events=[
@@ -51,13 +51,16 @@ function Programs() {
                 <View style={{flex:1,width:'15%'}}>
                     {
                         events.map((item)=>(
-                            <Event style={{color:item.color,borderColor:item.color,flex:1}}>{item.event}</Event>
+                            <View key={item.event}>
+                                <Event style={{color:item.color,borderColor:item.color,flex:1}}>{item.event}</Event>
+                                <Stroke></Stroke>
+                            </View>
                         ))
                     }
                 </View>
                 <ScrollView
                 horizontal={true}
-                style={{ marginBottom:'5vw',marginTop:'3vw',flexDirection:'column',width:'80%',flex:4,position:'absolute',right:'0',top:'-45px'}}
+                style={{ marginBottom:'5vw',marginTop:'3vw',flexDirection:'column',width:'70%',position:'absolute',right:'0',top:'-45px'}}
                 showsHorizontalScrollIndicator={false}
                 >
                     <View style={{width:'90%'}}>
@@ -70,7 +73,7 @@ function Programs() {
                                             <Date style={{left:(d-1)*5+'%',backgroundColor:item.color}} key={d}>{d}</Date>
                                         ))
                                     }
-                                    <Fade style={{width:(18-1)*5+'%'}}></Fade>
+                                    <Fade style={{left:(item.date[0]-1)*5+'%',width:(18-item.date[0])*5+'%'}}></Fade>
                                     <Marker style={{left:(18-1)*5+2+'%'}}></Marker>
                                 </View>
                             ))
