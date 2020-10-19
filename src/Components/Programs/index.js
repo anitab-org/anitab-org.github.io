@@ -7,12 +7,12 @@ import dayjs from 'dayjs'
 const events=[
     {
         event:"GSoC'20",
-        date:[1,7,8,12,18,20,31,40,50],
+        date:[[0,1],[0,7],[0,8],[0,12],[0,18],[0,20],[0,31],[1,10],[1,20]],
         color:'#ffdd30'
     },
     {
         event:"Rails Girls'20",
-        date:[5,18,25,30,35,40],
+        date:[[0,5],[0,7],[0,9],[0,22],[0,28],[0,31],[1,8],[1,10]],
         color:'#039eff'
     },
 ]
@@ -54,7 +54,7 @@ function Programs() {
                     {
                         events.map((item)=>(
                             <View key={item.event}>
-                                <Event style={{color:item.color,borderColor:item.color,flex:1,left:item.date[0]+5+'vw'}}>{item.event}</Event>
+                                <Event style={{color:item.color,borderColor:item.color,flex:1,left:item.date[0][1]+5+'vw'}}>{item.event}</Event>
                                 <Stroke></Stroke>
                             </View>
                         ))
@@ -69,13 +69,13 @@ function Programs() {
                         {
                             events.map((item)=>(
                                 <View style={{flexDirection:'row'}} key={item.event}>
-                                    <Line style={{left:(item.date[0]-1)*5+'%',flexDirection:'row', width:item.date[item.date.length-1]*10+'vw', borderBottomColor:item.color}}></Line>
+                                    <Line style={{left:(item.date[0][1]-1)*5+'%',flexDirection:'row', width:item.date[item.date.length-1][1]*10+'vw', borderBottomColor:item.color}}></Line>
                                     {
                                         item.date.map((d)=>(
-                                            <Date style={{left:(d-1)*5+'%',backgroundColor:item.color}} key={d}>{d}</Date>
+                                            <Date style={{left:(30*d[0]+d[1]-1)*5+'%',backgroundColor:item.color}} key={30*d[0]+d[1]}>{d[1]}</Date>
                                         ))
                                     }
-                                    <Fade style={{left:(item.date[0]-1)*5+'%',width:(p-item.date[0])*5+2+'%'}}></Fade>
+                                    <Fade style={{left:(item.date[0][1]-1)*5+'%',width:(p-item.date[0][1])*5+2+'%'}}></Fade>
                                     <Marker style={{left:(p-1)*5+2+'%'}}></Marker>
                                 </View>
                             ))

@@ -57,7 +57,7 @@ export const Fade = styled(View,{
 export const Stroke = styled(View,{
     borderBottomColor:'#000',
     borderBottomWidth:'2px',
-    width:'50vw',
+    width:'40vw',
     top:'-7vh',
     // zIndex:'10px'
 
