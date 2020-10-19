@@ -68,8 +68,8 @@ function Timeline() {
                     <View style={{width:'90%'}}>
                         {
                             events.map((item)=>(
-                                <View style={{flexDirection:'row'}} key={item.event}>
-                                    <Line style={{left:(item.date[0][1]-1)*5+'%',flexDirection:'row', width:30*12*5+'vw', borderBottomColor:item.color}}></Line>
+                                <View style={{marginBottom:'3vw',flexDirection:'column'}} key={item.event}>
+                                    <Line style={{left:(item.date[0][1]-1)*5+'%', width:30*12*5+'vw', borderBottomColor:item.color}}></Line>
                                     {
                                         item.date.map((d)=>(
                                             <Date style={{left:(30*d[0]+d[1]-1)*5+'%',backgroundColor:item.color}} key={30*d[0]+d[1]}>{d[1]}</Date>

@@ -22,10 +22,9 @@ export const Line = styled(View,{
     width:'200vw',
     borderBottomWidth:10,
     borderBottomColor:'#ffdd30',
-    marginBottom: 5,
     color:'#ffdd30',
     position:'relative',
-    top: '4vh',
+    top: '21px',
     left: '20%',
     zIndex: '-10px'
 });
