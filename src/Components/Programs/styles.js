@@ -3,7 +3,7 @@ import { styled } from 'react-native-reflect';
 
 export const Event = styled(Text,{
     color:"#ffdd30",
-    fontWeight: 600,
+    fontWeight: 400,
     fontSize: 24,
     borderColor: '#ffdd30',
     borderWidth: 0.5,

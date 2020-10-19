@@ -3,9 +3,10 @@ import {ScrollView,Text,View,TouchableWithoutFeedback} from 'react-native';
 import {Event,Line,Date,Marker,Fade,Stroke} from './styles';
 import $ from 'jquery';
 import {ArrowLeftOutlined ,ArrowRightOutlined} from '@ant-design/icons'
+import dayjs from 'dayjs'
 const events=[
     {
-        event:"GSOC'20",
+        event:"GSoC'20",
         date:[1,7,8,12,18,20,31,40,50],
         color:'#ffdd30'
     },
@@ -16,12 +17,13 @@ const events=[
     },
 ]
 function Programs() {
-    var p=(18-4)*5-20;
+    var p = dayjs().date();
     useEffect(() => {
         var scroll = $('.css-view-1dbjc4n');
         scroll.scrollLeft(p);
+        console.log(dayjs().date());
     })
-    const scrollLeft=(e)=>{
+    const scrollLeft=()=>{
         var scroll = $('.css-view-1dbjc4n');
         scroll.scrollLeft(p-=35);
         if(p<0)
@@ -52,7 +54,7 @@ function Programs() {
                     {
                         events.map((item)=>(
                             <View key={item.event}>
-                                <Event style={{color:item.color,borderColor:item.color,flex:1}}>{item.event}</Event>
+                                <Event style={{color:item.color,borderColor:item.color,flex:1,left:item.date[0]+5+'vw'}}>{item.event}</Event>
                                 <Stroke></Stroke>
                             </View>
                         ))
@@ -73,12 +75,12 @@ function Programs() {
                                             <Date style={{left:(d-1)*5+'%',backgroundColor:item.color}} key={d}>{d}</Date>
                                         ))
                                     }
-                                    <Fade style={{left:(item.date[0]-1)*5+'%',width:(18-item.date[0])*5+'%'}}></Fade>
-                                    <Marker style={{left:(18-1)*5+2+'%'}}></Marker>
+                                    <Fade style={{left:(item.date[0]-1)*5+'%',width:(p-item.date[0])*5+2+'%'}}></Fade>
+                                    <Marker style={{left:(p-1)*5+2+'%'}}></Marker>
                                 </View>
                             ))
                         }
-                        <View style={{left:(18-1)*5+3+'%',marginBottom:'15px'}}><Text>Today 18th October</Text></View>
+                        <View style={{left:(p-1)*5+3+'%',marginBottom:'15px'}}><Text>Today {dayjs().date()}th October</Text></View>
                     </View>
                 </ScrollView>
             </View>
