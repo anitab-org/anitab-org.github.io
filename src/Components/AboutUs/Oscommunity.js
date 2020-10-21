@@ -1,6 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import {ActivityIndicator, FlatList, Text, View} from 'react-native';
+import {ActivityIndicator, Image, View, StyleSheet} from 'react-native';
 // import { OSCommunity } from './styles';
+
+function MembersIcon (props){
+    console.log(props);
+    return (
+        <View style = {styles.container}>
+            <a target="_blank" rel="noopener noreferrer" href={props.html_url}>
+              <Image style={styles.image} source={props.avatar_url} />
+            </a>  
+        </View>
+    );
+}
 
 function OSCommunity() {
     const [isLoading, setLoading] = useState(true);
@@ -11,8 +22,8 @@ useEffect(()=>{
         .then((response) => response.json())
         .then((response) =>{
             var osdata = [] 
-            response.forEach( (member) =>{
-                osdata.push({ id: member.id, url: member.avatar_url , htmle: member.html_url})
+            response.forEach( ({id,avatar_url,html_url}) =>{
+                osdata.push({ id,avatar_url ,html_url})
               })
             setData(osdata);
             })
@@ -21,19 +32,29 @@ useEffect(()=>{
 }, []);
 
 return(
-    <View style={{flex:1, padding: 24}}>
+    <View style={{flex:1, padding: 24, flexWrap: "wrap", flexDirection: "row"}}>
         {isLoading ? <ActivityIndicator/>:(
-            <FlatList
-                data = {data}
-                keyExtractor = {({id}, index) => id}
-                renderItem={({item}) => (
-                    <Text>{item.url},{item.htmle}</Text>
-                    // <Text> item </Text>
-                )}
-            />
+            data.map((members) => (
+            <MembersIcon {...members} key={members.id} />
+            ))
         )}
     </View>
     );
 };
 
+const styles = StyleSheet.create({
+    container: {
+        // flexDirection: "row",
+        // alignSelf:'baseline',
+        // alignItems: 'center',
+        padding: 5,
+        marginTop: 8,
+    },
+    image: {
+      width: 40,
+      height: 40,
+      resizeMode: 'stretch'
+    }
+  
+  });
 export default OSCommunity;
