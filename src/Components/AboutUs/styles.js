@@ -32,3 +32,9 @@ export const Description = styled(Text, {
   color: '#103B81',
   textAlign: 'left',
 });
+
+// export const OSCommunity = styled(View,{
+//   flex:1,
+//   flexDirection: 'column',
+//   margin: 32,
+// });
