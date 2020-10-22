@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import {ActivityIndicator, Image, View, StyleSheet} from 'react-native';
-// import { OSCommunity } from './styles';
 
 function MembersIcon (props){
-    console.log(props);
+    
     return (
         <View style = {styles.container}>
             <a target="_blank" rel="noopener noreferrer" href={props.html_url}>
@@ -17,8 +16,8 @@ function OSCommunity() {
     const [isLoading, setLoading] = useState(true);
     const [data, setData] = useState([]);
 
-useEffect(()=>{
-    fetch("https://api.github.com/orgs/anitab-org/members")
+    useEffect(()=>{
+        fetch("https://api.github.com/orgs/anitab-org/members")
         .then((response) => response.json())
         .then((response) =>{
             var osdata = [] 
@@ -29,30 +28,35 @@ useEffect(()=>{
             })
         .catch((error)=>{console.log(error)})
         .finally(()=> setLoading(false));
-}, []);
+    }, []);
 
-return(
-    <View style={{flex:1, padding: 24, flexWrap: "wrap", flexDirection: "row"}}>
+    return(
+        <View style={styles.iconscontainer}>
         {isLoading ? <ActivityIndicator/>:(
             data.map((members) => (
             <MembersIcon {...members} key={members.id} />
             ))
         )}
-    </View>
+        </View>
     );
 };
 
 const styles = StyleSheet.create({
+    iconscontainer:{
+        flex:1,
+        flexWrap: "wrap",
+        flexDirection: "row",
+        margin: 32,
+        alignContent: "space-around"
+    },
     container: {
-        // flexDirection: "row",
-        // alignSelf:'baseline',
-        // alignItems: 'center',
-        padding: 5,
+        padding: 1,
         marginTop: 8,
     },
     image: {
-      width: 40,
-      height: 40,
+      width: 81,
+      height: 81,
+      borderRadius: 8,
       resizeMode: 'stretch'
     }
   
