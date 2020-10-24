@@ -4,6 +4,7 @@ import SectionHeader from './../SectionHeader';
 import SectionSubheader from './../SectionSubheader';
 import { getHome } from './../../content/home';
 import { Box, Content, Description } from './styles';
+import ContributionSection from './contribution/ContributionSection';
 
 function Home() {
   const content = getHome();
@@ -30,6 +31,7 @@ function Home() {
           />
         );
       })}
+      <ContributionSection />
     </Box>
   );
 }
