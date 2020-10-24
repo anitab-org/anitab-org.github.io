@@ -3,6 +3,7 @@ import SectionSubheader from '../SectionSubheader';
 import content from '../../content/about_us.json';
 import ImageContent from './../ImageContent';
 import { MainContainer, Box, Content, Description } from './styles';
+import OSCommunity from './Oscommunity';
 
 function AboutUs() {
   const renderContent = () => {
@@ -29,6 +30,7 @@ function AboutUs() {
         imageSide="right"
         Children={renderContent}
       />
+      <OSCommunity />
     </MainContainer>
   );
 }
