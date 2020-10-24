@@ -25,7 +25,7 @@ function ScaledImage({
         setImageHeight(h);
       }
     });
-  }, [width, height]);
+  }, [width, height, source]);
 
   const imageStyle = {
     height: imageHeight,
