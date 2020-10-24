@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 import styles from './styles';
-import Form from './Form';
+// import Form from './Form';
 import Social from './Social';
 import Contact from './Contact';
 
