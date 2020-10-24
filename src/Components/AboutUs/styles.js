@@ -6,7 +6,7 @@ export const MainContainer = styled(View, {
   alignItems: 'left',
   paddingLeft: 16,
   paddingRight: 16,
-  flexDirection: 'row',
+  flexDirection: 'column',
   flexWrap: 'wrap',
   marginTop: 32,
 });
