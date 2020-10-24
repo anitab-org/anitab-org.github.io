@@ -21,7 +21,8 @@ Fixes # [ISSUE]
 
 
 ### How Has This Been Tested?
-Describe the tests you ran to verify your changes. Provide instructions or GIFs so we can reproduce. List any relevant details for your test.
+If you are working on a design then add a gif to show the responsiveness of your design.
+Please follow [testing guidelines](https://github.com/anitab-org/anitab-org.github.io/wiki/Prepare-testing-GitHub-Pages-for-your-PR) and share the link of deployed site here.
 
 
 ### Checklist:
@@ -31,6 +32,7 @@ Describe the tests you ran to verify your changes. Provide instructions or GIFs 
 - [ ] I have performed a self-review of my own code or materials
 - [ ] I have commented my code or provided relevant documentation, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
+- [ ] I have attached link of deployed site.
 - [ ] Any dependent changes have been merged
 
 
