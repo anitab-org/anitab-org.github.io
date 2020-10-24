@@ -3,13 +3,16 @@ import SectionSubheader from '../SectionSubheader';
 import content from '../../content/about_us.json';
 import ImageContent from './../ImageContent';
 import { MainContainer, Box, Content, Description } from './styles';
+import OSCommunity from './Oscommunity';
 
 function AboutUs() {
   const renderContent = () => {
     return (
+      
       <Box>
         {content.sections.map((section, index) => {
           return (
+            
             <Content key={index}>
               <SectionSubheader title={section.title} />
               {section.content.map((content, indx) => {
@@ -18,6 +21,8 @@ function AboutUs() {
             </Content>
           );
         })}
+        
+        <OSCommunity/>
       </Box>
     );
   };
