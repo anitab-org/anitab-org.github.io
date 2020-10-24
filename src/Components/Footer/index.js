@@ -8,7 +8,7 @@ import Contact from './Contact';
 function Footer() {
   return (
     <View style={styles.container}>
-      <Form />
+      {/* <Form /> */}
       <Social />
       <Contact />
     </View>
