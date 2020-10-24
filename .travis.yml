@@ -1,12 +1,18 @@
 language: node_js
 node_js:
-  - 8.15.0
+  - 12.0.0
+
+before_deploy:
+  - nvm install 12
+  - yarn && yarn build
 
 before_deploy:
   - yarn
   - yarn build
 
 deploy:
+
+# production
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_API_KEY
