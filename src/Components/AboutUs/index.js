@@ -8,11 +8,9 @@ import OSCommunity from './Oscommunity';
 function AboutUs() {
   const renderContent = () => {
     return (
-      
       <Box>
         {content.sections.map((section, index) => {
           return (
-            
             <Content key={index}>
               <SectionSubheader title={section.title} />
               {section.content.map((content, indx) => {
@@ -21,8 +19,6 @@ function AboutUs() {
             </Content>
           );
         })}
-        
-        <OSCommunity/>
       </Box>
     );
   };
@@ -34,6 +30,7 @@ function AboutUs() {
         imageSide="right"
         Children={renderContent}
       />
+      <OSCommunity />
     </MainContainer>
   );
 }
