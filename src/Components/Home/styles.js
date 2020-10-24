@@ -1,20 +1,14 @@
 import { View, Text } from 'react-native';
 import { styled } from 'react-native-reflect';
 
-export const MainContainer = styled(View, {
-  width: '80%',
-  alignItems: 'left',
-  paddingLeft: 16,
-  paddingRight: 16,
-  flexDirection: 'column',
-  flexWrap: 'wrap',
-  marginTop: 32,
-});
-
 export const Box = styled(View, {
   flex: 1,
+  width: '80%',
   flexDirection: 'column',
-  marginTop: -32,
+  paddingLeft: 16,
+  paddingRight: 16,
+  flexWrap: 'wrap',
+  marginTop: 32,
 });
 
 export const Content = styled(View, {
