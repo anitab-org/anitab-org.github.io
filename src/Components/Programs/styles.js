@@ -1,14 +1,12 @@
-import { View, Text } from 'react-native';
+import { View, Text ,ScrollView} from 'react-native';
 import { styled } from 'react-native-reflect';
-
 export const Event = styled(Text,{
     color:"#ffdd30",
     fontWeight: 400,
     fontSize: 24,
     borderColor: '#ffdd30',
     borderWidth: 0.5,
-    paddingTop: 2,
-    paddingBottom: 2,
+    paddingVertical:5,
     paddingHorizontal: 10,
     marginRight: 10,
     marginBottom: 3,
@@ -16,7 +14,8 @@ export const Event = styled(Text,{
     textAlign: 'center',
     zIndex:'1px',
     position:'relative',
-    backgroundColor:'#fff'
+    backgroundColor:'#fff',
+    width:'200px'
 });
 export const Line = styled(View,{
     width:'200vw',
@@ -58,6 +57,35 @@ export const Stroke = styled(View,{
     borderBottomWidth:'2px',
     width:'40vw',
     top:'-35px',
-    // zIndex:'10px'
-
+})
+export const ArrowNavigation = styled(View,{
+    flexDirection:'row',
+    marginTop:'10px',
+    marginBottom:'10px',
+    width:'80%',
+    justifyContent:'space-between'
+})
+export const ArrowText = styled(Text,{
+    fontSize:'16px',
+    marginLeft:'5px'
+})
+export const ScrollContainer = styled(View,{
+    width:'80%',
+    flexWrap:'wrap',
+    flexDirection:'column',
+    marginBottom:'10vw'
+})
+export const ScrollMain = styled(ScrollView,{
+    flexDirection:'column',
+    width:'70%',
+    position:'absolute',
+    right:'0',
+    top:'-3px'
+})
+export const Container = styled(View,{
+    width:'80%'
+})
+export const Months = styled(View,{
+    marginBottom:'15px',
+    top:'-35px'
 })

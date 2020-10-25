@@ -1,18 +1,21 @@
 import React, {useEffect} from 'react';
-import {ScrollView,Text,View,TouchableWithoutFeedback} from 'react-native';
-import {Event,Line,Date,Marker,Fade,Stroke} from './styles';
 import $ from 'jquery';
+import dayjs from 'dayjs';
+import {Text,View,TouchableWithoutFeedback} from 'react-native';
+import {Event,Line,Date,Marker,Fade,Stroke,ArrowNavigation,ArrowText,ScrollContainer,ScrollMain,Container,Months} from './styles';
 import {ArrowLeftOutlined ,ArrowRightOutlined} from '@ant-design/icons'
-import dayjs from 'dayjs'
 import {getEvents,getMonths} from '../../content/programs_events'
+//--------------------------------------------------------------------------------------------
 const events  = getEvents();
 const months = getMonths();
 function Timeline() {
-    var p = dayjs().date();
+    var p = dayjs().date(); //current date
+    var curr_month = dayjs().month(); //current month
     //scrolls the timeline to the current date and month
     useEffect(() => {
         var scroll = $('.css-view-1dbjc4n');
         scroll.scrollLeft(p+500);
+        p=p+500;
     })
     //onclick scrolls the timeline to the left
     const scrollLeft=()=>{
@@ -28,37 +31,34 @@ function Timeline() {
     }
   return (
       <>
-            <View style={{flexDirection:'row',marginTop:'10px',marginBottom:'10px',width:'80%',justifyContent:'space-between'}}>
+            <ArrowNavigation>
                 <View style={{flexDirection:'row'}}>
-                    <TouchableWithoutFeedback onPress={scrollLeft} style={{justifyContent:'center',}}>
+                    <TouchableWithoutFeedback onPress={scrollLeft}>
                         <ArrowLeftOutlined style={{color:'#42aaf5',paddingTop:'4px'}}/>
                     </TouchableWithoutFeedback>
-                    <Text style={{fontSize:'16px',marginLeft:'5px'}}>PAST</Text>
+                    <ArrowText>PAST</ArrowText>
                 </View>
                 <View style={{flexDirection:'row'}}>
-                    <Text style={{fontSize:'16px',marginRight:'5px'}}>FUTURE</Text>
+                    <ArrowText>FUTURE</ArrowText>
                     <TouchableWithoutFeedback onPress={scrollRight}>
                         <ArrowRightOutlined style={{color:'#42aaf5',paddingTop:'4px'}}/>
                     </TouchableWithoutFeedback>
                 </View>
-            </View>
-            <View style={{width:'80%',flexWrap:'wrap',flexDirection:'column',marginBottom:'10vw'}}>
-                <View style={{flex:1,width:'15%'}}>
-                    {
-                        events.map((item)=>(
-                            <View key={item.event}>
-                                <Event style={{color:item.color,borderColor:item.color,flex:1,left:item.date[0][1]+5+'vw'}}>{item.event}</Event>
-                                <Stroke></Stroke>
-                            </View>
-                        ))
-                    }
-                </View>
-                <ScrollView
+            </ArrowNavigation>
+            <ScrollContainer>
+                {
+                    events.map((item)=>(
+                        <View key={item.event}>
+                            <Event style={{color:item.color,borderColor:item.color,flex:1,left:item.date[0][1]+'vw'}}>{item.event}</Event>
+                            <Stroke></Stroke>
+                        </View>
+                    ))
+                }
+                <ScrollMain
                 horizontal={true}
-                style={{ marginBottom:'5vw',marginTop:'45px',flexDirection:'column',width:'70%',position:'absolute',right:'0',top:'-45px'}}
                 showsHorizontalScrollIndicator={false}
                 >
-                    <View style={{width:'90%'}}>
+                    <Container>
                         {
                             events.map((item)=>(
                                 <View style={{marginBottom:'47px',flexDirection:'column'}} key={item.event}>
@@ -73,19 +73,19 @@ function Timeline() {
                                 </View>
                             ))
                         }
-                        <View style={{left:(p-1)*5+3+'%',marginBottom:'15px'}}><Text>Today {dayjs().date()}th October</Text></View>
+                        <View style={{left:(p-1)*5+3+'%'}}><Text>Today {dayjs().date()}th {months[curr_month][1]}</Text></View>
                         <View style={{flexDirection:'row'}}>
                             {
                                 months.map((m)=>(
                                     <>
-                                        <View style={{left:(m[0]*30)*5+1+'%',marginBottom:'15px',top:'-44px'}}><Text>1st {m[1]}</Text></View>
+                                        <Months style={{left:(m[0]*30)*5+1+'%'}}><Text>1st {m[1]}</Text></Months>
                                     </>
                                 ))
                             }
                         </View>
-                    </View>
-                </ScrollView>
-            </View>
+                    </Container>
+                </ScrollMain>
+            </ScrollContainer>
       </>
   );
 }
