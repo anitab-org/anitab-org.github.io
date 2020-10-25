@@ -4,31 +4,24 @@ import {Event,Line,Date,Marker,Fade,Stroke} from './styles';
 import $ from 'jquery';
 import {ArrowLeftOutlined ,ArrowRightOutlined} from '@ant-design/icons'
 import dayjs from 'dayjs'
-const events=[
-    {
-        event:"GSoC'20",
-        date:[[0,1],[0,7],[0,8],[0,12],[0,18],[0,20],[0,31],[1,10],[1,20]],
-        color:'#ffdd30'
-    },
-    {
-        event:"Rails Girls'20",
-        date:[[0,5],[0,7],[0,9],[0,22],[0,28],[0,31],[1,8],[1,10]],
-        color:'#039eff'
-    },
-]
-const months = [[0,"January"],[1,"February"],[2,"March"],[3,"April"],[4,"May"],[5,"June"],[6,"July"],[7,"August"],[8,"September"],[9,"October"],[10,"November"],[11,"December"]];
+import {getEvents,getMonths} from '../../content/programs_events'
+const events  = getEvents();
+const months = getMonths();
 function Timeline() {
     var p = dayjs().date();
+    //scrolls the timeline to the current date and month
     useEffect(() => {
         var scroll = $('.css-view-1dbjc4n');
-        scroll.scrollLeft(p);
+        scroll.scrollLeft(p+500);
     })
+    //onclick scrolls the timeline to the left
     const scrollLeft=()=>{
         var scroll = $('.css-view-1dbjc4n');
         scroll.scrollLeft(p-=35);
         if(p<0)
         p=0;
     }
+    //onclick scrolls the timeline to the right
     const scrollRight=()=>{
         var scroll = $('.css-view-1dbjc4n');
         scroll.scrollLeft(p+=35);
@@ -62,13 +55,13 @@ function Timeline() {
                 </View>
                 <ScrollView
                 horizontal={true}
-                style={{ marginBottom:'5vw',marginTop:'3vw',flexDirection:'column',width:'70%',position:'absolute',right:'0',top:'-45px'}}
+                style={{ marginBottom:'5vw',marginTop:'45px',flexDirection:'column',width:'70%',position:'absolute',right:'0',top:'-45px'}}
                 showsHorizontalScrollIndicator={false}
                 >
                     <View style={{width:'90%'}}>
                         {
                             events.map((item)=>(
-                                <View style={{marginBottom:'3vw',flexDirection:'column'}} key={item.event}>
+                                <View style={{marginBottom:'47px',flexDirection:'column'}} key={item.event}>
                                     <Line style={{left:(item.date[0][1]-1)*5+'%', width:30*12*5+'vw', borderBottomColor:item.color}}></Line>
                                     {
                                         item.date.map((d)=>(

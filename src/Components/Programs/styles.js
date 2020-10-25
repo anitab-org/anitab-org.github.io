@@ -57,7 +57,7 @@ export const Stroke = styled(View,{
     borderBottomColor:'#000',
     borderBottomWidth:'2px',
     width:'40vw',
-    top:'-7vh',
+    top:'-35px',
     // zIndex:'10px'
 
 })
