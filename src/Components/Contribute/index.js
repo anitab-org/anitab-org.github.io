@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionHeader from '../SectionHeader';
-//import content from './../../content/contributeIntro.json';
+import content from './../../content/contributeIntro.json';
 import ImageContent from './../ImageContent';
 import { MainContainer, Box, Content, Description } from './style';
 import { getcontributeIntro } from '../../content/contributeintro';
