@@ -19,6 +19,44 @@
             "par": "Each active repository has an individual stream on Zulip. If you have any questions and not sure how to get started, please ping us on Zulip and we are happy to help!"
           }
         ]
+      },
+      {
+          "title":"Ways to contibute",
+          "content":[
+             {
+               "par":"bdjbc"
+             }
+          ]
+      },
+      {
+        "title":"Code",
+        "content":[
+          {
+            "par":"hegjfgwj"
+          },
+          {
+            "par":"dgfjgrj"
+          },
+          {
+            "par":"rfhrhfrje"
+          }
+        ]
+      },
+      {
+        "title":"Documentation/Training",
+        "content":[
+          {
+            "par":"dfbhsdjs"
+          },
+          {
+            "par":"jhgfjgrrj"
+          }
+        ]
       }
+
+      
+      
     ]
+    
   }
+  
