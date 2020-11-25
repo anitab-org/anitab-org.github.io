@@ -14,6 +14,7 @@ export const Box = styled(View, {
 export const Content = styled(View, {
   flexDirection: 'column',
   paddingLeft: 16,
+  marginRight:77,
 });
 
 export const Description = styled(Text, {
@@ -45,10 +46,6 @@ const styles = StyleSheet.create({
   cardLast: {
     alignItems: 'flex-end',
   },
-  contributionImage: {
-    width: 235,
-    height: 235,
-  },
   imageText: {
     fontSize: 14,
     fontWeight: '300',
@@ -62,7 +59,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '300',
     color: '#103B81',
-    marginLeft: 18,
+    marginLeft: 32,
   },
 });
 
