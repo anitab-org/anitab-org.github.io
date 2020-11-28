@@ -1,43 +1,42 @@
-import React from 'react';
-import SectionHeader from '../SectionHeader';
-import content from './../../content/contributeIntro.json';
-import ImageContent from './../ImageContent';
-import { MainContainer, Box, Content, Description } from './style';
-import { getcontributeIntro } from '../../content/contributeintro';
 
+
+import React from 'react';
+import ImageContent from './../ImageContent';
+import SectionHeader from '../SectionHeader';
+import SectionSubheader from '../SectionSubheader';
+import { getcontributeIntro } from '../../content/contributeintro';
+import { Box, Content, Description } from './style';
+import ContributionSection from '../Home/contribution/ContributionSection';
 
 function Contribute() {
-    const content = getcontributeIntro();
-    const renderContent = () => {
-        return (
-            <Box>
-                {content.sections.map((section, index) => {
-                    return (
-                        <Content key={index}>
-                            <SectionHeader title={section.title} />
-                            {section.content.map((content) => {
-                                return <Description>{content.par}</Description>;
-                            })}
-                            
-                         </Content>
-                        
-                    );
-                })}
-            </Box>
-        );
-    };
-return (
-        <MainContainer>
-            <ImageContent
-                image={require('../../assets/Frame 1.png')}
-                imageSide="right"
-                Children={renderContent}
-                
-            />
-            
-        </MainContainer>
+  const content = getcontributeIntro();
+  const renderContent = (index, section) => {
+    return (
+      <Content key={index}>
+        <SectionSubheader title={section.title} />
+        {section.content.map((content, indx) => {
+          return <Description key={indx}>{content.par}</Description>;
+        })}
+      </Content>
     );
+  };
+
+  return (
+    <Box>
+      <SectionHeader title="New to open source?" />
+      {content.sections.map((section, index) => {
+        return (
+            
+          <ImageContent
+            image={section.image.source}
+            imageSide={index % 2 === 0 ? 'right' : 'left'}
+            Children={() => renderContent(index, section)}
+          />
+        );
+      })}
+      
+    </Box>
+  );
 }
-
-
 export default Contribute;
+
