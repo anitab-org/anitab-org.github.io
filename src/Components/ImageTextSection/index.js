@@ -12,11 +12,13 @@ const ImageTextSection = ({
   const styles = createStyles(imageSide);
   return (
     <View style={styles.container}>
+      <View style={styles.imageSection}>
       <ScaledImage
         source={image}
         height={imageHeight}
         style={styles.sectionImage}
       />
+      </View>
       <View style={styles.subContainer}>
         <Text style={styles.header}>{title}</Text>
         {content.map((text) => (
@@ -44,6 +46,10 @@ const createStyles = (imageSide) =>
       minWidth: 200,
     },
     sectionImage: {
+      paddingLeft: 16,
+      paddingRight: 16,
+    },
+    imageSection: {
       paddingLeft: 16,
       paddingRight: 16,
     },
