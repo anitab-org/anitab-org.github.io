@@ -21,8 +21,8 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   image: {
-    width: 24,
-    height: 24,
+    width: 32,
+    height: 32,
   },
   title: {
     color: '#103B81',
