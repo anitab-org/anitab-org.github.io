@@ -33,7 +33,7 @@ const data  = [
 class Contribution extends React.Component {
     render() {
         return (
-            <View style={styles.container}>
+            <View >
                 <SectionHeader title={'Last 30 Days Contribution'} />
                 <View style={{margin: 32}}>
                     {data.map((repo) => (
@@ -56,9 +56,6 @@ class Contribution extends React.Component {
 }
 
 const styles = StyleSheet.create({
-    container: {
-       paddingTop: 80,
-    },
     description: {
         flexDirection: 'row',
         flexWrap: 'wrap',

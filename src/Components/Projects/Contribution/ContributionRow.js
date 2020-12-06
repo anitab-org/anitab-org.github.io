@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, processColor } from 'react-native';
 import ContributionBox from './Box';
 
 class ContributionRow extends React.Component {
@@ -11,7 +11,7 @@ class ContributionRow extends React.Component {
     componentDidMount(){     
         const endpoint = this.props.po.link;
         const headers = {
-            "Authorization" : 'Token 24070df2fd1199cd2ff3e82b8f1f17735e63cbb7'
+            "Authorization" : process.env.ACCESS_TOKEN
         }
         fetch(endpoint, {
             "method" :"GET",
