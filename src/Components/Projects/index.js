@@ -5,6 +5,9 @@ import { View } from 'react-native';
 import ImageTextSection from './../ImageTextSection';
 import { getProjects } from './../../content/projects_content';
 import ProjectCard from './ProjectCard';
+import Calander from './Contribution';
+
+
 
 function Projects(props) {
   const projects = getProjects();
@@ -45,6 +48,7 @@ function Projects(props) {
       {/* 
       <SectionHeader title="Partners" />
       <Sponsors /> */}
+     <Calander/>
     </View>
   );
 }

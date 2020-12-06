@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     desc: {
         fontSize: 16,
         color: '#103B81',
-        fontWeight: 200,
+        fontWeight: '200',
         marginTop: 16,
     },
 })
