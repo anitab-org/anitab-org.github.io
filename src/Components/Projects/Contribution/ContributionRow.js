@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, processColor } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import ContributionBox from './Box';
 
 class ContributionRow extends React.Component {
@@ -8,6 +8,7 @@ class ContributionRow extends React.Component {
         super(props);
         this.state = {data: null}       
     }
+
     componentDidMount(){     
         const endpoint = this.props.po.link;
         const headers = {
@@ -20,8 +21,10 @@ class ContributionRow extends React.Component {
         .then((resp) => resp.json())
         .then((js) => this.setState({data: js}));
     }
+
     render() {
         var Contributionrow = [];
+        
         const take = () =>{
             Contributionrow.push(<Text style={styles.desc}>{this.props.po.name}</Text>);
             var week = 0;
@@ -40,7 +43,9 @@ class ContributionRow extends React.Component {
             }
             return null;
         }
+
         return (
+
             <View>
                 {this.state.data === null ?
                     <Text style={styles.desc}>loading...</Text>
@@ -55,6 +60,7 @@ class ContributionRow extends React.Component {
                 </View>
                 }
             </View>      
+        
         );
     }
 };

@@ -3,6 +3,7 @@ import { View, StyleSheet, Text } from 'react-native';
 import SectionHeader from './../../SectionHeader';
 import ContributionRow from './ContributionRow';
 import ContributionBox from './Box';
+
 const data  = [
     {
         name :   'Anitab-org.github.io',
@@ -67,7 +68,7 @@ const styles = StyleSheet.create({
         fontSize: 12,
         fontWeight: '400',
         padding: 5
-    }
+    },
 });
 
 export default Contribution;
