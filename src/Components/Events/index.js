@@ -1,23 +1,12 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 import GoogleCalendar from './GoogleCalendar';
 
 function Events() {
   return (
-    <View
-      style={{
-        width: '80%',
-        alignItems: 'left',
-        paddingLeft: 16,
-        paddingRight: 16,
-      }}
-    >
-    <Text h1 style={{
-          fontSize: "30px",
-          fontWeight: "bold",
-          color: "#013287"
-      }}>EVENT CALENDAR</Text> 
-      <Text style={{color: "#013287"}}>
+    <View style={styles.container}>
+      <Text h1 style={styles.heading}>EVENT CALENDAR</Text> 
+      <Text style={styles.data}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada massa nec porta interdum. 
       Vivamus porta mollis urna at congue. 
       Maecenas mollis, dolor ut auctor ultrices, diam ex dignissim ante, at sollicitudin risus risus id felis. 
@@ -28,5 +17,22 @@ function Events() {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    width: "80%",
+    alignItems: 'left',
+    paddingLeft: 16,
+    paddingRight: 16,
+  },
+  heading:{
+    fontSize: 30,
+    fontWeight: "bold",
+    color: "#013287"
+  },
+  data:{
+    color: "#013287"
+  }
+});
 
 export default Events;
