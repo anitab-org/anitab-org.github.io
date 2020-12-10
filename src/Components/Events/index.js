@@ -6,8 +6,7 @@ import SectionSubheader from './../SectionSubheader';
 
 const events_highlight = getevents_highlights();
 
-class Events extends React.Component {
-    render() {
+function Events () {
         return (
          <View style={styles.container} >
             <SectionSubheader
@@ -20,7 +19,7 @@ class Events extends React.Component {
               style={{
                 flexDirection: 'row',
                 flexWrap: 'wrap',
-                marginTop: 30,
+                marginTop: 32,
               }}
             >
                 {events_highlight.sections[1].events.map((event_detail,index) => (
@@ -28,13 +27,13 @@ class Events extends React.Component {
                         key={event_detail.title}
                         props={event_detail}
                         backgroundColor="#e7edfd"
-                        padding={12}
+                        padding={16}
                     />
                 ))}
             </View>
          </View>   
         );
-    }
+    
 }
 
 const styles = StyleSheet.create({
@@ -43,11 +42,11 @@ const styles = StyleSheet.create({
         alignItems: 'left',
         paddingLeft: 16,
         paddingRight: 16,
-        marginTop: 30,
+        marginTop: 32,
     },
     description: {
         flex: 1,
-        marginTop: 20,
+        marginTop: 16,
         paddingLeft: 16,
         fontSize: 18,
         flexGrow: 1,

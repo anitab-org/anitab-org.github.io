@@ -4,7 +4,7 @@ import ScaledImage from '../../ScaledImage';
 import { withCard } from './../../../Decorators/Card';
 import Badge from './CardBadge';
 
-const EventCard = ({ props, isOver }) => {
+const EventCard = ({ props }) => {
     return (
      <View style={styles.card} >
         <ScaledImage width={286}   source={props.highlights.source} />
@@ -20,6 +20,7 @@ const EventCard = ({ props, isOver }) => {
                         fontSize: 16,
                         fontWeight: '200'
                     }}
+                    key={index}
                     >
                     {detail.par}
                 </Text>
@@ -46,15 +47,11 @@ const styles = StyleSheet.create({
         borderRadius: 4,
         overflow: 'hidden', 
     },
-    cardContent: {
-        marginHorizontal: 18,
-        maeginVertical: 10
-    },
     title: {
         color: '#103B81',
         fontWeight: '400',
         fontSize: 16,
-        marginTop: 12,
+        marginTop: 16,
     },
     desc: {
         fontSize: 16,
