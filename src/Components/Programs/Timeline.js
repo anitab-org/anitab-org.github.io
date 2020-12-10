@@ -61,7 +61,7 @@ function Timeline() {
                     <Container>
                         {
                             events.map((item)=>(
-                                <View style={{marginBottom:'47px',flexDirection:'column'}} key={item.event}>
+                                <View style={{marginBottom:'32px',flexDirection:'column'}} key={item.event}>
                                     <Line style={{left:(item.date[0][1]-1)*5+'%', width:30*12*5+'vw', borderBottomColor:item.color}}></Line>
                                     {
                                         item.date.map((d)=>(

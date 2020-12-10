@@ -9,7 +9,7 @@ export const Event = styled(Text,{
     paddingVertical:5,
     paddingHorizontal: 10,
     marginRight: 10,
-    marginBottom: 3,
+    marginBottom: 4,
     borderRadius: '50px',
     textAlign: 'center',
     zIndex:'1px',
@@ -22,8 +22,9 @@ export const Line = styled(View,{
     borderBottomWidth:10,
     borderBottomColor:'#ffdd30',
     color:'#ffdd30',
+    marginBottom:'26px',
     position:'relative',
-    top: '21px',
+    top: '20px',
     left: '20%',
     zIndex: '-10px'
 });
@@ -41,7 +42,7 @@ export const Date = styled(View,{
 export const Marker = styled(View,{
     backgroundColor:'#000',
     width:'2px',
-    height: '50px',
+    height: '64px',
     position:'absolute',
     top: '29px',
     zIndex:'-1px'
@@ -56,12 +57,12 @@ export const Stroke = styled(View,{
     borderBottomColor:'#000',
     borderBottomWidth:'2px',
     width:'40vw',
-    top:'-35px',
+    top:'-45px',
 })
 export const ArrowNavigation = styled(View,{
     flexDirection:'row',
-    marginTop:'10px',
-    marginBottom:'10px',
+    marginTop:'8px',
+    marginBottom:'8px',
     width:'80%',
     justifyContent:'space-between'
 })
@@ -80,12 +81,12 @@ export const ScrollMain = styled(ScrollView,{
     width:'70%',
     position:'absolute',
     right:'0',
-    top:'-3px'
+    // top:'0px'
 })
 export const Container = styled(View,{
     width:'80%'
 })
 export const Months = styled(View,{
-    marginBottom:'15px',
+    marginBottom:'16px',
     top:'-35px'
 })
