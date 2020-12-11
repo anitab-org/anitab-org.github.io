@@ -56,7 +56,6 @@ const createStyles = (imageSide) =>
       minWidth: 200,
     },
     sectionImage: {
-      flex: 1,
       paddingLeft: 16,
       paddingRight: 16,
     },
