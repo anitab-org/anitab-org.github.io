@@ -72,7 +72,7 @@ export const ScrollContainer = styled(View,{
 })
 export const ScrollMain = styled(ScrollView,{
     flexDirection:'column',
-    width:'65%',
+    width:'70%',
     position:'absolute',
     right:'0',
 })
