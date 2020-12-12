@@ -1,4 +1,14 @@
 const home = {
+  introduction: {
+    title: 'AnitaB.org Open Source',
+    image: {
+      source: require('./../assets/landing/landing.png'),
+    },
+    content: {
+      par:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis omnis minus, quisquam ab architecto dolor hic dolores, ducimus explicabo, voluptates fugit dolorum itaque enim nam. Enim nulla, vitae recusandae est pariatur consequuntur aperiam molestiae, minus vero, fugiat ipsam facilis cupiditate alias dolorem mollitia officiis. Excepturi, blanditiis?',
+    },
+  },
   sections: [
     {
       title: 'Getting Started',
