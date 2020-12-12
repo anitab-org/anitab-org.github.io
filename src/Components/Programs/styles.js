@@ -1,14 +1,10 @@
 import { View, Text ,ScrollView} from 'react-native';
 import { styled } from 'react-native-reflect';
 export const Event = styled(Text,{
-    color:"#ffdd30",
-    fontWeight: 400,
     fontSize: 24,
-    borderColor: '#ffdd30',
     borderWidth: 0.5,
-    paddingVertical:5,
-    paddingHorizontal: 10,
-    marginRight: 10,
+    paddingVertical:4,
+    paddingHorizontal: 8,
     marginBottom: 4,
     borderRadius: '50px',
     textAlign: 'center',
@@ -20,18 +16,15 @@ export const Event = styled(Text,{
 export const Line = styled(View,{
     width:'200vw',
     borderBottomWidth:10,
-    borderBottomColor:'#ffdd30',
-    color:'#ffdd30',
-    marginBottom:'26px',
+    marginBottom:4,
     position:'relative',
-    top: '20px',
+    top: '18px',
     left: '20%',
-    zIndex: '-10px'
 });
 export const Date = styled(View,{
     backgroundColor:'#ffdd30',
     color:'#fff',
-    fontSize:24,
+    fontSize:20,
     width:45,
     height:45,
     borderRadius: '50px',
@@ -42,9 +35,9 @@ export const Date = styled(View,{
 export const Marker = styled(View,{
     backgroundColor:'#000',
     width:'2px',
-    height: '64px',
+    height: '60px',
     position:'absolute',
-    top: '29px',
+    top: '28px',
     zIndex:'-1px'
 });
 export const Fade = styled(View,{
@@ -56,7 +49,7 @@ export const Fade = styled(View,{
 export const Stroke = styled(View,{
     borderBottomColor:'#000',
     borderBottomWidth:'2px',
-    width:'40vw',
+    width:'50vw',
     top:'-45px',
 })
 export const ArrowNavigation = styled(View,{
@@ -68,20 +61,20 @@ export const ArrowNavigation = styled(View,{
 })
 export const ArrowText = styled(Text,{
     fontSize:'16px',
-    marginLeft:'5px'
+    marginLeft:'8px',
+    marginRight:'8px'
 })
 export const ScrollContainer = styled(View,{
     width:'80%',
     flexWrap:'wrap',
     flexDirection:'column',
-    marginBottom:'10vw'
+    marginBottom:'64px'
 })
 export const ScrollMain = styled(ScrollView,{
     flexDirection:'column',
-    width:'70%',
+    width:'65%',
     position:'absolute',
     right:'0',
-    // top:'0px'
 })
 export const Container = styled(View,{
     width:'80%'
