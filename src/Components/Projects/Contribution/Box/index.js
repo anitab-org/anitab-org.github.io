@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View} from 'react-native';
 
 
-const ContributionBox = ({ props,isOver }) => {
+const ContributionBox = ({ props }) => {
     var hue = 0;
     switch (true) {
         
@@ -27,9 +27,7 @@ const ContributionBox = ({ props,isOver }) => {
     }
     var colorCode = 'rgba(0, 113, 188,' + hue + ')';
     return (
-        <View style={[style.box, {backgroundColor: colorCode}]}>
-       
-        </View>
+        <View style={[style.box, {backgroundColor: colorCode}]}/>
     );
 };
 

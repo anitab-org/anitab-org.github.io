@@ -10,7 +10,7 @@ class ContributionRow extends React.Component {
     }
 
     componentDidMount(){     
-        const endpoint = this.props.po.link;
+        const endpoint = this.props.detail.link;
         const headers = {
             "Authorization" : process.env.ACCESS_TOKEN
         }
@@ -24,16 +24,16 @@ class ContributionRow extends React.Component {
 
     render() {
         var Contributionrow = [];
-        
+        const reponame = this.props.detail.name;
         const take = () =>{
-            Contributionrow.push(<Text style={styles.desc}>{this.props.po.name}</Text>);
+            Contributionrow.push(<Text key={0} style={styles.desc}>{reponame}</Text>);
             var week = 0;
             var days =0;
             while (true) {
                 for (var i=6;i>=0;i--)
                 {
                     Contributionrow.push( 
-                        <ContributionBox props={this.state.data[51-week].days[i]} />
+                        <ContributionBox key={days+1} props={this.state.data[51-week].days[i]} />
                         );
                     days++;
                     if(days>=30)break;
@@ -71,12 +71,12 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: '400',
         width: 190,
-        margin:5,
+        margin:4,
     },
     box: {
         flexDirection: 'row',
         flexWrap: 'wrap',
-        marginTop: 10,
+        marginTop: 8,
     }
 })
 

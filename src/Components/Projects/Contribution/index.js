@@ -31,14 +31,13 @@ const data  = [
     }
 ];
 
-class Contribution extends React.Component {
-    render() {
+function Contribution ()  {
         return (
             <View >
                 <SectionHeader title={'Last 30 Days Contribution'} />
                 <View style={{margin: 32}}>
-                    {data.map((repo) => (
-                    <ContributionRow po={repo}  />
+                    {data.map((repo,index) => (
+                    <ContributionRow detail={repo} key={index} />
                     ))
                     }
                 <View style={styles.description}>
@@ -53,7 +52,7 @@ class Contribution extends React.Component {
                 </View>
             </View>
         );
-    }
+    
 }
 
 const styles = StyleSheet.create({
@@ -61,13 +60,13 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         flexWrap: 'wrap',
         alignSelf: 'flex-end',
-        paddingRight: 480,
+        width: '47%',
     },
     text: {
         color: '#0071BC',
         fontSize: 12,
         fontWeight: '400',
-        padding: 5
+        padding: 4,
     },
 });
 

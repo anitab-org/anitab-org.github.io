@@ -4,7 +4,6 @@ import Projects from './../Projects';
 import Home from './../Home';
 import AboutUs from './../AboutUs';
 import Contribute from '../Contribute';
-import Events from '../Events';
 
 function Content({ selected, titles }) {
   if (selected === 0) {
@@ -13,9 +12,7 @@ function Content({ selected, titles }) {
     return <AboutUs />;
   } else if (selected === 3) {
     return <Projects />;
-  } else if(selected ===  4) {
-    return <Events />
-  }
+  } 
   if (selected === 5) {
     return <Contribute />;
   } else {
