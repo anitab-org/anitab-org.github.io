@@ -20,11 +20,11 @@
 			"title": "Ways To Contribute",
 			"content":[
 				{
-					"par": "You can start contributing to our various open source projects by- \n1) Creating issues on Github regarding the project \n2) Debugging the issues \n3) Creating pull requests, testing pull requests \n4) Create mockups for new applications or redesign the current features \n5) Research about UI/UX improvements and accessibilty features. \n6) Create app walkthroughs with documents or videos, UI testing once the PR is submitted for the UI issue"
+					"par": "You can start contributing to our various open source projects by- \n1) Creating issues on Github regarding the project \n2) Debugging the issues \n3) Creating pull requests, testing pull requests \n4) Create mockups for new applications or redesign the current features \n5) Research about UI/UX improvements and accessibility features. \n6) Create app walkthroughs with documents or videos, UI testing once the PR is submitted for the UI issue"
 
 				},
 				{
-					"par": "Each active repository has a stream to direct questions. \nIssues labeled as 'First Timers Only' are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues. \nMake sure to follow the Commit Message Style Guide when submitting PRs which will require review by atleast one maintainer to be merged to the main code."
+					"par": "Each active repository has a stream to direct questions. \nIssues labeled as 'First Timers Only' are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these types of issues. \nMake sure to follow the Commit Message Style Guide when submitting PRs which will require review by atleast one maintainer to be merged to the main code."
 				}
 			]
 		},
