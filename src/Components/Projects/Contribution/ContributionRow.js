@@ -1,16 +1,11 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import ContributionBox from './Box';
 
-class ContributionRow extends React.Component {
-    
-    constructor(props){
-        super(props);
-        this.state = {data: null}       
-    }
-
-    componentDidMount(){     
-        const endpoint = this.props.detail.link;
+function ContributionRow ({...props}) {
+     let [data ,setData] = useState(null);
+    React.useEffect( () => {
+        const endpoint = props.detail.link;
         const headers = {
             "Authorization" : process.env.ACCESS_TOKEN
         }
@@ -19,21 +14,21 @@ class ContributionRow extends React.Component {
             "headers" : headers
         })
         .then((resp) => resp.json())
-        .then((js) => this.setState({data: js}));
-    }
-
-    render() {
-        var Contributionrow = [];
-        const reponame = this.props.detail.name;
+        .then((obj) => {
+            setData( obj) ;
+        });
+    }, [])
+        let Contributionrow = [];
+        const reponame = props.detail.name;
         const take = () =>{
             Contributionrow.push(<Text key={0} style={styles.desc}>{reponame}</Text>);
-            var week = 0;
-            var days =0;
+            let week = 0;
+            let days =0;
             while (true) {
-                for (var i=6;i>=0;i--)
+                for (let i=6;i>=0;i--)
                 {
                     Contributionrow.push( 
-                        <ContributionBox key={days+1} props={this.state.data[51-week].days[i]} />
+                        <ContributionBox key={days+1} props={data[51-week].days[i]} />
                         );
                     days++;
                     if(days>=30)break;
@@ -47,7 +42,7 @@ class ContributionRow extends React.Component {
         return (
 
             <View>
-                {this.state.data === null ?
+                {data === null ?
                     <Text style={styles.desc}>loading...</Text>
                 :    
                 <View style={{
@@ -62,7 +57,7 @@ class ContributionRow extends React.Component {
             </View>      
         
         );
-    }
+    //}
 };
 
 const styles = StyleSheet.create({
