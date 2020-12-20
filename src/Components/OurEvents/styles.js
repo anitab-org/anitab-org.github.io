@@ -46,10 +46,6 @@ const styles = StyleSheet.create({
   cardLast: {
     alignItems: 'flex-end',
   },
-  contributionImage: {
-    width: 235,
-    height: 235,
-  },
   imageText: {
     fontSize: 14,
     fontWeight: '300',
@@ -63,7 +59,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '300',
     color: '#103B81',
-    marginLeft: 18,
+    marginLeft: 32,
   },
 });
 
