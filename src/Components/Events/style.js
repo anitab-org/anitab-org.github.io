@@ -33,3 +33,10 @@ fontWeight: 200,
 color: '#103B81',
 textAlign: 'left',
 });
+
+export const List = styled(Text, {
+fontWeight: 400,
+display: 'inline',
+marginRight: 15,
+cursor: 'pointer'
+});
