@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.5ecd60fb.chunk.css",
-    "main.js": "./static/js/main.316d2083.chunk.js",
-    "main.js.map": "./static/js/main.316d2083.chunk.js.map",
+    "main.js": "./static/js/main.1fb18229.chunk.js",
+    "main.js.map": "./static/js/main.1fb18229.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.ca864eed.js",
     "runtime-main.js.map": "./static/js/runtime-main.ca864eed.js.map",
-    "static/js/2.9834ff24.chunk.js": "./static/js/2.9834ff24.chunk.js",
-    "static/js/2.9834ff24.chunk.js.map": "./static/js/2.9834ff24.chunk.js.map",
+    "static/js/2.d479563a.chunk.js": "./static/js/2.d479563a.chunk.js",
+    "static/js/2.d479563a.chunk.js.map": "./static/js/2.d479563a.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.c876a4b5137eb29e2c261327cc60cdef.js": "./precache-manifest.c876a4b5137eb29e2c261327cc60cdef.js",
+    "precache-manifest.90741f1325a4e2b2bde7c695da1f4e45.js": "./precache-manifest.90741f1325a4e2b2bde7c695da1f4e45.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "./static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.9834ff24.chunk.js.LICENSE.txt": "./static/js/2.9834ff24.chunk.js.LICENSE.txt",
+    "static/js/2.d479563a.chunk.js.LICENSE.txt": "./static/js/2.d479563a.chunk.js.LICENSE.txt",
     "static/media/Frame 1.png": "./static/media/Frame 1.7c53c6e8.png",
     "static/media/about.png": "./static/media/about.4e44d31d.png",
     "static/media/code.png": "./static/media/code.1587289c.png",
@@ -24,6 +24,7 @@
     "static/media/linkedin-logo.png": "./static/media/linkedin-logo.5a653ec3.png",
     "static/media/logo.png": "./static/media/logo.45cc4ce0.png",
     "static/media/our-projects.png": "./static/media/our-projects.b19b61ad.png",
+    "static/media/our_events.png": "./static/media/our_events.1f92ca22.png",
     "static/media/placeholder.png": "./static/media/placeholder.66c6a83d.png",
     "static/media/project_management.png": "./static/media/project_management.f4a56233.png",
     "static/media/research_outreach.png": "./static/media/research_outreach.e08739fb.png",
@@ -32,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ca864eed.js",
-    "static/js/2.9834ff24.chunk.js",
+    "static/js/2.d479563a.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.316d2083.chunk.js"
+    "static/js/main.1fb18229.chunk.js"
   ]
 }
