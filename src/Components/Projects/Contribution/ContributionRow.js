@@ -28,7 +28,7 @@ function ContributionRow ({...props}) {
                 for (let i=6;i>=0;i--)
                 {
                     Contributionrow.push( 
-                        <ContributionBox key={days+1} props={data[51-week].days[i]} />
+                        <ContributionBox key={days+1} commitCount={data[51-week].days[i]} />
                         );
                     days++;
                     if(days>=30)break;

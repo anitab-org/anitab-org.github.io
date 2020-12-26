@@ -2,23 +2,23 @@ import React from 'react';
 import { StyleSheet, View} from 'react-native';
 
 
-const ContributionBox = ({ props }) => {
+const ContributionBox = ({ commitCount }) => {
     var hue = 0;
     switch (true) {
         
-        case (props < 2):
+        case (commitCount < 2):
             hue = .4;
             break;
-        case (props >=2 && props < 4):
+        case (commitCount >=2 && commitCount < 4):
             hue = .6;
             break;
-        case (props >=4 && props < 8):
+        case (commitCount >=4 && commitCount < 8):
             hue = .7;
             break;
-        case (props >=8 && props < 12):
+        case (commitCount >=8 && commitCount < 12):
             hue = .9;
             break;
-        case (props >=12 ):
+        case (commitCount >=12 ):
             hue = 1;
             break;
         default :

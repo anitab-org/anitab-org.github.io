@@ -346,6 +346,39 @@ const projects = {
   ],
 };
 
+const repoData = {
+  data: [
+    {
+        name :   'Anitab-org.github.io',
+        link :  'https://api.github.com/repos/anitab-org/anitab-org.github.io/stats/commit_activity',
+    },
+    {
+        name :   'Mentorship-backend',
+        link :  'https://api.github.com/repos/anitab-org/mentorship-backend/stats/commit_activity',
+    },
+    {
+        name :   'Mentorship-android',
+        link :  'https://api.github.com/repos/anitab-org/mentorship-android/stats/commit_activity',
+    },
+    {
+        name :   'Mentorship-ios',
+        link :  'https://api.github.com/repos/anitab-org/mentorship-ios/stats/commit_activity',
+    },
+    {
+        name :   'Portal',
+        link :  'https://api.github.com/repos/anitab-org/portal/stats/commit_activity',
+    },
+    {
+        name :   'Vms',
+        link :  'https://api.github.com/repos/anitab-org/vms/stats/commit_activity',
+    }
+  ]
+};
+
+export const getrepoData = () => {
+  return repoData;
+}
+
 export const getProjects = () => {
   return projects;
 };

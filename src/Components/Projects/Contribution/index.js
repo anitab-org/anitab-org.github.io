@@ -1,55 +1,33 @@
 import React from 'react';
-import { View, StyleSheet, Text } from 'react-native';
+import { View, StyleSheet, Text, ScrollView } from 'react-native';
 import SectionHeader from './../../SectionHeader';
 import ContributionRow from './ContributionRow';
 import ContributionBox from './Box';
+import { getrepoData } from './../../../content/projects_content';
 
-const data  = [
-    {
-        name :   'Anitab-org.github.io',
-        link :  'https://api.github.com/repos/anitab-org/anitab-org.github.io/stats/commit_activity',
-    },
-    {
-        name :   'Mentorship-backend',
-        link :  'https://api.github.com/repos/anitab-org/mentorship-backend/stats/commit_activity',
-    },
-    {
-        name :   'Mentorship-android',
-        link :  'https://api.github.com/repos/anitab-org/mentorship-android/stats/commit_activity',
-    },
-    {
-        name :   'Mentorship-ios',
-        link :  'https://api.github.com/repos/anitab-org/mentorship-ios/stats/commit_activity',
-    },
-    {
-        name :   'Portal',
-        link :  'https://api.github.com/repos/anitab-org/portal/stats/commit_activity',
-    },
-    {
-        name :   'Vms',
-        link :  'https://api.github.com/repos/anitab-org/vms/stats/commit_activity',
-    }
-];
 
 function Contribution ()  {
+    const repoData = getrepoData();
         return (
             <View >
                 <SectionHeader title={'Last 30 Days Contribution'} />
+                <ScrollView horizontal={true}>
                 <View style={{margin: 32}}>
-                    {data.map((repo,index) => (
-                    <ContributionRow detail={repo} key={index} />
-                    ))
+                    {repoData.data.map((repo,index) => (
+                        <ContributionRow detail={repo} key={index} />
+                        ))
                     }
                 <View style={styles.description}>
                    <Text style={styles.text}>Less</Text> 
-                   <ContributionBox props={1} />
-                   <ContributionBox props={3} />
-                   <ContributionBox props={6} />
-                   <ContributionBox props={10} />
-                   <ContributionBox props={13} />
+                   <ContributionBox commitCount={1} />
+                   <ContributionBox commitCount={3} />
+                   <ContributionBox commitCount={6} />
+                   <ContributionBox commitCount={10} />
+                   <ContributionBox commitCount={13} />
                    <Text style={styles.text}>More</Text>
                 </View>
                 </View>
+                </ScrollView>
             </View>
         );
     
@@ -60,7 +38,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         flexWrap: 'wrap',
         alignSelf: 'flex-end',
-        width: '47%',
+        
     },
     text: {
         color: '#0071BC',
