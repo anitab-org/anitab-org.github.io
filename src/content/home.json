@@ -11,7 +11,7 @@
 					"par": "Zulip is our main communication platform and you should join us there and first give a short introduction about yourself in the #newcomers stream. Zulip consists of various streams like Documentation, Coding, Design, etc and the one that fascinates you the most is the one you should start contributing in.\nThe #announcements stream will be displaying all the important announcements. Tag our community members if there's any confusion or ask for proper guidance from them regarding your contributions to the community."
 				},
 				{  
-					"par": "Our code of conduct is simple- 'Be nice, Be respectful' which is the one of the many reasons the community coexists in harmony. The members should contribute actively keeping the policies of being repectful to everyone and refrainging from conflicts, unruly behaviour and speech. Anyone who wishes to join the community is expected to follow these guidelines.\nIf you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer or adminas soon as possible."
+					"par": "Our code of conduct is simple- 'Be nice, Be respectful' which is the one of the many reasons the community coexists in harmony. The members should contribute actively keeping the policies of being respectful to everyone and refraining from conflicts, unruly behaviour and speech. Anyone who wishes to join the community is expected to follow these guidelines.\nIf you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer or admins as soon as possible."
 			
 				}
 			]
@@ -20,11 +20,11 @@
 			"title": "Ways To Contribute",
 			"content":[
 				{
-					"par": "You can start contributing to our various open source projects by- \n1) Creating issues on Github regarding the project \n2) Debugging the issues \n3) Creating pull requests, testing pull requests \n4) Create mockups for new applications or redesign the current features \n5) Research about UI/UX improvements and accessibilty features. \n6) Create app walkthroughs with documents or videos, UI testing once the PR is submitted for the UI issue"
+					"par": "You can start contributing to our various open source projects by- \n1) Creating issues on Github regarding the project \n2) Debugging the issues \n3) Creating pull requests, testing pull requests \n4) Create mockups for new applications or redesign the current features \n5) Research about UI/UX improvements and accessibility features. \n6) Create app walkthroughs with documents or videos, UI testing once the PR is submitted for the UI issue"
 
 				},
 				{
-					"par": "Each active repository has a stream to direct questions. \nIssues labeled as 'First Timers Only' are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues. \nMake sure to follow the Commit Message Style Guide when submitting PRs which will require review by atleast one maintainer to be merged to the main code."
+					"par": "Each active repository has a stream to direct questions. \nIssues labeled as 'First Timers Only' are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these types of issues. \nMake sure to follow the Commit Message Style Guide when submitting PRs which will require review by atleast one maintainer to be merged to the main code."
 				}
 			]
 		},
