@@ -8,15 +8,15 @@ const contributeIntro = {
         content: [
           {
             par:
-              'hegjfgwj ',
+              ' ',
           },
           {
             par:
-              "dgfjgrj",
+              "",
           },
           {
             par:
-              "rfhrhfrje",
+              "",
           },
         ],
       },
@@ -28,11 +28,11 @@ const contributeIntro = {
         content: [
           {
             par:
-              'dfbhsdjs',
+              '',
           },
           {
             par:
-              "jhgfjgrrj",
+              "",
           },
         ],
       },
