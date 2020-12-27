@@ -11,15 +11,14 @@ export const Event = styled(Text,{
     zIndex:'1px',
     position:'relative',
     backgroundColor:'#fff',
-    width:'200px'
+    width:240
 });
 export const Line = styled(View,{
-    width:'200vw',
     borderBottomWidth:10,
     marginBottom:4,
     position:'relative',
-    top: '18px',
-    left: '20%',
+    top: 16,
+    left: 20,
 });
 export const Date = styled(View,{
     backgroundColor:'#ffdd30',
@@ -34,52 +33,51 @@ export const Date = styled(View,{
 });
 export const Marker = styled(View,{
     backgroundColor:'#000',
-    width:'2px',
-    height: '60px',
+    borderRightWidth:2,
+    height: 60,
     position:'absolute',
-    top: '28px',
+    top: 24,
     zIndex:'-1px'
 });
 export const Fade = styled(View,{
     backgroundColor:'#fff',
-    height:'90px',
+    height:90,
     position:'absolute',
     opacity:'0.6',
 })
 export const Stroke = styled(View,{
     borderBottomColor:'#000',
-    borderBottomWidth:'2px',
-    width:'50vw',
-    top:'-45px',
+    borderBottomWidth:2,
+    top:-45,
 })
 export const ArrowNavigation = styled(View,{
     flexDirection:'row',
-    marginTop:'8px',
-    marginBottom:'8px',
-    width:'80%',
+    marginTop:8,
+    marginBottom:8,
+    width: '80%',
     justifyContent:'space-between'
 })
 export const ArrowText = styled(Text,{
-    fontSize:'16px',
-    marginLeft:'8px',
-    marginRight:'8px'
+    fontSize:16,
+    marginLeft:8,
+    marginRight:8
 })
 export const ScrollContainer = styled(View,{
     width:'80%',
     flexWrap:'wrap',
     flexDirection:'column',
-    marginBottom:'64px'
+    marginBottom:64
 })
 export const ScrollMain = styled(ScrollView,{
     flexDirection:'column',
     width:'70%',
     position:'absolute',
-    right:'0',
+    right:0,
 })
 export const Container = styled(View,{
-    width:'80%'
+    width:80
 })
 export const Months = styled(View,{
-    marginBottom:'16px',
-    top:'-35px'
+    marginBottom:16,
+    top:-35
 })
