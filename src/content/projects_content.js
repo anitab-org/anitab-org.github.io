@@ -349,3 +349,4 @@ const projects = {
 export const getProjects = () => {
   return projects;
 };
+

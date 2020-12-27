@@ -6,6 +6,10 @@ before_deploy:
   - nvm install 12
   - yarn && yarn build
 
+before_deploy:
+  - yarn
+  - yarn build
+
 deploy:
 
 # production
@@ -17,15 +21,3 @@ deploy:
   target_branch: 'master'
   on:
     branch: production
-
-# test
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_API_KEY
-  keep_history: true
-  local_dir: './build/'
-  repo: 'anitab-org/test-anitab-org'
-  target_branch: 'master'
-  on:
-    branch: develop
-

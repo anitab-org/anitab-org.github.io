@@ -26,11 +26,12 @@ const ImageContent = ({
         }
       }}
     >
+    <View style={styles.sectionImage}>
       <ScaledImage
         source={image}
         width={imageContainerWidth}
-        style={styles.sectionImage}
       />
+    </View>
       <View style={styles.subContainer}>
         <Children />
       </View>
@@ -55,7 +56,6 @@ const createStyles = (imageSide) =>
       minWidth: 200,
     },
     sectionImage: {
-      flex: 1,
       paddingLeft: 16,
       paddingRight: 16,
     },

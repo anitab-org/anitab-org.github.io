@@ -7,6 +7,7 @@
 * When developing a new feature, include at least one test when applicable.
 * When submitting a PR, please follow [this template](.github/PULL_REQUEST_TEMPLATE/pull_request_template.md) (which will probably be already filled up once you create the PR).
 * When submitting a PR with changes to user interface (e.g.: new screen, ...), please add screenshots to the PR description.
+* When submitting a PR, please follow [testing guidelines](https://github.com/anitab-org/anitab-org.github.io/wiki/Prepare-testing-GitHub-Pages-for-your-PR), copy the link and place it in your PR.
 * When you are finished with your work, please squash your commits otherwise we will squash them on your PR (this can help us maintain a clear commit history). 
 * When creating an issue to report a bug in the project, please follow our [bug_report.md](.github/ISSUE_TEMPLATE/bug_report.md) template.
 * Issues labeled as “First Timers Only” are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues.
