@@ -34,14 +34,14 @@ function Timeline() {
             <ArrowNavigation>
                 <View style={{flexDirection:'row'}}>
                     <TouchableWithoutFeedback onPress={scrollLeft}>
-                        <ArrowLeftOutlined style={{color:'#42aaf5',paddingTop:'4px'}}/>
+                        <ArrowLeftOutlined style={{color:'#42aaf5'}}/>
                     </TouchableWithoutFeedback>
                     <ArrowText>PAST</ArrowText>
                 </View>
                 <View style={{flexDirection:'row'}}>
                     <ArrowText>FUTURE</ArrowText>
                     <TouchableWithoutFeedback onPress={scrollRight}>
-                        <ArrowRightOutlined style={{color:'#42aaf5',paddingTop:'4px'}}/>
+                        <ArrowRightOutlined style={{color:'#42aaf5'}}/>
                     </TouchableWithoutFeedback>
                 </View>
             </ArrowNavigation>
@@ -49,8 +49,8 @@ function Timeline() {
                 {
                     events.map((item)=>(
                         <View key={item.event}>
-                            <Event style={{color:item.color,borderColor:item.color,flex:1,left:item.date[0][1]+'vw'}}>{item.event}</Event>
-                            <Stroke></Stroke>
+                            <Event style={{color:item.color,borderColor:item.color,flex:1,left:item.date[0][1]*10}}>{item.event}</Event>
+                            <Stroke style={{width:(item.date[0][1]+5)*100}}></Stroke>
                         </View>
                     ))
                 }
@@ -61,24 +61,24 @@ function Timeline() {
                     <Container>
                         {
                             events.map((item)=>(
-                                <View style={{marginBottom:'32px',flexDirection:'column'}} key={item.event}>
-                                    <Line style={{left:(item.date[0][1]-1)*5+'%', width:30*12*5+'vw', borderBottomColor:item.color}}></Line>
+                                <View style={{marginBottom:32,flexDirection:'column'}} key={item.event}>
+                                    <Line style={{left:(item.date[0][1]-1)*40, width:30*12*50, borderBottomColor:item.color}}></Line>
                                     {
                                         item.date.map((d)=>(
-                                            <Date style={{left:(30*d[0]+d[1]-1)*5+'%',backgroundColor:item.color}} key={30*d[0]+d[1]}>{d[1]}</Date>
+                                            <Date style={{left:(30*d[0]+d[1]-1)*40,backgroundColor:item.color}} key={30*d[0]+d[1]}>{d[1]}</Date>
                                         ))
                                     }
-                                    <Fade style={{left:(item.date[0][1]-1)*5+'%',width:(p-item.date[0][1])*5+2+'%'}}></Fade>
-                                    <Marker style={{left:(p-1)*5+2+'%'}}></Marker>
+                                    <Fade style={{left:(item.date[0][1]-1)*40,width:(p-item.date[0][1])*40+20}}></Fade>
+                                    <Marker style={{left:(p-1)*40+20}}></Marker>
                                 </View>
                             ))
                         }
-                        <View style={{left:(p-1)*5+3+'%'}}><Text>Today {dayjs().date()}th {months[curr_month][1]}</Text></View>
+                        <View style={{left:(p-1)*40+25}}><Text>Today {dayjs().date()}th {months[curr_month][1]}</Text></View>
                         <View style={{flexDirection:'row'}}>
                             {
                                 months.map((m)=>(
                                     <>
-                                        <Months style={{left:(m[0]*30)*5+1+'%'}}><Text>1st {m[1]}</Text></Months>
+                                        <Months style={{left:(m[0]*30)*40}}><Text>1st {m[1]}</Text></Months>
                                     </>
                                 ))
                             }
