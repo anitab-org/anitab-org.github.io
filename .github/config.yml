@@ -1,0 +1,39 @@
+# Configuration for the-welcome-bot - https://github.com/bash-bot/the-welcome-bot
+
+# Message for a new user who open an issue
+issueOpen: >
+  Hello World!👋 Welcome to the project!💝
+  Thanks and congrats 🎉 for opening your very first issue in this project.
+  AnitaB.org is an inclusive community, committed to creating a safe and positive environment🌸. Please adhere to our [Code Of Conduct]( https://github.com/anitab-org/anitab-org.github.io/blob/develop/docs/code_of_conduct.md). 🙌
+  You may submit a PR on the same if you like!
+  If you want to report a bug 🐞 & please follow our [Bug_Report.md](ISSUE_TEMPLATE/bug_report.md/) template. Also please make sure you include steps to reproduce it and be patient we will get back to you as soon as we can.👀
+  Also feel free to join us on [AnitaB.org Open Source Zulip Community](https://anitab-org.zulipchat.com/login/)🤝. We have different streams for each active repo's for discussions.
+  Hope you have a great time here :)
+# Message for a new user who comments on an issue
+issueComment: >
+  Hello World!👋 Welcome to the project!💝
+  Thank You for commenting on this issue. We will get back to you as soon as we can.👀
+  AnitaB.org is an inclusive community, committed to creating a safe and positive environment🌸. Please adhere to our [Code Of Conduct](https://github.com/anitab-org/anitab-org.github.io/blob/develop/docs/code_of_conduct.md). 🙌
+  You may submit a PR on the same if you like!
+  If you want to report a bug 🐞 & please follow our [Bug_Report.md](https://github.com/anitab-org/anitab-org.github.io/blob/develop/docs/.github/ISSUE_TEMPLATE/bug_report.md/) template. Also please make sure you include steps to reproduce it and be patient we will get back to you as soon as we can.👀
+  Also feel free to join us on [AnitaB.org Open Source Zulip Community](https://anitab-org.zulipchat.com/login/)🤝. We have different streams for each active repo's for discussions.
+  Hope you have a great time here :)
+# Message for a new user who opens a PR
+prOpen: >
+  Hello World!👋 Welcome to the project!💝
+  Thanks and congrats 🎉 for creating your pull request for this project.
+  AnitaB.org is an inclusive community, committed to creating a safe and positive environment🌸. Please adhere to our [Code Of Conduct](https://github.com/anitab-org/anitab-org.github.io/blob/develop/docs/code_of_conduct.md). 🙌
+  You may submit a PR on the same if you like!
+  - When submitting a PR, please follow [This Template](https://github.com/anitab-org/anitab-org.github.io/blob/develop/docs/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md) (Which will probably be already filled up once you create the PR).
+  - When submitting a PR with changes to user interface (e.g.: New Screen, ...), please add screenshots to the PR description.
+  Also feel free to join us on [AnitaB.org Open Source Zulip Community](https://anitab-org.zulipchat.com/login/)🤝. We have different streams for each active repo's for discussions.
+  Hope you have a great time here :)
+# Default message for a new user
+welcomeMessage: >
+  Hello World!👋 Welcome to the project!💝
+  AnitaB.org is an inclusive community, committed to creating a safe and positive environment🌸. Please adhere to our [Code Of Conduct](https://github.com/anitab-org/anitab-org.github.io/blob/develop/docs/code_of_conduct.md). 🙌
+  Please read our [Contributing Guidelines](docs/CONTRIBUTING.md), [Code of Conduct](https://github.com/anitab-org/anitab-org.github.io/blob/develop/docs/code_of_conduct.md) and [Reporting Guidelines](docs/reporting_guidelines.md) thoroughly.
+  You may submit a PR on the same if you like!
+  If you want to report a bug 🐞 & please follow our [Bug_Report.md](https://github.com/anitab-org/anitab-org.github.io/blob/develop/docs/.github/ISSUE_TEMPLATE/bug_report.md/) template. Also please make sure you include steps to reproduce it and be patient we will get back to you as soon as we can.👀
+  Also feel free to join us on [AnitaB.org Open Source Zulip Community](https://anitab-org.zulipchat.com/login/)🤝. We have different streams for each active repo's for discussions.
+  Hope you have a great time here :)

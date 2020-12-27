@@ -1,14 +1,23 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 import Projects from './../Projects';
+import Home from './../Home';
 import AboutUs from './../AboutUs';
+import Contribute from '../Contribute';
+import OurEvents from './../OurEvents';
 
 function Content({ selected, titles }) {
-  if (selected === 1) {
+  if (selected === 0) {
+    return <Home />;
+  } else if (selected === 1) {
     return <AboutUs />;
-  }
-  if (selected === 3) {
+  } else if (selected === 3) {
     return <Projects />;
+  } else if(selected === 4) {
+    return <OurEvents />; 
+  }
+  if (selected === 5) {
+    return <Contribute />;
   } else {
     return (
       <View
