@@ -1,33 +1,37 @@
-import React, {useEffect} from 'react';
-import $ from 'jquery';
+import React, {useEffect,useRef} from 'react';
 import dayjs from 'dayjs';
-import {Text,View,TouchableWithoutFeedback} from 'react-native';
-import {Event,Line,Date,Marker,Fade,Stroke,ArrowNavigation,ArrowText,ScrollContainer,ScrollMain,Container,Months} from './styles';
+import {StyleSheet,Text,View,TouchableWithoutFeedback,ScrollView} from 'react-native';
+import {Event,Line,Date,Marker,Fade,Stroke,ArrowNavigation,ArrowText,ScrollContainer,Container,Months} from './styles';
 import {ArrowLeftOutlined ,ArrowRightOutlined} from '@ant-design/icons'
 import {getEvents,getMonths} from '../../content/programs_events'
 //--------------------------------------------------------------------------------------------
 const events  = getEvents();
 const months = getMonths();
+const styles=StyleSheet.create({
+    scroller:{
+        // flexDirection:'column',
+        width:'70%',
+        position:'absolute',
+        right:0,
+    }
+})
 function Timeline() {
     var p = dayjs().date(); //current date
     var curr_month = dayjs().month(); //current month
+    const scrollRef = useRef();
     //scrolls the timeline to the current date and month
     useEffect(() => {
-        var scroll = $('.css-view-1dbjc4n');
-        scroll.scrollLeft(p+500);
-        p=p+500;
+        scrollRef.current.scrollTo({x:p+=700});
     })
     //onclick scrolls the timeline to the left
     const scrollLeft=()=>{
-        var scroll = $('.css-view-1dbjc4n');
-        scroll.scrollLeft(p-=35);
+        scrollRef.current.scrollTo({x:p+=35});
         if(p<0)
         p=0;
     }
     //onclick scrolls the timeline to the right
     const scrollRight=()=>{
-        var scroll = $('.css-view-1dbjc4n');
-        scroll.scrollLeft(p+=35);
+        scrollRef.current.scrollTo({x:p-=35});
     }
   return (
       <>
@@ -54,9 +58,11 @@ function Timeline() {
                         </View>
                     ))
                 }
-                <ScrollMain
+                <ScrollView
                 horizontal={true}
                 showsHorizontalScrollIndicator={false}
+                ref={scrollRef}
+                style={styles.scroller}
                 >
                     <Container>
                         {
@@ -84,7 +90,7 @@ function Timeline() {
                             }
                         </View>
                     </Container>
-                </ScrollMain>
+                </ScrollView>
             </ScrollContainer>
       </>
   );
