@@ -1,4 +1,4 @@
-import { View, Text ,ScrollView} from 'react-native';
+import { View, Text } from 'react-native';
 import { styled } from 'react-native-reflect';
 export const Event = styled(Text,{
     fontSize: 24,
@@ -6,9 +6,7 @@ export const Event = styled(Text,{
     paddingVertical:4,
     paddingHorizontal: 8,
     marginBottom: 4,
-    borderRadius: '50px',
     textAlign: 'center',
-    zIndex:'1px',
     position:'relative',
     backgroundColor:'#fff',
     width:240
@@ -26,7 +24,6 @@ export const Date = styled(View,{
     fontSize:20,
     width:45,
     height:45,
-    borderRadius: '50px',
     textAlign: 'center',
     justifyContent:'center',
     position:'absolute',
@@ -37,13 +34,12 @@ export const Marker = styled(View,{
     height: 60,
     position:'absolute',
     top: 24,
-    zIndex:'-1px'
 });
 export const Fade = styled(View,{
     backgroundColor:'#fff',
     height:90,
     position:'absolute',
-    opacity:'0.6',
+    opacity:0.6,
 })
 export const Stroke = styled(View,{
     borderBottomColor:'#000',
@@ -68,12 +64,6 @@ export const ScrollContainer = styled(View,{
     flexDirection:'column',
     marginBottom:64
 })
-// export const ScrollMain = styled(ScrollView,{
-//     flexDirection:'column',
-//     width:'70%',
-//     position:'absolute',
-//     right:0,
-// })
 export const Container = styled(View,{
     width:80
 })

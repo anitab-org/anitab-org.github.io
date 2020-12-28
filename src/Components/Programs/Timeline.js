@@ -9,7 +9,6 @@ const events  = getEvents();
 const months = getMonths();
 const styles=StyleSheet.create({
     scroller:{
-        // flexDirection:'column',
         width:'70%',
         position:'absolute',
         right:0,
@@ -25,13 +24,13 @@ function Timeline() {
     })
     //onclick scrolls the timeline to the left
     const scrollLeft=()=>{
-        scrollRef.current.scrollTo({x:p+=35});
+        scrollRef.current.scrollTo({x:p-=35});
         if(p<0)
         p=0;
     }
     //onclick scrolls the timeline to the right
     const scrollRight=()=>{
-        scrollRef.current.scrollTo({x:p-=35});
+        scrollRef.current.scrollTo({x:p+=35});
     }
   return (
       <>
@@ -53,7 +52,18 @@ function Timeline() {
                 {
                     events.map((item)=>(
                         <View key={item.event}>
-                            <Event style={{color:item.color,borderColor:item.color,flex:1,left:item.date[0][1]*10}}>{item.event}</Event>
+                            <Event
+                                style={{
+                                        color:item.color,
+                                        borderColor:item.color,
+                                        flex:1,
+                                        left:item.date[0][1]*10,
+                                        borderRadius: 50,
+                                        zIndex:1,
+                                    }}
+                            >
+                                {item.event}
+                            </Event>
                             <Stroke style={{width:(item.date[0][1]+5)*100}}></Stroke>
                         </View>
                     ))
@@ -71,11 +81,19 @@ function Timeline() {
                                     <Line style={{left:(item.date[0][1]-1)*40, width:30*12*50, borderBottomColor:item.color}}></Line>
                                     {
                                         item.date.map((d)=>(
-                                            <Date style={{left:(30*d[0]+d[1]-1)*40,backgroundColor:item.color}} key={30*d[0]+d[1]}>{d[1]}</Date>
+                                            <Date
+                                                style={{
+                                                    left:(30*d[0]+d[1]-1)*40,
+                                                    backgroundColor:item.color,
+                                                    borderRadius: 50,
+                                                }}
+                                                key={30*d[0]+d[1]}>
+                                                {d[1]}
+                                            </Date>
                                         ))
                                     }
                                     <Fade style={{left:(item.date[0][1]-1)*40,width:(p-item.date[0][1])*40+20}}></Fade>
-                                    <Marker style={{left:(p-1)*40+20}}></Marker>
+                                    <Marker style={{left:(p-1)*40+20,zIndex:-1}}></Marker>
                                 </View>
                             ))
                         }
