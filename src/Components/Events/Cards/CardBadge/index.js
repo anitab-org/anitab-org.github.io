@@ -17,15 +17,16 @@ const styles =  StyleSheet.create({
         marginTop: 16,
     },
     image: {
-        width: 32,
-        height: 32,
+        width: 25,
+        height: 25,
+        tintColor: '#103B81',
     },
     description: {
         fontSize: 16,
         color: '#103B81',
         fontWeight: 200,
         marginLeft: 16,
-        marginTop:8,
+       
     }
 });
 

@@ -5,7 +5,6 @@ import {getevents_highlights} from './../../content/events_and_highlights';
 import SectionSubheader from './../SectionSubheader';
 
 const events_highlight = getevents_highlights();
-
 function Events () {
         return (
          <View style={styles.container} >
@@ -16,24 +15,20 @@ function Events () {
                 return <Text style={styles.description} key={index}>{detail.par}</Text>;
             })}
             <View
-              style={{
-                flexDirection: 'row',
-                flexWrap: 'wrap',
-                marginTop: 32,
-              }}
+              style={styles.cardContainer}
             >
                 {events_highlight.sections[1].events.map((event_detail,index) => (
                     <EventCard
                         key={event_detail.title}
                         props={event_detail}
+                        links={events_highlight.icon_links}
                         backgroundColor="#e7edfd"
                         padding={16}
                     />
                 ))}
             </View>
          </View>   
-        );
-    
+        );   
 }
 
 const styles = StyleSheet.create({
@@ -53,6 +48,11 @@ const styles = StyleSheet.create({
         fontWeight: 150,
         color: '#103B81',
         textAlign: 'left',
-    }
+    },
+    cardContainer : {
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        marginTop: 32,
+    },
 });
 export default Events;

@@ -4,35 +4,28 @@ import ScaledImage from '../../ScaledImage';
 import { withCard } from './../../../Decorators/Card';
 import Badge from './CardBadge';
 
-const EventCard = ({ props }) => {
+
+const EventCard = ({ props,links }) => {
+    const {calendarIcon, timeIcon, locationIcon} = links;
     return (
      <View style={styles.card} >
         <ScaledImage width={286}   source={props.highlights.source} />
         <Text style={styles.title}>{props.title}</Text>
-        <Badge text={props.date} link={require('./../../../assets/events_and_highlights/calendar.png')}  />
-        <Badge text={props.location} link={require('./../../../assets/events_and_highlights/location.png')} />
-        <Badge text={props.timings} link={require('./../../../assets/events_and_highlights/time.png')} />
+        <Badge text={props.date} link={calendarIcon}  />
+        <Badge text={props.location} link={locationIcon} />
+        <Badge text={props.timings} link={timeIcon} />
         <View style={{marginTop: 32}}>
             {props.description.map((detail,index) => (
                 <Text
-                    style={{
-                        color: '#103B81',
-                        fontSize: 16,
-                        fontWeight: '200'
-                    }}
+                    style={styles.detailStyles}
                     key={index}
-                    >
+                >
                     {detail.par}
                 </Text>
             ))}
         </View>
-        <Text style={{
-            color: '#103B81',
-            fontSize: 16,
-            fontWeight: '400', 
-            marginTop: 32,
-        }}
-        onPress={() => {Linking.openURL(props.know_more.link)}}
+        <Text style={styles.know_moreStyles}
+            onPress={() => {Linking.openURL(props.know_more.link)}}
         >
         {props.know_more.par}
         </Text>
@@ -53,11 +46,16 @@ const styles = StyleSheet.create({
         fontSize: 16,
         marginTop: 16,
     },
-    desc: {
-        fontSize: 16,
+    detailStyles: {
         color: '#103B81',
-        fontWeight: 200,
-        marginTop: 16,
+        fontSize: 16,
+        fontWeight: '200'
+    },
+    know_moreStyles: {
+        color: '#103B81',
+        fontSize: 16,
+        fontWeight: '400', 
+        marginTop: 32,
     },
 })
 

@@ -127,8 +127,14 @@ const events_highlight = {
         }
       ]
     }
-  ]
+  ],
+  icon_links: {
+    calendarIcon: require('./../assets/events_and_highlights/calendar.png'),
+    locationIcon: require('./../assets/events_and_highlights/location.png'),
+    timeIcon: require('./../assets/events_and_highlights/time.png'),
+  },
 };
+
 
 export const getevents_highlights = () => {
   return events_highlight;
