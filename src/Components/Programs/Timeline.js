@@ -20,13 +20,13 @@ function Timeline() {
     const scrollRef = useRef();
     //scrolls the timeline to the current date and month
     useEffect(() => {
-        scrollRef.current.scrollTo({x:p+=700});
+        scrollRef.current.scrollTo({x:(30*curr_month+p-1)*40});
     })
     //onclick scrolls the timeline to the left
     const scrollLeft=()=>{
         scrollRef.current.scrollTo({x:p-=35});
         if(p<0)
-        p=0;
+            p=0;
     }
     //onclick scrolls the timeline to the right
     const scrollRight=()=>{
@@ -54,13 +54,13 @@ function Timeline() {
                         <View key={item.event}>
                             <Event
                                 style={{
-                                        color:item.color,
-                                        borderColor:item.color,
-                                        flex:1,
-                                        left:item.date[0][1]*10,
-                                        borderRadius: 50,
-                                        zIndex:1,
-                                    }}
+                                color:item.color,
+                                borderColor:item.color,
+                                flex:1,
+                                left:item.date[0][1]*10,
+                                borderRadius: 50,
+                                zIndex:1,
+                                }}
                             >
                                 {item.event}
                             </Event>
@@ -82,12 +82,12 @@ function Timeline() {
                                     {
                                         item.date.map((d)=>(
                                             <Date
-                                                style={{
-                                                    left:(30*d[0]+d[1]-1)*40,
-                                                    backgroundColor:item.color,
-                                                    borderRadius: 50,
-                                                }}
-                                                key={30*d[0]+d[1]}>
+                                            style={{
+                                                left:(30*d[0]+d[1]-1)*40,
+                                                backgroundColor:item.color,
+                                                borderRadius: 50,
+                                            }}
+                                            key={30*d[0]+d[1]}>
                                                 {d[1]}
                                             </Date>
                                         ))
