@@ -83,7 +83,7 @@ const home = {
         },
         {
           par:
-            "2) Google Code In \nAnitaB.org has been actively participating in the Google Summer of Code in the years 2014, 2015, 2016, 2017, 2019 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org - \nVatsal Kulshrestha, former GCI 2017 participant in his Medium blog says- AnitaB.org has been a true personification of the famous quote by Einstein- ‘The only source of knowledge is EXPERIENCE’ ",
+            "2) Google Code In \nAnitaB.org has been actively participating in the Google Code In in the years 2014, 2015, 2016, 2017, 2019 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org - \nVatsal Kulshrestha, former GCI 2017 participant in his Medium blog says- AnitaB.org has been a true personification of the famous quote by Einstein- ‘The only source of knowledge is EXPERIENCE’ ",
         },
       ],
     },
