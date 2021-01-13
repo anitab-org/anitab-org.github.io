@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import SectionSubheader from '../SectionSubheader';
 import GoogleCalendar from './GoogleCalendar';
+import content from '../../content/events_calendar.json';
 import { Box, MainContainer, Content, Description, List } from './style';
 
 const timezones = [
@@ -43,7 +44,7 @@ function Events() {
     setTimezone(link)
   }
 
-  var listTimezones = timezones.map(function(zone){
+  const listTimezones = timezones.map(function(zone){
     return (
     <List onClick={() => handler(zone.link) }>
         {zone.name}
@@ -54,14 +55,17 @@ function Events() {
   const renderCalendar = () => {
     return(
       <Box>
-        <Content>
-          <SectionSubheader title="Event Calendar"/>
-          <Description>
-          We host multiple open sessions to the community where members of the community can discuss concerns about the community, ask questions, discuss projects, etc. These sessions are open to anyone and are usually conducted via Zoom. These are audio-only calls, so no video is required.
-          You can see our calendar in different timezones:<br/> {listTimezones}
-          </Description>
-          <GoogleCalendar timezone = {timezone}/>
-        </Content>
+        {
+          content.sections.map((section, index) => {
+            return(
+              <Content key={index}>
+                <SectionSubheader title={section.title}/>
+                <Description>{section.content} <br/> {listTimezones}</Description>
+                <GoogleCalendar timezone = {timezone}/>
+              </Content>
+            )
+          })
+        }
       </Box>
     )
   }
