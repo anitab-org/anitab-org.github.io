@@ -3,6 +3,7 @@ import SectionSubheader from '../SectionSubheader';
 import GoogleCalendar from './GoogleCalendar';
 import content from '../../content/events_calendar.json';
 import { Box, MainContainer, Content, Description, List } from './style';
+import OurEvents from '../OurEvents/index';
 
 const timezones = [
   {
@@ -55,6 +56,7 @@ function Events() {
   const renderCalendar = () => {
     return(
       <Box>
+      <OurEvents />
         {
           content.sections.map((section, index) => {
             return(
