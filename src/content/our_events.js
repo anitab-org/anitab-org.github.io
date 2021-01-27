@@ -12,7 +12,7 @@ const our_events={
             ]
         },
         {
-            title: "TITLE 2",
+            title: "AWARDS",
             image:{
                 source:require("./../assets/our_events.png"),
             },
