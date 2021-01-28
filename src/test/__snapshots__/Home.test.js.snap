@@ -78,8 +78,8 @@ The #announcements stream will be displaying all the important announcements. Ta
             dir="auto"
             style="font-size: 18px; font-weight: 200; text-align: left;"
           >
-            Our code of conduct is simple- 'Be nice, Be respectful' which is the one of the many reasons the community coexists in harmony. The members should contribute actively keeping the policies of being repectful to everyone and refrainging from conflicts, unruly behaviour and speech. Anyone who wishes to join the community is expected to follow these guidelines.
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer or adminas soon as possible.
+            Our code of conduct is simple- 'Be nice, Be respectful' which is the one of the many reasons the community coexists in harmony. The members should contribute actively keeping the policies of being respectful to everyone and refraining from conflicts, unruly behaviour and speech. Anyone who wishes to join the community is expected to follow these guidelines.
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer or admins as soon as possible.
           </div>
         </div>
       </div>
@@ -135,8 +135,8 @@ If you are subject to or witness unacceptable behavior, or have any other concer
 2) Debugging the issues 
 3) Creating pull requests, testing pull requests 
 4) Create mockups for new applications or redesign the current features 
-5) Research about UI/UX improvements and accessibilty features. 
-6) Create app walkthroughs with documents or videos, UI testing once the PR is submitted for the UI issue
+5) Research about UI/UX improvements and accessibility features. 
+6) Create app walk through with documents or videos, UI testing once the PR is submitted for the UI issue
           </div>
           <div
             class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
@@ -145,7 +145,7 @@ If you are subject to or witness unacceptable behavior, or have any other concer
           >
             Each active repository has a stream to direct questions. 
 Issues labeled as 'First Timers Only' are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues. 
-Make sure to follow the Commit Message Style Guide when submitting PRs which will require review by atleast one maintainer to be merged to the main code.
+Make sure to follow the Commit Message Style Guide when submitting PRs which will require review by at least one maintainer to be merged to the main code.
           </div>
         </div>
       </div>
@@ -230,7 +230,7 @@ PowerUp is a female empowerment educational mobile game app that will allow youn
             style="font-size: 18px; font-weight: 200; text-align: left;"
           >
             4) AnitaB-org.github.io 
-AnitaB.org Open Source web gathering all informations about current open source projects, running programs and events as well as all necessary contribution informations.
+AnitaB.org Open Source web gathering all information about current open source projects, running programs and events as well as all necessary contribution information.
           </div>
           <div
             class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
@@ -238,7 +238,7 @@ AnitaB.org Open Source web gathering all informations about current open source 
             style="font-size: 18px; font-weight: 200; text-align: left;"
           >
             5) Bridge-in-tech 
-Bridge-In-Tech is an application inspired by the existing AnitaB.org Mentorship System. It encourages organizations to collaborate with the mentors and mentees on mentoring programs. Through Bridge-In-Tech,an organization can offer a mentorship program to a mentor and a mentee that is customised to meet the needed skills set within its organisation while providing a safety and supportive environment for these mentor/mentee to work in. This project was proposed as an original project of Google Summer of Code 2020. The frontend of this application will be a Web application using (tech stack tba).
+Bridge-In-Tech is an application inspired by the existing AnitaB.org Mentorship System. It encourages organizations to collaborate with the mentors and mentees on mentoring programs. Through Bridge-In-Tech,an organization can offer a mentorship program to a mentor and a mentee that is customised to meet the needed skills set within its organisation while providing a safety and supportive environment for these mentor/mentee to work in. This project was proposed as an original project of Google Summer of Code 2020. The front end of this application will be a Web application using (tech stack tba).
           </div>
           <div
             class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
@@ -307,7 +307,7 @@ Isabel Costa, GSoC 2018 participant in her Medium blog says- I got to meet incre
             style="font-size: 18px; font-weight: 200; text-align: left;"
           >
             2) Google Code In 
-AnitaB.org has been actively participating in the Google Summer of Code in the years 2014, 2015, 2016, 2017, 2019 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org - 
+AnitaB.org has been actively participating in the Google Code In in the years 2014, 2015, 2016, 2017, 2019 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org - 
 Vatsal Kulshrestha, former GCI 2017 participant in his Medium blog says- AnitaB.org has been a true personification of the famous quote by Einstein- ‘The only source of knowledge is EXPERIENCE’ 
           </div>
         </div>
