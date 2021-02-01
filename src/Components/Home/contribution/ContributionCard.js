@@ -11,7 +11,9 @@ function ContributionCard({imageFile, imageText=[], style=[]}) {
                 style={styles.contributionImage}
                 resizeMode="contain"
             />
-            {imageText.map((text => <Text style={styles.imageText}>{text}</Text>))}
+            {imageText.map(((text,index) => {
+              return <Text key={index} style={styles.imageText}>{text}</Text>
+            }))}
         </View>
     );
 }
