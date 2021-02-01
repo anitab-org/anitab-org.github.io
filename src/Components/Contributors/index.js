@@ -27,8 +27,8 @@ const Contributors = ({
   return (
     <View style={styles}>
       {response && response.length > 0
-        ? response.slice(0, 9).map((contributor) => (
-            <a
+        ? response.slice(0, 9).map((contributor,index) => (
+            <a key={index}
               target="_blank"
               rel="noopener noreferrer"
               href={contributor.html_url}

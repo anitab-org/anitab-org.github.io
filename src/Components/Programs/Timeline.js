@@ -50,8 +50,8 @@ function Timeline() {
             </ArrowNavigation>
             <ScrollContainer>
                 {
-                    events.map((item)=>(
-                        <View key={item.event}>
+                    events.map((item,index)=>(
+                        <View key={index}>
                             <Event
                                 style={{
                                 color:item.color,
@@ -76,8 +76,8 @@ function Timeline() {
                 >
                     <Container>
                         {
-                            events.map((item)=>(
-                                <View style={{marginBottom:32,flexDirection:'column'}} key={item.event}>
+                            events.map((item,index)=>(
+                                <View style={{marginBottom:32,flexDirection:'column'}} key={index}>
                                     <Line style={{left:(item.date[0][1]-1)*40, width:30*12*50, borderBottomColor:item.color}}></Line>
                                     {
                                         item.date.map((d)=>(
@@ -100,10 +100,10 @@ function Timeline() {
                         <View style={{left:(p-1)*40+25}}><Text>Today {dayjs().date()}th {months[curr_month][1]}</Text></View>
                         <View style={{flexDirection:'row'}}>
                             {
-                                months.map((m)=>(
-                                    <>
-                                        <Months style={{left:(m[0]*30)*40}}><Text>1st {m[1]}</Text></Months>
-                                    </>
+                                months.map((m,index)=>(
+                                    <div key={index}>
+                                        <Months  style={{left:(m[0]*30)*40}}><Text>1st {m[1]}</Text></Months>
+                                    </div>
                                 ))
                             }
                         </View>
