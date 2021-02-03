@@ -268,7 +268,10 @@ const projects = {
           title: 'Open Source Programs Web',
           description:
             'Frontend of Open Source Programs (OSP) - an application that simplifies the processing and selection procedure of Open Source Programs of AnitaB.org Open Source or other third-party programs.',
-          labels: [{ title: 'javascript', color: '#F9D507' }],
+          labels: [
+            { title: 'react js', color: '#BD6AAA' },
+            { title: 'javascript', color: '#F9D507' },
+          ],
           badges: [
             {
               title: 'zulip',
