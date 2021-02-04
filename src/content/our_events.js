@@ -12,9 +12,8 @@ const our_events={
             ]
         },
         {
-            title: "TITLE 2",
             image:{
-                source:require("./../assets/our_events.png"),
+                
             },
             content: [
                 {
