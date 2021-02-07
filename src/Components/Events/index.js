@@ -55,7 +55,6 @@ const styles = StyleSheet.create({
         marginTop: 32,
     },
 });
-=======
 import React, {useState} from 'react';
 import SectionSubheader from '../SectionSubheader';
 import GoogleCalendar from './GoogleCalendar';
