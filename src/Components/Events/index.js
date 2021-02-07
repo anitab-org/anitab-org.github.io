@@ -1,8 +1,13 @@
-import React from 'react';
+
+import React, {useState} from 'react';	
 import {View , StyleSheet, Text} from 'react-native';
 import EventCard from './Cards';
 import {getevents_highlights} from './../../content/events_and_highlights';
 import SectionSubheader from './../SectionSubheader';
+import GoogleCalendar from './GoogleCalendar';	
+import content from '../../content/events_calendar.json';	
+import { Box, MainContainer, Content, Description, List } from './style';	
+import OurEvents from '../OurEvents/index';
 
 const events_highlight = getevents_highlights();
 
