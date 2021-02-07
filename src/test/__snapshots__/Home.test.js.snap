@@ -1,0 +1,498 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="css-view-1dbjc4n"
+    style="flex-grow: 1; flex-shrink: 1; flex-basis: 0%; flex-direction: column; flex-wrap: wrap; margin-top: 32px; padding-left: 16px; padding-right: 16px; width: 80%;"
+  >
+    <div
+      class="css-view-1dbjc4n r-flex-13awgt0 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh r-paddingTop-9cjmro r-width-13qz1uu"
+    >
+      <div
+        class="css-text-901oao r-alignItems-1habvwh r-color-1qovj5m r-flex-13awgt0 r-fontSize-1ui5ee8 r-fontWeight-16dba41"
+        dir="auto"
+      >
+        AnitaB.org Open Source
+      </div>
+    </div>
+    <div
+      class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-1euycsn r-flexWrap-1w6e6rj r-marginTop-1v1z2uz"
+    >
+      <div
+        class="css-view-1dbjc4n r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
+      >
+        <a>
+          <div
+            class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+            style="width: 500px;"
+          >
+            <div
+              class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-4gszlv r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+              style="background-image: url(getting-started.png);"
+            />
+            <img
+              alt=""
+              class="css-accessibilityImage-9pa8cd"
+              draggable="false"
+              src="getting-started.png"
+            />
+          </div>
+        </a>
+      </div>
+      <div
+        class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-1fspl2j r-flexGrow-16y2uox r-minWidth-pfqljz"
+      >
+        <div
+          class="css-view-1dbjc4n r-paddingLeft-1qhn6m8"
+          style="flex-direction: column;"
+        >
+          <div
+            class="css-view-1dbjc4n r-flex-13awgt0 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh r-paddingTop-fd4yh7 r-width-13qz1uu"
+          >
+            <div
+              class="css-text-901oao r-alignItems-1habvwh r-color-1qovj5m r-flex-13awgt0 r-fontSize-1x35g6 r-fontWeight-16dba41"
+              dir="auto"
+            >
+              Getting Started
+            </div>
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+            dir="auto"
+            style="font-size: 18px; font-weight: 200; text-align: left;"
+          >
+            The AnitaB.org community is a fusion of rich values and diverse cultures consisting of members all across the seven oceans with a fearless mission of inspiring, motivating and helping women with their involvement in technical fields and has made a significant impact with regards to contribution of women in tech.
+The other values of the organization include Accountable, Agile, Curious, Courageous, Diversity, Equity, Inclusion(DEI), encourage everyone to follow the org’s contributing guidelines and obviously passion for open source. 
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+            dir="auto"
+            style="font-size: 18px; font-weight: 200; text-align: left;"
+          >
+            Zulip is our main communication platform and you should join us there and first give a short introduction about yourself in the #newcomers stream. Zulip consists of various streams like Documentation, Coding, Design, etc and the one that fascinates you the most is the one you should start contributing in.
+The #announcements stream will be displaying all the important announcements. Tag our community members if there's any confusion or ask for proper guidance from them regarding your contributions to the community.
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+            dir="auto"
+            style="font-size: 18px; font-weight: 200; text-align: left;"
+          >
+            Our code of conduct is simple- 'Be nice, Be respectful' which is the one of the many reasons the community coexists in harmony. The members should contribute actively keeping the policies of being respectful to everyone and refraining from conflicts, unruly behaviour and speech. Anyone who wishes to join the community is expected to follow these guidelines.
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer or admins as soon as possible.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-18u37iz r-flexWrap-1w6e6rj r-marginTop-1v1z2uz"
+    >
+      <div
+        class="css-view-1dbjc4n r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
+      >
+        <a>
+          <div
+            class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+            style="width: 500px;"
+          >
+            <div
+              class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-4gszlv r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+              style="background-image: url(landing.png);"
+            />
+            <img
+              alt=""
+              class="css-accessibilityImage-9pa8cd"
+              draggable="false"
+              src="landing.png"
+            />
+          </div>
+        </a>
+      </div>
+      <div
+        class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-1fspl2j r-flexGrow-16y2uox r-minWidth-pfqljz"
+      >
+        <div
+          class="css-view-1dbjc4n r-paddingLeft-1qhn6m8"
+          style="flex-direction: column;"
+        >
+          <div
+            class="css-view-1dbjc4n r-flex-13awgt0 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh r-paddingTop-fd4yh7 r-width-13qz1uu"
+          >
+            <div
+              class="css-text-901oao r-alignItems-1habvwh r-color-1qovj5m r-flex-13awgt0 r-fontSize-1x35g6 r-fontWeight-16dba41"
+              dir="auto"
+            >
+              Ways To Contribute
+            </div>
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+            dir="auto"
+            style="font-size: 18px; font-weight: 200; text-align: left;"
+          >
+            You can start contributing to our various open source projects by- 
+1) Creating issues on Github regarding the project 
+2) Debugging the issues 
+3) Creating pull requests, testing pull requests 
+4) Create mockups for new applications or redesign the current features 
+5) Research about UI/UX improvements and accessibility features. 
+6) Create app walk through with documents or videos, UI testing once the PR is submitted for the UI issue
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+            dir="auto"
+            style="font-size: 18px; font-weight: 200; text-align: left;"
+          >
+            Each active repository has a stream to direct questions. 
+Issues labeled as 'First Timers Only' are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues. 
+Make sure to follow the Commit Message Style Guide when submitting PRs which will require review by at least one maintainer to be merged to the main code.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-1euycsn r-flexWrap-1w6e6rj r-marginTop-1v1z2uz"
+    >
+      <div
+        class="css-view-1dbjc4n r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
+      >
+        <a>
+          <div
+            class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+            style="width: 500px;"
+          >
+            <div
+              class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-4gszlv r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+              style="background-image: url(getting-started.png);"
+            />
+            <img
+              alt=""
+              class="css-accessibilityImage-9pa8cd"
+              draggable="false"
+              src="getting-started.png"
+            />
+          </div>
+        </a>
+      </div>
+      <div
+        class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-1fspl2j r-flexGrow-16y2uox r-minWidth-pfqljz"
+      >
+        <div
+          class="css-view-1dbjc4n r-paddingLeft-1qhn6m8"
+          style="flex-direction: column;"
+        >
+          <div
+            class="css-view-1dbjc4n r-flex-13awgt0 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh r-paddingTop-fd4yh7 r-width-13qz1uu"
+          >
+            <div
+              class="css-text-901oao r-alignItems-1habvwh r-color-1qovj5m r-flex-13awgt0 r-fontSize-1x35g6 r-fontWeight-16dba41"
+              dir="auto"
+            >
+              Our Projects
+            </div>
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+            dir="auto"
+            style="font-size: 18px; font-weight: 200; text-align: left;"
+          >
+            First and foremost, choose a programming language of your choice. Once you are done with selecting a programming language search for a project. Here's a list of our open source projects - 
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+            dir="auto"
+            style="font-size: 18px; font-weight: 200; text-align: left;"
+          >
+            1) Mentorship System 
+Mentorship System is an application that matches women in tech to mentor each other, on career development, through relations during a certain period of time. 
+It is an open source project proposed for Google Summer of Code 2018 with AnitaB.org Open Source, an idea that consists of a mobile application that matches women to help and support both parties. One is the mentor that will be a support/accountability buddy and or give advice to a woman that wants mentorship, for a period of time established by both parties. This would not focus only on students, this would target women from any age, background, work in tech experience, and so on. This project uses Kotlin for frontend and Python for backend. 
+Flutter and iOS versions are also available.
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+            dir="auto"
+            style="font-size: 18px; font-weight: 200; text-align: left;"
+          >
+            2) The Volunteer Management System (VMS) 
+The Volunteer Management System (VMS) will be useful for volunteer coordinators, volunteer sign-up,tracking hours, and reporting. This project is currently under development same as the mentorship application project. The Volunteer Management System will be developed in phases. The initial implementation will track volunteers’ contact information, enable administrators to track volunteer hours, and allow reporting of useful information. This project uses the Django web framework and Python. 
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+            dir="auto"
+            style="font-size: 18px; font-weight: 200; text-align: left;"
+          >
+            3) PowerUp Android 
+PowerUp is a female empowerment educational mobile game app that will allow young girls to learn about reproductive health and self-esteem by navigating the life of their avatar. This project uses Java. Android and iOS versions are available.
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+            dir="auto"
+            style="font-size: 18px; font-weight: 200; text-align: left;"
+          >
+            4) AnitaB-org.github.io 
+AnitaB.org Open Source web gathering all information about current open source projects, running programs and events as well as all necessary contribution information.
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+            dir="auto"
+            style="font-size: 18px; font-weight: 200; text-align: left;"
+          >
+            5) Bridge-in-tech 
+Bridge-In-Tech is an application inspired by the existing AnitaB.org Mentorship System. It encourages organizations to collaborate with the mentors and mentees on mentoring programs. Through Bridge-In-Tech,an organization can offer a mentorship program to a mentor and a mentee that is customised to meet the needed skills set within its organisation while providing a safety and supportive environment for these mentor/mentee to work in. This project was proposed as an original project of Google Summer of Code 2020. The front end of this application will be a Web application using (tech stack tba).
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+            dir="auto"
+            style="font-size: 18px; font-weight: 200; text-align: left;"
+          >
+            And more interesting and informative projects in future!
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-18u37iz r-flexWrap-1w6e6rj r-marginTop-1v1z2uz"
+    >
+      <div
+        class="css-view-1dbjc4n r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
+      >
+        <a>
+          <div
+            class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+            style="width: 500px;"
+          >
+            <div
+              class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-4gszlv r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+              style="background-image: url(landing.png);"
+            />
+            <img
+              alt=""
+              class="css-accessibilityImage-9pa8cd"
+              draggable="false"
+              src="landing.png"
+            />
+          </div>
+        </a>
+      </div>
+      <div
+        class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-1fspl2j r-flexGrow-16y2uox r-minWidth-pfqljz"
+      >
+        <div
+          class="css-view-1dbjc4n r-paddingLeft-1qhn6m8"
+          style="flex-direction: column;"
+        >
+          <div
+            class="css-view-1dbjc4n r-flex-13awgt0 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh r-paddingTop-fd4yh7 r-width-13qz1uu"
+          >
+            <div
+              class="css-text-901oao r-alignItems-1habvwh r-color-1qovj5m r-flex-13awgt0 r-fontSize-1x35g6 r-fontWeight-16dba41"
+              dir="auto"
+            >
+              Open Source Programs 
+            </div>
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+            dir="auto"
+            style="font-size: 18px; font-weight: 200; text-align: left;"
+          >
+            1) Google Summer of Code 
+AnitaB.org has been actively participating in the Google Summer of Code in the years 2016, 2017, 2018, 2020 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org -
+Mohammad Murad, former AnitaB.org GSoC mentor in his Medium blog says- AnitaB.org is very different, along with writing coding equal importance is given to interacting with the community. The community also helps in personal development and personal growth. 
+Isabel Costa, GSoC 2018 participant in her Medium blog says- I got to meet incredible people from the AnitaB.org community. I grew personally and professionally by sharing and learning from other’s perspectives. Being recognized for my work as the Most Outstanding Student by Systers made me very proud of my achievements. This was truly an awesome experience. 
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+            dir="auto"
+            style="font-size: 18px; font-weight: 200; text-align: left;"
+          >
+            2) Google Code In 
+AnitaB.org has been actively participating in the Google Code In in the years 2014, 2015, 2016, 2017, 2019 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org - 
+Vatsal Kulshrestha, former GCI 2017 participant in his Medium blog says- AnitaB.org has been a true personification of the famous quote by Einstein- ‘The only source of knowledge is EXPERIENCE’ 
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-view-1dbjc4n"
+    >
+      <div
+        class="css-view-1dbjc4n r-flex-13awgt0 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh r-paddingTop-9cjmro r-width-13qz1uu"
+      >
+        <div
+          class="css-text-901oao r-alignItems-1habvwh r-color-1qovj5m r-flex-13awgt0 r-fontSize-1ui5ee8 r-fontWeight-16dba41"
+          dir="auto"
+        >
+          INTERESTED IN CONTRIBUTING?
+        </div>
+      </div>
+      <div
+        class="css-text-901oao r-color-1qovj5m r-fontSize-1b43r93 r-fontWeight-1od2jal r-marginLeft-1uvorsx"
+        dir="auto"
+      >
+        You can start contributing through one or more fields of your choice
+      </div>
+      <div
+        class="css-view-1dbjc4n r-display-6koalj r-flexDirection-18u37iz r-flexWrap-1w6e6rj r-marginBottom-le4sbl r-marginTop-1444osr"
+      >
+        <div
+          class="css-view-1dbjc4n r-minWidth-1v8wot0 r-width-30z84g"
+        >
+          <div
+            class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+            style="height: 235px; width: 235px;"
+          >
+            <div
+              class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-ehq7j7 r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+              style="background-image: url(code.png);"
+            />
+            <img
+              alt=""
+              class="css-accessibilityImage-9pa8cd"
+              draggable="false"
+              src="code.png"
+            />
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-fontFamily-9ovc40 r-fontSize-1b43r93 r-fontWeight-1od2jal r-textAlign-q4m81j r-width-dqa1tq"
+            dir="auto"
+          >
+            CODE
+          </div>
+        </div>
+        <div
+          class="css-view-1dbjc4n r-alignItems-1awozwy r-minWidth-1v8wot0 r-width-30z84g"
+        >
+          <div
+            class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+            style="height: 235px; width: 235px;"
+          >
+            <div
+              class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-ehq7j7 r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+              style="background-image: url(documentation_training.png);"
+            />
+            <img
+              alt=""
+              class="css-accessibilityImage-9pa8cd"
+              draggable="false"
+              src="documentation_training.png"
+            />
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-fontFamily-9ovc40 r-fontSize-1b43r93 r-fontWeight-1od2jal r-textAlign-q4m81j r-width-dqa1tq"
+            dir="auto"
+          >
+            DOCUMENTATION/
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-fontFamily-9ovc40 r-fontSize-1b43r93 r-fontWeight-1od2jal r-textAlign-q4m81j r-width-dqa1tq"
+            dir="auto"
+          >
+            TRAINING
+          </div>
+        </div>
+        <div
+          class="css-view-1dbjc4n r-alignItems-obd0qt r-minWidth-1v8wot0 r-width-30z84g"
+        >
+          <div
+            class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+            style="height: 235px; width: 235px;"
+          >
+            <div
+              class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-ehq7j7 r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+              style="background-image: url(design_community.png);"
+            />
+            <img
+              alt=""
+              class="css-accessibilityImage-9pa8cd"
+              draggable="false"
+              src="design_community.png"
+            />
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-fontFamily-9ovc40 r-fontSize-1b43r93 r-fontWeight-1od2jal r-textAlign-q4m81j r-width-dqa1tq"
+            dir="auto"
+          >
+            DESIGN
+          </div>
+        </div>
+        <div
+          class="css-view-1dbjc4n r-minWidth-1v8wot0 r-width-30z84g"
+        >
+          <div
+            class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+            style="height: 235px; width: 235px;"
+          >
+            <div
+              class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-ehq7j7 r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+              style="background-image: url(testing.png);"
+            />
+            <img
+              alt=""
+              class="css-accessibilityImage-9pa8cd"
+              draggable="false"
+              src="testing.png"
+            />
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-fontFamily-9ovc40 r-fontSize-1b43r93 r-fontWeight-1od2jal r-textAlign-q4m81j r-width-dqa1tq"
+            dir="auto"
+          >
+            TESTING
+          </div>
+        </div>
+        <div
+          class="css-view-1dbjc4n r-alignItems-1awozwy r-minWidth-1v8wot0 r-width-30z84g"
+        >
+          <div
+            class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+            style="height: 235px; width: 235px;"
+          >
+            <div
+              class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-ehq7j7 r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+              style="background-image: url(research_outreach.png);"
+            />
+            <img
+              alt=""
+              class="css-accessibilityImage-9pa8cd"
+              draggable="false"
+              src="research_outreach.png"
+            />
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-fontFamily-9ovc40 r-fontSize-1b43r93 r-fontWeight-1od2jal r-textAlign-q4m81j r-width-dqa1tq"
+            dir="auto"
+          >
+            OUTREACH/RESEARCH
+          </div>
+        </div>
+        <div
+          class="css-view-1dbjc4n r-alignItems-obd0qt r-minWidth-1v8wot0 r-width-30z84g"
+        >
+          <div
+            class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+            style="height: 235px; width: 235px;"
+          >
+            <div
+              class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-ehq7j7 r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+              style="background-image: url(project_management.png);"
+            />
+            <img
+              alt=""
+              class="css-accessibilityImage-9pa8cd"
+              draggable="false"
+              src="project_management.png"
+            />
+          </div>
+          <div
+            class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-fontFamily-9ovc40 r-fontSize-1b43r93 r-fontWeight-1od2jal r-textAlign-q4m81j r-width-dqa1tq"
+            dir="auto"
+          >
+            PROJECT MANAGEMENT
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

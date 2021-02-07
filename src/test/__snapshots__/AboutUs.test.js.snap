@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="css-view-1dbjc4n"
+    style="align-items: left; flex-direction: column; flex-wrap: wrap; margin-top: 32px; padding-left: 16px; padding-right: 16px; width: 80%;"
+  >
+    <div
+      class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-1euycsn r-flexWrap-1w6e6rj r-marginTop-1v1z2uz"
+    >
+      <div
+        class="css-view-1dbjc4n r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
+      >
+        <a>
+          <div
+            class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+            style="width: 500px;"
+          >
+            <div
+              class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-4gszlv r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+              style="background-image: url(about.png);"
+            />
+            <img
+              alt=""
+              class="css-accessibilityImage-9pa8cd"
+              draggable="false"
+              src="about.png"
+            />
+          </div>
+        </a>
+      </div>
+      <div
+        class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-1fspl2j r-flexGrow-16y2uox r-minWidth-pfqljz"
+      >
+        <div
+          class="css-view-1dbjc4n r-flex-13awgt0"
+          style="flex-direction: column; margin-top: -32px;"
+        >
+          <div
+            class="css-view-1dbjc4n r-paddingLeft-1qhn6m8"
+            style="flex-direction: column;"
+          >
+            <div
+              class="css-view-1dbjc4n r-flex-13awgt0 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh r-paddingTop-fd4yh7 r-width-13qz1uu"
+            >
+              <div
+                class="css-text-901oao r-alignItems-1habvwh r-color-1qovj5m r-flex-13awgt0 r-fontSize-1x35g6 r-fontWeight-16dba41"
+                dir="auto"
+              >
+                Our Mission
+              </div>
+            </div>
+            <div
+              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+              dir="auto"
+              style="font-size: 18px; font-weight: 200; text-align: left;"
+            >
+              AnitaB.org Open Source aims to provide women of all skill levels and backgrounds with the opportunity to collaborate and develop open source projects with the aspirations of social good.
+            </div>
+            <div
+              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+              dir="auto"
+              style="font-size: 18px; font-weight: 200; text-align: left;"
+            >
+              We are a social community that brings geographically disparate people together to network, communicate, and work in well-run open source projects in a welcoming environment.
+            </div>
+            <div
+              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+              dir="auto"
+              style="font-size: 18px; font-weight: 200; text-align: left;"
+            >
+              In addition, we encourage contributions of ALL kinds (content, design, coding, documentation, testing, etc) from community members. Each member has the opportunity to gain global collaboration experience working on projects with social impact and improve technical skills while participating as a volunteer, mentor, writer, coder, designer, app tester, and more!
+            </div>
+          </div>
+          <div
+            class="css-view-1dbjc4n r-paddingLeft-1qhn6m8"
+            style="flex-direction: column;"
+          >
+            <div
+              class="css-view-1dbjc4n r-flex-13awgt0 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh r-paddingTop-fd4yh7 r-width-13qz1uu"
+            >
+              <div
+                class="css-text-901oao r-alignItems-1habvwh r-color-1qovj5m r-flex-13awgt0 r-fontSize-1x35g6 r-fontWeight-16dba41"
+                dir="auto"
+              >
+                Our History
+              </div>
+            </div>
+            <div
+              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+              dir="auto"
+              style="font-size: 18px; font-weight: 200; text-align: left;"
+            >
+              AnitaB.org Open Source (formerly Systers Open Source) was initiated by Systers, an international community of 6,000 women involved in technical-computing founded by Anita Borg in 1987 as a small electronic mailing list for women in “systems”. We have incredible Systers (Robin Jeffries, Jen Redman, Terri Oda, Leslie Hawthorn, Avni Khatri, and the list goes on!) that paved the way and introduced Systers to open source projects, communities, and technologies. Systers has been involved with open source in various ways, introducing Open Source Day at Grace Hopper Celebration in 2010 at Atlanta, GA (At the time, it was called Codethon for Humanity with only one open source project, Sahana Eden).
+            </div>
+            <div
+              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+              dir="auto"
+              style="font-size: 18px; font-weight: 200; text-align: left;"
+            >
+              Moreover, AnitaB.org Open Source has been participating in other global open source programs such as Google Summer of Code, Google Code In, Outreachy, and more.
+            </div>
+            <div
+              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+              dir="auto"
+              style="font-size: 18px; font-weight: 200; text-align: left;"
+            >
+              Today, we have 14 active open source projects, including initiatives with our Peace Corps partners and apps created by Systers members.
+            </div>
+          </div>
+          <div
+            class="css-view-1dbjc4n r-paddingLeft-1qhn6m8"
+            style="flex-direction: column;"
+          >
+            <div
+              class="css-view-1dbjc4n r-flex-13awgt0 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh r-paddingTop-fd4yh7 r-width-13qz1uu"
+            >
+              <div
+                class="css-text-901oao r-alignItems-1habvwh r-color-1qovj5m r-flex-13awgt0 r-fontSize-1x35g6 r-fontWeight-16dba41"
+                dir="auto"
+              >
+                About AnitaB.org
+              </div>
+            </div>
+            <div
+              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+              dir="auto"
+              style="font-size: 18px; font-weight: 200; text-align: left;"
+            >
+              AnitaB.org Open Source is an international sub-community of AnitaB.org encouraging the participation of all women involved in technology. We welcome the participation of all genders at any ages and experience levels.
+            </div>
+            <div
+              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+              dir="auto"
+              style="font-size: 18px; font-weight: 200; text-align: left;"
+            >
+              We have a list of projects that use various development languages/technologies (Android, iOS, Java, Swift, HTML, CSS, React, Jquery, Javascript, PHP, Kohana, MySQL, Python, Django, Selenium, and Ruby on Rails, etc.) to make a social impact in the non-profit world. We welcome all to contribute. No experience is necessary for most projects, and mentorship is provided. 
+            </div>
+          </div>
+          <div
+            class="css-view-1dbjc4n r-paddingLeft-1qhn6m8"
+            style="flex-direction: column;"
+          >
+            <div
+              class="css-view-1dbjc4n r-flex-13awgt0 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh r-paddingTop-fd4yh7 r-width-13qz1uu"
+            >
+              <div
+                class="css-text-901oao r-alignItems-1habvwh r-color-1qovj5m r-flex-13awgt0 r-fontSize-1x35g6 r-fontWeight-16dba41"
+                dir="auto"
+              >
+                Insights
+              </div>
+            </div>
+            <div
+              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+              dir="auto"
+              style="font-size: 18px; font-weight: 200; text-align: left;"
+            >
+              2,000+ members
+            </div>
+            <div
+              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+              dir="auto"
+              style="font-size: 18px; font-weight: 200; text-align: left;"
+            >
+              &gt;15 time zones
+            </div>
+            <div
+              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+              dir="auto"
+              style="font-size: 18px; font-weight: 200; text-align: left;"
+            >
+              Flexibility in time & contribution
+            </div>
+          </div>
+          <div
+            class="css-view-1dbjc4n r-paddingLeft-1qhn6m8"
+            style="flex-direction: column;"
+          >
+            <div
+              class="css-view-1dbjc4n r-flex-13awgt0 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh r-paddingTop-fd4yh7 r-width-13qz1uu"
+            >
+              <div
+                class="css-text-901oao r-alignItems-1habvwh r-color-1qovj5m r-flex-13awgt0 r-fontSize-1x35g6 r-fontWeight-16dba41"
+                dir="auto"
+              >
+                Meet our Open Source Community
+              </div>
+            </div>
+            <div
+              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+              dir="auto"
+              style="font-size: 18px; font-weight: 200; text-align: left;"
+            >
+              Women transform technology. Technology transforms the world. Join us at Zulip - http://anitab-org.zulipchat.com
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-view-1dbjc4n r-alignContent-1w3cok r-flex-13awgt0 r-flexDirection-18u37iz r-flexWrap-1w6e6rj r-margin-98ikmy"
+    >
+      <div
+        aria-valuemax="1"
+        aria-valuemin="0"
+        class="css-view-1dbjc4n r-alignItems-1awozwy r-justifyContent-1777fci"
+        role="progressbar"
+      >
+        <div
+          class="css-view-1dbjc4n r-animationDuration-17bb2tj r-animationIterationCount-1muvv40 r-animationKeyframes-127358a r-animationTimingFunction-1ldzwu0 r-height-z80fyv r-width-19wmn03"
+        >
+          <svg
+            height="100%"
+            viewBox="0 0 32 32"
+            width="100%"
+          >
+            <circle
+              cx="16"
+              cy="16"
+              fill="none"
+              r="14"
+              stroke-width="4"
+              style="stroke: #1976D2; opacity: 0.2;"
+            />
+            <circle
+              cx="16"
+              cy="16"
+              fill="none"
+              r="14"
+              stroke-width="4"
+              style="stroke: #1976D2; stroke-dasharray: 80; stroke-dashoffset: 60;"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
