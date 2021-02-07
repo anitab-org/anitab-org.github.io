@@ -97,14 +97,14 @@ const timezones = [
 
 function Events() {
   const [timezone, setTimezone] = useState("")
-  
+
   const handler = (link) => {
     setTimezone(link)
   }
 
-  const listTimezones = timezones.map(function(zone){
+  const listTimezones = timezones.map(function(zone,index){
     return (
-    <List onClick={() => handler(zone.link) }>
+    <List key={index} onClick={() => handler(zone.link) }>
         {zone.name}
     </List>
     )
@@ -129,7 +129,7 @@ function Events() {
     )
   }
 
-  return (  
+  return (
     <MainContainer>
       {renderCalendar()}
     </MainContainer>

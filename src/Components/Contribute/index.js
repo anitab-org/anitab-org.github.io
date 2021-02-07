@@ -10,10 +10,10 @@ function Contribute() {
             <Box>
                 {content.sections.map((section, index) => {
                     return (
-                        <Content>
+                        <Content key={index}>
                             <SectionHeader title={section.title} />
-                            {section.content.map((content) => {
-                                return <Description>{content.par}</Description>;
+                            {section.content.map((content,index) => {
+                                return <Description key={index}>{content.par}</Description>;
                             })}
                         </Content>
                     );

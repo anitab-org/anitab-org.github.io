@@ -22,7 +22,7 @@ function OurEvents() {
     <Box>
     {content.sections.map((section, index) => {
       return (
-        <ImageContent
+        <ImageContent key={index}
           image={section.image.source}
           imageSide={index % 2 === 0 ? 'right' : 'left'}
           Children={() => renderContent(index, section)}
@@ -30,7 +30,7 @@ function OurEvents() {
       );
     })}
     </Box>
-    
+
   );
 }
 export default OurEvents;
