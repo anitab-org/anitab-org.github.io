@@ -46,9 +46,16 @@ export const Stroke = styled(View,{
     borderBottomWidth:2,
     top:-45,
 })
+export const MainContainer = styled(View,{
+    display: 'flex',
+    flexDirection: 'column',
+    width : '100%',
+    alignItems : 'center',
+    height : '64vh',
+})
 export const ArrowNavigation = styled(View,{
     flexDirection:'row',
-    marginTop:8,
+    marginTop:20,
     marginBottom:8,
     width: '80%',
     justifyContent:'space-between'
@@ -62,7 +69,8 @@ export const ScrollContainer = styled(View,{
     width:'80%',
     flexWrap:'wrap',
     flexDirection:'column',
-    marginBottom:64
+    marginBottom:64,
+    marginTop:80,
 })
 export const Container = styled(View,{
     width:80
