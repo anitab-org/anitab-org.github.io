@@ -344,8 +344,36 @@ const projects = {
           contributors_url:
             'https://api.github.com/repos/anitab-org/stem-diverse-tv/contributors',
         },
+        {
+          image: {
+            source: require('./../assets/placeholder.png'),
+          },
+          title: 'Stem Diverse Tv Cms',
+          description:
+            'Content Management System (CMS) for managing content of STEM Diverse TV backend.',
+          labels: [
+            { title: 'flask', color: '#F8972B' },
+            { title: 'python', color: '#C1D72E' },
+          ],
+          badges: [
+            {
+              title: 'zulip',
+              source: require('./../assets/zulip.png'),
+              url:
+                'https://anitab-org.zulipchat.com/#narrow/stream/225705-STEM-diverse-tv',
+            },
+            {
+              title: 'github',
+              source: require('./../assets/github.png'),
+              url: 'https://github.com/anitab-org/stem-diverse-tv',
+            },
+          ],
+          contributors_url:
+            'https://api.github.com/repos/anitab-org/stem-diverse-tv-cms/contributors',
+        },
       ],
     },
+      
   ],
 };
 
