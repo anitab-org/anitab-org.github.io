@@ -4,7 +4,6 @@ import { StyleSheet, View} from 'react-native';
 
 const ContributionBox = ({ commitCount }) => {
     var hue = 0;
-    switch (true) {
     if(commitCount < 2) {
         hue = .4;
     } else if (commitCount >=2 && commitCount < 4) {
