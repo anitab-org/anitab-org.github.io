@@ -1,7 +1,9 @@
+//add date of events in [month,date] format,with the months being 0-indexed,E.g: january-0,february-1 and so on.
+//** sorted order **
 const events=[
     {
         event:"GSoC'21",
-        date:[[0,30],[1,20],[2,10],[2,29],[3,13],[4,17],[5,7],[6,12],[6,16],[7,16],[7,23],[7,30],[7,31]],
+        date:[[0,30],[1,20],[1,24],[2,10],[2,29],[3,13],[4,17],[5,7],[6,12],[6,16],[7,16],[7,23],[7,30],[7,31]],
         color:'#ffdd30'
     },
     {
@@ -18,5 +20,3 @@ export const getEvents = () => {
 export const getMonths = () => {
     return months;
   };
-
-  
