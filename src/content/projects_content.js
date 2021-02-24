@@ -8,7 +8,7 @@ const projects = {
       content: [
         {
           par:
-            'Our open source project are oriented to help not only women in tech but also increase diversity and inclusion in STEM. We have multiple project on our GitHub account and we are trying to keep up to date latests technologies and modern programming and scripting languages.',
+            'Our open source projects are oriented to help not only women in tech but also increase diversity and inclusion in STEM. We have multiple projects on our GitHub account and we are trying to keep up to date latest technologies and modern programming and scripting languages.',
         },
       ],
       cards: [
@@ -268,7 +268,10 @@ const projects = {
           title: 'Open Source Programs Web',
           description:
             'Frontend of Open Source Programs (OSP) - an application that simplifies the processing and selection procedure of Open Source Programs of AnitaB.org Open Source or other third-party programs.',
-          labels: [{ title: 'javascript', color: '#F9D507' }],
+          labels: [
+            { title: 'react js', color: '#BD6AAA' },
+            { title: 'javascript', color: '#F9D507' },
+          ],
           badges: [
             {
               title: 'zulip',

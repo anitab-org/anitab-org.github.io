@@ -16,7 +16,7 @@ const home = {
         },
         {
           par:
-            "Our code of conduct is simple- 'Be nice, Be respectful' which is the one of the many reasons the community coexists in harmony. The members should contribute actively keeping the policies of being repectful to everyone and refrainging from conflicts, unruly behaviour and speech. Anyone who wishes to join the community is expected to follow these guidelines.\nIf you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer or adminas soon as possible.",
+            "Our code of conduct is simple- 'Be nice, Be respectful' which is the one of the many reasons the community coexists in harmony. The members should contribute actively keeping the policies of being respectful to everyone and refraining from conflicts, unruly behaviour and speech. Anyone who wishes to join the community is expected to follow these guidelines.\nIf you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer or admins as soon as possible.",
         },
       ],
     },
@@ -28,11 +28,11 @@ const home = {
       content: [
         {
           par:
-            'You can start contributing to our various open source projects by- \n1) Creating issues on Github regarding the project \n2) Debugging the issues \n3) Creating pull requests, testing pull requests \n4) Create mockups for new applications or redesign the current features \n5) Research about UI/UX improvements and accessibilty features. \n6) Create app walkthroughs with documents or videos, UI testing once the PR is submitted for the UI issue',
+            'You can start contributing to our various open source projects by- \n1) Creating issues on Github regarding the project \n2) Debugging the issues \n3) Creating pull requests, testing pull requests \n4) Create mockups for new applications or redesign the current features \n5) Research about UI/UX improvements and accessibility features. \n6) Create app walk through with documents or videos, UI testing once the PR is submitted for the UI issue',
         },
         {
           par:
-            "Each active repository has a stream to direct questions. \nIssues labeled as 'First Timers Only' are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues. \nMake sure to follow the Commit Message Style Guide when submitting PRs which will require review by atleast one maintainer to be merged to the main code.",
+            "Each active repository has a stream to direct questions. \nIssues labeled as 'First Timers Only' are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues. \nMake sure to follow the Commit Message Style Guide when submitting PRs which will require review by at least one maintainer to be merged to the main code.",
         },
       ],
     },
@@ -60,11 +60,11 @@ const home = {
         },
         {
           par:
-            '4) AnitaB-org.github.io \nAnitaB.org Open Source web gathering all informations about current open source projects, running programs and events as well as all necessary contribution informations.',
+            '4) AnitaB-org.github.io \nAnitaB.org Open Source web gathering all information about current open source projects, running programs and events as well as all necessary contribution information.',
         },
         {
           par:
-            '5) Bridge-in-tech \nBridge-In-Tech is an application inspired by the existing AnitaB.org Mentorship System. It encourages organizations to collaborate with the mentors and mentees on mentoring programs. Through Bridge-In-Tech,an organization can offer a mentorship program to a mentor and a mentee that is customised to meet the needed skills set within its organisation while providing a safety and supportive environment for these mentor/mentee to work in. This project was proposed as an original project of Google Summer of Code 2020. The frontend of this application will be a Web application using (tech stack tba).',
+            '5) Bridge-in-tech \nBridge-In-Tech is an application inspired by the existing AnitaB.org Mentorship System. It encourages organizations to collaborate with the mentors and mentees on mentoring programs. Through Bridge-In-Tech,an organization can offer a mentorship program to a mentor and a mentee that is customised to meet the needed skills set within its organisation while providing a safety and supportive environment for these mentor/mentee to work in. This project was proposed as an original project of Google Summer of Code 2020. The front end of this application will be a Web application using (tech stack tba).',
         },
         {
           par: 'And more interesting and informative projects in future!',
@@ -79,11 +79,11 @@ const home = {
       content: [
         {
           par:
-            "1) Google Summer of Code \nAnitaB.org has been actively participating in the Google Summer of Code in the years 2016, 2017, 2018 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org -\nMohammad Murad, former AnitaB.org GSoC mentor in his Medium blog says- AnitaB.org is very different, along with writing coding equal importance is given to interacting with the community. The community also helps in personal development and personal growth. \nIsabel Costa, GSoC 2018 participant in her Medium blog says- I got to meet incredible people from the AnitaB.org community. I grew personally and professionally by sharing and learning from other’s perspectives. Being recognized for my work as the Most Outstanding Student by Systers made me very proud of my achievements. This was truly an awesome experience. ",
+            "1) Google Summer of Code \nAnitaB.org has been actively participating in the Google Summer of Code in the years 2016, 2017, 2018, 2020 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org -\nMohammad Murad, former AnitaB.org GSoC mentor in his Medium blog says- AnitaB.org is very different, along with writing coding equal importance is given to interacting with the community. The community also helps in personal development and personal growth. \nIsabel Costa, GSoC 2018 participant in her Medium blog says- I got to meet incredible people from the AnitaB.org community. I grew personally and professionally by sharing and learning from other’s perspectives. Being recognized for my work as the Most Outstanding Student by Systers made me very proud of my achievements. This was truly an awesome experience. ",
         },
         {
           par:
-            "2) Google Code In \nAnitaB.org has been actively participating in the Google Summer of Code in the years 2014, 2015, 2016, 2017, 2019 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org - \nVatsal Kulshrestha, former GCI 2017 participant in his Medium blog says- AnitaB.org has been a true personification of the famous quote by Einstein- ‘The only source of knowledge is EXPERIENCE’ ",
+            "2) Google Code In \nAnitaB.org has been actively participating in the Google Code In in the years 2014, 2015, 2016, 2017, 2019 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org - \nVatsal Kulshrestha, former GCI 2017 participant in his Medium blog says- AnitaB.org has been a true personification of the famous quote by Einstein- ‘The only source of knowledge is EXPERIENCE’ ",
         },
       ],
     },
