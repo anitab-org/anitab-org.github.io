@@ -3,6 +3,8 @@ import { Text, View ,FlatList,Image,Linking,ActivityIndicator,TouchableHighlight
 import SectionHeader from '../SectionHeader';
 import {TableHeader,TableHeaderText,IssueContainer,Labels,IssueItem} from './style';
 import {InfoCircleOutlined} from '@ant-design/icons'
+import {getMonths} from '../../content/programs_events'
+const months=getMonths();
 export default class App extends Component {
     constructor(props) {
         super(props);
@@ -38,6 +40,7 @@ export default class App extends Component {
           })
           this.setState({open,closed});
         } catch (error) {
+            this.setState({isLoading:false})
           console.log(error);
         }
       }
@@ -68,13 +71,20 @@ export default class App extends Component {
         })
         if(flag === true && issueNormalized !== null) return issueNormalized
       }
+    getDate=(date)=>{
+        var year = date.substring(0,4);
+        var idx = parseInt(date.substring(5,7));
+        var day = parseInt(date.substring(8,10));
+        var month = months[idx-1][1];
+        return month.substring(0,3)+" "+day+', '+year;
+    }
   render() {
     if(this.state.isLoading===true){
         return(
             <View style={{width:'80%'}}>
                 <SectionHeader title="SOME COOL FIRST-TIME ISSUES TO WORK ON"/>
                 <TableHeader>
-                    <TableHeaderText style={{flex:10,textAlign:'left',fontWeight:600}}><InfoCircleOutlined /> {this.state.open} Open</TableHeaderText>
+                    <TableHeaderText style={{flex:10,textAlign:'left'}}><InfoCircleOutlined /> {this.state.open} Open</TableHeaderText>
                     <TableHeaderText>Assignee</TableHeaderText>
                     <TableHeaderText>Comments</TableHeaderText>
                 </TableHeader>
@@ -86,7 +96,7 @@ export default class App extends Component {
             <View style={{alignItems: 'left',width:'80%'}}>
                 <SectionHeader title="SOME COOL FIRST-TIME ISSUES TO WORK ON"/>
                 <TableHeader>
-                    <TableHeaderText style={{flex:10,textAlign:'left',fontWeight:600}}><InfoCircleOutlined /> {this.state.open} Open</TableHeaderText>
+                    <TableHeaderText style={{flex:10,textAlign:'left'}}><InfoCircleOutlined /> {this.state.open} Open</TableHeaderText>
                     <TableHeaderText>Assignee</TableHeaderText>
                     <TableHeaderText>Comments</TableHeaderText>
                 </TableHeader>
@@ -120,7 +130,7 @@ export default class App extends Component {
                                     </View>
                                     {
                                         item.state==='open' &&
-                                        <Text style={{color:'#586069'}}> #{item.number} opened by {item.opened_by} </Text>
+                                        <Text style={{color:'#586069'}}> #{item.number} opened on {this.getDate(item.created_at)} by {item.opened_by} </Text>
                                     }
                                     {
                                         item.state==='closed' &&
