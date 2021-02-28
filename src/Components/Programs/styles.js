@@ -45,7 +45,6 @@ export const Stroke = styled(View,{
     borderBottomColor:'#000',
     borderBottomWidth:2,
     top:-45,
-    width: '100%'
 })
 export const MainContainer = styled(View,{
     display: 'flex',
