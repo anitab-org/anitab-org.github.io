@@ -33,3 +33,8 @@ export const Labels=styled(Text,{
     marginVertical:2,
     fontWeight:600,
 })
+export const IssueItem=styled(View,{
+    justifyContent:'center',
+    flex:1,
+    flexDirection:'row'
+})
