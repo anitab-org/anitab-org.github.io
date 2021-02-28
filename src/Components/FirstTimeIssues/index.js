@@ -130,11 +130,11 @@ export default class App extends Component {
                                     </View>
                                     {
                                         item.state==='open' &&
-                                        <Text style={{color:'#586069'}}> #{item.number} opened on {this.getDate(item.created_at)} by {item.opened_by} </Text>
+                                        <Text style={{color:'#586069'}}> #{item.number} opened on {this.getDate(item.created_at)} by {item.opened_by}</Text>
                                     }
                                     {
                                         item.state==='closed' &&
-                                        <Text style={{color:'#586069'}}> #{item.number} by {item.opened_by} was closed</Text>
+                                        <Text style={{color:'#586069'}}> #{item.number} by {item.opened_by} was closed on {this.getDate(item.created_at)}</Text>
                                     }
                                 </View>
                                 <IssueItem>
