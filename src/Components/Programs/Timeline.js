@@ -17,21 +17,20 @@ const styles=StyleSheet.create({
 function Timeline() {
     var p = dayjs().date(); //current date
     var curr_month = dayjs().month(); //current month
-    var scrollPosition= (30*curr_month+p-1)*35;
     const scrollRef = useRef();
     //scrolls the timeline to the current date and month
     useEffect(() => {
-        scrollRef.current.scrollTo({x:scrollPosition});
+        scrollRef.current.scrollTo({x:(30*curr_month+p-1)*40});
     })
     //onclick scrolls the timeline to the left
     const scrollLeft=()=>{
-        scrollRef.current.scrollTo({x:scrollPosition-=35});
-        if(scrollPosition<0)
-            scrollPosition=0;
+        scrollRef.current.scrollTo({x:p-=35});
+        if(p<0)
+            p=0;
     }
     //onclick scrolls the timeline to the right
     const scrollRight=()=>{
-        scrollRef.current.scrollTo({x:scrollPosition+=35});
+        scrollRef.current.scrollTo({x:p+=35});
     }
   return (
       <>
@@ -66,7 +65,7 @@ function Timeline() {
                                 >
                                     {item.event}
                                 </Event>
-                                <Stroke></Stroke>
+                                <Stroke style={{width:(item.date[0][1]+5)*20}}></Stroke>
                             </View>
                         ))
                     }
@@ -94,17 +93,12 @@ function Timeline() {
                                                 </Date>
                                             ))
                                         }
-                                        <Fade
-                                            style={{
-                                                left:(item.date[0][0]*30+item.date[0][1]-1)*40,
-                                                width:((curr_month*30+p)-(item.date[0][0]*30+item.date[0][1]))*40+20,
-                                            }}>
-                                        </Fade>
-                                        <Marker style={{left:(curr_month*30+p-1)*40+20,zIndex:-1}}></Marker>
+                                        <Fade style={{left:(item.date[0][1]-1)*40,width:(p-item.date[0][1])*40+20}}></Fade>
+                                        <Marker style={{left:(p-1)*40+20,zIndex:-1}}></Marker>
                                     </View>
                                 ))
                             }
-                            <View style={{left:(curr_month*30+p-1)*40+25}}><Text>Today {dayjs().date()}th {months[curr_month][1]}</Text></View>
+                            <View style={{left:(p-1)*40+25}}><Text>Today {dayjs().date()}th {months[curr_month][1]}</Text></View>
                             <View style={{flexDirection:'row'}}>
                                 {
                                     months.map((m,index)=>(
