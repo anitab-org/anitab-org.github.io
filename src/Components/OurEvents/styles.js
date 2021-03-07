@@ -3,7 +3,6 @@ import { styled } from 'react-native-reflect';
 
 export const Box = styled(View, {
   flex: 1,
-  width: '80%',
   flexDirection: 'column',
   paddingLeft: 16,
   paddingRight: 16,
@@ -13,8 +12,7 @@ export const Box = styled(View, {
 
 export const Content = styled(View, {
   flexDirection: 'column',
-  paddingLeft: 16,
-  marginRight:77,
+  minWidth: '210%',
 });
 
 export const Description = styled(Text, {
