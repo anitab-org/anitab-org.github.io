@@ -58,7 +58,7 @@ const createStyles = (imageSide) =>
     sectionImage: {
       paddingLeft: 16,
       paddingRight: 16,
-      marginTop: 216,
+      marginTop: 136,
     },
   });
 
