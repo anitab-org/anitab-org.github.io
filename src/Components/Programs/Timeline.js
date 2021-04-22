@@ -39,7 +39,9 @@ function Timeline() {
                     <View style={{flexDirection:'row'}}>
                         <TouchableWithoutFeedback onPress={scrollLeft}>
                             <View style={{flexDirection:'row'}}>
-                                <ArrowLeftOutlined/>
+                                <View style={{paddingTop: 3}}>
+                                    <ArrowLeftOutlined/>
+                                </View>
                                 <ArrowText>PAST</ArrowText>
                             </View>
                         </TouchableWithoutFeedback>
@@ -48,7 +50,9 @@ function Timeline() {
                         <TouchableWithoutFeedback onPress={scrollRight}>
                             <View style={{flexDirection:'row'}}>
                                 <ArrowText>FUTURE</ArrowText>
-                                <ArrowRightOutlined/>
+                                <View style={{paddingTop: 3}}>
+                                    <ArrowRightOutlined/>
+                                </View>
                             </View>
                         </TouchableWithoutFeedback>
                     </View>
