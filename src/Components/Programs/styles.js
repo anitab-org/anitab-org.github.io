@@ -69,11 +69,9 @@ export const ArrowText = styled(Text,{
     cursor: 'pointer',
     color: '#42aaf5',
 })
-export const ArrowLeftOutlined = styled(View,{
+export const ArrowOutlined = styled(View,{
     color: '#42aaf5',
 })
-export const ArrowRightOutlined = styled(View,{
-    color: '#42aaf5',
 })
 export const ScrollContainer = styled(View,{
     width:'80%',
