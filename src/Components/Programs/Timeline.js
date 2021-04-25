@@ -38,14 +38,22 @@ function Timeline() {
                 <ArrowNavigation>
                     <View style={{flexDirection:'row'}}>
                         <TouchableWithoutFeedback onPress={scrollLeft}>
-                            <ArrowLeftOutlined style={{color:'#42aaf5'}}/>
+                            <View style={{flexDirection:'row'}}>
+                                <View style={{paddingTop: 3}}>
+                                    <ArrowOutlined/>
+                                </View>
+                                <ArrowText>PAST</ArrowText>
+                            </View>
                         </TouchableWithoutFeedback>
-                        <ArrowText>PAST</ArrowText>
                     </View>
                     <View style={{flexDirection:'row'}}>
-                        <ArrowText>FUTURE</ArrowText>
                         <TouchableWithoutFeedback onPress={scrollRight}>
-                            <ArrowRightOutlined style={{color:'#42aaf5'}}/>
+                            <View style={{flexDirection:'row'}}>
+                                <ArrowText>FUTURE</ArrowText>
+                                <View style={{paddingTop: 3}}>
+                                    <ArrowOutlined/>
+                                </View>
+                            </View>
                         </TouchableWithoutFeedback>
                     </View>
                 </ArrowNavigation>

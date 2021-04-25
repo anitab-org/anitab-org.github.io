@@ -58,12 +58,20 @@ export const ArrowNavigation = styled(View,{
     marginTop:20,
     marginBottom:8,
     width: '80%',
-    justifyContent:'space-between'
+    justifyContent:'space-between',
+    cursor: 'pointer',
+    color: '#42aaf5'
 })
 export const ArrowText = styled(Text,{
     fontSize:16,
     marginLeft:8,
-    marginRight:8
+    marginRight:8,
+    cursor: 'pointer',
+    color: '#42aaf5',
+})
+export const ArrowOutlined = styled(View,{
+    color: '#42aaf5',
+})
 })
 export const ScrollContainer = styled(View,{
     width:'80%',
