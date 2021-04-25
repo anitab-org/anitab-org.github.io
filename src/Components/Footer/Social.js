@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, Text, Linking, TouchableHighlight } from 'react-native';
+import { View, Image, Text, TouchableHighlight } from 'react-native';
 import styles from './styles';
 
 function Social() {
@@ -8,7 +8,9 @@ function Social() {
       <Text style={[styles.text, styles.heading]}>Follow us here</Text>
       <View style={styles.socialContainer}>
         <TouchableHighlight
-          onPress={() => Linking.openURL('https://twitter.com/AnitaB_org')}
+          onPress = {() => 
+            window.open('https://twitter.com/AnitaB_org', '_blank')
+          }
         >
           <Image
             style={[styles.socialImage]}
@@ -16,8 +18,8 @@ function Social() {
           />
         </TouchableHighlight>
         <TouchableHighlight
-          onPress={() =>
-            Linking.openURL('https://www.instagram.com/anitab_org/')
+          onPress = {() =>
+            window.open('https://www.instagram.com/anitab_org/', '_blank')
           }
         >
           <Image
@@ -26,8 +28,8 @@ function Social() {
           />
         </TouchableHighlight>
         <TouchableHighlight
-          onPress={() =>
-            Linking.openURL('https://www.facebook.com/AnitaB.0rg/')
+          onPress = {() =>
+            window.open('https://www.facebook.com/AnitaB.0rg/', '_blank')
           }
         >
           <Image
@@ -36,8 +38,8 @@ function Social() {
           />
         </TouchableHighlight>
         <TouchableHighlight
-          onPress={() =>
-            Linking.openURL('https://www.linkedin.com/company/anitab-org/')
+          onPress = {() =>
+            window.open('https://www.linkedin.com/company/anitab-org/', '_blank')
           }
         >
           <Image
