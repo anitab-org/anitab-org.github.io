@@ -72,7 +72,6 @@ export const ArrowText = styled(Text,{
 export const ArrowOutlined = styled(View,{
     color: '#42aaf5',
 })
-})
 export const ScrollContainer = styled(View,{
     width:'80%',
     flexWrap:'wrap',
