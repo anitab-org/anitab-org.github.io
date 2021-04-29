@@ -9,7 +9,7 @@ export const Event = styled(Text,{
     textAlign: 'center',
     position:'relative',
     backgroundColor:'#fff',
-    width:240
+    width:'21.8%',
 });
 export const Line = styled(View,{
     borderBottomWidth:10,
