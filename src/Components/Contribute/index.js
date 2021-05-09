@@ -3,9 +3,9 @@ import SectionHeader from '../SectionHeader';
 import content from '../../content/contributeIntro.json';
 import ImageContent from './../ImageContent';
 import { MainContainer, Box, Content, Description } from './style';
-import { Text, StyleSheet } from "react-native";
 import FirstTimeIssues from '../FirstTimeIssues'
 
+import Hyperlink from 'react-native-hyperlink';
 
 function Contribute() {
     const renderContent = () => {
@@ -16,7 +16,11 @@ function Contribute() {
                         <Content key={index}>
                             <SectionHeader title={section.title} />
                             {section.content.map((content,index) => {
-                                return <Description key={index}>{content.par}</Description>;
+                                return <Hyperlink  linkStyle={ { color: '#2980b9'} } onPress={(url)=> window.open(url,'_blank')}>
+                                <Description key={index}>
+                                  {content.par}
+                                </Description>
+                              </Hyperlink>;
                             })}
                         </Content>
                     );
