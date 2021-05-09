@@ -18,12 +18,16 @@ export default class App extends Component {
         try {
           const response = await fetch('https://api.github.com/orgs/anitab-org/repos');
           const jsonData = await response.json();
-          const DATA = await Promise.all(jsonData.map(async ({ name }) => {
-            repos.push(name);
-            const issuesResponse = await fetch(`https://api.github.com/repos/anitab-org/${name}/issues`);
-            const issuesJSON = await issuesResponse.json();
-            const repoIssues = issuesJSON.map(this.normalizeIssue);
-            return repoIssues.filter(issue => issue !== undefined);
+          const DATA = await Promise.all(jsonData.map(async ({ name,archived }) => {
+            if(archived===false){
+                console.log(archived);
+                repos.push(name);
+                const issuesResponse = await fetch(`https://api.github.com/repos/anitab-org/${name}/issues`);
+                const issuesJSON = await issuesResponse.json();
+                const repoIssues = issuesJSON.map(this.normalizeIssue);
+                return repoIssues.filter(issue => issue !== undefined);
+            }
+            return []
           }))
           this.setState({
             repos,
@@ -45,7 +49,7 @@ export default class App extends Component {
         }
       }
       normalizeIssue = (issue) => {
-        let flag = false;
+        let flag = 0;
         const issueNormalized = {
             id:issue.id.toString(),
             url:issue.html_url,
@@ -62,14 +66,16 @@ export default class App extends Component {
             opened_by:issue.user.login
         };
         issue.labels.forEach(function(label){
-            if(label.name === "First Timers Only") flag = true;
+            console.log(label.name)
+            if(label.name === "First Timers Only" || label.name === "Status: Available") 
+                flag++;
             issueNormalized.labels.push({
                 id:label.id,
                 name:label.name,
                 color:'#'+label.color
             })
         })
-        if(flag === true && issueNormalized !== null) return issueNormalized
+        if(flag === 2 && issueNormalized !== null) return issueNormalized
       }
     getDate=(date)=>{
         var year = date.substring(0,4);
