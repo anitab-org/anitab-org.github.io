@@ -28,7 +28,7 @@ const home = {
       content: [
         {
           par:
-            'You can start contributing to our various open source projects by- \n1) Creating issues on Github regarding the project \n2) Debugging the issues \n3) Creating pull requests, testing pull requests \n4) Create mockups for new applications or redesign the current features \n5) Research about UI/UX improvements and accessibility features. \n6) Create app walk through with documents or videos, UI testing once the PR is submitted for the UI issue',
+            'You can start contributing to our various open source projects by- \n\n1) Creating issues on Github regarding the project \n2) Debugging the issues \n3) Creating pull requests, testing pull requests \n4) Create mockups for new applications or redesign the current features \n5) Research about UI/UX improvements and accessibility features. \n6) Create app walk through with documents or videos, UI testing once the PR is submitted for the UI issue',
         },
         {
           par:
@@ -48,23 +48,23 @@ const home = {
         },
         {
           par:
-            '1) Mentorship System \nMentorship System is an application that matches women in tech to mentor each other, on career development, through relations during a certain period of time. \nIt is an open source project proposed for Google Summer of Code 2018 with AnitaB.org Open Source, an idea that consists of a mobile application that matches women to help and support both parties. One is the mentor that will be a support/accountability buddy and or give advice to a woman that wants mentorship, for a period of time established by both parties. This would not focus only on students, this would target women from any age, background, work in tech experience, and so on. This project uses Kotlin for frontend and Python for backend. \nFlutter and iOS versions are also available.',
+            '1) Mentorship System \n\nMentorship System is an application that matches women in tech to mentor each other, on career development, through relations during a certain period of time. \nIt is an open source project proposed for Google Summer of Code 2018 with AnitaB.org Open Source, an idea that consists of a mobile application that matches women to help and support both parties. One is the mentor that will be a support/accountability buddy and or give advice to a woman that wants mentorship, for a period of time established by both parties. This would not focus only on students, this would target women from any age, background, work in tech experience, and so on. This project uses Kotlin for frontend and Python for backend. \nFlutter and iOS versions are also available.',
         },
         {
           par:
-            '2) The Volunteer Management System (VMS) \nThe Volunteer Management System (VMS) will be useful for volunteer coordinators, volunteer sign-up,tracking hours, and reporting. This project is currently under development same as the mentorship application project. The Volunteer Management System will be developed in phases. The initial implementation will track volunteers’ contact information, enable administrators to track volunteer hours, and allow reporting of useful information. This project uses the Django web framework and Python. ',
+            '2) The Volunteer Management System (VMS) \n\nThe Volunteer Management System (VMS) will be useful for volunteer coordinators, volunteer sign-up,tracking hours, and reporting. This project is currently under development same as the mentorship application project. The Volunteer Management System will be developed in phases. The initial implementation will track volunteers’ contact information, enable administrators to track volunteer hours, and allow reporting of useful information. This project uses the Django web framework and Python. ',
         },
         {
           par:
-            '3) PowerUp Android \nPowerUp is a female empowerment educational mobile game app that will allow young girls to learn about reproductive health and self-esteem by navigating the life of their avatar. This project uses Java. Android and iOS versions are available.',
+            '3) PowerUp Android \n\nPowerUp is a female empowerment educational mobile game app that will allow young girls to learn about reproductive health and self-esteem by navigating the life of their avatar. This project uses Java. Android and iOS versions are available.',
         },
         {
           par:
-            '4) AnitaB-org.github.io \nAnitaB.org Open Source web gathering all information about current open source projects, running programs and events as well as all necessary contribution information.',
+            '4) AnitaB-org.github.io \n\nAnitaB.org Open Source web gathering all information about current open source projects, running programs and events as well as all necessary contribution information.',
         },
         {
           par:
-            '5) Bridge-in-tech \nBridge-In-Tech is an application inspired by the existing AnitaB.org Mentorship System. It encourages organizations to collaborate with the mentors and mentees on mentoring programs. Through Bridge-In-Tech,an organization can offer a mentorship program to a mentor and a mentee that is customised to meet the needed skills set within its organisation while providing a safety and supportive environment for these mentor/mentee to work in. This project was proposed as an original project of Google Summer of Code 2020. The front end of this application will be a Web application using (tech stack tba).',
+            '5) Bridge-in-tech \n\nBridge-In-Tech is an application inspired by the existing AnitaB.org Mentorship System. It encourages organizations to collaborate with the mentors and mentees on mentoring programs. Through Bridge-In-Tech,an organization can offer a mentorship program to a mentor and a mentee that is customised to meet the needed skills set within its organisation while providing a safety and supportive environment for these mentor/mentee to work in. This project was proposed as an original project of Google Summer of Code 2020. The front end of this application will be a Web application using (tech stack tba).',
         },
         {
           par: 'And more interesting and informative projects in future!',
@@ -79,11 +79,11 @@ const home = {
       content: [
         {
           par:
-            "1) Google Summer of Code \nAnitaB.org has been actively participating in the Google Summer of Code in the years 2016, 2017, 2018, 2020 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org -\nMohammad Murad, former AnitaB.org GSoC mentor in his Medium blog says- AnitaB.org is very different, along with writing coding equal importance is given to interacting with the community. The community also helps in personal development and personal growth. \nIsabel Costa, GSoC 2018 participant in her Medium blog says- I got to meet incredible people from the AnitaB.org community. I grew personally and professionally by sharing and learning from other’s perspectives. Being recognized for my work as the Most Outstanding Student by Systers made me very proud of my achievements. This was truly an awesome experience. ",
+            "1) Google Summer of Code \n\nAnitaB.org has been actively participating in the Google Summer of Code in the years 2016, 2017, 2018, 2020 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org -\nMohammad Murad, former AnitaB.org GSoC mentor in his Medium blog says- AnitaB.org is very different, along with writing coding equal importance is given to interacting with the community. The community also helps in personal development and personal growth. \nIsabel Costa, GSoC 2018 participant in her Medium blog says- I got to meet incredible people from the AnitaB.org community. I grew personally and professionally by sharing and learning from other’s perspectives. Being recognized for my work as the Most Outstanding Student by Systers made me very proud of my achievements. This was truly an awesome experience. ",
         },
         {
           par:
-            "2) Google Code In \nAnitaB.org has been actively participating in the Google Code In in the years 2014, 2015, 2016, 2017, 2019 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org - \nVatsal Kulshrestha, former GCI 2017 participant in his Medium blog says- AnitaB.org has been a true personification of the famous quote by Einstein- ‘The only source of knowledge is EXPERIENCE’ ",
+            "2) Google Code In \n\nAnitaB.org has been actively participating in the Google Code In in the years 2014, 2015, 2016, 2017, 2019 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org - \nVatsal Kulshrestha, former GCI 2017 participant in his Medium blog says- AnitaB.org has been a true personification of the famous quote by Einstein- ‘The only source of knowledge is EXPERIENCE’ ",
         },
       ],
     },
