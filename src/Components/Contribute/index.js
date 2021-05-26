@@ -3,6 +3,8 @@ import SectionHeader from '../SectionHeader';
 import content from '../../content/contributeIntro.json';
 import ImageContent from './../ImageContent';
 import { MainContainer, Box, Content, Description } from './style';
+import FirstTimeIssues from '../FirstTimeIssues'
+
 import Hyperlink from 'react-native-hyperlink';
 
 function Contribute() {
@@ -28,13 +30,16 @@ function Contribute() {
     };
 
     return (
-        <MainContainer>
-            <ImageContent
-                image={require('../../assets/Frame 1.png')}
-                imageSide="right"
-                Children={renderContent}
-            />
-        </MainContainer>
+        <>
+            <MainContainer>
+                <ImageContent
+                    image={require('../../assets/Frame 1.png')}
+                    imageSide="right"
+                    Children={renderContent}
+                />
+            </MainContainer>
+            <FirstTimeIssues/>
+        </>
     );
 }
 
