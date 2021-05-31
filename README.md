@@ -11,7 +11,7 @@
 
 # anitab-org.github.io
 
-This is the main website for **AnitaB.org Open Source**. It contains information about our various open source projects, the programs we participate in, information about how to contribute, and how to contact us.This website acts as an interface to help introduce people to the organization's Open Source community, and make the transition from newcomers to contributors easier.
+This is the main website for **AnitaB.org Open Source**. It contains information about our various open source projects, the programs we participate in, information about how to contribute, and how to contact us. This website acts as an interface to help introduce people to the organization's Open Source community, and make the transition from newcomers to contributors easier.
 
 ## Setup and run
 
@@ -73,7 +73,7 @@ To get the frontend running locally:
  
  ## Prerequisites
  
- **Javascript** - We are using technologies such as javascript , HTML , CSS for our website AnitaB.org Open Source.
+ **Javascript** - We are using technologies such as javascript, HTML, CSS for our website AnitaB.org Open Source.
  
  **ReactJS** - As our Whole content is written in ReactJS so we can easly transform this into native apps in future.
 
