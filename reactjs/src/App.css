@@ -1,0 +1,90 @@
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+:root {
+  --blue: #103b81;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #103b81;
+  border-radius: 10px;
+}
+::selection {
+  color: var(--brown);
+  background: var(--blue);
+}
+@font-face {
+  font-family: Avenir-bold;
+  src: url(.././src/font/AvenirNextLTPro-Bold.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Avenir-demi;
+  src: url(.././src/font/AvenirNextLTPro-Demi.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Avenir-medium;
+  src: url(.././src/font/AvenirNextLTPro-Medium.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Avenir-regular;
+  src: url(.././src/font/AvenirNextLTPro-Regular.otf);
+  font-display: swap;
+}
+::selection {
+  color: white !important;
+  background: var(--blue);
+}
+.font-bold {
+  margin: 0;
+  font-family: Avenir-bold !important;
+}
+.font-demi {
+  margin: 0;
+  font-family: Avenir-demi;
+}
+.font-medium {
+  margin: 0;
+  font-family: Avenir-medium;
+}
+.font-regular {
+  margin: 0;
+  font-family: Avenir-regular;
+}
+
+.container-fluid {
+  width: 80% !important;
+  margin: auto !important;
+}
+
+.font-blue {
+  color: #103b81;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-24 {
+  font-size: 24px !important;
+}
+
+.font-32 {
+  font-size: 32px !important;
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    width: 90% !important;
+  }
+}

@@ -1,0 +1,24 @@
+nav {
+  border-bottom: rgb(255, 0, 0) solid 1px;
+}
+.nav-background {
+  background: #ffffff;
+  height: auto;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #103b81;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #103b81;
+  border-bottom: #103b81 0.5px solid;
+}
+.navbar-toggler {
+  padding: 0 !important;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: none !important;
+}
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
