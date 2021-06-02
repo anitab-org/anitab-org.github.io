@@ -47,6 +47,16 @@ function Social() {
             source={require('./../../assets/linkedin-logo.png')}
           />
         </TouchableHighlight>
+        <TouchableHighlight
+          onPress={() =>
+            Linking.openURL('https://medium.com/anitab-org-open-source')
+          }
+        >
+          <Image
+            style={[styles.socialImage]}
+            source={require('./../../assets/Medium.png')}
+          />
+        </TouchableHighlight>
       </View>
     </View>
   );
