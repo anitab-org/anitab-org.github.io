@@ -1,20 +1,22 @@
-import React from 'react';
-import {Text, StyleSheet, View, Linking} from 'react-native';
+import React, {useState} from 'react';
+import {Text, StyleSheet, View, Button} from 'react-native';
 import ScaledImage from '../../ScaledImage';
+import EventInfoModal from '../Modal';
 import { withCard } from './../../../Decorators/Card';
 import Badge from './CardBadge';
 
-
 const EventCard = ({ props,links }) => {
     const {calendarIcon, timeIcon, locationIcon} = links;
+    const [isModalVisible, setIsModalVisible] = useState(false);
     return (
      <View style={styles.card} >
-        <ScaledImage width={286}   source={props.highlights.source} />
+        <ScaledImage width={286} source={props.highlights.source} />
         <Text style={styles.title}>{props.title}</Text>
         <Badge text={props.date} link={calendarIcon}  />
         <Badge text={props.location} link={locationIcon} />
         <Badge text={props.timings} link={timeIcon} />
         <View style={{marginTop: 32}}>
+            <Text numberOfLines={3}>
             {props.description.map((detail,index) => (
                 <Text
                     style={styles.detailStyles}
@@ -23,12 +25,14 @@ const EventCard = ({ props,links }) => {
                     {detail.par}
                 </Text>
             ))}
+            </Text>
         </View>
-        <Text style={styles.know_moreStyles}
-            onPress={() => {Linking.openURL(props.know_more.link)}}
-        >
-        {props.know_more.par}
-        </Text>
+        <br/>
+        <View style={styles.btn}>
+            <Button title="Read more" onPress={()=>{setIsModalVisible(true)}}/>
+        </View>
+        {/* Event Info Modal Popup */}
+        <EventInfoModal isVisible={isModalVisible} onRequestClose={()=>{setIsModalVisible(false)}} animationType={"slide"} data={props} links={links}/>
      </View>   
     );
 };
@@ -51,12 +55,9 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: '200'
     },
-    know_moreStyles: {
-        color: '#103B81',
-        fontSize: 16,
-        fontWeight: '400', 
-        marginTop: 32,
-    },
+    btn:{
+        marginVertical:5
+    }
 })
 
 export default withCard(EventCard);
