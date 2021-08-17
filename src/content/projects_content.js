@@ -344,6 +344,34 @@ const projects = {
           contributors_url:
             'https://api.github.com/repos/anitab-org/stem-diverse-tv/contributors',
         },
+
+        {
+          image: {
+            source: require('./../assets/placeholder.png'),
+          },
+          title: 'Stem Diverse TV CMS',
+          description:
+            'CMS for managing content of STEM Diverse TV, an app which provides inspiring, motivating, supportive, educational and informative videos to promote and increase diversity in STEM.',
+          labels: [
+            { title: 'react js', color: '#BD6AAA' },
+            { title: 'javascript', color: '#F9D507' },
+          ],
+          badges: [
+            {
+              title: 'zulip',
+              source: require('./../assets/zulip.png'),
+              url:
+                'https://anitab-org.zulipchat.com/#narrow/stream/225705-STEM-diverse-tv',
+            },
+            {
+              title: 'github',
+              source: require('./../assets/github.png'),
+              url: 'https://github.com/anitab-org/stem-diverse-tv-cms',
+            },
+          ],
+          contributors_url:
+            'https://api.github.com/repos/anitab-org/stem-diverse-tv-cms/contributors',
+        },
       ],
     },
   ],
