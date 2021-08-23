@@ -34,7 +34,7 @@ const events_highlight = {
           },
           know_more:
           {
-            par: 'Feel free to contact AnitaB.org Open Source on Zulip  if you need any further information about this event.',
+            par: 'Feel free to contact AnitaB.org Open Source on Zulip if you need any further information about this event.',
             link: 'https://anitab-org.zulipchat.com',
           } 
         },
