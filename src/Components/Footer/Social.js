@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, Text, TouchableHighlight } from 'react-native';
+import { View, Image, Text, TouchableHighlight, Linking } from 'react-native';
 import styles from './styles';
 
 function Social() {
