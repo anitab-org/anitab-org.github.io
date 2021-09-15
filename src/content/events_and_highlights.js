@@ -14,6 +14,31 @@ const events_highlight = {
     {
       events: [
         {
+          title: 'Intro to Open Source',
+          date: 'May 15, 2020',
+          location: 'Virtual',
+          timings: '5:00 pm - 6:00 pm (BST)',
+          description: [
+            {
+              par: 'Join us for this virtual event to learn more about beginning your journey in the Open Source world, presented by AnitaB.org London and AnitaB.org Nairobi communities.'
+            },
+            {
+              par: 'You will learn about Small and easy steps to start your Open Source experience. What is a usual open source contribution workflow (open a pull request, waiting for reviews, …), Why it can be beneficial for your career to contribute to Open Source, How to prepare for applying to Outreachy and Google Summer of Code etc.'
+            },
+            {
+              par: 'During the last 15 to 20 minutes, attendees can ask any questions about contributing to open source.'
+            }
+          ],
+          highlights:{
+              source: require('./../assets/events_and_highlights/5.jpg'),
+          },
+          know_more:
+          {
+            par: 'Feel free to contact AnitaB.org Open Source on Zulip if you need any further information about this event.',
+            link: 'https://anitab-org.zulipchat.com',
+          } 
+        },
+        {
           title: 'Why I contribute to Open source?',
           date: 'July 4, 2020',
           location: 'Virtual',
