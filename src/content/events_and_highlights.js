@@ -36,13 +36,13 @@ const events_highlight = {
           {
             par: 'Feel free to contact AnitaB.org Open Source on Zulip if you need any further information about this event.',
             link: 'https://anitab-org.zulipchat.com',
-          } 
+          }
         },
         {
           title: 'Why I contribute to Open source?',
           date: 'July 4, 2020',
           location: 'Virtual',
-          timings: '1am (UTC)',
+          timings: '9pm (EST)',
           description: [
             {
               par: 'Heard about Open Source, not sure what’s in it for you? Need a boost to begin?'
@@ -61,7 +61,7 @@ const events_highlight = {
           {
             par: 'Feel free to contact AnitaB.org Open Source on Zulip  if you need any further information about this event.',
             link: 'https://anitab-org.zulipchat.com',
-          } 
+          }
         },
         {
           title: 'Engaging Open Source community in Quality Assurance',
@@ -91,7 +91,7 @@ const events_highlight = {
           know_more: {
             par: 'Feel free to contact AnitaB.org Open Source on Zulip if you need any further information about this event.',
             link: 'https://anitab-org.zulipchat.com',
-          } 
+          }
         },
         {
           title: 'Hopper India 2020',
@@ -148,7 +148,7 @@ const events_highlight = {
           know_more:{
             par: 'Visit our official Grace Hopper Celebration website for details about registration, eligibility, scholarships, conference sessions and FAQs.',
             link: 'https://ghc.anitab.org',
-          } 
+          }
         }
       ]
     }
