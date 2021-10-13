@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
-import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
-import SponsorsContent from './../SponsorsContent';
-import SectionSubheader from './../../../SectionSubheader';
+import React, { useState } from "react";
+import { Text, View, StyleSheet, TouchableOpacity } from "react-native";
+import SponsorsContent from "./../SponsorsContent";
+import SectionSubheader from "./../../../SectionSubheader";
 
 function Section({ header, content, index, expandable }) {
   const [sponsorsSizes] = useState([]);
   const [showMore, setShowMore] = useState(false);
 
   const sponsors = content.map((img, index) =>
-    SponsorsContent(img, sponsorsSizes, index),
+    SponsorsContent(img, sponsorsSizes, index)
   );
   console.log(index);
 
-  const showMoreText = showMore ? 'Show less ↑' : 'View more ↓';
+  const showMoreText = showMore ? "Show less ↑" : "View more ↓";
 
   return (
     <View style={styles.container} key={header + index}>
@@ -20,10 +20,10 @@ function Section({ header, content, index, expandable }) {
       <View
         style={{
           ...styles.sponsors,
-          flexDirection: 'row',
-          flexWrap: 'wrap',
-          height: showMore || !expandable ? 'auto' : 96,
-          overflow: 'hidden',
+          flexDirection: "row",
+          flexWrap: "wrap",
+          height: showMore || !expandable ? "auto" : 96,
+          overflow: "hidden",
         }}
       >
         {sponsors}
@@ -44,8 +44,8 @@ function Section({ header, content, index, expandable }) {
 const styles = StyleSheet.create({
   container: {
     borderBottomWidth: 1,
-    borderBottomColor: '#70707029',
-    overflow: 'hidden',
+    borderBottomColor: "#70707029",
+    overflow: "hidden",
     paddingBottom: 16,
   },
   moreText: {
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     forntSize: 16,
     marginLeft: 16,
     marginRight: 16,
-    color: '#103B81',
+    color: "#103B81",
   },
 });
 

@@ -1,5 +1,5 @@
-import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import React from "react";
+import { View, Text, Image, StyleSheet } from "react-native";
 
 const ProjectCardBadge = (props) => {
   return (
@@ -16,8 +16,8 @@ const ProjectCardBadge = (props) => {
 
 const styles = StyleSheet.create({
   container: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
     marginTop: 8,
   },
   image: {
@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
     height: 32,
   },
   title: {
-    color: '#103B81',
-    fontWeight: '300',
+    color: "#103B81",
+    fontWeight: "300",
     fontSize: 12,
     marginLeft: 8,
   },

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { View } from 'react-native';
+import React, { useState } from "react";
+import { View } from "react-native";
 
 export const withCard = (Component) => {
   return (props) => {
@@ -9,13 +9,13 @@ export const withCard = (Component) => {
       padding: props.padding || 16,
       margin: 16,
       borderRadius: 4,
-      shadowColor: '#000',
+      shadowColor: "#000",
       shadowOffset: { width: 0, height: 2 },
       shadowOpacity: 0.2,
       shadowRadius: 4,
-      alignItems: 'center',
+      alignItems: "center",
       transform: [{ scale: isOver ? 1.1 : 1 }],
-      backgroundColor: props.backgroundColor || 'white',
+      backgroundColor: props.backgroundColor || "white",
     };
     return (
       <View

@@ -20,28 +20,28 @@ If you see someone who is making an extra effort to ensure our community is welc
 
 The following behaviors are expected and requested of all community members:
 
-*   Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
-*   Exercise consideration and respect in your speech and actions.
-*   Attempt collaboration before conflict.
-*   Refrain from demeaning, discriminatory, or harassing behavior and speech.
-*   Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
-*   Remember that community event venues may be shared with members of the public; please be respectful to all patrons of these locations.
+- Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
+- Exercise consideration and respect in your speech and actions.
+- Attempt collaboration before conflict.
+- Refrain from demeaning, discriminatory, or harassing behavior and speech.
+- Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
+- Remember that community event venues may be shared with members of the public; please be respectful to all patrons of these locations.
 
 ## 4. Unacceptable Behavior
 
 The following behaviors are considered harassment and are unacceptable within our community:
 
-*   Violence, threats of violence or violent language directed against another person.
-*   Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
-*   Posting or displaying sexually explicit or violent material.
-*   Posting or threatening to post other people’s personally identifying information ("doxing").
-*   Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
-*   Inappropriate photography or recording.
-*   Inappropriate physical contact. You should have someone’s consent before touching them.
-*   Unwelcome sexual attention. This includes, sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.
-*   Deliberate intimidation, stalking or following (online or in person).
-*   Advocating for, or encouraging, any of the above behavior.
-*   Sustained disruption of community events, including talks and presentations.
+- Violence, threats of violence or violent language directed against another person.
+- Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
+- Posting or displaying sexually explicit or violent material.
+- Posting or threatening to post other people’s personally identifying information ("doxing").
+- Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
+- Inappropriate photography or recording.
+- Inappropriate physical contact. You should have someone’s consent before touching them.
+- Unwelcome sexual attention. This includes, sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.
+- Deliberate intimidation, stalking or following (online or in person).
+- Advocating for, or encouraging, any of the above behavior.
+- Sustained disruption of community events, including talks and presentations.
 
 ## 5. Consequences of Unacceptable Behavior
 
@@ -52,16 +52,14 @@ Anyone asked to stop unacceptable behavior is expected to comply immediately.
 If a community member engages in unacceptable behavior, the community admins may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event).
 
 ## 6. Reporting Guidelines
+
 If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community admin as soon as possible by emailing opensource@anitab.org. Please read [Reporting Guidelines](reporting_guidelines.md) for details.
-
-
 
 Additionally, community admins are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, community admins (or event managers) will also provide escorts as desired by the person experiencing distress.
 
 ## 7. Addressing Grievances
 
 Only permanent resolutions (such as bans) may be appealed. To appeal a decision of the working group, contact AnitaB.org staff at opensource@anitab.org with your appeal and we will review the case.
-
 
 ## 8. Scope
 
@@ -80,4 +78,3 @@ This Code of Conduct is distributed under a [Creative Commons Attribution-ShareA
 Portions of text derived from the [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy).
 
 Retrieved on November 22, 2016 from [http://citizencodeofconduct.org/](http://citizencodeofconduct.org/)
-

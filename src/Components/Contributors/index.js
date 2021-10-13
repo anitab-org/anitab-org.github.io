@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
-import { View, Image } from 'react-native';
+import React, { useEffect } from "react";
+import { View, Image } from "react-native";
 
 const Contributors = ({
   url,
-  styles = { flexDirection: 'row' },
+  styles = { flexDirection: "row" },
   imageStyle = {
     width: 24,
     height: 24,
@@ -27,8 +27,9 @@ const Contributors = ({
   return (
     <View style={styles}>
       {response && response.length > 0
-        ? response.slice(0, 9).map((contributor,index) => (
-            <a key={index}
+        ? response.slice(0, 9).map((contributor, index) => (
+            <a
+              key={index}
               target="_blank"
               rel="noopener noreferrer"
               href={contributor.html_url}

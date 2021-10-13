@@ -1,24 +1,24 @@
-import { View, Text } from 'react-native';
-import { styled } from 'react-native-reflect';
+import { View, Text } from "react-native";
+import { styled } from "react-native-reflect";
 
 export const MainContainer = styled(View, {
-  width: '80%',
-  alignItems: 'left',
+  width: "80%",
+  alignItems: "left",
   paddingLeft: 16,
   paddingRight: 16,
-  flexDirection: 'column',
-  flexWrap: 'wrap',
+  flexDirection: "column",
+  flexWrap: "wrap",
   marginTop: 32,
 });
 
 export const Box = styled(View, {
   flex: 1,
-  flexDirection: 'column',
+  flexDirection: "column",
   marginTop: -32,
 });
 
 export const Content = styled(View, {
-  flexDirection: 'column',
+  flexDirection: "column",
   paddingLeft: 16,
 });
 
@@ -29,6 +29,6 @@ export const Description = styled(Text, {
   fontSize: 18,
   flexGrow: 1,
   fontWeight: 200,
-  color: '#103B81',
-  textAlign: 'left',
+  color: "#103B81",
+  textAlign: "left",
 });

@@ -1,9 +1,9 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import ScaledImage from './../../ScaledImage';
-import { withCard } from './../../../Decorators/Card';
-import ProjectCardBadge from './ProjectCardBadge';
-import Contributing from './../../Contributors';
+import React from "react";
+import { View, Text, StyleSheet } from "react-native";
+import ScaledImage from "./../../ScaledImage";
+import { withCard } from "./../../../Decorators/Card";
+import ProjectCardBadge from "./ProjectCardBadge";
+import Contributing from "./../../Contributors";
 
 const ProjectCard = ({ props, isOver }) => {
   return (
@@ -12,12 +12,12 @@ const ProjectCard = ({ props, isOver }) => {
         flex: 1,
         width: 286,
         borderRadius: 4,
-        overflow: 'hidden',
+        overflow: "hidden",
       }}
     >
       <ScaledImage width={286} source={props.image.source} />
       <Text style={styles.title}>{props.title}</Text>
-      {props.badges.map((badge,index) => (
+      {props.badges.map((badge, index) => (
         <ProjectCardBadge {...badge} key={index} /> //index can be used as unique key here
       ))}
 
@@ -25,13 +25,14 @@ const ProjectCard = ({ props, isOver }) => {
       <View
         style={{
           flex: 1,
-          justifyContent: 'flex-end',
+          justifyContent: "flex-end",
           marginBottom: 0,
         }}
       >
-        <View style={{ flexDirection: 'row' }}>
-          {props.labels.map((label,index) => (
-            <Text key={index}
+        <View style={{ flexDirection: "row" }}>
+          {props.labels.map((label, index) => (
+            <Text
+              key={index}
               style={{
                 backgroundColor: label.color,
                 marginRight: 8,
@@ -55,20 +56,20 @@ const ProjectCard = ({ props, isOver }) => {
 
 const styles = StyleSheet.create({
   title: {
-    color: '#103B81',
-    fontWeight: '400',
+    color: "#103B81",
+    fontWeight: "400",
     fontSize: 18,
     marginTop: 8,
   },
   smallText: {
-    color: '#103B81',
-    fontWeight: '300',
+    color: "#103B81",
+    fontWeight: "300",
     fontSize: 12,
     marginLeft: 8,
   },
   description: {
-    color: '#103B81',
-    fontWeight: '200',
+    color: "#103B81",
+    fontWeight: "200",
     fontSize: 14,
     marginTop: 8,
   },

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { View, StyleSheet } from 'react-native';
-import ScaledImage from './../ScaledImage';
+import React, { useState } from "react";
+import { View, StyleSheet } from "react-native";
+import ScaledImage from "./../ScaledImage";
 
 const ImageContent = ({
   image,
@@ -19,19 +19,16 @@ const ImageContent = ({
         const imagePaddingSideSum = 32;
         if (width > minImageWidth - imagePaddingSideSum) {
           setImageContainerWidth(
-            (width - imagePaddingSideSum) * imageProportion,
+            (width - imagePaddingSideSum) * imageProportion
           );
         } else {
           setImageContainerWidth(width - imagePaddingSideSum);
         }
       }}
     >
-    <View style={styles.sectionImage}>
-      <ScaledImage
-        source={image}
-        width={imageContainerWidth}
-      />
-    </View>
+      <View style={styles.sectionImage}>
+        <ScaledImage source={image} width={imageContainerWidth} />
+      </View>
       <View style={styles.subContainer}>
         <Children />
       </View>
@@ -43,15 +40,15 @@ const createStyles = (imageSide) =>
   StyleSheet.create({
     container: {
       flex: 1,
-      alignItems: 'left',
-      flexDirection: imageSide === 'right' ? 'row-reverse' : 'row',
-      flexWrap: 'wrap',
+      alignItems: "left",
+      flexDirection: imageSide === "right" ? "row-reverse" : "row",
+      flexWrap: "wrap",
       marginTop: 32,
     },
     subContainer: {
       flex: 1,
-      alignItems: 'left',
-      flexDirection: 'columns',
+      alignItems: "left",
+      flexDirection: "columns",
       flexGrow: 1,
       minWidth: 200,
     },

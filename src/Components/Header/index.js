@@ -1,21 +1,21 @@
-import React from 'react';
+import React from "react";
 import {
   View,
   Image,
   Text,
   TouchableHighlight,
   StyleSheet,
-} from 'react-native';
+} from "react-native";
 
 function Header({ selected, setSelected, titles }) {
   return (
     <View
       style={{
-        flexDirection: 'row',
-        width: '80%',
-        borderBottomColor: '#FF0000',
+        flexDirection: "row",
+        width: "80%",
+        borderBottomColor: "#FF0000",
         borderBottomWidth: 1,
-        alignContent: 'center',
+        alignContent: "center",
       }}
     >
       <TouchableHighlight
@@ -27,7 +27,7 @@ function Header({ selected, setSelected, titles }) {
       >
         <Image
           style={{ height: 50, width: 100 }}
-          source={require('./../../assets/logo.png')}
+          source={require("./../../assets/logo.png")}
         />
       </TouchableHighlight>
       {MenuItem(1, selected, setSelected, titles[1])}
@@ -50,9 +50,9 @@ function MenuItem(index, selected, setSelected, title) {
     >
       <Text
         style={{
-          borderBottomColor: selected === index ? 'powderblue' : 'transparent',
+          borderBottomColor: selected === index ? "powderblue" : "transparent",
           borderBottomWidth: 2,
-          alignSelf: 'center',
+          alignSelf: "center",
         }}
       >
         {title}
@@ -64,7 +64,7 @@ function MenuItem(index, selected, setSelected, title) {
 const styles = StyleSheet.create({
   logoContainer: {
     flex: 1,
-    marginRight:70,
+    marginRight: 70,
   },
   buttonContainer: { marginTop: 25, marginLeft: 40 },
 });

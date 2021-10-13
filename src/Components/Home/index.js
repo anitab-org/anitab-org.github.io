@@ -1,10 +1,10 @@
-import React from 'react';
-import ImageContent from './../ImageContent';
-import SectionHeader from './../SectionHeader';
-import SectionSubheader from './../SectionSubheader';
-import { getHome } from './../../content/home';
-import { Box, Content, Description } from './styles';
-import ContributionSection from './contribution/ContributionSection';
+import React from "react";
+import ImageContent from "./../ImageContent";
+import SectionHeader from "./../SectionHeader";
+import SectionSubheader from "./../SectionSubheader";
+import { getHome } from "./../../content/home";
+import { Box, Content, Description } from "./styles";
+import ContributionSection from "./contribution/ContributionSection";
 
 function Home() {
   const content = getHome();
@@ -24,9 +24,10 @@ function Home() {
       <SectionHeader title="AnitaB.org Open Source" />
       {content.sections.map((section, index) => {
         return (
-          <ImageContent key={index}
+          <ImageContent
+            key={index}
             image={section.image.source}
-            imageSide={index % 2 === 0 ? 'right' : 'left'}
+            imageSide={index % 2 === 0 ? "right" : "left"}
             Children={() => renderContent(index, section)}
           />
         );
