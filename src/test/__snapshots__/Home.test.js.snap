@@ -20,7 +20,7 @@ exports[`should take a snapshot 1`] = `
       class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-1euycsn r-flexWrap-1w6e6rj r-marginTop-1v1z2uz"
     >
       <div
-        class="css-view-1dbjc4n r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
+        class="css-view-1dbjc4n r-marginTop-180x1p9 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
       >
         <a>
           <div
@@ -88,7 +88,7 @@ If you are subject to or witness unacceptable behavior, or have any other concer
       class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-18u37iz r-flexWrap-1w6e6rj r-marginTop-1v1z2uz"
     >
       <div
-        class="css-view-1dbjc4n r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
+        class="css-view-1dbjc4n r-marginTop-180x1p9 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
       >
         <a>
           <div
@@ -131,6 +131,7 @@ If you are subject to or witness unacceptable behavior, or have any other concer
             style="font-size: 18px; font-weight: 200; text-align: left;"
           >
             You can start contributing to our various open source projects by- 
+
 1) Creating issues on Github regarding the project 
 2) Debugging the issues 
 3) Creating pull requests, testing pull requests 
@@ -154,7 +155,7 @@ Make sure to follow the Commit Message Style Guide when submitting PRs which wil
       class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-1euycsn r-flexWrap-1w6e6rj r-marginTop-1v1z2uz"
     >
       <div
-        class="css-view-1dbjc4n r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
+        class="css-view-1dbjc4n r-marginTop-180x1p9 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
       >
         <a>
           <div
@@ -204,6 +205,7 @@ Make sure to follow the Commit Message Style Guide when submitting PRs which wil
             style="font-size: 18px; font-weight: 200; text-align: left;"
           >
             1) Mentorship System 
+
 Mentorship System is an application that matches women in tech to mentor each other, on career development, through relations during a certain period of time. 
 It is an open source project proposed for Google Summer of Code 2018 with AnitaB.org Open Source, an idea that consists of a mobile application that matches women to help and support both parties. One is the mentor that will be a support/accountability buddy and or give advice to a woman that wants mentorship, for a period of time established by both parties. This would not focus only on students, this would target women from any age, background, work in tech experience, and so on. This project uses Kotlin for frontend and Python for backend. 
 Flutter and iOS versions are also available.
@@ -214,6 +216,7 @@ Flutter and iOS versions are also available.
             style="font-size: 18px; font-weight: 200; text-align: left;"
           >
             2) The Volunteer Management System (VMS) 
+
 The Volunteer Management System (VMS) will be useful for volunteer coordinators, volunteer sign-up,tracking hours, and reporting. This project is currently under development same as the mentorship application project. The Volunteer Management System will be developed in phases. The initial implementation will track volunteers’ contact information, enable administrators to track volunteer hours, and allow reporting of useful information. This project uses the Django web framework and Python. 
           </div>
           <div
@@ -222,6 +225,7 @@ The Volunteer Management System (VMS) will be useful for volunteer coordinators,
             style="font-size: 18px; font-weight: 200; text-align: left;"
           >
             3) PowerUp Android 
+
 PowerUp is a female empowerment educational mobile game app that will allow young girls to learn about reproductive health and self-esteem by navigating the life of their avatar. This project uses Java. Android and iOS versions are available.
           </div>
           <div
@@ -230,6 +234,7 @@ PowerUp is a female empowerment educational mobile game app that will allow youn
             style="font-size: 18px; font-weight: 200; text-align: left;"
           >
             4) AnitaB-org.github.io 
+
 AnitaB.org Open Source web gathering all information about current open source projects, running programs and events as well as all necessary contribution information.
           </div>
           <div
@@ -238,6 +243,7 @@ AnitaB.org Open Source web gathering all information about current open source p
             style="font-size: 18px; font-weight: 200; text-align: left;"
           >
             5) Bridge-in-tech 
+
 Bridge-In-Tech is an application inspired by the existing AnitaB.org Mentorship System. It encourages organizations to collaborate with the mentors and mentees on mentoring programs. Through Bridge-In-Tech,an organization can offer a mentorship program to a mentor and a mentee that is customised to meet the needed skills set within its organisation while providing a safety and supportive environment for these mentor/mentee to work in. This project was proposed as an original project of Google Summer of Code 2020. The front end of this application will be a Web application using (tech stack tba).
           </div>
           <div
@@ -254,7 +260,7 @@ Bridge-In-Tech is an application inspired by the existing AnitaB.org Mentorship 
       class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-18u37iz r-flexWrap-1w6e6rj r-marginTop-1v1z2uz"
     >
       <div
-        class="css-view-1dbjc4n r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
+        class="css-view-1dbjc4n r-marginTop-180x1p9 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
       >
         <a>
           <div
@@ -297,6 +303,7 @@ Bridge-In-Tech is an application inspired by the existing AnitaB.org Mentorship 
             style="font-size: 18px; font-weight: 200; text-align: left;"
           >
             1) Google Summer of Code 
+
 AnitaB.org has been actively participating in the Google Summer of Code in the years 2016, 2017, 2018, 2020 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org -
 Mohammad Murad, former AnitaB.org GSoC mentor in his Medium blog says- AnitaB.org is very different, along with writing coding equal importance is given to interacting with the community. The community also helps in personal development and personal growth. 
 Isabel Costa, GSoC 2018 participant in her Medium blog says- I got to meet incredible people from the AnitaB.org community. I grew personally and professionally by sharing and learning from other’s perspectives. Being recognized for my work as the Most Outstanding Student by Systers made me very proud of my achievements. This was truly an awesome experience. 
@@ -307,6 +314,7 @@ Isabel Costa, GSoC 2018 participant in her Medium blog says- I got to meet incre
             style="font-size: 18px; font-weight: 200; text-align: left;"
           >
             2) Google Code In 
+
 AnitaB.org has been actively participating in the Google Code In in the years 2014, 2015, 2016, 2017, 2019 and is one of the most successful organizations since the very beginning. Here's what participants shared about their experience with AnitaB.org - 
 Vatsal Kulshrestha, former GCI 2017 participant in his Medium blog says- AnitaB.org has been a true personification of the famous quote by Einstein- ‘The only source of knowledge is EXPERIENCE’ 
           </div>
