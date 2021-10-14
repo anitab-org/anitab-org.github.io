@@ -1,39 +1,39 @@
-import React from "react";
-import { Text, View } from "react-native";
-import styles from "../styles";
-import SectionHeader from "../../SectionHeader";
-import ContributionCard from "./ContributionCard";
+import React from 'react';
+import { Text, View } from 'react-native';
+import styles from '../styles';
+import SectionHeader from '../../SectionHeader';
+import ContributionCard from './ContributionCard';
 
 function ContributionSection() {
   const contributionCards = [
     {
-      imageText: ["CODE"],
-      imageFile: "code.png",
+      imageText: ['CODE'],
+      imageFile: 'code.png',
       style: [],
     },
     {
-      imageText: ["DOCUMENTATION/", "TRAINING"],
-      imageFile: "documentation_training.png",
+      imageText: ['DOCUMENTATION/', 'TRAINING'],
+      imageFile: 'documentation_training.png',
       style: [[styles.cardMiddle]],
     },
     {
-      imageText: ["DESIGN"],
-      imageFile: "design_community.png",
+      imageText: ['DESIGN'],
+      imageFile: 'design_community.png',
       style: [[styles.cardLast]],
     },
     {
-      imageText: ["TESTING"],
-      imageFile: "testing.png",
+      imageText: ['TESTING'],
+      imageFile: 'testing.png',
       style: [],
     },
     {
-      imageText: ["OUTREACH/RESEARCH"],
-      imageFile: "research_outreach.png",
+      imageText: ['OUTREACH/RESEARCH'],
+      imageFile: 'research_outreach.png',
       style: [[styles.cardMiddle]],
     },
     {
-      imageText: ["PROJECT MANAGEMENT"],
-      imageFile: "project_management.png",
+      imageText: ['PROJECT MANAGEMENT'],
+      imageFile: 'project_management.png',
       style: [[styles.cardLast]],
     },
   ];

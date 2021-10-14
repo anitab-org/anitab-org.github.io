@@ -1,6 +1,6 @@
-import React from "react";
-import { View, Image, Text, TouchableHighlight, Linking } from "react-native";
-import styles from "./styles";
+import React from 'react';
+import { View, Image, Text, TouchableHighlight, Linking } from 'react-native';
+import styles from './styles';
 
 function Social() {
   return (
@@ -9,55 +9,55 @@ function Social() {
       <View style={styles.socialContainer}>
         <TouchableHighlight
           onPress={() =>
-            window.open("https://twitter.com/AnitaB_org", "_blank")
+            window.open('https://twitter.com/AnitaB_org', '_blank')
           }
         >
           <Image
             style={[styles.socialImage]}
-            source={require("./../../assets/twitter_logo.png")}
+            source={require('./../../assets/twitter_logo.png')}
           />
         </TouchableHighlight>
         <TouchableHighlight
           onPress={() =>
-            window.open("https://www.instagram.com/anitab_org/", "_blank")
+            window.open('https://www.instagram.com/anitab_org/', '_blank')
           }
         >
           <Image
             style={[styles.socialImage]}
-            source={require("./../../assets/instagram_logo.png")}
+            source={require('./../../assets/instagram_logo.png')}
           />
         </TouchableHighlight>
         <TouchableHighlight
           onPress={() =>
-            window.open("https://www.facebook.com/AnitaB.0rg/", "_blank")
+            window.open('https://www.facebook.com/AnitaB.0rg/', '_blank')
           }
         >
           <Image
             style={[styles.socialImage]}
-            source={require("./../../assets/facebook_logo.png")}
+            source={require('./../../assets/facebook_logo.png')}
           />
         </TouchableHighlight>
         <TouchableHighlight
           onPress={() =>
             window.open(
-              "https://www.linkedin.com/company/anitab-org/",
-              "_blank"
+              'https://www.linkedin.com/company/anitab-org/',
+              '_blank'
             )
           }
         >
           <Image
             style={[styles.socialImage]}
-            source={require("./../../assets/linkedin-logo.png")}
+            source={require('./../../assets/linkedin-logo.png')}
           />
         </TouchableHighlight>
         <TouchableHighlight
           onPress={() =>
-            Linking.openURL("https://medium.com/anitab-org-open-source")
+            Linking.openURL('https://medium.com/anitab-org-open-source')
           }
         >
           <Image
             style={[styles.socialImage]}
-            source={require("./../../assets/Medium.png")}
+            source={require('./../../assets/Medium.png')}
           />
         </TouchableHighlight>
       </View>

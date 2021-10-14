@@ -1,5 +1,5 @@
-import React from "react";
-import { Text, Image, StyleSheet, View } from "react-native";
+import React from 'react';
+import { Text, Image, StyleSheet, View } from 'react-native';
 
 const Badge = (props) => {
   return (
@@ -12,18 +12,18 @@ const Badge = (props) => {
 
 const styles = StyleSheet.create({
   container: {
-    flexDirection: "row",
-    flexWrap: "wrap",
+    flexDirection: 'row',
+    flexWrap: 'wrap',
     marginTop: 16,
   },
   image: {
     width: 25,
     height: 25,
-    tintColor: "#103B81",
+    tintColor: '#103B81',
   },
   description: {
     fontSize: 16,
-    color: "#103B81",
+    color: '#103B81',
     fontWeight: 200,
     marginLeft: 16,
   },

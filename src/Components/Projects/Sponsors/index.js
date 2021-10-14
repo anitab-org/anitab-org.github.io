@@ -1,7 +1,7 @@
-import React from "react";
-import { View, StyleSheet } from "react-native";
-import getSponsors from "./../../../content/sponsors";
-import Section from "./Section";
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
+import getSponsors from './../../../content/sponsors';
+import Section from './Section';
 const contentJson = getSponsors();
 
 function Sponsors() {
@@ -13,8 +13,8 @@ function Sponsors() {
 
 const styles = StyleSheet.create({
   container: {
-    width: "100%",
-    alignItems: "left",
+    width: '100%',
+    alignItems: 'left',
   },
 });
 

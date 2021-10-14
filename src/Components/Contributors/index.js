@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
-import { View, Image } from "react-native";
+import React, { useEffect } from 'react';
+import { View, Image } from 'react-native';
 
 const Contributors = ({
   url,
-  styles = { flexDirection: "row" },
+  styles = { flexDirection: 'row' },
   imageStyle = {
     width: 24,
     height: 24,

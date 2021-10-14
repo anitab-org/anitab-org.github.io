@@ -1,6 +1,6 @@
-import React from "react";
-import { View } from "react-native";
-import ScaledImage from "./../../../ScaledImage";
+import React from 'react';
+import { View } from 'react-native';
+import ScaledImage from './../../../ScaledImage';
 
 function SponsorsContent(sectionContent, index) {
   const [isOver, setIsOver] = React.useState(false);
@@ -9,11 +9,11 @@ function SponsorsContent(sectionContent, index) {
     padding: 16,
     margin: 16,
     borderRadius: 4,
-    shadowColor: "#000",
+    shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,
     shadowRadius: 8,
-    alignItems: "center",
+    alignItems: 'center',
     transform: [{ scale: isOver ? 1.1 : 1 }],
   };
   return (

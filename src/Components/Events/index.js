@@ -1,19 +1,19 @@
-import React, { useState } from "react";
-import { View, StyleSheet, Text } from "react-native";
-import EventCard from "./Cards";
-import { getevents_highlights } from "./../../content/events_and_highlights";
-import SectionSubheader from "./../SectionSubheader";
-import GoogleCalendar from "./GoogleCalendar";
-import content from "../../content/events_calendar.json";
-import { Box, MainContainer, Content, Description, List } from "./style";
-import OurEvents from "../OurEvents/index";
+import React, { useState } from 'react';
+import { View, StyleSheet, Text } from 'react-native';
+import EventCard from './Cards';
+import { getevents_highlights } from './../../content/events_and_highlights';
+import SectionSubheader from './../SectionSubheader';
+import GoogleCalendar from './GoogleCalendar';
+import content from '../../content/events_calendar.json';
+import { Box, MainContainer, Content, Description, List } from './style';
+import OurEvents from '../OurEvents/index';
 
 const events_highlight = getevents_highlights();
 
 const styles = StyleSheet.create({
   container: {
-    width: "80%",
-    alignItems: "left",
+    width: '80%',
+    alignItems: 'left',
     paddingLeft: 16,
     paddingRight: 16,
     marginTop: 32,
@@ -25,12 +25,12 @@ const styles = StyleSheet.create({
     fontSize: 18,
     flexGrow: 1,
     fontWeight: 150,
-    color: "#103B81",
-    textAlign: "left",
+    color: '#103B81',
+    textAlign: 'left',
   },
   cardContainer: {
-    flexDirection: "row",
-    flexWrap: "wrap",
+    flexDirection: 'row',
+    flexWrap: 'wrap',
     marginTop: 32,
   },
 });
@@ -38,38 +38,38 @@ const styles = StyleSheet.create({
 const timezones = [
   {
     id: 1,
-    name: "PST",
-    link: "&ctz=America/Los_Angeles",
+    name: 'PST',
+    link: '&ctz=America/Los_Angeles',
   },
   {
     id: 2,
-    name: "EST",
-    link: "&ctz=America/New_York",
+    name: 'EST',
+    link: '&ctz=America/New_York',
   },
   {
     id: 3,
-    name: "GMT",
-    link: "&ctz=GMT",
+    name: 'GMT',
+    link: '&ctz=GMT',
   },
   {
     id: 4,
-    name: "WAT",
-    link: "&ctz=Africa/Lagos",
+    name: 'WAT',
+    link: '&ctz=Africa/Lagos',
   },
   {
     id: 5,
-    name: "IST",
-    link: "&ctz=Asia/Colombo",
+    name: 'IST',
+    link: '&ctz=Asia/Colombo',
   },
   {
     id: 6,
-    name: "AEDT",
-    link: "&ctz=Australia/Sydney",
+    name: 'AEDT',
+    link: '&ctz=Australia/Sydney',
   },
 ];
 
 function Events() {
-  const [timezone, setTimezone] = useState("");
+  const [timezone, setTimezone] = useState('');
 
   const handler = (link) => {
     setTimezone(link);

@@ -1,8 +1,8 @@
-import React from "react";
-import { Text, StyleSheet, View, Linking } from "react-native";
-import ScaledImage from "../../ScaledImage";
-import { withCard } from "./../../../Decorators/Card";
-import Badge from "./CardBadge";
+import React from 'react';
+import { Text, StyleSheet, View, Linking } from 'react-native';
+import ScaledImage from '../../ScaledImage';
+import { withCard } from './../../../Decorators/Card';
+import Badge from './CardBadge';
 
 const EventCard = ({ props, links }) => {
   const { calendarIcon, timeIcon, locationIcon } = links;
@@ -37,23 +37,23 @@ const styles = StyleSheet.create({
     flex: 1,
     width: 286,
     borderRadius: 4,
-    overflow: "hidden",
+    overflow: 'hidden',
   },
   title: {
-    color: "#103B81",
-    fontWeight: "400",
+    color: '#103B81',
+    fontWeight: '400',
     fontSize: 16,
     marginTop: 16,
   },
   detailStyles: {
-    color: "#103B81",
+    color: '#103B81',
     fontSize: 16,
-    fontWeight: "200",
+    fontWeight: '200',
   },
   know_moreStyles: {
-    color: "#103B81",
+    color: '#103B81',
     fontSize: 16,
-    fontWeight: "400",
+    fontWeight: '400',
     marginTop: 32,
   },
 });

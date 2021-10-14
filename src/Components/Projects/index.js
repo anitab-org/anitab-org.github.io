@@ -1,18 +1,18 @@
-import React from "react";
-import { View } from "react-native";
+import React from 'react';
+import { View } from 'react-native';
 // import SectionHeader from './../SectionHeader';
 // import Sponsors from './Sponsors';
-import ImageTextSection from "./../ImageTextSection";
-import { getProjects } from "./../../content/projects_content";
-import ProjectCard from "./ProjectCard";
+import ImageTextSection from './../ImageTextSection';
+import { getProjects } from './../../content/projects_content';
+import ProjectCard from './ProjectCard';
 
 function Projects(props) {
   const projects = getProjects();
   return (
     <View
       style={{
-        width: "80%",
-        alignItems: "left",
+        width: '80%',
+        alignItems: 'left',
         paddingLeft: 16,
         paddingRight: 16,
       }}
@@ -27,8 +27,8 @@ function Projects(props) {
           />
           <View
             style={{
-              flexDirection: "row",
-              flexWrap: "wrap",
+              flexDirection: 'row',
+              flexWrap: 'wrap',
             }}
           >
             {project.cards.map((card) => (

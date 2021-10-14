@@ -1,18 +1,18 @@
-import { View, Text, StyleSheet } from "react-native";
-import { styled } from "react-native-reflect";
+import { View, Text, StyleSheet } from 'react-native';
+import { styled } from 'react-native-reflect';
 
 export const Box = styled(View, {
   flex: 1,
-  width: "80%",
-  flexDirection: "column",
+  width: '80%',
+  flexDirection: 'column',
   paddingLeft: 16,
   paddingRight: 16,
-  flexWrap: "wrap",
+  flexWrap: 'wrap',
   marginTop: 32,
 });
 
 export const Content = styled(View, {
-  flexDirection: "column",
+  flexDirection: 'column',
   paddingLeft: 16,
 });
 
@@ -23,27 +23,27 @@ export const Description = styled(Text, {
   fontSize: 18,
   flexGrow: 1,
   fontWeight: 200,
-  color: "#103B81",
-  textAlign: "left",
+  color: '#103B81',
+  textAlign: 'left',
 });
 
 const styles = StyleSheet.create({
   container: {
-    display: "flex",
-    flexDirection: "row",
-    flexWrap: "wrap",
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
     marginTop: 18,
     marginBottom: 18,
   },
   card: {
-    width: "33%",
+    width: '33%',
     minWidth: 251,
   },
   cardMiddle: {
-    alignItems: "center",
+    alignItems: 'center',
   },
   cardLast: {
-    alignItems: "flex-end",
+    alignItems: 'flex-end',
   },
   contributionImage: {
     width: 235,
@@ -51,17 +51,17 @@ const styles = StyleSheet.create({
   },
   imageText: {
     fontSize: 14,
-    fontWeight: "300",
-    fontFamily: "Avenir",
-    textAlign: "center",
+    fontWeight: '300',
+    fontFamily: 'Avenir',
+    textAlign: 'center',
     width: 180,
     flex: 1,
-    color: "#103B81",
+    color: '#103B81',
   },
   description: {
     fontSize: 14,
-    fontWeight: "300",
-    color: "#103B81",
+    fontWeight: '300',
+    color: '#103B81',
     marginLeft: 18,
   },
 });

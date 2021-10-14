@@ -1,5 +1,5 @@
-import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 
 function SectionHeader({ title, index }) {
   return (
@@ -12,14 +12,14 @@ function SectionHeader({ title, index }) {
 const styles = StyleSheet.create({
   header: {
     flex: 1,
-    color: "#103B81",
-    alignItems: "flex-start",
-    fontWeight: "400",
+    color: '#103B81',
+    alignItems: 'flex-start',
+    fontWeight: '400',
     fontSize: 32,
   },
   container: {
     flex: 1,
-    width: "100%",
+    width: '100%',
     paddingTop: 64,
     paddingLeft: 16,
     paddingRight: 16,

@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { View, Text, TextInput, TouchableHighlight } from "react-native";
-import styles from "./styles";
+import React, { useState } from 'react';
+import { View, Text, TextInput, TouchableHighlight } from 'react-native';
+import styles from './styles';
 
 function Form() {
-  const [email, updateEmail] = useState("");
-  const [message, updateMessage] = useState("");
+  const [email, updateEmail] = useState('');
+  const [message, updateMessage] = useState('');
   const [emailBorder, updateEmailBorder] = useState(0);
   const [messageBorder, updateMessageBorder] = useState(0);
 
@@ -63,8 +63,8 @@ function Form() {
     }
 
     if (!error) {
-      updateEmail("");
-      updateMessage("");
+      updateEmail('');
+      updateMessage('');
     }
   }
 }

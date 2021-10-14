@@ -1,12 +1,12 @@
-import React, { useEffect, useRef } from "react";
-import dayjs from "dayjs";
+import React, { useEffect, useRef } from 'react';
+import dayjs from 'dayjs';
 import {
   StyleSheet,
   Text,
   View,
   TouchableWithoutFeedback,
   ScrollView,
-} from "react-native";
+} from 'react-native';
 import {
   Event,
   Line,
@@ -20,16 +20,16 @@ import {
   ScrollContainer,
   Container,
   Months,
-} from "./styles";
-import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
-import { getEvents, getMonths } from "../../content/programs_events";
+} from './styles';
+import { ArrowLeftOutlined, ArrowRightOutlined } from '@ant-design/icons';
+import { getEvents, getMonths } from '../../content/programs_events';
 //--------------------------------------------------------------------------------------------
 const events = getEvents();
 const months = getMonths();
 const styles = StyleSheet.create({
   scroller: {
-    width: "70%",
-    position: "absolute",
+    width: '70%',
+    position: 'absolute',
     right: 0,
   },
 });
@@ -54,9 +54,9 @@ function Timeline() {
     <>
       <MainContainer style={styles.MainContainer}>
         <ArrowNavigation>
-          <View style={{ flexDirection: "row" }}>
+          <View style={{ flexDirection: 'row' }}>
             <TouchableWithoutFeedback onPress={scrollLeft}>
-              <View style={{ flexDirection: "row" }}>
+              <View style={{ flexDirection: 'row' }}>
                 <View style={{ paddingTop: 3 }}>
                   <ArrowLeftOutlined />
                 </View>
@@ -64,9 +64,9 @@ function Timeline() {
               </View>
             </TouchableWithoutFeedback>
           </View>
-          <View style={{ flexDirection: "row" }}>
+          <View style={{ flexDirection: 'row' }}>
             <TouchableWithoutFeedback onPress={scrollRight}>
-              <View style={{ flexDirection: "row" }}>
+              <View style={{ flexDirection: 'row' }}>
                 <ArrowText>FUTURE</ArrowText>
                 <View style={{ paddingTop: 3 }}>
                   <ArrowRightOutlined />
@@ -102,7 +102,7 @@ function Timeline() {
             <Container>
               {events.map((item, index) => (
                 <View
-                  style={{ marginBottom: 32, flexDirection: "column" }}
+                  style={{ marginBottom: 32, flexDirection: 'column' }}
                   key={index}
                 >
                   <Line
@@ -140,7 +140,7 @@ function Timeline() {
                   Today {dayjs().date()}th {months[curr_month][1]}
                 </Text>
               </View>
-              <View style={{ flexDirection: "row" }}>
+              <View style={{ flexDirection: 'row' }}>
                 {months.map((m, index) => (
                   <div key={index}>
                     <Months style={{ left: m[0] * 30 * 40 }}>

@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { ActivityIndicator, Image, View, StyleSheet } from "react-native";
+import React, { useEffect, useState } from 'react';
+import { ActivityIndicator, Image, View, StyleSheet } from 'react-native';
 
 function MembersIcon(props) {
   return (
@@ -16,7 +16,7 @@ function OSCommunity() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("https://api.github.com/orgs/anitab-org/members")
+    fetch('https://api.github.com/orgs/anitab-org/members')
       .then((response) => response.json())
       .then((response) => {
         var osdata = [];
@@ -45,10 +45,10 @@ function OSCommunity() {
 const styles = StyleSheet.create({
   iconscontainer: {
     flex: 1,
-    flexWrap: "wrap",
-    flexDirection: "row",
+    flexWrap: 'wrap',
+    flexDirection: 'row',
     margin: 32,
-    alignContent: "space-around",
+    alignContent: 'space-around',
   },
   container: {
     padding: 1,
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     width: 81,
     height: 81,
     borderRadius: 8,
-    resizeMode: "stretch",
+    resizeMode: 'stretch',
   },
 });
 export default OSCommunity;

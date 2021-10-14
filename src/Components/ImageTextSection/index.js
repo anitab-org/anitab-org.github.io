@@ -1,6 +1,6 @@
-import React from "react";
-import { View, Text, StyleSheet } from "react-native";
-import ScaledImage from "./../ScaledImage";
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+import ScaledImage from './../ScaledImage';
 
 const ImageTextSection = ({
   title,
@@ -31,15 +31,15 @@ const createStyles = (imageSide) =>
   StyleSheet.create({
     container: {
       flex: 1,
-      alignItems: "left",
-      flexDirection: imageSide === "right" ? "row-reverse" : "row",
-      flexWrap: "wrap",
+      alignItems: 'left',
+      flexDirection: imageSide === 'right' ? 'row-reverse' : 'row',
+      flexWrap: 'wrap',
       marginTop: 64,
     },
     subContainer: {
       flex: 1,
-      alignItems: "left",
-      flexDirection: "columns",
+      alignItems: 'left',
+      flexDirection: 'columns',
       flexGrow: 1,
       minWidth: 200,
     },
@@ -49,14 +49,14 @@ const createStyles = (imageSide) =>
     },
     header: {
       flex: 0,
-      color: "#103B81",
-      alignItems: "flex-start",
-      fontWeight: "400",
+      color: '#103B81',
+      alignItems: 'flex-start',
+      fontWeight: '400',
       fontSize: 32,
       paddingLeft: 16,
       paddingRight: 16,
       paddingBottom: 0,
-      width: "100%",
+      width: '100%',
     },
     text: {
       flex: 1,
@@ -66,7 +66,7 @@ const createStyles = (imageSide) =>
       fontSize: 18,
       flexGrow: 1,
       fontWeight: 200,
-      color: "#103B81",
+      color: '#103B81',
     },
   });
 
