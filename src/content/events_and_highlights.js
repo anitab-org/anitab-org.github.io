@@ -97,7 +97,7 @@ const events_highlight = {
           title: 'Hopper India 2020',
           date: 'August 6 — August 7,2020',
           location: 'Virtual',
-          timings: '4:00 am - 10:30am (UTC)',
+          timings: '4:00 am - 10:30 am (UTC)',
           description: [
             {
               par: 'Our vibrant community of women in technology from Chennai, Delhi, Hyderabad, and Pune is coming together to present this two-day virtual event modeled after the popular Grace Hopper Celebration India (GHCI) conference for women in technology.'
