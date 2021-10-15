@@ -284,7 +284,7 @@ const projects = {
             {
               title: 'github',
               source: require('./../assets/github.png'),
-              url: 'https://github.com/anitab-org/open-source-programs-web',
+              url: 'https://github.com/anitab-org/anitab-forms-web',
             },
             {
               title: 'docs',
