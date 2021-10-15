@@ -225,7 +225,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url: 'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/BridgeInTech.20-.20Maya',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/237630-bridge-in-tech',
             },
             {
               title: 'github',
@@ -252,7 +252,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url: 'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/BridgeInTech.20-.20Maya',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/237630-bridge-in-tech',
             },
             {
               title: 'github',
@@ -279,12 +279,12 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url: 'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/Open.20Source.20Programs.20-.20Bismita.20Guha',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/237907-anitab-forms',
             },
             {
               title: 'github',
               source: require('./../assets/github.png'),
-              url: 'https://github.com/anitab-org/open-source-programs-web',
+              url: 'https://github.com/anitab-org/anitab-forms-web',
             },
             {
               title: 'docs',
@@ -311,7 +311,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url: 'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/Open.20Source.20Programs.20-.20Bismita.20Guha',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/237907-anitab-forms',
             },
             {
               title: 'github',
