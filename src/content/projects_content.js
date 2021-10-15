@@ -225,7 +225,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url: 'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/BridgeInTech.20-.20Maya',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/237630-bridge-in-tech',
             },
             {
               title: 'github',
