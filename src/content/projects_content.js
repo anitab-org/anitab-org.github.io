@@ -268,7 +268,7 @@ const projects = {
           image: {
             source: require('./../assets/placeholder.png'),
           },
-          title: 'Open Source Programs Web',
+          title: 'AnitaB-forms Web',
           description:
             'Frontend of Open Source Programs (OSP) - an application that simplifies the processing and selection procedure of Open Source Programs of AnitaB.org Open Source or other third-party programs.',
           labels: [
@@ -300,7 +300,7 @@ const projects = {
           image: {
             source: require('./../assets/placeholder.png'),
           },
-          title: 'Open Source Programs Backend',
+          title: 'AnitaB-forms Backend',
           description:
             'Backend of Open Source Programs (OSP) - an application that simplifies the processing and selection procedure of Open Source Programs of AnitaB.org Open Source or other third-party programs.',
           labels: [
