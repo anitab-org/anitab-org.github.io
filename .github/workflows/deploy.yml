@@ -3,9 +3,8 @@
 name: Build and Deploy to GitHub static pages
 # Controls when the action will run.
 on:
-  # Triggers the workflow on push or pull request events but only for the develop branch
+  # Triggers the workflow on push or pull request events but only for pushes on the develop branch
   pull_request:
-    branches: [develop]
   push:
     branches: [develop]
 
