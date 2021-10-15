@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, Image, StyleSheet, View} from 'react-native';
 
-const  Badge = (props) => {
+const Badge = (props) => {
     return (
         <View style={styles.container}>
             <Image style={styles.image} source={props.link} />
@@ -26,7 +26,6 @@ const styles =  StyleSheet.create({
         color: '#103B81',
         fontWeight: 200,
         marginLeft: 16,
-       
     }
 });
 
