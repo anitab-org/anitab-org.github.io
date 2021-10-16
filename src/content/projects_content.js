@@ -302,7 +302,7 @@ const projects = {
           },
           title: 'AnitaB-forms Backend',
           description:
-            'Backend of Open Source Programs (OSP) - an application that simplifies the processing and selection procedure of Open Source Programs of AnitaB.org Open Source or other third-party programs.',
+            'Backend of AnitaB-forms - an application that simplifies the processing and selection procedure of Open Source Programs of AnitaB.org Open Source or other third-party programs.',
           labels: [
             { title: 'django', color: '#51B9EA' },
             { title: 'python', color: '#C1D72E' },
