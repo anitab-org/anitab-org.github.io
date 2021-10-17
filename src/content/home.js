@@ -29,7 +29,7 @@ const home = {
         },
         {
           par:
-            'Each active repository has a stream to direct questions. \nIssues labeled as <a href = "https://github.com/anitab-org/anitab-org.github.io/issues?q=is%3Aopen+is%3Aissue+label%3A%22First+Timers+Only%22" target="_blank">First Timers</a> Only are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues. \nMake sure to follow the <a href = "https://github.com/anitab-org/mentorship-android/wiki/Commit-Message-Style-Guide" target="_blank">Commit Message Style Guide</a> when submitting PRs which will require review by at least one maintainer to be merged to the main code.',
+            'Each active repository has a stream to direct questions. \nIssues labeled as <a href = "https://github.com/anitab-org/anitab-org.github.io/issues?q=is%3Aopen+is%3Aissue+label%3A%22First+Timers+Only%22" target="_blank">First Timers Only</a> are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues. \nMake sure to follow the <a href = "https://github.com/anitab-org/mentorship-android/wiki/Commit-Message-Style-Guide" target="_blank">Commit Message Style Guide</a> when submitting PRs which will require review by at least one maintainer to be merged to the main code.',
         },
       ],
     },
