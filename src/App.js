@@ -7,12 +7,12 @@ import Footer from './Components/Footer';
 function App() {
   const [selected, setSelected] = useState(0);
   const titles = [
-    'HOME',
-    'ABOUT US',
-    'PROGRAMS',
-    'PROJECTS',
-    'EVENTS',
-    'CONTRIBUTE',
+    'Home',
+    'About us',
+    'Programs',
+    'Projects',
+    'Events',
+    'Contribute',
   ];
   return (
     <View style={{ position: 'absolute', width: '100%', alignItems: 'center' }}>
