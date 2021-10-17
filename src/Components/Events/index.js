@@ -106,7 +106,7 @@ function Events() {
           ))}
         </View>
 
-        <Box>
+        <View>
           <OurEvents />
           {content.sections.map((section, index) => {
             return (
@@ -119,7 +119,7 @@ function Events() {
               </Content>
             );
           })}
-        </Box>
+        </View>
       </View>
     );
   };
