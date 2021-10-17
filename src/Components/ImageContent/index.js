@@ -19,19 +19,16 @@ const ImageContent = ({
         const imagePaddingSideSum = 32;
         if (width > minImageWidth - imagePaddingSideSum) {
           setImageContainerWidth(
-            (width - imagePaddingSideSum) * imageProportion,
+            (width - imagePaddingSideSum) * imageProportion
           );
         } else {
           setImageContainerWidth(width - imagePaddingSideSum);
         }
       }}
     >
-    <View style={styles.sectionImage}>
-      <ScaledImage
-        source={image}
-        width={imageContainerWidth}
-      />
-    </View>
+      <View style={styles.sectionImage}>
+        <ScaledImage source={image} width={imageContainerWidth} />
+      </View>
       <View style={styles.subContainer}>
         <Children />
       </View>

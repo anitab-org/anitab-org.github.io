@@ -1,0 +1,30 @@
+name: PR Safe Check
+
+on:
+  pull_request:
+    branches: [ develop ]
+    types: [opened, synchronize, reopened]
+  push:
+    branches: [ develop ]
+
+jobs:
+  build_check:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [ '14', '16' ]
+    name: Node.js v${{ matrix.node }}
+    steps:
+    - name: 🛎 Checkout
+      uses: actions/checkout@v2
+    - name: 🚀 Use Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node }}
+    - name: ⚙️ Install dependencies
+      run: npm install
+    - name: 🔍 Run tests
+      run: npm test
+    - name: 🔨 Build the project
+      run: npm run build
