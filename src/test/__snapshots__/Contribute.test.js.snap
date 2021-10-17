@@ -10,7 +10,7 @@ exports[`should take a snapshot 1`] = `
       class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-1euycsn r-flexWrap-1w6e6rj r-marginTop-1v1z2uz"
     >
       <div
-        class="css-view-1dbjc4n r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
+        class="css-view-1dbjc4n r-marginTop-180x1p9 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
       >
         <a>
           <div
@@ -51,39 +51,113 @@ exports[`should take a snapshot 1`] = `
               </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; margin-top: 26px; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              Contributing to open source for the first time can be a little scary and overwhelming. AnitaB.org Open Source is here to help you get started on learning how to contribute to open source. 
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; margin-top: 26px; text-align: left;"
+              >
+                <span
+                  class="css-text-901oao css-textHasAncestor-16my406"
+                  dir="auto"
+                >
+                  Contributing to open source for the first time can be a little scary and overwhelming. 
+                  <span
+                    class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
+                    data-focusable="true"
+                    dir="auto"
+                    style="color: rgb(41, 128, 185);"
+                    tabindex="0"
+                  >
+                    AnitaB.org
+                  </span>
+                   Open Source is here to help you get started on learning how to contribute to open source. 
+                </span>
+              </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; margin-top: 26px; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              AnitaB.org Open Source has a variety of open source projects on GitHub (https://github.com/anitab-org) for everyone to contribute. If you have never contributed to an open source project, check out each repository and try out 'First Timers Only' issues.
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; margin-top: 26px; text-align: left;"
+              >
+                <span
+                  class="css-text-901oao css-textHasAncestor-16my406"
+                  dir="auto"
+                >
+                  <span
+                    class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
+                    data-focusable="true"
+                    dir="auto"
+                    style="color: rgb(41, 128, 185);"
+                    tabindex="0"
+                  >
+                    AnitaB.org
+                  </span>
+                   Open Source has a variety of open source projects on GitHub (
+                  <span
+                    class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
+                    data-focusable="true"
+                    dir="auto"
+                    style="color: rgb(41, 128, 185);"
+                    tabindex="0"
+                  >
+                    https://github.com/anitab-org
+                  </span>
+                  ) for everyone to contribute. If you have never contributed to an open source project, check out each repository and try out 'First Timers Only' issues.
+                </span>
+              </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; margin-top: 26px; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              We encourage contributions of ALL kinds (content, design, coding, documentation, testing, etc) from community members. Each member has the opportunity to gain global collaboration experience working on projects with social impact and improve hard & soft skills while participating as a volunteer, mentor, writer, coder, designer, app tester, and more!
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; margin-top: 26px; text-align: left;"
+              >
+                We encourage contributions of ALL kinds (content, design, coding, documentation, testing, etc) from community members. Each member has the opportunity to gain global collaboration experience working on projects with social impact and improve hard & soft skills while participating as a volunteer, mentor, writer, coder, designer, app tester, and more!
+              </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; margin-top: 26px; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              Here are some list of contributions to any of the AnitaB.org Open Source projects, for example: create GitHub issues regarding an open source project, work on/ debug a project issue, update project documentation, create organization content, create/test a pull request, produce mockups for websites/ applications/ organization promotional material, research on UI/UX improvements and accessibilty features, etc.
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; margin-top: 26px; text-align: left;"
+              >
+                <span
+                  class="css-text-901oao css-textHasAncestor-16my406"
+                  dir="auto"
+                >
+                  Here are some list of contributions to any of the 
+                  <span
+                    class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
+                    data-focusable="true"
+                    dir="auto"
+                    style="color: rgb(41, 128, 185);"
+                    tabindex="0"
+                  >
+                    AnitaB.org
+                  </span>
+                   Open Source projects, for example: create GitHub issues regarding an open source project, work on/ debug a project issue, update project documentation, create organization content, create/test a pull request, produce mockups for websites/ applications/ organization promotional material, research on UI/UX improvements and accessibilty features, etc.
+                </span>
+              </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; margin-top: 26px; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              Each active repository has an individual stream on Zulip. If you have any questions and not sure how to get started, please ping us on Zulip and we are happy to help!
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; margin-top: 26px; text-align: left;"
+              >
+                Each active repository has an individual stream on Zulip. If you have any questions and not sure how to get started, please ping us on Zulip and we are happy to help!
+              </div>
             </div>
           </div>
         </div>
