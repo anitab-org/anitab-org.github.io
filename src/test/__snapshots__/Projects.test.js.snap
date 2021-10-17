@@ -160,6 +160,43 @@ exports[`should take a snapshot 1`] = `
               </a>
             </div>
             <div
+              class="css-view-1dbjc4n r-alignItems-1awozwy r-flexDirection-18u37iz r-marginTop-knv0ih"
+            >
+              <a
+                href="https://anitab-org.github.io/mentorship-android/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+                  style="height: 32px; width: 32px;"
+                >
+                  <div
+                    class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-4gszlv r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+                    style="background-image: url(docs.png);"
+                  />
+                  <img
+                    alt=""
+                    class="css-accessibilityImage-9pa8cd"
+                    draggable="false"
+                    src="docs.png"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://anitab-org.github.io/mentorship-android/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="css-text-901oao r-color-1qovj5m r-fontSize-1enofrn r-fontWeight-1od2jal r-marginLeft-1jkjb"
+                  dir="auto"
+                >
+                  docs
+                </div>
+              </a>
+            </div>
+            <div
               class="css-text-901oao r-color-1qovj5m r-fontSize-1b43r93 r-fontWeight-aruset r-marginTop-knv0ih"
               dir="auto"
             >
@@ -295,6 +332,43 @@ exports[`should take a snapshot 1`] = `
                   dir="auto"
                 >
                   github
+                </div>
+              </a>
+            </div>
+            <div
+              class="css-view-1dbjc4n r-alignItems-1awozwy r-flexDirection-18u37iz r-marginTop-knv0ih"
+            >
+              <a
+                href="https://anitab-org.github.io/mentorship-backend/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+                  style="height: 32px; width: 32px;"
+                >
+                  <div
+                    class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-4gszlv r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+                    style="background-image: url(docs.png);"
+                  />
+                  <img
+                    alt=""
+                    class="css-accessibilityImage-9pa8cd"
+                    draggable="false"
+                    src="docs.png"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://anitab-org.github.io/mentorship-backend/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="css-text-901oao r-color-1qovj5m r-fontSize-1enofrn r-fontWeight-1od2jal r-marginLeft-1jkjb"
+                  dir="auto"
+                >
+                  docs
                 </div>
               </a>
             </div>
@@ -1062,7 +1136,7 @@ exports[`should take a snapshot 1`] = `
               class="css-view-1dbjc4n r-alignItems-1awozwy r-flexDirection-18u37iz r-marginTop-knv0ih"
             >
               <a
-                href="https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/BridgeInTech.20-.20Maya"
+                href="https://anitab-org.zulipchat.com/#narrow/stream/237630-bridge-in-tech"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1083,7 +1157,7 @@ exports[`should take a snapshot 1`] = `
                 </div>
               </a>
               <a
-                href="https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/BridgeInTech.20-.20Maya"
+                href="https://anitab-org.zulipchat.com/#narrow/stream/237630-bridge-in-tech"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1201,7 +1275,7 @@ exports[`should take a snapshot 1`] = `
               class="css-view-1dbjc4n r-alignItems-1awozwy r-flexDirection-18u37iz r-marginTop-knv0ih"
             >
               <a
-                href="https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/BridgeInTech.20-.20Maya"
+                href="https://anitab-org.zulipchat.com/#narrow/stream/237630-bridge-in-tech"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1222,7 +1296,7 @@ exports[`should take a snapshot 1`] = `
                 </div>
               </a>
               <a
-                href="https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/BridgeInTech.20-.20Maya"
+                href="https://anitab-org.zulipchat.com/#narrow/stream/237630-bridge-in-tech"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1334,13 +1408,13 @@ exports[`should take a snapshot 1`] = `
               class="css-text-901oao r-color-1qovj5m r-fontSize-1i10wst r-fontWeight-16dba41 r-marginTop-knv0ih"
               dir="auto"
             >
-              Open Source Programs Web
+              AnitaB-forms Web
             </div>
             <div
               class="css-view-1dbjc4n r-alignItems-1awozwy r-flexDirection-18u37iz r-marginTop-knv0ih"
             >
               <a
-                href="https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/Open.20Source.20Programs.20-.20Bismita.20Guha"
+                href="https://anitab-org.zulipchat.com/#narrow/stream/237907-anitab-forms"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1361,7 +1435,7 @@ exports[`should take a snapshot 1`] = `
                 </div>
               </a>
               <a
-                href="https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/Open.20Source.20Programs.20-.20Bismita.20Guha"
+                href="https://anitab-org.zulipchat.com/#narrow/stream/237907-anitab-forms"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1377,7 +1451,7 @@ exports[`should take a snapshot 1`] = `
               class="css-view-1dbjc4n r-alignItems-1awozwy r-flexDirection-18u37iz r-marginTop-knv0ih"
             >
               <a
-                href="https://github.com/anitab-org/open-source-programs-web"
+                href="https://github.com/anitab-org/anitab-forms-web"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1398,7 +1472,7 @@ exports[`should take a snapshot 1`] = `
                 </div>
               </a>
               <a
-                href="https://github.com/anitab-org/open-source-programs-web"
+                href="https://github.com/anitab-org/anitab-forms-web"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1411,10 +1485,47 @@ exports[`should take a snapshot 1`] = `
               </a>
             </div>
             <div
+              class="css-view-1dbjc4n r-alignItems-1awozwy r-flexDirection-18u37iz r-marginTop-knv0ih"
+            >
+              <a
+                href="https://anitab-org.github.io/anitab-forms-web/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+                  style="height: 32px; width: 32px;"
+                >
+                  <div
+                    class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-4gszlv r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+                    style="background-image: url(docs.png);"
+                  />
+                  <img
+                    alt=""
+                    class="css-accessibilityImage-9pa8cd"
+                    draggable="false"
+                    src="docs.png"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://anitab-org.github.io/anitab-forms-web/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="css-text-901oao r-color-1qovj5m r-fontSize-1enofrn r-fontWeight-1od2jal r-marginLeft-1jkjb"
+                  dir="auto"
+                >
+                  docs
+                </div>
+              </a>
+            </div>
+            <div
               class="css-text-901oao r-color-1qovj5m r-fontSize-1b43r93 r-fontWeight-aruset r-marginTop-knv0ih"
               dir="auto"
             >
-              Frontend of Open Source Programs (OSP) - an application that simplifies the processing and selection procedure of Open Source Programs of AnitaB.org Open Source or other third-party programs.
+              Frontend of AnitaB-forms - an application that simplifies the processing and selection procedure of Open Source Programs of AnitaB.org Open Source or other third-party programs.
             </div>
             <div
               class="css-view-1dbjc4n r-flex-13awgt0"
@@ -1473,13 +1584,13 @@ exports[`should take a snapshot 1`] = `
               class="css-text-901oao r-color-1qovj5m r-fontSize-1i10wst r-fontWeight-16dba41 r-marginTop-knv0ih"
               dir="auto"
             >
-              Open Source Programs Backend
+              AnitaB-forms Backend
             </div>
             <div
               class="css-view-1dbjc4n r-alignItems-1awozwy r-flexDirection-18u37iz r-marginTop-knv0ih"
             >
               <a
-                href="https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/Open.20Source.20Programs.20-.20Bismita.20Guha"
+                href="https://anitab-org.zulipchat.com/#narrow/stream/237907-anitab-forms"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1500,7 +1611,7 @@ exports[`should take a snapshot 1`] = `
                 </div>
               </a>
               <a
-                href="https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/Open.20Source.20Programs.20-.20Bismita.20Guha"
+                href="https://anitab-org.zulipchat.com/#narrow/stream/237907-anitab-forms"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -1553,7 +1664,7 @@ exports[`should take a snapshot 1`] = `
               class="css-text-901oao r-color-1qovj5m r-fontSize-1b43r93 r-fontWeight-aruset r-marginTop-knv0ih"
               dir="auto"
             >
-              Backend of Open Source Programs (OSP) - an application that simplifies the processing and selection procedure of Open Source Programs of AnitaB.org Open Source or other third-party programs.
+              Backend of AnitaB-forms - an application that simplifies the processing and selection procedure of Open Source Programs of AnitaB.org Open Source or other third-party programs.
             </div>
             <div
               class="css-view-1dbjc4n r-flex-13awgt0"
@@ -1685,6 +1796,43 @@ exports[`should take a snapshot 1`] = `
                   dir="auto"
                 >
                   github
+                </div>
+              </a>
+            </div>
+            <div
+              class="css-view-1dbjc4n r-alignItems-1awozwy r-flexDirection-18u37iz r-marginTop-knv0ih"
+            >
+              <a
+                href="https://anitab-org.github.io/stem-diverse-tv/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="css-view-1dbjc4n r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010"
+                  style="height: 32px; width: 32px;"
+                >
+                  <div
+                    class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-backgroundSize-4gszlv r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw"
+                    style="background-image: url(docs.png);"
+                  />
+                  <img
+                    alt=""
+                    class="css-accessibilityImage-9pa8cd"
+                    draggable="false"
+                    src="docs.png"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://anitab-org.github.io/stem-diverse-tv/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <div
+                  class="css-text-901oao r-color-1qovj5m r-fontSize-1enofrn r-fontWeight-1od2jal r-marginLeft-1jkjb"
+                  dir="auto"
+                >
+                  docs
                 </div>
               </a>
             </div>
