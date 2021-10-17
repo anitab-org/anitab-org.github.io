@@ -12,7 +12,7 @@ function App() {
     'PROGRAMS',
     'PROJECTS',
     'EVENTS',
-    'CONTRIBUTE'
+    'CONTRIBUTE',
   ];
   return (
     <View style={{ position: 'absolute', width: '100%', alignItems: 'center' }}>

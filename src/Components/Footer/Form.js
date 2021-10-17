@@ -18,9 +18,9 @@ function Form() {
           styles.description,
           styles.formField,
           styles.formEmail,
-          { borderWidth: emailBorder }
+          { borderWidth: emailBorder },
         ]}
-        placeholder='Your email address'
+        placeholder="Your email address"
         onChangeText={(text) => updateEmail(text)}
         value={email}
       />
@@ -29,10 +29,10 @@ function Form() {
           styles.description,
           styles.formField,
           styles.formMessage,
-          { borderWidth: messageBorder }
+          { borderWidth: messageBorder },
         ]}
         multiline={true}
-        placeholder='Your queries or feedbacks'
+        placeholder="Your queries or feedbacks"
         onChangeText={(text) => updateMessage(text)}
         value={message}
       />
@@ -44,7 +44,8 @@ function Form() {
 
   function submitForm() {
     // eslint-disable-next-line
-    const emailRegex = /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    const emailRegex =
+      /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
     let error = 0;
 
     if (!email || !emailRegex.test(email)) {

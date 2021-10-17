@@ -8,7 +8,7 @@ function Social() {
       <Text style={[styles.text, styles.heading]}>Follow us here</Text>
       <View style={styles.socialContainer}>
         <TouchableHighlight
-          onPress = {() => 
+          onPress={() =>
             window.open('https://twitter.com/AnitaB_org', '_blank')
           }
         >
@@ -18,7 +18,7 @@ function Social() {
           />
         </TouchableHighlight>
         <TouchableHighlight
-          onPress = {() =>
+          onPress={() =>
             window.open('https://www.instagram.com/anitab_org/', '_blank')
           }
         >
@@ -28,7 +28,7 @@ function Social() {
           />
         </TouchableHighlight>
         <TouchableHighlight
-          onPress = {() =>
+          onPress={() =>
             window.open('https://www.facebook.com/AnitaB.0rg/', '_blank')
           }
         >
@@ -38,8 +38,11 @@ function Social() {
           />
         </TouchableHighlight>
         <TouchableHighlight
-          onPress = {() =>
-            window.open('https://www.linkedin.com/company/anitab-org/', '_blank')
+          onPress={() =>
+            window.open(
+              'https://www.linkedin.com/company/anitab-org/',
+              '_blank'
+            )
           }
         >
           <Image

@@ -1,4 +1,3 @@
-
 [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://anitab-org.zulipchat.com/#narrow/stream/235478-anitab-org.2Egithub.2Eio)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)
@@ -6,8 +5,6 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 [![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/anitab-org/anitab-org.github.io/network/members)
 [![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/anitab-org/anitab-org.github.io/stargazers)
-
-
 
 # anitab-org.github.io
 
@@ -19,31 +16,31 @@ To setup the project locally follow the instructions:
 
 #### Fork
 
-_**Note**_: *This is only needed if you want to contribute to the project.*
+_**Note**_: _This is only needed if you want to contribute to the project._
 
 If you want to contribute to the project you will have to create your own copy of the project on GitHub. You can do this by clicking the Fork button that can be found on the top right corner of the [landing page](https://github.com/anitab-org/anitab-org.github.io) of the repository.
 
 #### Clone
 
-_**Note**_: *For this you need to install git on your machine. You can download the git tool from [here](https://git-scm.com/downloads).*
+_**Note**_: _For this you need to install git on your machine. You can download the git tool from [here](https://git-scm.com/downloads)._
 
- * If you have forked the project, run the following command -
-   
-   `git clone https://github.com/YOUR_GITHUB_USER_NAME/anitab-org.github.io`
+- If you have forked the project, run the following command -
 
-   where `YOUR_GITHUB_USER_NAME` is your GitHub handle.
+  `git clone https://github.com/YOUR_GITHUB_USER_NAME/anitab-org.github.io`
 
- * If you haven't forked the project, run the following command -
+  where `YOUR_GITHUB_USER_NAME` is your GitHub handle.
 
-   `git clone https://github.com/anitab-org/anitab-org.github.io`
-   
- * Now after you cloned the repository, get into the anitab-org.github.io directory by -
+- If you haven't forked the project, run the following command -
 
-   `cd anitab-org.github.io`
+  `git clone https://github.com/anitab-org/anitab-org.github.io`
+
+- Now after you cloned the repository, get into the anitab-org.github.io directory by -
+
+  `cd anitab-org.github.io`
 
 #### Remote
 
-_**Note**_: *This is only needed if you want to contribute to the project.*
+_**Note**_: _This is only needed if you want to contribute to the project._
 
 When a repository is cloned, it has a default remote named `origin` that points to your fork on GitHub, not the original repository it was forked from. To keep track of the original repository, you should add another remote named upstream. For this project it can be done by running the following command -
 
@@ -59,24 +56,21 @@ upstream        https://github.com/anitab-org/anitab-org.github.io.git (fetch)
 upstream        https://github.com/anitab-org/anitab-org.github.io.git (push)
 ```
 
-
 ### Run app
 
 Download the latest stable version of NodeJs [here](https://nodejs.org/en/download/) and install it. Install `yarn`. Run `node --version` and `yarn --version` to verify successful installation.
 
 To get the frontend running locally:
 
- * Clone this repository
- * `yarn` to install all required dependencies
- * `yarn start` to start the local server
- 
- 
- ## Prerequisites
- 
- **Javascript** - We are using technologies such as javascript , HTML , CSS for our website AnitaB.org Open Source.
- 
- **ReactJS** - As our Whole content is written in ReactJS so we can easly transform this into native apps in future.
+- Clone this repository
+- `yarn` to install all required dependencies
+- `yarn start` to start the local server
 
+## Prerequisites
+
+**Javascript** - We are using technologies such as javascript , HTML , CSS for our website AnitaB.org Open Source.
+
+**ReactJS** - As our Whole content is written in ReactJS so we can easly transform this into native apps in future.
 
 ## Contributing
 

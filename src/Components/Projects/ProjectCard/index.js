@@ -17,7 +17,7 @@ const ProjectCard = ({ props, isOver }) => {
     >
       <ScaledImage width={286} source={props.image.source} />
       <Text style={styles.title}>{props.title}</Text>
-      {props.badges.map((badge,index) => (
+      {props.badges.map((badge, index) => (
         <ProjectCardBadge {...badge} key={index} /> //index can be used as unique key here
       ))}
 
@@ -30,8 +30,9 @@ const ProjectCard = ({ props, isOver }) => {
         }}
       >
         <View style={{ flexDirection: 'row' }}>
-          {props.labels.map((label,index) => (
-            <Text key={index}
+          {props.labels.map((label, index) => (
+            <Text
+              key={index}
               style={{
                 backgroundColor: label.color,
                 marginRight: 8,

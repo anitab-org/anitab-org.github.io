@@ -7,8 +7,7 @@ const projects = {
       },
       content: [
         {
-          par:
-            'Our open source projects are oriented to help not only women in tech but also increase diversity and inclusion in STEM. We have multiple projects on our GitHub account and we are trying to keep up to date latest technologies and modern programming and scripting languages.',
+          par: 'Our open source projects are oriented to help not only women in tech but also increase diversity and inclusion in STEM. We have multiple projects on our GitHub account and we are trying to keep up to date latest technologies and modern programming and scripting languages.',
         },
       ],
       cards: [
@@ -27,8 +26,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url:
-                'https://anitab-org.zulipchat.com/#narrow/stream/222534-mentorship-system/topic/Android',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/222534-mentorship-system/topic/Android',
             },
             {
               title: 'github',
@@ -55,8 +53,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url:
-                'https://anitab-org.zulipchat.com/#narrow/stream/222534-mentorship-system/topic/mentorship-backend',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/222534-mentorship-system/topic/mentorship-backend',
             },
             {
               title: 'github',
@@ -83,8 +80,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url:
-                'https://anitab-org.zulipchat.com/#narrow/stream/222534-mentorship-system/topic/mentorship-flutter',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/222534-mentorship-system/topic/mentorship-flutter',
             },
             {
               title: 'github',
@@ -111,8 +107,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url:
-                'https://anitab-org.zulipchat.com/#narrow/stream/222534-mentorship-system/topic/iOS',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/222534-mentorship-system/topic/iOS',
             },
             {
               title: 'github',
@@ -139,8 +134,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url:
-                'https://anitab-org.zulipchat.com/#narrow/stream/222540-portal',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/222540-portal',
             },
             {
               title: 'github',
@@ -194,8 +188,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url:
-                'https://anitab-org.zulipchat.com/#narrow/stream/235478-anitab-org.2Egithub.2Eio',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/235478-anitab-org.2Egithub.2Eio',
             },
             {
               title: 'github',
@@ -212,7 +205,8 @@ const projects = {
             source: require('./../assets/placeholder.png'),
           },
           title: 'Bridge-In-Tech Web',
-          description: "Web Application for Bridge-In-Tech - an application that encourages active collaboration between organization, mentor and mentee, by allowing organization to offer a mentoring program where mentor and mentee can work on. The mentoring program can be customised to meet the needed skills set that the organization is looking for.",
+          description:
+            'Web Application for Bridge-In-Tech - an application that encourages active collaboration between organization, mentor and mentee, by allowing organization to offer a mentoring program where mentor and mentee can work on. The mentoring program can be customised to meet the needed skills set that the organization is looking for.',
           labels: [
             { title: 'react js', color: '#BD6AAA' },
             { title: 'javascript', color: '#F9D507' },
@@ -221,8 +215,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url:
-                'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/BridgeInTech.20-.20Maya',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/BridgeInTech.20-.20Maya',
             },
             {
               title: 'github',
@@ -239,8 +232,9 @@ const projects = {
             source: require('./../assets/placeholder.png'),
           },
           title: 'Bridge-In-Tech Backend',
-          description: "Backend REST API for Bridge-In-Tech - an application that encourages active collaboration between organization, mentor and mentee, by allowing organization to offer a mentoring program where mentor and mentee can work on. The mentoring program can be customised to meet the needed skills set that the organization is looking for.",
-            labels: [
+          description:
+            'Backend REST API for Bridge-In-Tech - an application that encourages active collaboration between organization, mentor and mentee, by allowing organization to offer a mentoring program where mentor and mentee can work on. The mentoring program can be customised to meet the needed skills set that the organization is looking for.',
+          labels: [
             { title: 'flask', color: '#F8972B' },
             { title: 'python', color: '#C1D72E' },
           ],
@@ -248,8 +242,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url:
-                'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/BridgeInTech.20-.20Maya',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/BridgeInTech.20-.20Maya',
             },
             {
               title: 'github',
@@ -276,8 +269,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url:
-                'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/Open.20Source.20Programs.20-.20Bismita.20Guha',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/Open.20Source.20Programs.20-.20Bismita.20Guha',
             },
             {
               title: 'github',
@@ -304,8 +296,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url:
-                'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/Open.20Source.20Programs.20-.20Bismita.20Guha',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/Open.20Source.20Programs.20-.20Bismita.20Guha',
             },
             {
               title: 'github',
@@ -332,8 +323,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url:
-                'https://anitab-org.zulipchat.com/#narrow/stream/225705-STEM-diverse-tv',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/225705-STEM-diverse-tv',
             },
             {
               title: 'github',
@@ -360,8 +350,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url:
-                'https://anitab-org.zulipchat.com/#narrow/stream/225705-STEM-diverse-tv',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/225705-STEM-diverse-tv',
             },
             {
               title: 'github',
@@ -380,4 +369,3 @@ const projects = {
 export const getProjects = () => {
   return projects;
 };
-
