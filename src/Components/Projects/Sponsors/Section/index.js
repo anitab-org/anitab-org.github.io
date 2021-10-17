@@ -8,7 +8,7 @@ function Section({ header, content, index, expandable }) {
   const [showMore, setShowMore] = useState(false);
 
   const sponsors = content.map((img, index) =>
-    SponsorsContent(img, sponsorsSizes, index),
+    SponsorsContent(img, sponsorsSizes, index)
   );
   console.log(index);
 

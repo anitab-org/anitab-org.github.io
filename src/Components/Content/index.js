@@ -14,11 +14,11 @@ function Content({ selected, titles }) {
     return <AboutUs />;
   } else if (selected === 3) {
     return <Projects />;
-  }else if (selected === 2) {
+  } else if (selected === 2) {
     return <Programs />;
-  } else if(selected === 4){
-    return <Events/>
-  }else if (selected === 5) {
+  } else if (selected === 4) {
+    return <Events />;
+  } else if (selected === 5) {
     return <Contribute />;
   } else {
     return (
