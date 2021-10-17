@@ -24,7 +24,8 @@ function Home() {
       <SectionHeader title="AnitaB.org Open Source" />
       {content.sections.map((section, index) => {
         return (
-          <ImageContent key={index}
+          <ImageContent
+            key={index}
             image={section.image.source}
             imageSide={index % 2 === 0 ? 'right' : 'left'}
             Children={() => renderContent(index, section)}
