@@ -33,6 +33,11 @@ const projects = {
               source: require('./../assets/github.png'),
               url: 'https://github.com/anitab-org/mentorship-android',
             },
+            {
+              title: 'docs',
+              source: require('./../assets/docs.png'),
+              url: 'https://anitab-org.github.io/mentorship-android/',
+            },
           ],
           contributors_url:
             'https://api.github.com/repos/anitab-org/mentorship-android/contributors',
@@ -59,6 +64,11 @@ const projects = {
               title: 'github',
               source: require('./../assets/github.png'),
               url: 'https://github.com/anitab-org/mentorship-backend',
+            },
+            {
+              title: 'docs',
+              source: require('./../assets/docs.png'),
+              url: 'https://anitab-org.github.io/mentorship-backend/',
             },
           ],
           contributors_url:
@@ -215,7 +225,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url: 'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/BridgeInTech.20-.20Maya',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/237630-bridge-in-tech',
             },
             {
               title: 'github',
@@ -242,7 +252,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url: 'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/BridgeInTech.20-.20Maya',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/237630-bridge-in-tech',
             },
             {
               title: 'github',
@@ -258,9 +268,9 @@ const projects = {
           image: {
             source: require('./../assets/placeholder.png'),
           },
-          title: 'Open Source Programs Web',
+          title: 'AnitaB-forms Web',
           description:
-            'Frontend of Open Source Programs (OSP) - an application that simplifies the processing and selection procedure of Open Source Programs of AnitaB.org Open Source or other third-party programs.',
+            'Frontend of AnitaB-forms - an application that simplifies the processing and selection procedure of Open Source Programs of AnitaB.org Open Source or other third-party programs.',
           labels: [
             { title: 'react js', color: '#BD6AAA' },
             { title: 'javascript', color: '#F9D507' },
@@ -269,12 +279,17 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url: 'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/Open.20Source.20Programs.20-.20Bismita.20Guha',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/237907-anitab-forms',
             },
             {
               title: 'github',
               source: require('./../assets/github.png'),
-              url: 'https://github.com/anitab-org/open-source-programs-web',
+              url: 'https://github.com/anitab-org/anitab-forms-web',
+            },
+            {
+              title: 'docs',
+              source: require('./../assets/docs.png'),
+              url: 'https://anitab-org.github.io/anitab-forms-web/',
             },
           ],
           contributors_url:
@@ -285,9 +300,9 @@ const projects = {
           image: {
             source: require('./../assets/placeholder.png'),
           },
-          title: 'Open Source Programs Backend',
+          title: 'AnitaB-forms Backend',
           description:
-            'Backend of Open Source Programs (OSP) - an application that simplifies the processing and selection procedure of Open Source Programs of AnitaB.org Open Source or other third-party programs.',
+            'Backend of AnitaB-forms - an application that simplifies the processing and selection procedure of Open Source Programs of AnitaB.org Open Source or other third-party programs.',
           labels: [
             { title: 'django', color: '#51B9EA' },
             { title: 'python', color: '#C1D72E' },
@@ -296,7 +311,7 @@ const projects = {
             {
               title: 'zulip',
               source: require('./../assets/zulip.png'),
-              url: 'https://anitab-org.zulipchat.com/#narrow/stream/224798-gsoc/topic/Open.20Source.20Programs.20-.20Bismita.20Guha',
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/237907-anitab-forms',
             },
             {
               title: 'github',
@@ -329,6 +344,11 @@ const projects = {
               title: 'github',
               source: require('./../assets/github.png'),
               url: 'https://github.com/anitab-org/stem-diverse-tv',
+            },
+            {
+              title: 'docs',
+              source: require('./../assets/docs.png'),
+              url: 'https://anitab-org.github.io/stem-diverse-tv/',
             },
           ],
           contributors_url:
