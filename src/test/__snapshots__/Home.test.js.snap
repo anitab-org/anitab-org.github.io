@@ -132,7 +132,14 @@ If you are subject to or witness unacceptable behavior, or have any other concer
           >
             You can start contributing to our various open source projects by- 
 
-1) Creating issues on Github regarding the project 
+1) 
+            <a
+              href="https://github.com/anitab-org/anitab-org.github.io/issues"
+              target="_blank"
+            >
+              Creating issues on Github
+            </a>
+             regarding the project 
 2) Debugging the issues 
 3) Creating pull requests, testing pull requests 
 4) Create mockups for new applications or redesign the current features 
@@ -145,8 +152,22 @@ If you are subject to or witness unacceptable behavior, or have any other concer
             style="font-size: 18px; font-weight: 200; text-align: left;"
           >
             Each active repository has a stream to direct questions. 
-Issues labeled as 'First Timers Only' are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues. 
-Make sure to follow the Commit Message Style Guide when submitting PRs which will require review by at least one maintainer to be merged to the main code.
+Issues labeled as 
+            <a
+              href="https://github.com/anitab-org/anitab-org.github.io/issues?q=is%3Aopen+is%3Aissue+label%3A%22First+Timers+Only%22"
+              target="_blank"
+            >
+              First Timers Only
+            </a>
+             are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues. 
+Make sure to follow the 
+            <a
+              href="https://github.com/anitab-org/mentorship-android/wiki/Commit-Message-Style-Guide"
+              target="_blank"
+            >
+              Commit Message Style Guide
+            </a>
+             when submitting PRs which will require review by at least one maintainer to be merged to the main code.
           </div>
         </div>
       </div>
