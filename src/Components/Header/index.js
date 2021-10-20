@@ -30,8 +30,9 @@ function Header({ selected, setSelected, titles }) {
           source={require('./../../assets/logo.png')}
         />
       </TouchableHighlight>
-      { titles.map((title, index) =>
-        index > 0 && MenuItem(index, selected, setSelected, title)
+      {titles.map(
+        (title, index) =>
+          index > 0 && MenuItem(index, selected, setSelected, title)
       )}
     </View>
   );
