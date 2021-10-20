@@ -13,6 +13,7 @@ const events_highlight = getevents_highlights();
 const styles = StyleSheet.create({
   container: {
     width: '80%',
+    height: '10%',
     alignItems: 'left',
     paddingLeft: 16,
     paddingRight: 16,
