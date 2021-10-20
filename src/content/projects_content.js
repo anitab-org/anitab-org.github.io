@@ -75,114 +75,10 @@ const projects = {
             'https://api.github.com/repos/anitab-org/mentorship-backend/contributors',
         },
 
-        {
-          image: {
-            source: require('./../assets/placeholder.png'),
-          },
-          title: 'Mentorship Flutter',
-          description:
-            "Cross-platform client app for the Mentorship System - an application that matches women in tech to mentor each other, on career development, through 1:1 relations during a certain period of time. It's written in the Flutter framework.",
-          labels: [
-            { title: 'dart', color: '#F5BED8' },
-            { title: 'flutter', color: '#C1D72E' },
-          ],
-          badges: [
-            {
-              title: 'zulip',
-              source: require('./../assets/zulip.png'),
-              url: 'https://anitab-org.zulipchat.com/#narrow/stream/222534-mentorship-system/topic/mentorship-flutter',
-            },
-            {
-              title: 'github',
-              source: require('./../assets/github.png'),
-              url: 'https://github.com/anitab-org/mentorship-flutter',
-            },
-          ],
-          contributors_url:
-            'https://api.github.com/repos/anitab-org/mentorship-flutter/contributors',
-        },
+       
 
-        {
-          image: {
-            source: require('./../assets/placeholder.png'),
-          },
-          title: 'Mentorship iOS',
-          description:
-            'iOS application for Mentorship System - an application that matches women in tech to mentor each other, on career development, through 1:1 relations during a certain period of time.',
-          labels: [
-            { title: 'swiftUI', color: '#F8972B' },
-            { title: 'mvvm', color: '#3EBEA1' },
-          ],
-          badges: [
-            {
-              title: 'zulip',
-              source: require('./../assets/zulip.png'),
-              url: 'https://anitab-org.zulipchat.com/#narrow/stream/222534-mentorship-system/topic/iOS',
-            },
-            {
-              title: 'github',
-              source: require('./../assets/github.png'),
-              url: 'https://github.com/anitab-org/mentorship-ios',
-            },
-          ],
-          contributors_url:
-            'https://api.github.com/repos/anitab-org/mentorship-ios/contributors',
-        },
-
-        {
-          image: {
-            source: require('./../assets/placeholder.png'),
-          },
-          title: 'Portal',
-          description:
-            'AnitaB.org Portal is for AnitaB.org communities to post and share information within and with other communities.',
-          labels: [
-            { title: 'django', color: '#51B9EA' },
-            { title: 'python', color: '#C1D72E' },
-          ],
-          badges: [
-            {
-              title: 'zulip',
-              source: require('./../assets/zulip.png'),
-              url: 'https://anitab-org.zulipchat.com/#narrow/stream/222540-portal',
-            },
-            {
-              title: 'github',
-              source: require('./../assets/github.png'),
-              url: 'https://github.com/anitab-org/portal',
-            },
-          ],
-          contributors_url:
-            'https://api.github.com/repos/anitab-org/portal/contributors',
-        },
-
-        {
-          image: {
-            source: require('./../assets/placeholder.png'),
-          },
-          title: 'VMS',
-          description:
-            'AnitaB.org has many volunteers that offer their skills, time, and commitment to our vision and projects. The Volunteer Management System (VMS) will be useful for volunteer coordinators, volunteer sign-up, tracking hours, and reporting. This project uses the Django web framework and Python.',
-          labels: [
-            { title: 'django', color: '#51B9EA' },
-            { title: 'python', color: '#C1D72E' },
-          ],
-          badges: [
-            {
-              title: 'zulip',
-              source: require('./../assets/zulip.png'),
-              url: 'https://anitab-org.zulipchat.com/#narrow/stream/222539-vms',
-            },
-            {
-              title: 'github',
-              source: require('./../assets/github.png'),
-              url: 'https://github.com/anitab-org/vms',
-            },
-          ],
-          contributors_url:
-            'https://api.github.com/repos/anitab-org/vms/contributors',
-        },
-
+      
+       
         {
           image: {
             source: require('./../assets/placeholder.png'),
@@ -383,6 +279,124 @@ const projects = {
         },
       ],
     },
+    {
+      title: 'Archived Projects',
+      image: {
+        source: require('./../assets/projects/our-projects.png'),
+      },
+      content: [
+        {
+          par: 'The projects mentioned below have been archieved and currently are avialable as public archives on our GitHub',
+        },
+      ],
+      cards: [
+        {
+          image: {
+            source: require('./../assets/placeholder.png'),
+          },
+          title: 'Mentorship iOS',
+          description:
+            'iOS application for Mentorship System - an application that matches women in tech to mentor each other, on career development, through 1:1 relations during a certain period of time.',
+          labels: [
+            { title: 'swiftUI', color: '#F8972B' },
+            { title: 'mvvm', color: '#3EBEA1' },
+          ],
+          badges: [
+            {
+              title: 'zulip',
+              source: require('./../assets/zulip.png'),
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/222534-mentorship-system/topic/iOS',
+            },
+            {
+              title: 'github',
+              source: require('./../assets/github.png'),
+              url: 'https://github.com/anitab-org/mentorship-ios',
+            },
+          ],
+          contributors_url:
+            'https://api.github.com/repos/anitab-org/mentorship-ios/contributors',
+        },
+        {
+          image: {
+            source: require('./../assets/placeholder.png'),
+          },
+          title: 'VMS',
+          description:
+            'AnitaB.org has many volunteers that offer their skills, time, and commitment to our vision and projects. The Volunteer Management System (VMS) will be useful for volunteer coordinators, volunteer sign-up, tracking hours, and reporting. This project uses the Django web framework and Python.',
+          labels: [
+            { title: 'django', color: '#51B9EA' },
+            { title: 'python', color: '#C1D72E' },
+          ],
+          badges: [
+            {
+              title: 'zulip',
+              source: require('./../assets/zulip.png'),
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/222539-vms',
+            },
+            {
+              title: 'github',
+              source: require('./../assets/github.png'),
+              url: 'https://github.com/anitab-org/vms',
+            },
+          ],
+          contributors_url:
+            'https://api.github.com/repos/anitab-org/vms/contributors',
+        }, {
+          image: {
+            source: require('./../assets/placeholder.png'),
+          },
+          title: 'Portal',
+          description:
+            'AnitaB.org Portal is for AnitaB.org communities to post and share information within and with other communities.',
+          labels: [
+            { title: 'django', color: '#51B9EA' },
+            { title: 'python', color: '#C1D72E' },
+          ],
+          badges: [
+            {
+              title: 'zulip',
+              source: require('./../assets/zulip.png'),
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/222540-portal',
+            },
+            {
+              title: 'github',
+              source: require('./../assets/github.png'),
+              url: 'https://github.com/anitab-org/portal',
+            },
+          ],
+          contributors_url:
+            'https://api.github.com/repos/anitab-org/portal/contributors',
+        },
+        {
+          image: {
+            source: require('./../assets/placeholder.png'),
+          },
+          title: 'Mentorship Flutter',
+          description:
+            "Cross-platform client app for the Mentorship System - an application that matches women in tech to mentor each other, on career development, through 1:1 relations during a certain period of time. It's written in the Flutter framework.",
+          labels: [
+            { title: 'dart', color: '#F5BED8' },
+            { title: 'flutter', color: '#C1D72E' },
+          ],
+          badges: [
+            {
+              title: 'zulip',
+              source: require('./../assets/zulip.png'),
+              url: 'https://anitab-org.zulipchat.com/#narrow/stream/222534-mentorship-system/topic/mentorship-flutter',
+            },
+            {
+              title: 'github',
+              source: require('./../assets/github.png'),
+              url: 'https://github.com/anitab-org/mentorship-flutter',
+            },
+          ],
+          contributors_url:
+            'https://api.github.com/repos/anitab-org/mentorship-flutter/contributors',
+        },
+
+
+      ],
+    }
   ],
 };
 
