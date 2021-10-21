@@ -5,6 +5,7 @@ import SectionSubheader from './../SectionSubheader';
 import { getHome } from './../../content/home';
 import { Box, Content, Description } from './styles';
 import ContributionSection from './contribution/ContributionSection';
+import HTMLReactParser from 'html-react-parser';
 
 function Home() {
   const content = getHome();
@@ -13,7 +14,9 @@ function Home() {
       <Content key={index}>
         <SectionSubheader title={section.title} />
         {section.content.map((content, indx) => {
-          return <Description key={indx}>{content.par}</Description>;
+          return (
+            <Description key={indx}>{HTMLReactParser(content.par)}</Description>
+          );
         })}
       </Content>
     );

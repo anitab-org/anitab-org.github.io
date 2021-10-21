@@ -17,7 +17,7 @@ const events_highlight = {
           title: 'Intro to Open Source',
           date: 'May 15, 2020',
           location: 'Virtual',
-          timings: '5:00 pm - 6:00 pm (BST)',
+          timings: '4:00 pm - 5:00 pm (UTC)',
           description: [
             {
               par: 'Join us for this virtual event to learn more about beginning your journey in the Open Source world, presented by AnitaB.org London and AnitaB.org Nairobi communities.',
@@ -41,7 +41,7 @@ const events_highlight = {
           title: 'Why I contribute to Open source?',
           date: 'July 4, 2020',
           location: 'Virtual',
-          timings: '1am (UTC)',
+          timings: '1:00 am (UTC)',
           description: [
             {
               par: 'Heard about Open Source, not sure what’s in it for you? Need a boost to begin?',
@@ -65,7 +65,7 @@ const events_highlight = {
           title: 'Engaging Open Source community in Quality Assurance',
           date: 'August 9, 2020',
           location: 'Virtual',
-          timings: '9am (EST)',
+          timings: '1:00 am (UTC)',
           description: [
             {
               par: 'Wondered how Quality Assurance (QA) for software is performed in companies or what are the roles and responsibilities of an QA engineer?',
@@ -95,7 +95,7 @@ const events_highlight = {
           title: 'Hopper India 2020',
           date: 'August 6 — August 7,2020',
           location: 'Virtual',
-          timings: '9:30am - 4pm (IST)',
+          timings: '4:00 am - 10:30 am (UTC)',
           description: [
             {
               par: 'Our vibrant community of women in technology from Chennai, Delhi, Hyderabad, and Pune is coming together to present this two-day virtual event modeled after the popular Grace Hopper Celebration India (GHCI) conference for women in technology.',
@@ -125,7 +125,7 @@ const events_highlight = {
           title: 'Grace Hopper Celebration 2020',
           date: 'September 29 — October 3,2020',
           location: 'Virtual',
-          timings: '11am - 3pm (PT)',
+          timings: '10:00 am - 2:00 pm (UTC)',
           description: [
             {
               par: 'AnitaB.org’s flagship event Grace Hopper Celebration brings the research and career interests of women in computing to the forefront.',
