@@ -6,8 +6,9 @@ import {
   TouchableHighlight,
   StyleSheet,
 } from 'react-native';
+import { usePath } from 'hookrouter';
 
-function Header({ selected, setSelected, titles, path }) {
+function Header({ titles }) {
   return (
     <View
       style={{
@@ -21,7 +22,6 @@ function Header({ selected, setSelected, titles, path }) {
       <TouchableHighlight
         style={styles.logoContainer}
         underlayColor="transparent"
-        onPress={() => setSelected(0)}
         accessible={true}
         accessibilityLabel={titles[0]}
       >
@@ -32,29 +32,32 @@ function Header({ selected, setSelected, titles, path }) {
           />
         </a>
       </TouchableHighlight>
-      {MenuItem(1, selected, setSelected, titles[1], '/about-us')}
-      {MenuItem(2, selected, setSelected, titles[2], '/programs')}
-      {MenuItem(3, selected, setSelected, titles[3], '/projects')}
-      {MenuItem(4, selected, setSelected, titles[4], '/events')}
-      {MenuItem(5, selected, setSelected, titles[5], '/contribute')}
+      {MenuItem(titles[1], '/about-us')}
+      {MenuItem(titles[2], '/programs')}
+      {MenuItem(titles[3], '/projects')}
+      {MenuItem(titles[4], '/events')}
+      {MenuItem(titles[5], '/contribute')}
     </View>
   );
 }
 
-function MenuItem(index, selected, setSelected, title, path) {
+function MenuItem(title, path) {
+  const currentPath = usePath();
+  const isSelected = (path) => currentPath === path;
+
   return (
     <TouchableHighlight
       style={styles.buttonContainer}
       underlayColor="transparent"
-      onPress={() => setSelected(index)}
       accessible={true}
       accessibilityLabel={title}
     >
-      <a styles={styles.links} href={path}>
+      <a href={path}>
         <Text
           style={{
-            borderBottomColor:
-              selected === index ? 'powderblue' : 'transparent',
+            borderBottomColor: isSelected(path)
+              ? 'powderblue'
+              : 'transparent',
             borderBottomWidth: 2,
             alignSelf: 'center',
           }}
@@ -72,12 +75,6 @@ const styles = StyleSheet.create({
     marginRight: 70,
   },
   buttonContainer: { marginTop: 25, marginLeft: 40 },
-  links: {
-    textDecoration: 'none',
-    '&:visited': {
-      textDecoration: 'none',
-    },
-  },
 });
 
 export default Header;
