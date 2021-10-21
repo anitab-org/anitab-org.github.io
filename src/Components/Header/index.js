@@ -30,11 +30,10 @@ function Header({ selected, setSelected, titles }) {
           source={require('./../../assets/logo.png')}
         />
       </TouchableHighlight>
-      {MenuItem(1, selected, setSelected, titles[1])}
-      {MenuItem(2, selected, setSelected, titles[2])}
-      {MenuItem(3, selected, setSelected, titles[3])}
-      {MenuItem(4, selected, setSelected, titles[4])}
-      {MenuItem(5, selected, setSelected, titles[5])}
+      {titles.map(
+        (title, index) =>
+          index > 0 && MenuItem(index, selected, setSelected, title)
+      )}
     </View>
   );
 }
@@ -50,9 +49,10 @@ function MenuItem(index, selected, setSelected, title) {
     >
       <Text
         style={{
-          borderBottomColor: selected === index ? 'powderblue' : 'transparent',
+          borderBottomColor: index === selected ? 'powderblue' : 'transparent',
           borderBottomWidth: 2,
           alignSelf: 'center',
+          textTransform: 'uppercase',
         }}
       >
         {title}
