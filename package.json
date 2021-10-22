@@ -22,7 +22,8 @@
     "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b master -d build",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,6 +43,8 @@
   "devDependencies": {
     "@testing-library/react": "^11.2.2",
     "gh-pages": "^2.2.0",
-    "prettier": "2.4.1"
+    "husky": "^7.0.0",
+    "prettier": "2.4.1",
+    "pretty-quick": "^3.1.1"
   }
 }
