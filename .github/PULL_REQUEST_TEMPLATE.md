@@ -1,12 +1,12 @@
 ### Description
 
-Include a summary of the change and relevant motivation/context. List any dependencies that are required for this change.
+<!-- Include a summary of the change and relevant motivation/context. List any dependencies that are required for this change. -->
 
 Fixes # [ISSUE]
 
 ### Type of Change:
 
-**Delete irrelevant options.**
+<!-- **Delete irrelevant options.** -->
 
 - Code
 - Quality Assurance
@@ -22,12 +22,12 @@ Fixes # [ISSUE]
 
 ### How Has This Been Tested?
 
-If you are working on a design then add a gif to show the responsiveness of your design.
-Please follow [testing guidelines](https://github.com/anitab-org/anitab-org.github.io/wiki/Prepare-testing-GitHub-Pages-for-your-PR) and share the link of deployed site here.
+<!-- If you are working on a design then add a gif to show the responsiveness of your design.
+Please follow [testing guidelines](https://github.com/anitab-org/anitab-org.github.io/wiki/Prepare-testing-GitHub-Pages-for-your-PR) and share the link of deployed site here. -->
 
 ### Checklist:
 
-**Delete irrelevant options.**
+<!-- **Delete irrelevant options.** -->
 
 - [ ] My PR follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code or materials

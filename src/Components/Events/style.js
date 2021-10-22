@@ -12,12 +12,6 @@ export const MainContainer = styled(View, {
   marginBottom: 32,
 });
 
-export const Box = styled(View, {
-  flex: 1,
-  flexDirection: 'column',
-  marginTop: -32,
-});
-
 export const Content = styled(View, {
   flexDirection: 'column',
   paddingLeft: 16,
