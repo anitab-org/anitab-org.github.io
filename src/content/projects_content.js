@@ -216,7 +216,7 @@ const projects = {
             },
           ],
           contributors_url:
-            'https://api.github.com/repos/anitab-org/open-source-programs-backend/contributors',
+            'https://api.github.com/repos/anitab-org/anitab-forms-backend/contributors',
         },
 
         {
