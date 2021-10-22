@@ -77,6 +77,4 @@ const home = {
   ],
 };
 
-export const getHome = () => {
-  return home;
-};
+export const getHome = () => home;
