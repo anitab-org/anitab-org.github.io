@@ -189,7 +189,7 @@ const projects = {
             },
           ],
           contributors_url:
-            'https://api.github.com/repos/anitab-org/open-source-programs-web/contributors',
+            'https://api.github.com/repos/anitab-org/anitab-forms-web/contributors',
         },
 
         {
