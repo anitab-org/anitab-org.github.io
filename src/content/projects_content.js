@@ -75,10 +75,10 @@ const projects = {
             'https://api.github.com/repos/anitab-org/mentorship-backend/contributors',
         },
 
-       
 
-      
-       
+
+
+
         {
           image: {
             source: require('./../assets/placeholder.png'),
