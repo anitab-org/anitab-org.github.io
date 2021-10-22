@@ -212,7 +212,7 @@ const projects = {
             {
               title: 'github',
               source: require('./../assets/github.png'),
-              url: 'https://github.com/anitab-org/open-source-programs-backend',
+              url: 'https://github.com/anitab-org/anitab-forms-backend',
             },
           ],
           contributors_url:
