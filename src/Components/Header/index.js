@@ -6,9 +6,8 @@ import {
   TouchableHighlight,
   StyleSheet,
 } from 'react-native';
-import { usePath } from 'hookrouter';
 
-function Header({ titles }) {
+function Header({ selected, setSelected, titles }) {
   return (
     <View
       style={{
@@ -22,49 +21,42 @@ function Header({ titles }) {
       <TouchableHighlight
         style={styles.logoContainer}
         underlayColor="transparent"
+        onPress={() => setSelected(0)}
         accessible={true}
         accessibilityLabel={titles[0]}
       >
-        <a styles={styles.links} href="/">
-          <Image
-            style={{ height: 50, width: 100 }}
-            source={require('./../../assets/logo.png')}
-          />
-        </a>
+        <Image
+          style={{ height: 50, width: 100 }}
+          source={require('./../../assets/logo.png')}
+        />
       </TouchableHighlight>
-      {MenuItem(titles[1], '/about-us')}
-      {MenuItem(titles[2], '/programs')}
-      {MenuItem(titles[3], '/projects')}
-      {MenuItem(titles[4], '/events')}
-      {MenuItem(titles[5], '/contribute')}
+      {MenuItem(1, selected, setSelected, titles[1])}
+      {MenuItem(2, selected, setSelected, titles[2])}
+      {MenuItem(3, selected, setSelected, titles[3])}
+      {MenuItem(4, selected, setSelected, titles[4])}
+      {MenuItem(5, selected, setSelected, titles[5])}
     </View>
   );
 }
 
-function MenuItem(title, path) {
-  const currentPath = usePath();
-  const isSelected = (path) => currentPath === path;
-
+function MenuItem(index, selected, setSelected, title) {
   return (
     <TouchableHighlight
       style={styles.buttonContainer}
       underlayColor="transparent"
+      onPress={() => setSelected(index)}
       accessible={true}
       accessibilityLabel={title}
     >
-      <a href={path}>
-        <Text
-          style={{
-            borderBottomColor: isSelected(path)
-              ? 'powderblue'
-              : 'transparent',
-            borderBottomWidth: 2,
-            alignSelf: 'center',
-          }}
-        >
-          {title}
-        </Text>
-      </a>
+      <Text
+        style={{
+          borderBottomColor: selected === index ? 'powderblue' : 'transparent',
+          borderBottomWidth: 2,
+          alignSelf: 'center',
+        }}
+      >
+        {title}
+      </Text>
     </TouchableHighlight>
   );
 }
