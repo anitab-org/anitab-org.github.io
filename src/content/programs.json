@@ -35,6 +35,76 @@
     ]
   },
   {
+    "sectionHeader": "Google Summer of Code 2018",
+    "tables": [
+      {
+        "title": "Systers Community 2018 Projects",
+        "tableHeaders": [
+          "Project",
+          "Student",
+          "Mentors"
+        ],
+        "tableRows": [
+          [
+            "GH Pages for Systers",
+            "Anumeha Agrawal",
+            "Tharangi\nMay\nRupinderjit Kaur\nKanika Modi"
+          ],
+          [
+            "Github Pages",
+            "Baani Leen Kaur Jolly",
+            "Janiceilene\nMay\nBethany Rentz\nAncy Philip"
+          ],
+          [
+            "Infrastructure and Automation of Web projects in Python.",
+            "Monal Shadi",
+            "Ayush Garg\nPrachi Manchanda\nNaman Maheshwari\nMeha Kaushik"
+          ],
+          [
+            "Infrastructure/Automation-Android",
+            "Anamika Tripathi",
+            "May\nNikita Jibhkate\nManju"
+          ],
+          [
+            "Mentorship System",
+            "Isabel Costa",
+            "Roopal Jain\nMay\nDilushi Piumwardane\nMurad"
+          ],
+          [
+            "Out-of-Character Contextual Information for PowerUp!",
+            "Cady",
+            "May\nginny"
+          ],
+          [
+            "PC Prep Kit",
+            "Mayank Lunayach",
+            "Buddhiprabha Erabadda\nS J Rajath Krishna\nShreyans Shrimal\nPaavini Nanda"
+          ],
+          [
+            "PowerUp-Android",
+            "Rimjhim Bhadani",
+            "May\nDebanjana\nThisum\nJeanna Clark"
+          ],
+          [
+            "Proposal for Systers Portal",
+            "Abhijit Kumar",
+            "Prachi Manchanda\nYatna Verma\nPoojitha Nandigam"
+          ],
+          [
+            "Sysbot",
+            "Sombuddha Chakravarty",
+            "Sarah Masud\nRamit Sawhney\nPrachi Manchanda"
+          ],
+          [
+            "Volunteer Management System(VMS)",
+            "Anjali Dhanuka",
+            "May\nAbhishek Arya\nnida\nKamakshi Suri"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "sectionHeader": "Google Summer of Code 2017",
     "tables": [
       {

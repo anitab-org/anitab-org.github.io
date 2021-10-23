@@ -70,5 +70,4 @@ export const TableData = styled(View, {
 
 export const TableDataText = styled(Text, {
   color: 'white',
-  opacity: 1,
 })
