@@ -8,11 +8,10 @@ export const SectionContainer = styled(View, {
 });
 
 export const SectionHeader = styled(Text, {
-  fontSize: 20,
-  fontWeight: 600,
-  backgroundColor: 'purple',
+  fontSize: 32,
+  fontWeight: 400,
   textAlign: 'center',
-  color: 'white',
+  color: '#103B81',
 });
 
 export const SectionTableContainer = styled(View, {
@@ -24,14 +23,15 @@ export const SectionTableContainer = styled(View, {
 export const TableContainer = styled(View, {
   width: '80vw',
   textAlign: 'center',
+  marginTop: 32,
 });
 
 export const TableTitle = styled(Text, {
   fontSize: 16,
   fontWeight: 500,
-  backgroundColor: 'mediumpurple',
-  marginBottom: 2,
-  marginTop: 2,
+  backgroundColor: '#231B4E',
+  marginBottom: 1,
+  paddingVertical: 8,
   color: 'white',
 });
 
@@ -45,7 +45,7 @@ export const TableDataRow = styled(View, {
   flex: 1,
   alignSelf: 'stretch',
   flexDirection: 'row',
-  marginTop: 2,
+  marginTop: 1,
 });
 
 export const TableHeader = styled(View, {
@@ -54,18 +54,21 @@ export const TableHeader = styled(View, {
 });
 
 export const TableHeaderText = styled(Text, {
+  color: 'white',
   fontWeight: 500,
-  backgroundColor: 'lightblue',
+  backgroundColor: '#231B4E',
+  paddingVertical: 8,
 });
 
 export const TableData = styled(View, {
   flex: 1,
   alignSelf: 'stretch',
-  backgroundColor: 'orange',
+  backgroundColor: '#464e1b',
   justifyContent: 'center',
-  padding: 10,
+  padding: 8,
 });
 
 export const TableDataText = styled(Text, {
   color: 'white',
+  opacity: 1,
 })
