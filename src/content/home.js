@@ -24,10 +24,12 @@ const home = {
       },
       content: [
         {
-          par: 'You can start contributing to our various open source projects by- \n\n1) Creating issues on Github regarding the project \n2) Debugging the issues \n3) Creating pull requests, testing pull requests \n4) Create mockups for new applications or redesign the current features \n5) Research about UI/UX improvements and accessibility features. \n6) Create app walk through with documents or videos, UI testing once the PR is submitted for the UI issue',
+          par:
+            'You can start contributing to our various open source projects by- \n\n1) <a href = "https://github.com/anitab-org/anitab-org.github.io/issues" target="_blank">Creating issues on Github</a> regarding the project \n2) Debugging the issues \n3) Creating pull requests, testing pull requests \n4) Create mockups for new applications or redesign the current features \n5) Research about UI/UX improvements and accessibility features. \n6) Create app walk through with documents or videos, UI testing once the PR is submitted for the UI issue',
         },
         {
-          par: "Each active repository has a stream to direct questions. \nIssues labeled as 'First Timers Only' are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues. \nMake sure to follow the Commit Message Style Guide when submitting PRs which will require review by at least one maintainer to be merged to the main code.",
+          par:
+            'Each active repository has a stream to direct questions. \nIssues labeled as <a href = "https://github.com/anitab-org/anitab-org.github.io/issues?q=is%3Aopen+is%3Aissue+label%3A%22First+Timers+Only%22" target="_blank">First Timers Only</a> are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues. \nMake sure to follow the <a href = "https://github.com/anitab-org/mentorship-android/wiki/Commit-Message-Style-Guide" target="_blank">Commit Message Style Guide</a> when submitting PRs which will require review by at least one maintainer to be merged to the main code.',
         },
       ],
     },

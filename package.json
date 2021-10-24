@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/user-event": "^7.1.2",
     "dayjs": "^1.9.3",
+    "html-react-parser": "^1.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-native-hyperlink": "0.0.19",

@@ -10,7 +10,7 @@ exports[`should take a snapshot 1`] = `
       class="css-view-1dbjc4n r-alignItems-z6ln5t r-flex-13awgt0 r-flexDirection-1euycsn r-flexWrap-1w6e6rj r-marginTop-1v1z2uz"
     >
       <div
-        class="css-view-1dbjc4n r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
+        class="css-view-1dbjc4n r-marginTop-180x1p9 r-paddingLeft-1qhn6m8 r-paddingRight-i023vh"
       >
         <a>
           <div
@@ -52,25 +52,51 @@ exports[`should take a snapshot 1`] = `
               </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              AnitaB.org Open Source aims to provide women of all skill levels and backgrounds with the opportunity to collaborate and develop open source projects with the aspirations of social good.
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; text-align: left;"
+              >
+                <span
+                  class="css-text-901oao css-textHasAncestor-16my406"
+                  dir="auto"
+                >
+                  <span
+                    class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
+                    data-focusable="true"
+                    dir="auto"
+                    style="color: rgb(41, 128, 185);"
+                    tabindex="0"
+                  >
+                    AnitaB.org
+                  </span>
+                   Open Source aims to provide women of all skill levels and backgrounds with the opportunity to collaborate and develop open source projects with the aspirations of social good.
+                </span>
+              </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              We are a social community that brings geographically disparate people together to network, communicate, and work in well-run open source projects in a welcoming environment.
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; text-align: left;"
+              >
+                We are a social community that brings geographically disparate people together to network, communicate, and work in well-run open source projects in a welcoming environment.
+              </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              In addition, we encourage contributions of ALL kinds (content, design, coding, documentation, testing, etc) from community members. Each member has the opportunity to gain global collaboration experience working on projects with social impact and improve technical skills while participating as a volunteer, mentor, writer, coder, designer, app tester, and more!
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; text-align: left;"
+              >
+                In addition, we encourage contributions of ALL kinds (content, design, coding, documentation, testing, etc) from community members. Each member has the opportunity to gain global collaboration experience working on projects with social impact and improve technical skills while participating as a volunteer, mentor, writer, coder, designer, app tester, and more!
+              </div>
             </div>
           </div>
           <div
@@ -88,25 +114,66 @@ exports[`should take a snapshot 1`] = `
               </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              AnitaB.org Open Source (formerly Systers Open Source) was initiated by Systers, an international community of 6,000 women involved in technical-computing founded by Anita Borg in 1987 as a small electronic mailing list for women in “systems”. We have incredible Systers (Robin Jeffries, Jen Redman, Terri Oda, Leslie Hawthorn, Avni Khatri, and the list goes on!) that paved the way and introduced Systers to open source projects, communities, and technologies. Systers has been involved with open source in various ways, introducing Open Source Day at Grace Hopper Celebration in 2010 at Atlanta, GA (At the time, it was called Codethon for Humanity with only one open source project, Sahana Eden).
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; text-align: left;"
+              >
+                <span
+                  class="css-text-901oao css-textHasAncestor-16my406"
+                  dir="auto"
+                >
+                  <span
+                    class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
+                    data-focusable="true"
+                    dir="auto"
+                    style="color: rgb(41, 128, 185);"
+                    tabindex="0"
+                  >
+                    AnitaB.org
+                  </span>
+                   Open Source (formerly Systers Open Source) was initiated by Systers, an international community of 6,000 women involved in technical-computing founded by Anita Borg in 1987 as a small electronic mailing list for women in “systems”. We have incredible Systers (Robin Jeffries, Jen Redman, Terri Oda, Leslie Hawthorn, Avni Khatri, and the list goes on!) that paved the way and introduced Systers to open source projects, communities, and technologies. Systers has been involved with open source in various ways, introducing Open Source Day at Grace Hopper Celebration in 2010 at Atlanta, GA (At the time, it was called Codethon for Humanity with only one open source project, Sahana Eden).
+                </span>
+              </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              Moreover, AnitaB.org Open Source has been participating in other global open source programs such as Google Summer of Code, Google Code In, Outreachy, and more.
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; text-align: left;"
+              >
+                <span
+                  class="css-text-901oao css-textHasAncestor-16my406"
+                  dir="auto"
+                >
+                  Moreover, 
+                  <span
+                    class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
+                    data-focusable="true"
+                    dir="auto"
+                    style="color: rgb(41, 128, 185);"
+                    tabindex="0"
+                  >
+                    AnitaB.org
+                  </span>
+                   Open Source has been participating in other global open source programs such as Google Summer of Code, Google Code In, Outreachy, and more.
+                </span>
+              </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              Today, we have 14 active open source projects, including initiatives with our Peace Corps partners and apps created by Systers members.
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; text-align: left;"
+              >
+                Today, we have 14 active open source projects, including initiatives with our Peace Corps partners and apps created by Systers members.
+              </div>
             </div>
           </div>
           <div
@@ -124,18 +191,75 @@ exports[`should take a snapshot 1`] = `
               </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              AnitaB.org Open Source is an international sub-community of AnitaB.org encouraging the participation of all women involved in technology. We welcome the participation of all genders at any ages and experience levels.
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; text-align: left;"
+              >
+                <span
+                  class="css-text-901oao css-textHasAncestor-16my406"
+                  dir="auto"
+                >
+                  <span
+                    class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
+                    data-focusable="true"
+                    dir="auto"
+                    style="color: rgb(41, 128, 185);"
+                    tabindex="0"
+                  >
+                    AnitaB.org
+                  </span>
+                   Open Source is an international sub-community of 
+                  <span
+                    class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
+                    data-focusable="true"
+                    dir="auto"
+                    style="color: rgb(41, 128, 185);"
+                    tabindex="0"
+                  >
+                    AnitaB.org
+                  </span>
+                   encouraging the participation of all women involved in technology. We welcome the participation of all genders at any ages and experience levels.
+                </span>
+              </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              We have a list of projects that use various development languages/technologies (Android, iOS, Java, Swift, HTML, CSS, React, Jquery, Javascript, PHP, Kohana, MySQL, Python, Django, Selenium, and Ruby on Rails, etc.) to make a social impact in the non-profit world. We welcome all to contribute. No experience is necessary for most projects, and mentorship is provided. 
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; text-align: left;"
+              >
+                We have a list of projects that use various development languages/technologies (Android, iOS, Java, Swift, HTML, CSS, React, Jquery, Javascript, PHP, Kohana, MySQL, Python, Django, Selenium, and Ruby on Rails, etc.) to make a social impact in the non-profit world. We welcome all to contribute. No experience is necessary for most projects, and mentorship is provided. 
+              </div>
+            </div>
+            <div
+              class="css-view-1dbjc4n"
+            >
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; text-align: left;"
+              >
+                <span
+                  class="css-text-901oao css-textHasAncestor-16my406"
+                  dir="auto"
+                >
+                  Learn more about us at: 
+                  <span
+                    class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
+                    data-focusable="true"
+                    dir="auto"
+                    style="color: rgb(41, 128, 185);"
+                    tabindex="0"
+                  >
+                    https://medium.com/anitab-org-open-source
+                  </span>
+                </span>
+              </div>
             </div>
           </div>
           <div
@@ -153,25 +277,37 @@ exports[`should take a snapshot 1`] = `
               </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              2,000+ members
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; text-align: left;"
+              >
+                2,000+ members
+              </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              &gt;15 time zones
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; text-align: left;"
+              >
+                &gt;15 time zones
+              </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              Flexibility in time & contribution
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; text-align: left;"
+              >
+                Flexibility in time & contribution
+              </div>
             </div>
           </div>
           <div
@@ -189,11 +325,29 @@ exports[`should take a snapshot 1`] = `
               </div>
             </div>
             <div
-              class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
-              dir="auto"
-              style="font-size: 18px; font-weight: 200; text-align: left;"
+              class="css-view-1dbjc4n"
             >
-              Women transform technology. Technology transforms the world. Join us at Zulip - http://anitab-org.zulipchat.com
+              <div
+                class="css-text-901oao r-color-1qovj5m r-flex-13awgt0 r-flexGrow-16y2uox r-marginTop-1v1z2uz r-paddingLeft-1qhn6m8"
+                dir="auto"
+                style="font-size: 18px; font-weight: 200; text-align: left;"
+              >
+                <span
+                  class="css-text-901oao css-textHasAncestor-16my406"
+                  dir="auto"
+                >
+                  Women transform technology. Technology transforms the world. Join us at Zulip - 
+                  <span
+                    class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
+                    data-focusable="true"
+                    dir="auto"
+                    style="color: rgb(41, 128, 185);"
+                    tabindex="0"
+                  >
+                    http://anitab-org.zulipchat.com
+                  </span>
+                </span>
+              </div>
             </div>
           </div>
         </div>
