@@ -6,7 +6,8 @@ import {
   TouchableHighlight,
   StyleSheet,
 } from 'react-native';
-import { usePath } from 'hookrouter';
+import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 function Header({ titles }) {
   return (
@@ -42,7 +43,8 @@ function Header({ titles }) {
 }
 
 function MenuItem(title, path) {
-  const currentPath = usePath();
+  const location = useLocation();
+  const currentPath = location.pathname;
   const isSelected = (path) => currentPath === path;
 
   return (
@@ -52,19 +54,17 @@ function MenuItem(title, path) {
       accessible={true}
       accessibilityLabel={title}
     >
-      <a href={path}>
+      <Link to={path}>
         <Text
           style={{
-            borderBottomColor: isSelected(path)
-              ? 'powderblue'
-              : 'transparent',
+            borderBottomColor: isSelected(path) ? 'powderblue' : 'transparent',
             borderBottomWidth: 2,
             alignSelf: 'center',
           }}
         >
           {title}
         </Text>
-      </a>
+      </Link>
     </TouchableHighlight>
   );
 }
