@@ -5,7 +5,7 @@
 - Follow our [Commit Message Style Guide](https://github.com/anitab-org/mentorship-android/wiki/Commit-Message-Style-Guide) when you commit your changes.
 - Please consider raising an issue before submitting a pull request (PR) to solve a problem that is not present in our [issue tracker](https://github.com/anitab-org/anitab-org.github.io/issues). This allows maintainers to first validate the issue you are trying to solve and also reference the PR to a specific issue.
 - When developing a new feature, include at least one test when applicable.
-- When submitting a PR, please follow [this template](/.github/PULL_REQUEST_TEMPLATE.md) (which will probably be already filled up once you create the PR).
+- When submitting a PR, please follow [this template](PULL_REQUEST_TEMPLATE.md) (which will probably be already filled up once you create the PR).
 - When submitting a PR with changes to user interface (e.g.: new screen, ...), please add screenshots to the PR description.
 - When submitting a PR, please follow [testing guidelines](https://github.com/anitab-org/anitab-org.github.io/wiki/Prepare-testing-GitHub-Pages-for-your-PR), copy the link and place it in your PR.
 - When you are finished with your work, please squash your commits otherwise we will squash them on your PR (this can help us maintain a clear commit history).
