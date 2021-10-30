@@ -29,7 +29,7 @@ export const TableContainer = styled(View, {
 export const TableTitle = styled(Text, {
   fontSize: 16,
   fontWeight: 500,
-  backgroundColor: '#231B4E',
+  backgroundColor: '#005C88',
   marginBottom: 1,
   paddingVertical: 8,
   color: 'white',
@@ -56,14 +56,14 @@ export const TableHeader = styled(View, {
 export const TableHeaderText = styled(Text, {
   color: 'white',
   fontWeight: 500,
-  backgroundColor: '#231B4E',
+  backgroundColor: '#005C88',
   paddingVertical: 8,
 });
 
 export const TableData = styled(View, {
   flex: 1,
   alignSelf: 'stretch',
-  backgroundColor: '#464e1b',
+  backgroundColor: '#54BCEB',
   justifyContent: 'center',
   padding: 8,
 });
