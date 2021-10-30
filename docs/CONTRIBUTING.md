@@ -3,6 +3,7 @@
 - You can join us on [AnitaB.org Open Source Zulip](https://anitab-org.zulipchat.com/). Each active repo has its own stream to direct questions to (for example #powerup or #portal). anitab-org.github.io stream is [#anitab-org.github.io](https://anitab-org.zulipchat.com/#narrow/stream/235478-anitab-org.2Egithub.2Eio).
 - Remember that this is an inclusive community, committed to creating a safe, positive environment. See the full [Code of Conduct](http://www.systers.io/code-of-conduct.html).
 - Follow our [Commit Message Style Guide](https://github.com/anitab-org/mentorship-android/wiki/Commit-Message-Style-Guide) when you commit your changes.
+- Prior to contribituing, make sure to have Prettier installed locally (refer to [this doc](https://prettier.io/docs/en/install.html) for more details) and run the write and check functions on your current file(s).
 - Please consider raising an issue before submitting a pull request (PR) to solve a problem that is not present in our [issue tracker](https://github.com/anitab-org/anitab-org.github.io/issues). This allows maintainers to first validate the issue you are trying to solve and also reference the PR to a specific issue.
 - When developing a new feature, include at least one test when applicable.
 - When submitting a PR, please follow [this template](.github/PULL_REQUEST_TEMPLATE/pull_request_template.md) (which will probably be already filled up once you create the PR).
