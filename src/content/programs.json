@@ -401,5 +401,122 @@
         ]
       }
     ]
+  },
+  {
+    "sectionHeader": "Google Summer of Code 2015",
+    "tables": [
+      {
+        "title": "Peace Corps/Mobile Projects",
+        "tableHeaders": [
+          "Project",
+          "Students",
+          "Project Manager & Mentor",
+          "Mentors"
+        ],
+        "tableRows": [
+          [
+            "PeaceTrack Android",
+            "Bhagya (Sri Lanka)",
+            "Nicki (USA)",
+            "Neeraja (USA)\nPooja"
+          ],
+          [
+            "PeaceTrack iOS",
+            "Vennela (India)",
+            "Nicki (USA)",
+            "Jessica"
+          ],
+          [
+            "Malaria Android",
+            "Ankita (India)",
+            "Nicki (USA)\nRose (USA)",
+            "Aditi (India)\nAneke (Nigeria)"
+          ],
+          [
+            "Malaria iOS",
+            "Bruno (Portugal)",
+            "Nicki (USA)\nRose (USA)",
+            "Shanu (India)"
+          ],
+          [
+            "MACC",
+            "Irish - Malaria (Canada)\nAjay - PeaceTrack (India)",
+            "Nicki (USA)\nRose (USA)",
+            "Neeta (USA)\nNishita (India)\nVaibhavi (India)"
+          ],
+          [
+            "OVA Android",
+            "Ilo (Nigeria)",
+            "Rose (USA)",
+            "Dinu (Sri Lanka)"
+          ],
+          [
+            "OVA Android",
+            "Buddhiprabha (Sri Lanka)",
+            "Rose (USA)",
+            "Shruti (India)"
+          ],
+          [
+            "Ushahidi Guyana",
+            "Divya (India)",
+            "Rose (USA)",
+            "Julia (USA)\nJennifer (Austria)\nAngela (Kenya)\nLinda (Kenya)"
+          ],
+          [
+            "Language Translation",
+            "Won Wook (Seoul)\nIsuri (Sri Lanka)",
+            "Rose (USA)",
+            "Valerie (USA)\nKai (USA)\nMike (USA)\nSaumya (India)\nSylvain (France)"
+          ]
+        ]
+      },
+      {
+        "title": "Systers Projects",
+        "tableHeaders": [
+          "Project",
+          "Students",
+          "Project Manager & Mentor",
+          "Mentors"
+        ],
+        "tableRows": [
+          [
+            "Portal Meetup",
+            "Shaifali (India)",
+            "Rose (USA)",
+            "Ana (Moldova)\nChitra (India)\nJini (USA)"
+          ],
+          [
+            "Portal VMS",
+            "Valeria (Germany)",
+            "Rose (USA)\nSuzanne (USA)",
+            "Tapasweni (India)\nCarol (USA)"
+          ],
+          [
+            "Automation Testing",
+            "Daisy - MACC (Cameroon)\nKesha - Ushahidi (India)\nAnjali - Meetup (India)\nMadi - PLT (USA)\nJayesh - VMS (India)",
+            "Rose (USA)",
+            "Mariam\nSuryadip (USA)\nShwetambara (India)\nWendy (USA)\nKalena (USA)"
+          ],
+          [
+            "Mailman 3",
+            "Khushboo (India)\nNafisa (Canada)",
+            "Ana (Spain)",
+            "Stephen (Japan)\nPromita (USA)"
+          ],
+          [
+            "PowerUp iOS",
+            "Sanya (India)",
+            "Ihudiya (USA)\nRose (USA)",
+            "Deepika (India)\nJennifer (Austria)"
+          ],
+          [
+            "PowerUp Android",
+            "Chetna (India)",
+            "Ihudiya (USA)\nCindy\nEmily\nRose (USA)",
+            "Alma (UK)\nAna (Spain)"
+          ]
+        ]
+      }
+    ]
   }
 ]
