@@ -35,6 +35,41 @@
     ]
   },
   {
+    "sectionHeader": "Google Code-in 2019",
+    "tables": [
+      {
+        "title": "Google Code-in 2019 Projects",
+        "tableHeaders": [],
+        "tableRows": [
+          [
+            "Mentorship - Android",
+            "Mentorship - Backend"
+          ]
+        ]
+      },
+      {
+        "title": "Google Code-in 2019 Winners",
+        "tableHeaders": [
+          "Winners",
+          "Finalists",
+          "Runners up"
+        ],
+        "tableRows": [
+          [
+            "polabedz",
+            "HardikJH",
+            "i_maier"
+          ],
+          [
+            "BartekPacia",
+            "Menina",
+            "_daksha_"
+          ]
+        ]
+      }
+    ]
+  },
+  {
     "sectionHeader": "Google Summer of Code 2018",
     "tables": [
       {
