@@ -8,7 +8,7 @@
 
 # anitab-org.github.io
 
-This is the main website for **AnitaB.org Open Source**. It contains information about our various open source projects, the programs we participate in, information about how to contribute, and how to contact us.This website acts as an interface to help introduce people to the organization's Open Source community, and make the transition from newcomers to contributors easier.
+This is the main website for **AnitaB.org Open Source**. It contains information about our various open source projects, the programs we participate in, information about how to contribute, and how to contact us. This website acts as an interface to help introduce people to the organization's Open Source community, and make the transition from newcomers to contributors easier.
 
 ## Setup and run
 
@@ -76,7 +76,7 @@ To get the frontend running locally:
 
 **This project is under active development**
 
-Please read our [Contributing Guidelines](docs/CONTRIBUTING.md), [Code of Conduct](docs/code_of_conduct.md) and [Reporting Guidelines](docs/reporting_guidelines.md) thoroughly.
+Please read our [Contributing Guidelines](.github/CONTRIBUTING.md), [Code of Conduct](docs/code_of_conduct.md) and [Reporting Guidelines](docs/reporting_guidelines.md) thoroughly.
 
 ## Branches
 
