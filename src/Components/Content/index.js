@@ -4,8 +4,8 @@ import Projects from './../Projects';
 import Home from './../Home';
 import AboutUs from './../AboutUs';
 import Programs from './../Programs';
-import Contribute from '../Contribute';
 import Events from './../Events/index';
+import Contribute from '../Contribute/index';
 
 function Content({ selected, titles }) {
   if (selected === 0) {
@@ -18,9 +18,13 @@ function Content({ selected, titles }) {
     return <Programs />;
   } else if (selected === 4) {
     return <Events />;
-  } else if (selected === 5) {
-    return <Contribute />;
-  } else {
+  } else if (selected === 5){
+    return(
+    <>
+       <Contribute/>;
+     </>
+    );
+  }else{
     return (
       <View
         style={{

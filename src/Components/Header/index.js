@@ -12,7 +12,8 @@ function Header({ selected, setSelected, titles }) {
     <View
       style={{
         flexDirection: 'row',
-        width: '80%',
+        width: '95%',
+        marginTop:'-20pt',
         borderBottomColor: '#FF0000',
         borderBottomWidth: 1,
         alignContent: 'center',
