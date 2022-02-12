@@ -5,7 +5,7 @@ _**Note**: This is only needed if you want to contribute to the project._
 If you want to contribute to the project you will have to create your own copy of the project on GitHub. You can do this by clicking the
 **Fork** button that can be found on the top right corner of the [landing page]([https://github.com/anitab-org/anitab-org.github.io]) of the repository.
 
-## [](https://github.com/anitab-org/anitab-org.github.io/wiki/Fork,-Clone-&-Remote#clone)Clone
+## [](https://github.com/anitab-org/anitab-org.github.io/docs/wiki/Fork,-Clone-&-Remote#clone)Clone
 
 _**Note**: For this you need to install [git](https://git-scm.com/) on your machine. You can download the git tool from [here](https://git-scm.com/downloads)._
 
@@ -19,7 +19,7 @@ where `YOUR_GITHUB_USER_NAME` is your GitHub handle.
 
 `git clone https://github.com/anitab-org/anitab-org.github.io`
 
-## [](https://github.com/anitab-org/anitab-org.github.io/wiki/Fork,-Clone-&-Remote#remote)Remote
+## [](https://github.com/anitab-org/anitab-org.github.io/docs/wiki/Fork,-Clone-&-Remote#remote)Remote
 
 _**Note**: This is only needed if you want to contribute to the project._
 
