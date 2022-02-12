@@ -7,7 +7,7 @@ const ImageContent = ({
   imageSide,
   minImageWidth = 500,
   Children,
-  imageProportion = 0.5,
+  imageProportion = 0.4,
 }) => {
   const [imageContainerWidth, setImageContainerWidth] = useState(minImageWidth);
   const styles = createStyles(imageSide);
@@ -55,7 +55,7 @@ const createStyles = (imageSide) =>
     sectionImage: {
       paddingLeft: 16,
       paddingRight: 16,
-      marginTop: 136,
+      marginTop: 32,
     },
   });
 

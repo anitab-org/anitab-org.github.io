@@ -6,6 +6,7 @@ import AboutUs from './../AboutUs';
 import Programs from './../Programs';
 import Contribute from '../Contribute';
 import Events from './../Events/index';
+import ContributionWays from '../Contribute/ContributionWays';
 
 function Content({ selected, titles }) {
   if (selected === 0) {
@@ -19,7 +20,10 @@ function Content({ selected, titles }) {
   } else if (selected === 4) {
     return <Events />;
   } else if (selected === 5) {
-    return <Contribute />;
+    return <>
+    <Contribute />;
+    <ContributionWays/>
+    </>
   } else {
     return (
       <View
