@@ -282,7 +282,7 @@ const projects = {
       },
       content: [
         {
-          par: 'The projects mentioned below have been archieved and currently are avialable as public archives on our GitHub',
+          par: 'The projects mentioned below have been archieved and currently are available as public archives on our GitHub',
         },
       ],
       cards: [
