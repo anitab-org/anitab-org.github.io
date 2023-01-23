@@ -156,7 +156,21 @@ exports[`should take a snapshot 1`] = `
                 dir="auto"
                 style="font-size: 18px; font-weight: 200; margin-top: 26px; text-align: left;"
               >
-                Each active repository has an individual stream on Zulip. If you have any questions and not sure how to get started, please ping us on Zulip and we are happy to help!
+                Each active repository has an individual stream on 
+                <a
+                  href="https://anitab-org.zulipchat.com"
+                  style="color: rgb(41, 128, 185); text-decoration: none;"
+                >
+                  Zulip
+                </a>
+                . If you have any questions and not sure how to get started, please ping us on 
+                <a
+                  href="https://anitab-org.zulipchat.com"
+                  style="color: rgb(41, 128, 185); text-decoration: none;"
+                >
+                  Zulip
+                </a>
+                 and we are happy to help!
               </div>
             </div>
           </div>
