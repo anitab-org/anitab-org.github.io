@@ -36,7 +36,7 @@ const home = {
     {
       title: 'Our Projects',
       image: {
-        source: require('./../assets/landing/getting-started.png'),
+        source: require('./../assets/projects/our-project.png'),
       },
       content: [
         {
@@ -65,7 +65,7 @@ const home = {
     {
       title: 'Open Source Programs ',
       image: {
-        source: require('./../assets/landing/landing.png'),
+        source: require('./../assets/contribution/research_outreach.png'),
       },
       content: [
         {
