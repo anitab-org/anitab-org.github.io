@@ -14,7 +14,7 @@ function Contact() {
       <Text style={[styles.text, styles.heading]}>Contact Us</Text>
       {content.map((content, i) => (
         <Hyperlink
-          linkStyle={{ color: '#2980b9' }}
+          linkStyle={{ textDecoration: 'underline' }}
           onPress={(url) => window.open(url, '_blank')}
         >
           <Text style={[styles.text, styles.description]} key={i}>

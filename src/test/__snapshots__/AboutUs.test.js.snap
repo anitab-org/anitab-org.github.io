@@ -67,7 +67,7 @@ exports[`should take a snapshot 1`] = `
                     class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
                     data-focusable="true"
                     dir="auto"
-                    style="color: rgb(41, 128, 185);"
+                    style="text-decoration: underline;"
                     tabindex="0"
                   >
                     AnitaB.org
@@ -129,7 +129,7 @@ exports[`should take a snapshot 1`] = `
                     class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
                     data-focusable="true"
                     dir="auto"
-                    style="color: rgb(41, 128, 185);"
+                    style="text-decoration: underline;"
                     tabindex="0"
                   >
                     AnitaB.org
@@ -155,7 +155,7 @@ exports[`should take a snapshot 1`] = `
                     class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
                     data-focusable="true"
                     dir="auto"
-                    style="color: rgb(41, 128, 185);"
+                    style="text-decoration: underline;"
                     tabindex="0"
                   >
                     AnitaB.org
@@ -206,7 +206,7 @@ exports[`should take a snapshot 1`] = `
                     class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
                     data-focusable="true"
                     dir="auto"
-                    style="color: rgb(41, 128, 185);"
+                    style="text-decoration: underline;"
                     tabindex="0"
                   >
                     AnitaB.org
@@ -216,7 +216,7 @@ exports[`should take a snapshot 1`] = `
                     class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
                     data-focusable="true"
                     dir="auto"
-                    style="color: rgb(41, 128, 185);"
+                    style="text-decoration: underline;"
                     tabindex="0"
                   >
                     AnitaB.org
@@ -253,7 +253,7 @@ exports[`should take a snapshot 1`] = `
                     class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
                     data-focusable="true"
                     dir="auto"
-                    style="color: rgb(41, 128, 185);"
+                    style="text-decoration: underline;"
                     tabindex="0"
                   >
                     https://medium.com/anitab-org-open-source
@@ -341,7 +341,7 @@ exports[`should take a snapshot 1`] = `
                     class="css-text-901oao css-textHasAncestor-16my406 r-cursor-1loqt21"
                     data-focusable="true"
                     dir="auto"
-                    style="color: rgb(41, 128, 185);"
+                    style="text-decoration: underline;"
                     tabindex="0"
                   >
                     http://anitab-org.zulipchat.com

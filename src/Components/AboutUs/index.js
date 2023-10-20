@@ -17,7 +17,7 @@ function AboutUs() {
               {section.content.map((content, indx) => {
                 return (
                   <Hyperlink
-                    linkStyle={{ color: '#2980b9' }}
+                    linkStyle={{ textDecoration: 'underline' }}
                     onPress={(url) => window.open(url, '_blank')}
                   >
                     <Description key={indx}>{content.par}</Description>
