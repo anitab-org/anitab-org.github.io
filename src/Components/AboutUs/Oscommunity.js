@@ -5,7 +5,7 @@ function MembersIcon(props) {
   return (
     <View style={styles.container}>
       <a target="_blank" rel="noopener noreferrer" href={props.html_url}>
-        <Image style={styles.image} source={props.avatar_url} />
+        <Image style={styles.image} source={props.avatar_url} accessibilityLabel={`Github account of ${props.login}`} />
       </a>
     </View>
   );
@@ -20,8 +20,8 @@ function OSCommunity() {
       .then((response) => response.json())
       .then((response) => {
         var osdata = [];
-        response.forEach(({ id, avatar_url, html_url }) => {
-          osdata.push({ id, avatar_url, html_url });
+        response.forEach(({ id, avatar_url, html_url, login }) => {
+          osdata.push({ id, avatar_url, html_url, login });
         });
         setData(osdata);
       })
