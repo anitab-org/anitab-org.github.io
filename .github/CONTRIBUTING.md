@@ -21,3 +21,15 @@
 - If you’d like to create a new issue, please go through our issue list first (open as well as closed) and make sure the issues you are reporting do not replicate the existing issues.
 - Have a short description on what has gone wrong (like a root cause analysis and description of the fix), if that information is not already present in the issue.
 - If you have issues on multiple pages, report them separately. Do not combine them into a single issue.
+
+## Pull Request Guidelines
+
+- Ensure that the pull request follows the guidelines mentioned in this file.
+- Make sure the pull request template in `.github/PULL_REQUEST_TEMPLATE.md` is properly filled out.
+- Verify that the changes are well-documented and the code is clean and follows the project's coding standards.
+- Check if there are any comments or feedback provided by the maintainers on the pull request.
+- Address any issues or concerns raised by the maintainers in the comments.
+- Make the necessary changes and update the pull request accordingly.
+- Reach out to the maintainers or project owners to understand the reason for the pull request not being accepted.
+- Ask for specific feedback or suggestions on how to improve the pull request.
+- Be polite and patient while waiting for a response, as maintainers might be busy with other tasks.

@@ -24,12 +24,12 @@ const styles = StyleSheet.create({
   text: { color: '#FFFFFF' },
   heading: {
     fontSize: 18,
-    fontWeight: 500,
+    fontWeight: '500', // Updated font-weight for better visual distinction
     paddingBottom: 22,
   },
   description: {
     fontSize: 14,
-    fontWeight: 300,
+    fontWeight: '300', // Updated font-weight for better visual distinction
   },
   formField: {
     backgroundColor: '#FFFFFF',
