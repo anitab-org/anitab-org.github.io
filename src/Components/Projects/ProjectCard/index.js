@@ -57,7 +57,7 @@ const ProjectCard = ({ props, isOver }) => {
 const styles = StyleSheet.create({
   title: {
     color: '#103B81',
-    fontWeight: '400',
+    fontWeight: '500', // Updated font-weight for better visual distinction
     fontSize: 18,
     marginTop: 8,
   },
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
   },
   description: {
     color: '#103B81',
-    fontWeight: '200',
+    fontWeight: '300', // Updated font-weight for better visual distinction
     fontSize: 14,
     marginTop: 8,
   },

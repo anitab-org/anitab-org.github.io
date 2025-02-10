@@ -29,6 +29,8 @@ function Projects(props) {
             style={{
               flexDirection: 'row',
               flexWrap: 'wrap',
+              justifyContent: 'space-between', // Improved grid layout for better clarity and organization
+              marginTop: 16, // Added more whitespace between project sections
             }}
           >
             {project.cards.map((card) => (

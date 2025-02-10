@@ -41,19 +41,19 @@ const styles = StyleSheet.create({
   },
   title: {
     color: '#103B81',
-    fontWeight: '400',
+    fontWeight: '500', // Updated font-weight for better visual distinction
     fontSize: 16,
     marginTop: 16,
   },
   detailStyles: {
     color: '#103B81',
     fontSize: 16,
-    fontWeight: '200',
+    fontWeight: '300', // Updated font-weight for better visual distinction
   },
   know_moreStyles: {
     color: '#103B81',
     fontSize: 16,
-    fontWeight: '400',
+    fontWeight: '500', // Updated font-weight for better visual distinction
     marginTop: 32,
   },
 });

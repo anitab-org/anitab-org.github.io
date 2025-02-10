@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
     paddingLeft: 16,
     paddingRight: 16,
     marginTop: 32,
+    marginBottom: 32, // Added more whitespace at the bottom
   },
   description: {
     flex: 1,
@@ -25,9 +26,10 @@ const styles = StyleSheet.create({
     paddingLeft: 16,
     fontSize: 18,
     flexGrow: 1,
-    fontWeight: 150,
+    fontWeight: 300, // Updated font-weight for better visual distinction
     color: '#103B81',
     textAlign: 'left',
+    lineHeight: 24, // Added line height for better readability
   },
   cardContainer: {
     flexDirection: 'row',
