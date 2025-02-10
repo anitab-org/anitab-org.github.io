@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Image, TouchableHighlight } from 'react-native';
 import styles from './styles';
 import contentJson from '../../content/contact_us.json';
 import Hyperlink from 'react-native-hyperlink';
@@ -22,6 +22,38 @@ function Contact() {
           </Text>
         </Hyperlink>
       ))}
+      <View style={styles.socialContainer}>
+        <TouchableHighlight
+          onPress={() =>
+            window.open('https://www.instagram.com/anitab_org/', '_blank')
+          }
+        >
+          <Image
+            style={[styles.socialImage]}
+            source={require('./../../assets/instagram_logo.png')}
+          />
+        </TouchableHighlight>
+        <TouchableHighlight
+          onPress={() =>
+            window.open('https://www.linkedin.com/company/anitab-org/', '_blank')
+          }
+        >
+          <Image
+            style={[styles.socialImage]}
+            source={require('./../../assets/linkedin-logo.png')}
+          />
+        </TouchableHighlight>
+        <TouchableHighlight
+          onPress={() =>
+            window.open('https://www.facebook.com/AnitaB.0rg/', '_blank')
+          }
+        >
+          <Image
+            style={[styles.socialImage]}
+            source={require('./../../assets/facebook_logo.png')}
+          />
+        </TouchableHighlight>
+      </View>
     </View>
   );
 }
