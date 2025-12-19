@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Text, View } from 'react-native';
 import styles from '../styles';
 import SectionHeader from '../../SectionHeader';
 import ContributionCard from './ContributionCard';
+import { ThemeContext } from '../../../Context/ThemeContext';
 
 function ContributionSection() {
+  const { colors } = useContext(ThemeContext);
   const contributionCards = [
     {
       imageText: ['CODE'],
@@ -41,7 +43,7 @@ function ContributionSection() {
   return (
     <View>
       <SectionHeader title="INTERESTED IN CONTRIBUTING?" />
-      <Text style={styles.description}>
+      <Text style={[styles.description, { color: colors.text }]}>
         You can start contributing through one or more fields of your choice
       </Text>
       <View style={styles.container}>

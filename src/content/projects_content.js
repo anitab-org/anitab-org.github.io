@@ -3,7 +3,8 @@ const projects = {
     {
       title: 'Projects',
       image: {
-        source: require('./../assets/projects/our-projects.png'),
+        light: require('./../assets/projects/our-projects.png'),
+        dark: require('./../assets/projects/our-projects.png'),
       },
       content: [
         {
@@ -13,7 +14,8 @@ const projects = {
       cards: [
         {
           image: {
-            source: require('./../assets/placeholder.png'),
+            light: require('./../assets/placeholder.png'),
+            dark: require('./../assets/placeholder_dark.png'),
           },
           title: 'Mentorship Android',
           description:
@@ -45,7 +47,8 @@ const projects = {
 
         {
           image: {
-            source: require('./../assets/placeholder.png'),
+            light: require('./../assets/placeholder.png'),
+            dark: require('./../assets/placeholder_dark.png'),
           },
           title: 'Mentorship Backend',
           description:
@@ -77,7 +80,8 @@ const projects = {
 
         {
           image: {
-            source: require('./../assets/placeholder.png'),
+            light: require('./../assets/placeholder.png'),
+            dark: require('./../assets/placeholder_dark.png'),
           },
           title: 'AnitaB.org Open Source Website',
           description:
@@ -104,7 +108,8 @@ const projects = {
 
         {
           image: {
-            source: require('./../assets/placeholder.png'),
+            light: require('./../assets/placeholder.png'),
+            dark: require('./../assets/placeholder_dark.png'),
           },
           title: 'Bridge-In-Tech Web',
           description:
@@ -131,7 +136,8 @@ const projects = {
 
         {
           image: {
-            source: require('./../assets/placeholder.png'),
+            light: require('./../assets/placeholder.png'),
+            dark: require('./../assets/placeholder_dark.png'),
           },
           title: 'Bridge-In-Tech Backend',
           description:
@@ -158,7 +164,8 @@ const projects = {
 
         {
           image: {
-            source: require('./../assets/placeholder.png'),
+            light: require('./../assets/placeholder.png'),
+            dark: require('./../assets/placeholder_dark.png'),
           },
           title: 'AnitaB-forms Web',
           description:
@@ -190,7 +197,8 @@ const projects = {
 
         {
           image: {
-            source: require('./../assets/placeholder.png'),
+            light: require('./../assets/placeholder.png'),
+            dark: require('./../assets/placeholder_dark.png'),
           },
           title: 'AnitaB-forms Backend',
           description:
@@ -217,7 +225,8 @@ const projects = {
 
         {
           image: {
-            source: require('./../assets/placeholder.png'),
+            light: require('./../assets/placeholder.png'),
+            dark: require('./../assets/placeholder_dark.png'),
           },
           title: 'Stem Diverse TV',
           description:
@@ -249,7 +258,8 @@ const projects = {
 
         {
           image: {
-            source: require('./../assets/placeholder.png'),
+            light: require('./../assets/placeholder.png'),
+            dark: require('./../assets/placeholder_dark.png'),
           },
           title: 'Stem Diverse TV CMS',
           description:
@@ -278,7 +288,8 @@ const projects = {
     {
       title: 'Archived Projects',
       image: {
-        source: require('./../assets/projects/our-projects.png'),
+        light: require('./../assets/projects/our-projects.png'),
+        dark: require('./../assets/projects/our-projects.png'),
       },
       content: [
         {
@@ -288,7 +299,8 @@ const projects = {
       cards: [
         {
           image: {
-            source: require('./../assets/placeholder.png'),
+            light: require('./../assets/placeholder.png'),
+            dark: require('./../assets/placeholder_dark.png'),
           },
           title: 'Mentorship iOS',
           description:
@@ -314,7 +326,8 @@ const projects = {
         },
         {
           image: {
-            source: require('./../assets/placeholder.png'),
+            light: require('./../assets/placeholder.png'),
+            dark: require('./../assets/placeholder_dark.png'),
           },
           title: 'VMS',
           description:
@@ -337,9 +350,11 @@ const projects = {
           ],
           contributors_url:
             'https://api.github.com/repos/anitab-org/vms/contributors',
-        }, {
+        },
+        {
           image: {
-            source: require('./../assets/placeholder.png'),
+            light: require('./../assets/placeholder.png'),
+            dark: require('./../assets/placeholder_dark.png'),
           },
           title: 'Portal',
           description:
@@ -365,7 +380,8 @@ const projects = {
         },
         {
           image: {
-            source: require('./../assets/placeholder.png'),
+            light: require('./../assets/placeholder.png'),
+            dark: require('./../assets/placeholder_dark.png'),
           },
           title: 'Mentorship Flutter',
           description:
@@ -389,10 +405,8 @@ const projects = {
           contributors_url:
             'https://api.github.com/repos/anitab-org/mentorship-flutter/contributors',
         },
-
-
       ],
-    }
+    },
   ],
 };
 

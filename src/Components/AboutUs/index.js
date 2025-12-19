@@ -4,9 +4,11 @@ import content from '../../content/about_us.json';
 import ImageContent from './../ImageContent';
 import { MainContainer, Box, Content, Description } from './styles';
 import OSCommunity from './Oscommunity';
-import Hyperlink from 'react-native-hyperlink';
+import Link from 'react-native-hyperlink';
+import { ThemeContext } from '../../Context/ThemeContext';
 
 function AboutUs() {
+  const { colors } = React.useContext(ThemeContext);
   const renderContent = () => {
     return (
       <Box>
@@ -16,12 +18,14 @@ function AboutUs() {
               <SectionSubheader title={section.title} />
               {section.content.map((content, indx) => {
                 return (
-                  <Hyperlink
+                  <Link
                     linkStyle={{ color: '#2980b9' }}
                     onPress={(url) => window.open(url, '_blank')}
                   >
-                    <Description key={indx}>{content.par}</Description>
-                  </Hyperlink>
+                    <Description key={indx} style={{ color: colors.text }}>
+                      {content.par}
+                    </Description>
+                  </Link>
                 );
               })}
             </Content>

@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { ThemeProvider } from './Context/ThemeContext';
 
 ReactDOM.render(
   // <React.StrictMode>
-  <App styles={{ width: '100%' }} />,
+  <ThemeProvider>
+    <App styles={{ width: '100%' }} />
+  </ThemeProvider>,
   // </React.StrictMode>,
   document.getElementById('root')
 );

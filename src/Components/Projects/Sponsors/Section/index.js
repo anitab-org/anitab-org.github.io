@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import { ThemeContext } from '../../../../Context/ThemeContext';
 import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
 import SponsorsContent from './../SponsorsContent';
 import SectionSubheader from './../../../SectionSubheader';
 
 function Section({ header, content, index, expandable }) {
+  const { colors } = useContext(ThemeContext);
   const [sponsorsSizes] = useState([]);
   const [showMore, setShowMore] = useState(false);
 
@@ -34,7 +36,11 @@ function Section({ header, content, index, expandable }) {
             setShowMore(!showMore);
           }}
         >
-          {setShowMore && <Text style={styles.moreText}>{showMoreText}</Text>}
+          {setShowMore && (
+            <Text style={[styles.moreText, { color: colors.text }]}>
+              {showMoreText}
+            </Text>
+          )}
         </TouchableOpacity>
       )}
     </View>

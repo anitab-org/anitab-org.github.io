@@ -1,27 +1,32 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Text, StyleSheet, View, Linking } from 'react-native';
 import ScaledImage from '../../ScaledImage';
 import { withCard } from './../../../Decorators/Card';
 import Badge from './CardBadge';
+import { ThemeContext } from '../../../Context/ThemeContext';
 
 const EventCard = ({ props, links }) => {
+  const { colors } = useContext(ThemeContext);
   const { calendarIcon, timeIcon, locationIcon } = links;
   return (
-    <View style={styles.card}>
+    <View style={[styles.card, { backgroundColor: colors.cardBackground }]}>
       <ScaledImage width={286} source={props.highlights.source} />
-      <Text style={styles.title}>{props.title}</Text>
+      <Text style={[styles.title, { color: colors.text }]}>{props.title}</Text>
       <Badge text={props.date} link={calendarIcon} />
       <Badge text={props.location} link={locationIcon} />
       <Badge text={props.timings} link={timeIcon} />
       <View style={{ marginTop: 32 }}>
         {props.description.map((detail, index) => (
-          <Text style={styles.detailStyles} key={index}>
+          <Text
+            style={[styles.detailStyles, { color: colors.text }]}
+            key={index}
+          >
             {detail.par}
           </Text>
         ))}
       </View>
       <Text
-        style={styles.know_moreStyles}
+        style={[styles.know_moreStyles, { color: colors.text }]}
         onPress={() => {
           Linking.openURL(props.know_more.link);
         }}

@@ -1,4 +1,6 @@
 import React from 'react';
+import '@theme-toggles/react/css/Expand.css';
+import { Expand } from '@theme-toggles/react';
 import {
   View,
   Image,
@@ -6,14 +8,16 @@ import {
   TouchableHighlight,
   StyleSheet,
 } from 'react-native';
+import { ThemeContext } from '../../Context/ThemeContext';
 
 function Header({ selected, setSelected, titles }) {
+  const { theme, toggleTheme, colors } = React.useContext(ThemeContext);
   return (
     <View
       style={{
         flexDirection: 'row',
         width: '80%',
-        borderBottomColor: '#FF0000',
+        borderBottomColor: colors.headerBorder,
         borderBottomWidth: 1,
         alignContent: 'center',
       }}
@@ -27,19 +31,31 @@ function Header({ selected, setSelected, titles }) {
       >
         <Image
           style={{ height: 50, width: 100 }}
-          source={require('./../../assets/logo.png')}
+          source={
+            theme === 'dark'
+              ? require('./../../assets/logo_dark.png')
+              : require('./../../assets/logo.png')
+          }
         />
       </TouchableHighlight>
-      {MenuItem(1, selected, setSelected, titles[1])}
-      {MenuItem(2, selected, setSelected, titles[2])}
-      {MenuItem(3, selected, setSelected, titles[3])}
-      {MenuItem(4, selected, setSelected, titles[4])}
-      {MenuItem(5, selected, setSelected, titles[5])}
+      {MenuItem(1, selected, setSelected, titles[1], colors)}
+      {MenuItem(2, selected, setSelected, titles[2], colors)}
+      {MenuItem(3, selected, setSelected, titles[3], colors)}
+      {MenuItem(4, selected, setSelected, titles[4], colors)}
+      {MenuItem(5, selected, setSelected, titles[5], colors)}
+      <View style={{ justifyContent: 'flex-end', marginLeft: 20 }}>
+        <Expand
+          duration={550}
+          toggled={theme === 'dark'}
+          onToggle={toggleTheme}
+          style={{ color: colors.iconColor, fontSize: '1.4em' }}
+        />
+      </View>
     </View>
   );
 }
 
-function MenuItem(index, selected, setSelected, title) {
+function MenuItem(index, selected, setSelected, title, colors) {
   return (
     <TouchableHighlight
       style={styles.buttonContainer}
@@ -53,6 +69,7 @@ function MenuItem(index, selected, setSelected, title) {
           borderBottomColor: selected === index ? 'powderblue' : 'transparent',
           borderBottomWidth: 2,
           alignSelf: 'center',
+          color: colors.text,
         }}
       >
         {title}

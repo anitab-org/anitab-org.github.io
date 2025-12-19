@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useContext } from 'react';
 import dayjs from 'dayjs';
 import {
   StyleSheet,
@@ -23,6 +23,7 @@ import {
 } from './styles';
 import { ArrowLeftOutlined, ArrowRightOutlined } from '@ant-design/icons';
 import { getEvents, getMonths } from '../../content/programs_events';
+import { ThemeContext } from '../../Context/ThemeContext';
 //--------------------------------------------------------------------------------------------
 const events = getEvents();
 const months = getMonths();
@@ -34,6 +35,7 @@ const styles = StyleSheet.create({
   },
 });
 function Timeline() {
+  const { colors } = useContext(ThemeContext);
   var p = dayjs().date(); //current date
   var curr_month = dayjs().month(); //current month
   const scrollRef = useRef();
@@ -80,17 +82,23 @@ function Timeline() {
             <View key={index}>
               <Event
                 style={{
-                  color: item.color,
                   borderColor: item.color,
                   flex: 1,
                   left: item.date[0][2] * 10,
                   borderRadius: 50,
                   zIndex: 1,
+                  backgroundColor: colors.cardBackground,
+                  color: colors.text,
                 }}
               >
                 {item.event}
               </Event>
-              <Stroke style={{ width: (item.date[0][1] + 5) * 20 }}></Stroke>
+              <Stroke
+                style={{
+                  width: (item.date[0][1] + 5) * 20,
+                  borderBottomColor: colors.text,
+                }}
+              ></Stroke>
             </View>
           ))}
           <ScrollView
@@ -128,15 +136,20 @@ function Timeline() {
                     style={{
                       left: (item.date[0][1] - 1) * 40,
                       width: (p - item.date[0][1]) * 40 + 20,
+                      backgroundColor: colors.background,
                     }}
                   ></Fade>
                   <Marker
-                    style={{ left: (p - 1) * 40 + 20, zIndex: -1 }}
+                    style={{
+                      left: (p - 1) * 40 + 20,
+                      zIndex: -1,
+                      borderRightColor: colors.text,
+                    }}
                   ></Marker>
                 </View>
               ))}
               <View style={{ left: (p - 1) * 40 + 25 }}>
-                <Text>
+                <Text style={{ color: colors.text }}>
                   Today {dayjs().date()}th {months[curr_month][1]}
                 </Text>
               </View>
@@ -144,7 +157,7 @@ function Timeline() {
                 {months.map((m, index) => (
                   <div key={index}>
                     <Months style={{ left: m[0] * 30 * 40 }}>
-                      <Text>1st {m[1]}</Text>
+                      <Text style={{ color: colors.text }}>1st {m[1]}</Text>
                     </Months>
                   </div>
                 ))}

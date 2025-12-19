@@ -7,6 +7,7 @@
     "@ant-design/icons": "^4.2.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/user-event": "^7.1.2",
+    "@theme-toggles/react": "^4.1.0",
     "dayjs": "^1.9.3",
     "html-react-parser": "^1.4.0",
     "react": "^16.13.1",

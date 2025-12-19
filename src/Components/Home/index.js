@@ -6,8 +6,10 @@ import { getHome } from './../../content/home';
 import { Box, Content, Description } from './styles';
 import ContributionSection from './contribution/ContributionSection';
 import HTMLReactParser from 'html-react-parser';
+import { ThemeContext } from '../../Context/ThemeContext';
 
 function Home() {
+  const { colors } = React.useContext(ThemeContext);
   const content = getHome();
   const renderContent = (index, section) => {
     return (
@@ -15,7 +17,9 @@ function Home() {
         <SectionSubheader title={section.title} />
         {section.content.map((content, indx) => {
           return (
-            <Description key={indx}>{HTMLReactParser(content.par)}</Description>
+            <Description key={indx} style={{ color: colors.text }}>
+              {HTMLReactParser(content.par)}
+            </Description>
           );
         })}
       </Content>
@@ -35,7 +39,7 @@ function Home() {
           />
         );
       })}
-      <ContributionSection />
+      <ContributionSection colors={colors} />
     </Box>
   );
 }

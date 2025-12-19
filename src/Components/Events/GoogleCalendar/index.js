@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { MainContainer } from '../style';
+import { ThemeContext } from '../../../Context/ThemeContext';
 
 function GoogleCalendar({ timezone }) {
+  const { theme } = useContext(ThemeContext);
   return (
     <MainContainer>
       <iframe
@@ -13,6 +15,7 @@ function GoogleCalendar({ timezone }) {
           height: '500px',
           frameborder: '0',
           scrolling: 'no',
+          filter: theme === 'dark' ? 'invert(1) hue-rotate(180deg)' : 'none',
         }}
       ></iframe>
     </MainContainer>

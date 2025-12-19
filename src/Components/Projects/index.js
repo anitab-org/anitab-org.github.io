@@ -5,8 +5,10 @@ import { View } from 'react-native';
 import ImageTextSection from './../ImageTextSection';
 import { getProjects } from './../../content/projects_content';
 import ProjectCard from './ProjectCard';
+import { ThemeContext } from '../../Context/ThemeContext';
 
 function Projects(props) {
+  const { theme } = React.useContext(ThemeContext);
   const projects = getProjects();
   return (
     <View
@@ -22,7 +24,9 @@ function Projects(props) {
           <ImageTextSection
             title={project?.title}
             content={project?.content}
-            image={project?.image?.source}
+            image={
+              theme === 'dark' ? project?.image?.dark : project?.image?.light
+            }
             imageSide="right"
           />
           <View
@@ -35,7 +39,7 @@ function Projects(props) {
               <ProjectCard
                 key={card.title}
                 props={card}
-                backgroundColor="#e7edfd"
+                backgroundColor={theme === 'dark' ? '#1d1d1dff' : '#e7edfd'}
                 padding={12}
               />
             ))}

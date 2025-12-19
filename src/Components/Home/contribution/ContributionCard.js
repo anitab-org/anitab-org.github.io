@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Text, View, Image } from 'react-native';
 import styles from '../styles';
+import { ThemeContext } from '../../../Context/ThemeContext';
 
 function ContributionCard({ imageFile, imageText = [], style = [] }) {
+  const { colors } = useContext(ThemeContext);
   return (
     <View style={[...style, styles.card]}>
       <Image
@@ -12,7 +14,7 @@ function ContributionCard({ imageFile, imageText = [], style = [] }) {
       />
       {imageText.map((text, index) => {
         return (
-          <Text key={index} style={styles.imageText}>
+          <Text key={index} style={[styles.imageText, { color: colors.text }]}>
             {text}
           </Text>
         );

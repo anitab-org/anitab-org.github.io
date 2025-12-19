@@ -60,7 +60,7 @@ exports[`should take a snapshot 1`] = `
         >
           <div
             class="css-view-1dbjc4n r-flex-13awgt0 r-overflow-1udh08x"
-            style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
+            style="background-color: rgb(255, 255, 255); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
           >
             <a>
               <div
@@ -236,7 +236,7 @@ exports[`should take a snapshot 1`] = `
         >
           <div
             class="css-view-1dbjc4n r-flex-13awgt0 r-overflow-1udh08x"
-            style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
+            style="background-color: rgb(255, 255, 255); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
           >
             <a>
               <div
@@ -412,7 +412,7 @@ exports[`should take a snapshot 1`] = `
         >
           <div
             class="css-view-1dbjc4n r-flex-13awgt0 r-overflow-1udh08x"
-            style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
+            style="background-color: rgb(255, 255, 255); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
           >
             <a>
               <div
@@ -551,7 +551,7 @@ exports[`should take a snapshot 1`] = `
         >
           <div
             class="css-view-1dbjc4n r-flex-13awgt0 r-overflow-1udh08x"
-            style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
+            style="background-color: rgb(255, 255, 255); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
           >
             <a>
               <div
@@ -690,7 +690,7 @@ exports[`should take a snapshot 1`] = `
         >
           <div
             class="css-view-1dbjc4n r-flex-13awgt0 r-overflow-1udh08x"
-            style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
+            style="background-color: rgb(255, 255, 255); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
           >
             <a>
               <div
@@ -829,7 +829,7 @@ exports[`should take a snapshot 1`] = `
         >
           <div
             class="css-view-1dbjc4n r-flex-13awgt0 r-overflow-1udh08x"
-            style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
+            style="background-color: rgb(255, 255, 255); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
           >
             <a>
               <div
@@ -1005,7 +1005,7 @@ exports[`should take a snapshot 1`] = `
         >
           <div
             class="css-view-1dbjc4n r-flex-13awgt0 r-overflow-1udh08x"
-            style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
+            style="background-color: rgb(255, 255, 255); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
           >
             <a>
               <div
@@ -1144,7 +1144,7 @@ exports[`should take a snapshot 1`] = `
         >
           <div
             class="css-view-1dbjc4n r-flex-13awgt0 r-overflow-1udh08x"
-            style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
+            style="background-color: rgb(255, 255, 255); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
           >
             <a>
               <div
@@ -1320,7 +1320,7 @@ exports[`should take a snapshot 1`] = `
         >
           <div
             class="css-view-1dbjc4n r-flex-13awgt0 r-overflow-1udh08x"
-            style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
+            style="background-color: rgb(255, 255, 255); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
           >
             <a>
               <div
@@ -1508,7 +1508,7 @@ exports[`should take a snapshot 1`] = `
         >
           <div
             class="css-view-1dbjc4n r-flex-13awgt0 r-overflow-1udh08x"
-            style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
+            style="background-color: rgb(255, 255, 255); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
           >
             <a>
               <div
@@ -1647,7 +1647,7 @@ exports[`should take a snapshot 1`] = `
         >
           <div
             class="css-view-1dbjc4n r-flex-13awgt0 r-overflow-1udh08x"
-            style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
+            style="background-color: rgb(255, 255, 255); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
           >
             <a>
               <div
@@ -1786,7 +1786,7 @@ exports[`should take a snapshot 1`] = `
         >
           <div
             class="css-view-1dbjc4n r-flex-13awgt0 r-overflow-1udh08x"
-            style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
+            style="background-color: rgb(255, 255, 255); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
           >
             <a>
               <div
@@ -1925,7 +1925,7 @@ exports[`should take a snapshot 1`] = `
         >
           <div
             class="css-view-1dbjc4n r-flex-13awgt0 r-overflow-1udh08x"
-            style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
+            style="background-color: rgb(255, 255, 255); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; width: 286px;"
           >
             <a>
               <div

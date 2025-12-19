@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
+import { ThemeContext } from '../../Context/ThemeContext';
 
 function SectionSubheader({ title }) {
+  const { colors } = useContext(ThemeContext);
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>{title}</Text>
+      <Text style={[styles.header, { color: colors.text }]}>{title}</Text>
     </View>
   );
 }

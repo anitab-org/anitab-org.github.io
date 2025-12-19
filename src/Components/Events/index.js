@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { View, StyleSheet, Text } from 'react-native';
 import EventCard from './Cards';
 import { getevents_highlights } from './../../content/events_and_highlights';
@@ -7,6 +7,7 @@ import GoogleCalendar from './GoogleCalendar';
 import content from '../../content/events_calendar.json';
 import { MainContainer, Content, Description, List } from './style';
 import OurEvents from '../OurEvents/index';
+import { ThemeContext } from '../../Context/ThemeContext';
 
 const events_highlight = getevents_highlights();
 
@@ -70,6 +71,7 @@ const timezones = [
 ];
 
 function Events() {
+  const { colors, theme } = useContext(ThemeContext);
   const [timezone, setTimezone] = useState('');
 
   const handler = (link) => {
@@ -90,7 +92,10 @@ function Events() {
         <SectionSubheader title={events_highlight.sections[0].title} />
         {events_highlight.sections[0].content.map((detail, index) => {
           return (
-            <Text style={styles.description} key={index}>
+            <Text
+              style={[styles.description, { color: colors.text }]}
+              key={index}
+            >
               {detail.par}
             </Text>
           );
@@ -101,7 +106,7 @@ function Events() {
               key={event_detail.title}
               props={event_detail}
               links={events_highlight.icon_links}
-              backgroundColor="#e7edfd"
+              backgroundColor={theme === 'dark' ? '#1d1d1dff' : '#e7edfd'}
               padding={16}
             />
           ))}
@@ -113,7 +118,7 @@ function Events() {
             return (
               <Content key={index}>
                 <SectionSubheader title={section.title} />
-                <Description>
+                <Description style={{ color: colors.text }}>
                   {section.content} <br /> {listTimezones}
                 </Description>
                 <GoogleCalendar timezone={timezone} />

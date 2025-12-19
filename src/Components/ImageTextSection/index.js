@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import { ThemeContext } from '../../Context/ThemeContext';
 import ScaledImage from './../ScaledImage';
 
 const ImageTextSection = ({
@@ -9,6 +10,7 @@ const ImageTextSection = ({
   imageSide,
   imageHeight = 300,
 }) => {
+  const { colors } = React.useContext(ThemeContext);
   const styles = createStyles(imageSide);
   return (
     <View style={styles.container}>
@@ -16,9 +18,9 @@ const ImageTextSection = ({
         <ScaledImage source={image} height={imageHeight} />
       </View>
       <View style={styles.subContainer}>
-        <Text style={styles.header}>{title}</Text>
+        <Text style={[styles.header, { color: colors.text }]}>{title}</Text>
         {content.map((text, index) => (
-          <Text key={index} style={styles.text}>
+          <Text key={index} style={[styles.text, { color: colors.text }]}>
             {text.par}
           </Text>
         ))}

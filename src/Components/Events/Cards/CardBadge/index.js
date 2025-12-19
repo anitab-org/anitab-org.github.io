@@ -1,11 +1,18 @@
 import React from 'react';
 import { Text, Image, StyleSheet, View } from 'react-native';
+import { ThemeContext } from '../../../../Context/ThemeContext';
 
 const Badge = (props) => {
+  const { colors } = React.useContext(ThemeContext);
   return (
     <View style={styles.container}>
-      <Image style={styles.image} source={props.link} />
-      <Text style={styles.description}>{props.text}</Text>
+      <Image
+        style={[styles.image, { tintColor: colors.iconColor || colors.text }]}
+        source={props.link}
+      />
+      <Text style={[styles.description, { color: colors.text }]}>
+        {props.text}
+      </Text>
     </View>
   );
 };

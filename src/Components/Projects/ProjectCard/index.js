@@ -4,8 +4,14 @@ import ScaledImage from './../../ScaledImage';
 import { withCard } from './../../../Decorators/Card';
 import ProjectCardBadge from './ProjectCardBadge';
 import Contributing from './../../Contributors';
+import { ThemeContext } from '../../../Context/ThemeContext';
 
 const ProjectCard = ({ props, isOver }) => {
+  const { colors, theme } = React.useContext(ThemeContext);
+  const imageSource =
+    props.image.source ||
+    (theme === 'dark' ? props.image.dark : props.image.light);
+
   return (
     <View
       style={{
@@ -13,15 +19,18 @@ const ProjectCard = ({ props, isOver }) => {
         width: 286,
         borderRadius: 4,
         overflow: 'hidden',
+        backgroundColor: colors.cardBackground,
       }}
     >
-      <ScaledImage width={286} source={props.image.source} />
-      <Text style={styles.title}>{props.title}</Text>
+      <ScaledImage width={286} source={imageSource} />
+      <Text style={[styles.title, { color: colors.text }]}>{props.title}</Text>
       {props.badges.map((badge, index) => (
         <ProjectCardBadge {...badge} key={index} /> //index can be used as unique key here
       ))}
 
-      <Text style={styles.description}>{props.description}</Text>
+      <Text style={[styles.description, { color: colors.text }]}>
+        {props.description}
+      </Text>
       <View
         style={{
           flex: 1,

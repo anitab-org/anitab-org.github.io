@@ -1,17 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import ImageContent from './../ImageContent';
 import SectionHeader from './../SectionHeader';
 import { getEvents } from './../../content/our_events';
 import { Box, Content, Description } from './styles';
+import { ThemeContext } from '../../Context/ThemeContext';
 
 function OurEvents() {
+  const { colors } = useContext(ThemeContext);
   const content = getEvents();
   const renderContent = (index, section) => {
     return (
       <Content key={index}>
         <SectionHeader title={section.title} />
         {section.content.map((content, indx) => {
-          return <Description key={indx}>{content.par}</Description>;
+          return (
+            <Description key={indx} style={{ color: colors.text }}>
+              {content.par}
+            </Description>
+          );
         })}
       </Content>
     );
