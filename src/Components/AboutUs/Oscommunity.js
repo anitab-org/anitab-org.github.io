@@ -25,9 +25,7 @@ function OSCommunity() {
         });
         setData(osdata);
       })
-      .catch((error) => {
-        console.log(error);
-      })
+      .catch(() => {})
       .finally(() => setLoading(false));
   }, []);
 

@@ -10,7 +10,6 @@ function Section({ header, content, index, expandable }) {
   const sponsors = content.map((img, index) =>
     SponsorsContent(img, sponsorsSizes, index)
   );
-  console.log(index);
 
   const showMoreText = showMore ? 'Show less ↑' : 'View more ↓';
 
@@ -34,7 +33,7 @@ function Section({ header, content, index, expandable }) {
             setShowMore(!showMore);
           }}
         >
-          {setShowMore && <Text style={styles.moreText}>{showMoreText}</Text>}
+          <Text style={styles.moreText}>{showMoreText}</Text>
         </TouchableOpacity>
       )}
     </View>
@@ -50,7 +49,7 @@ const styles = StyleSheet.create({
   },
   moreText: {
     fontWeight: 200,
-    forntSize: 16,
+    fontSize: 16,
     marginLeft: 16,
     marginRight: 16,
     color: '#103B81',
